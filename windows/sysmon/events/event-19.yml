@@ -18,7 +18,7 @@ event_fields:
   type: string
   description: wmievent type
   sample_value: WmiFilterEvent
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -53,9 +53,7 @@ event_fields:
   name: Query
   type: string
   description: wmi filter query
-  sample_value: '"SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance
-    ISA ''Win32_PerfFormattedData_PerfOS_System'' AND TargetInstance.SystemUpTime
-    >= 240 AND TargetInstance.SystemUpTime < 325"'
+  sample_value: '"SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA ''Win32_PerfFormattedData_PerfOS_System'' AND TargetInstance.SystemUpTime >= 240 AND TargetInstance.SystemUpTime < 325"'
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-19-wmievent-wmieventfilter-activity-detected

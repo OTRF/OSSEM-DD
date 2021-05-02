@@ -16,7 +16,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -34,13 +34,13 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the process that loaded the image
   sample_value: '3532'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that loaded the image
   sample_value: C:\Windows\System32\cmd.exe
-- standard_name: module_loaded
+- standard_name: module_path
   standard_type: TBD
   name: ImageLoaded
   type: string
@@ -80,10 +80,8 @@ event_fields:
   standard_type: TBD
   name: Hashes
   type: string
-  description: hash is a full hash of the file with the algorithms in the HashType
-    field
-  sample_value: SHA1=AEB9839D02C99A3E7EED1F12671C3F827221EDF8, MD5=68195105C7D9A2B5DF5BB82ECA521092,
-    SHA256=556FF2B03495E2117223E5697B54253F30BD10ED3C67468947D79945168A624A, IMPHASH=C16CC99941EF5E18707133A2532B7D0C
+  description: hash is a full hash of the file with the algorithms in the HashType field
+  sample_value: SHA1=AEB9839D02C99A3E7EED1F12671C3F827221EDF8, MD5=68195105C7D9A2B5DF5BB82ECA521092, SHA256=556FF2B03495E2117223E5697B54253F30BD10ED3C67468947D79945168A624A, IMPHASH=C16CC99941EF5E18707133A2532B7D0C
 - standard_name: module_is_signed
   standard_type: TBD
   name: Signed

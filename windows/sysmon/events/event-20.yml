@@ -18,7 +18,7 @@ event_fields:
   type: string
   description: wmievent type
   sample_value: WmiConsumerEvent
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -53,8 +53,7 @@ event_fields:
   name: Destination
   type: string
   description: command of consumer
-  sample_value: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec
-    bypass -win hidden -noni -enc bm90ZXBhZC5leGU=
+  sample_value: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -nop -exec bypass -win hidden -noni -enc bm90ZXBhZC5leGU=
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-20-wmievent-wmieventconsumer-activity-detected

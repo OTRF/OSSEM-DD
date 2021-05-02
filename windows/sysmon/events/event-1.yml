@@ -15,7 +15,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -33,12 +33,11 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the created process (child)
   sample_value: '4756'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string
-  description: File path of the process being spawned/created. Considered also the
-    child or source process
+  description: File path of the process being spawned/created. Considered also the child or source process
   sample_value: C:\Windows\System32\conhost.exe
 - standard_name: file_version
   standard_type: TBD
@@ -56,15 +55,13 @@ event_fields:
   standard_type: TBD
   name: Product
   type: string
-  description: Product name the image associated with the main process (child) belongs
-    to
+  description: Product name the image associated with the main process (child) belongs to
   sample_value: "Microsoft\xAE Windows\xAE Operating System"
 - standard_name: file_company
   standard_type: TBD
   name: Company
   type: string
-  description: Company name the image associated with the main process (child) belongs
-    to
+  description: Company name the image associated with the main process (child) belongs to
   sample_value: Microsoft Corporation
 - standard_name: file_name_original
   standard_type: TBD
@@ -76,10 +73,9 @@ event_fields:
   standard_type: TBD
   name: CommandLine
   type: string
-  description: Arguments which were passed to the executable associated with the main
-    process
-  sample_value: ??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
-- standard_name: file_current_directory
+  description: Arguments which were passed to the executable associated with the main process
+  sample_value: C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
+- standard_name: process_file_directory
   standard_type: TBD
   name: CurrentDirectory
   type: string
@@ -89,23 +85,19 @@ event_fields:
   standard_type: TBD
   name: User
   type: string
-  description: Name of the account who created the process (child) . It usually contains
-    domain name and user name (Parsed to show only username without the domain)
+  description: Name of the account who created the process (child) . It usually contains domain name and user name (Parsed to show only username without the domain)
   sample_value: DESKTOP-WARDOG\wardog
 - standard_name: user_logon_guid
   standard_type: TBD
   name: LogonGuid
   type: string
-  description: Logon GUID of the user who created the new process. Value that can
-    help you correlate this event with others that contain the same Logon GUID (Sysmon
-    Events)
+  description: Logon GUID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon GUID (Sysmon Events)
   sample_value: '{A98268C1-95F2-5ACD-0000-002019620F00}'
 - standard_name: user_logon_id
   standard_type: TBD
   name: LogonId
   type: integer
-  description: Login ID of the user who created the new process. Value that can help
-    you correlate this event with others that contain the same Logon ID
+  description: Login ID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon ID
   sample_value: '0xf6219'
 - standard_name: user_session_id
   standard_type: TBD
@@ -124,8 +116,7 @@ event_fields:
   name: Hashes
   type: string
   description: Hashes captured by sysmon driver
-  sample_value: SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7,
-    SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B
+  sample_value: SHA1=B0BF5AC2E81BBF597FAD5F349FEEB32CAC449FA2, MD5=6A255BEBF3DBCD13585538ED47DBAFD7, SHA256=4668BB2223FFB983A5F1273B9E3D9FA2C5CE4A0F1FB18CA5C1B285762020073C, IMPHASH=2505BD03D7BD285E50CE89CEC02B333B
 - standard_name: process_parent_guid
   standard_type: TBD
   name: ParentProcessGuid
@@ -138,7 +129,7 @@ event_fields:
   type: integer
   description: Process ID of the process that spawned/created the main process (child)
   sample_value: '240'
-- standard_name: process_parent_path
+- standard_name: process_parent_file_path
   standard_type: TBD
   name: ParentImage
   type: string
@@ -148,8 +139,7 @@ event_fields:
   standard_type: TBD
   name: ParentCommandLine
   type: string
-  description: Arguments which were passed to the executable associated with the parent
-    process
+  description: Arguments which were passed to the executable associated with the parent process
   sample_value: C:\WINDOWS\system32\cmd.exe
 references:
 - text: Sysmon Source

@@ -16,7 +16,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -26,17 +26,15 @@ event_fields:
   standard_type: TBD
   name: SourceProcessGuid
   type: string
-  description: Process Guid of the source process that created a thread in another
-    process
+  description: Process Guid of the source process that created a thread in another process
   sample_value: '{A98268C1-9586-5ACD-0000-001070A20000}'
 - standard_name: process_id
   standard_type: TBD
   name: SourceProcessId
   type: integer
-  description: Process ID used by the os to identify the source process that created
-    a thread in another process
+  description: Process ID used by the os to identify the source process that created a thread in another process
   sample_value: '684'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: SourceImage
   type: string
@@ -54,7 +52,7 @@ event_fields:
   type: integer
   description: Process ID used by the os to identify the target process
   sample_value: '240'
-- standard_name: target_process_path
+- standard_name: target_process_file_path
   standard_type: TBD
   name: TargetImage
   type: string
@@ -76,15 +74,13 @@ event_fields:
   standard_type: TBD
   name: StartModule
   type: string
-  description: Start module determined from thread start address mapping to PEB loaded
-    module list
+  description: Start module determined from thread start address mapping to PEB loaded module list
   sample_value: C:\WINDOWS\System32\KERNELBASE.dll
 - standard_name: thread_start_function
   standard_type: TBD
   name: StartFunction
   type: string
-  description: Start function is reported if exact match to function in image export
-    table
+  description: Start function is reported if exact match to function in image export table
   sample_value: CtrlRoutine
 references:
 - text: Sysmon Source

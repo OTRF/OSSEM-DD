@@ -14,7 +14,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_date_creation
+- standard_name: event_creation_time
   standard_type: TBD
   name: UtcTime
   type: date
@@ -24,22 +24,19 @@ event_fields:
   standard_type: TBD
   name: ProcessGuid
   type: string
-  description: Process Guid of the process that conducted reading operations from
-    the drive
+  description: Process Guid of the process that conducted reading operations from the drive
   sample_value: '{A98268C1-959B-5ACD-0000-0010EFD50200}'
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: integer
-  description: Process ID used by the os to identify the process that conducted reading
-    operations from the drive
+  description: Process ID used by the os to identify the process that conducted reading operations from the drive
   sample_value: '2708'
-- standard_name: process_path
+- standard_name: process_file_path
   standard_type: TBD
   name: Image
   type: string
-  description: File path of the process that conducted reading operations from the
-    drive
+  description: File path of the process that conducted reading operations from the drive
   sample_value: C:\Windows\System32\svchost.exe
 - standard_name: target_device
   standard_type: TBD
