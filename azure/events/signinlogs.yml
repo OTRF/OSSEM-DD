@@ -3,7 +3,7 @@ description: Azure authentication signin logs common schema.
 platform: azure
 log_source: signinlogs
 event_code: signinlogs
-event_version: '2'
+event_version: ''
 event_fields:
 - standard_name: TBD
   standard_type: TBD
