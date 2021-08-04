@@ -1,0 +1,455 @@
+title: Signin Logs
+description: Azure authentication signin logs common schema.
+platform: azure
+log_source: signinlogs
+event_code: signinlogs
+event_version: '2'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: AADTenantId
+  type: string
+  description: "Azure Active Directory Tenant Id"
+  sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
+- standard_name: TBD
+  standard_type: TBD
+  name: AlternateSignInName
+  type: string
+  description: "The alternate sign-in identity whenever you use phone number to sign-in."
+  sample_value: "testaccount2.contoso.com"
+- standard_name: TBD
+  standard_type: TBD
+  name: AppDisplayName
+  type: string
+  description: "The application name displayed in the Azure Portal."
+  sample_value: "Azure Portal"
+- standard_name: TBD
+  standard_type: TBD
+  name: AppId
+  type: string
+  description: "The application identifier in Azure Active Directory"
+  sample_value: "de8bc8b5-5555-6666-a8ad-b748da725064"
+- standard_name: TBD
+  standard_type: TBD
+  name: AuthenticationDetails
+  type: string
+  description: "The result of the authentication attempt and additional details on the authentication method."
+  sample_value: | 
+  "[ 
+        {
+          "authenticationStepDateTime":"2018-11-06T18:48:03.8313489Z",
+          "authenticationMethod":"Password",
+          "authenticationMethodDetail":"Cloud password",
+          "succeeded":true,
+          "authenticationStepResultDetail":"methodSucceeded",
+          "authenticationStepRequirement":"Primary authentication"
+        }
+      ]"
+- standard_name: TBD
+  standard_type: TBD
+  name: AuthenticationMethodsUsed
+  type: string
+  description: "The authentication methods used. Possible values: SMS, Authenticator App, App Verification code, Password, FIDO, PTA, or PHS."
+  sample_value: []
+- standard_name: TBD
+  standard_type: TBD
+  name: AuthenticationProcessingDetails
+  type: string
+  description: "Additional authentication processing details, such as the agent name in case of PTA/PHS or Server/farm name in case of federated authentication"
+  sample_value: []
+- standard_name: TBD
+  standard_type: TBD
+  name: AuthenticationRequirement
+  type: string
+  description: "Type of authentication required for the sign-in. If set to multiFactorAuthentication, an MFA step was required. If set to singleFactorAuthentication, no MFA was required"
+  sample_value: "singleFactorAuthentication"
+- standard_name: TBD
+  standard_type: TBD
+  name: AuthenticationRequirementPolicies
+  type: string
+  description: "Set of CA policies that apply to this sign-in, each as CA: policy name, and/or MFA: Per-user"
+  sample_value: []
+- standard_name: TBD
+  standard_type: TBD
+  name: Category
+  type: string
+  description: "Category of the sign-in event"
+  sample_value: "SignInLogs"
+- standard_name: TBD
+  standard_type: TBD
+  name: ClientAppUsed
+  type: string
+  description: "Details outlining app auth used (Legacy vs non Legacy) Eg: Modern Browser, Native App, Exchange Activty Sync and Older Clients"
+  sample_value: "Browser"
+- standard_name: TBD
+  standard_type: TBD
+  name: ConditionalAccessPolicies
+  type: string
+  description: "Details of the conditional access policies being applied for the sign-in"
+  sample_value: |
+  "[
+        {
+          "id":"6551c58c-e5da-4036-a6ea-c2c3fad264f1",
+          "displayName":"MFA policy",
+          "enforcedGrantControls": [
+            "Mfa",
+            "RequireCompliantDevice"
+          ],
+          "enforcedSessionControls":[],
+          "result":"notApplied"
+        },
+        {
+          "id":"b645a140-20fe-4ce0-a724-18ab201e9026",
+          "displayName":"PipelineTest4",
+          "enforcedGrantControls":[],
+          "enforcedSessionControls":[],
+          "result":"notEnabled"
+        }
+      ]"
+- standard_name: TBD
+  standard_type: TBD
+  name: ConditionalAccessStatus
+  type: dynamic
+  description: "Status of all the conditionalAccess policies related to the sign-in"
+  sample_value: "notApplied"
+- standard_name: TBD
+  standard_type: TBD
+  name: CorrelationId
+  type: string
+  description: "ID to provide sign-in trail"
+  sample_value: "65dd87ce-2183-419e-81a9-d6e20379bcc2"
+- standard_name: TBD
+  standard_type: TBD
+  name: CreatedDateTime
+  type: datetime
+  description: "Datetime of the sign-in activity"
+  sample_value: "2021-08-03T18:48:33.8527147Z"
+- standard_name: TBD
+  standard_type: TBD
+  name: DeviceDetail
+  type: dynamic
+  description: "Details of the device used for the sign-in"
+  sample_value: |
+  {
+        "deviceId":null,
+        "displayName":null,
+        "operatingSystem":"Windows 10",
+        "browser":"Chrome 90.0.4430",
+        "isCompliant":null,
+        "isManaged":null,
+        "trustType":null
+      }
+- standard_name: TBD
+  standard_type: TBD
+  name: DurationMs
+  type: long
+  description: "The duration of the operation in milliseconds"
+  sample_value: 0
+- standard_name: TBD
+  standard_type: TBD
+  name: FlaggedForReview
+  type: bool
+  description: ""
+  sample_value: ""
+- standard_name: TBD
+  standard_type: TBD
+  name: HomeTenantId
+  type: string
+  description: ""
+  sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
+- standard_name: TBD
+  standard_type: TBD
+  name: Id
+  type: string
+  description: "Unique ID representing the sign-in activity"
+  sample_value: "66ea54eb-blah-4ee5-be62-ff5a759b0100"
+- standard_name: TBD
+  standard_type: TBD
+  name: Identity
+  type: string
+  description: "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal"
+  sample_value: "Test User"
+- standard_name: TBD
+  standard_type: TBD
+  name: IPAddress
+  type: string
+  description: "IP address of the client used to sign in"
+  sample_value: "131.107.159.37"
+- standard_name: TBD
+  standard_type: TBD
+  name: IPAddressFromResourceProvider
+  type: string
+  description: ""
+  sample_value: ""
+- standard_name: TBD
+  standard_type: TBD
+  name: IsInteractive
+  type: bool
+  description: "Indicates if a sign-in is interactive or not"
+  sample_value: true
+- standard_name: TBD
+  standard_type: TBD
+  name: IsRisky
+  type: bool
+  description: "Indicates if a sign-in is considered risky or not"
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Level
+  type: string
+  description: "The severity level of the event"
+  sample_value: 4
+- standard_name: TBD
+  standard_type: TBD
+  name: Location
+  type: string
+  description: "The region of the resource emitting the event"
+  sample_value: "US"
+- standard_name: TBD
+  standard_type: TBD
+  name: LocationDetails
+  type: dynamic
+  description: "Details of the sign-in location"
+  sample_value: |
+  {
+        "city": "Redmond",
+        "state": "Washington",
+        "countryOrRegion": "US",
+        "geoCoordinates": {
+          "altitude": null,
+          "latitude": 47.68050003051758,
+          "longitude": -122.12094116210938
+        }
+      }
+- standard_name: TBD
+  standard_type: TBD
+  name: MfaDetail
+  type: dynamic
+  description: "Details of the Multi-factor authentication"
+  sample_value: |
+  {
+    "authMethod":"Mobile app notification",
+    "authDetail":"+X XXXXXXXX03"
+    }
+- standard_name: TBD
+  standard_type: TBD
+  name: NetworkLocationDetails
+  type: string
+  description: "Provides the details associated with authentication processor"
+  sample_value: []
+- standard_name: TBD
+  standard_type: TBD
+  name: OperationName
+  type: string
+  description: "For sign-ins, this value is always Sign-in activity"
+  sample_value: ""Sign-in activity"
+- standard_name: TBD
+  standard_type: TBD
+  name: OperationVersion
+  type: string
+  description: "The REST API version that's requested by the client"
+  sample_value: "1.0"
+- standard_name: TBD
+  standard_type: TBD
+  name: OriginalRequestId
+  type: string
+  description: "The request id of the first request in the authentication sequence"
+  sample_value: "47af4314-a8dd-4397-b20c-644dcb420201"
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessingTimeInMilliseconds
+  type: string
+  description: "Request processing time in milliseconds in AD STS"
+  sample_value: "157"
+- standard_name: TBD
+  standard_type: TBD
+  name: Resource
+  type: string
+  description: ""
+  sample_value: "Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceDisplayName
+  type: string
+  description: "Name of the resource that the user signed into"
+  sample_value: "Microsoft Graph"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceGroup
+  type: string
+  description: "Resource group for the logs"
+  sample_value: "Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceId
+  type: string
+  description: ""
+  sample_value: "/tenants/0abc1234-ab56-7890-abcd-01234567a89b/providers/Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceIdentity
+  type: string
+  description: "ID of the resource that the user signed into"
+  sample_value: "00000002-0000-0000-c000-000000000000"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceProvider
+  type: string
+  description: ""
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceTenantId
+  type: string
+  description: "The resource tenantId for B2B(business-to-business) scenarios"
+  sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultDescription
+  type: string
+  description: "Provides the error description for the sign-in operation"
+  sample_value: "Other"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultSignature
+  type: string
+  description: "Contains the error code, if any, for the sign-in operation"
+  sample_value: "none"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultType
+  type: string
+  description: "The result of the sign-in operation can be Success or Failure"
+  sample_value: 0
+- standard_name: TBD
+  standard_type: TBD
+  name: RiskDetail
+  type: string
+  description: "Risky user state details"
+  sample_value: None
+- standard_name: TBD
+  standard_type: TBD
+  name: RiskEventTypes
+  type: string
+  description: "The list of risk event types associated with the sign-in"
+  sample_value: []
+- standard_name: TBD
+  standard_type: TBD
+  name: RiskEventTypes_V2
+  type: string
+  description: "The list of risk event types associated with the sign-in. These are strings"
+  sample_value: []
+- standard_name: TBD
+  standard_type: TBD
+  name: RiskLevelAggregated
+  type: string
+  description: "Aggregated risk level"
+  sample_value: "none"
+- standard_name: TBD
+  standard_type: TBD
+  name: RiskLevelDuringSignIn
+  type: string
+  description: "Risk level during sign-in"
+  sample_value: "none"
+- standard_name: TBD
+  standard_type: TBD
+  name: RiskState
+  type: string
+  description: "Risky user state"
+  sample_value: "none"
+- standard_name: TBD
+  standard_type: TBD
+  name: ServicePrincipalId
+  type: string
+  description: "ID of the service principal who initiated the sign-in"
+  sample_value: ""
+- standard_name: TBD
+  standard_type: TBD
+  name: ServicePrincipalName
+  type: string
+  description: "Service Principal Name of the service principal who initiated the sign-in"
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: SignInIdentifier
+  type: string
+  description: ""
+  sample_value: "test@contoso.com"
+- standard_name: TBD
+  standard_type: TBD
+  name: SignInIdentifierType
+  type: string
+  description: ""
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: SourceSystem
+  type: string
+  description: "Details of source system of the object being provisioned"
+  sample_value: "Azure AD"
+- standard_name: TBD
+  standard_type: TBD
+  name: Status
+  type: dynamic
+  description: "Details of the sign-in status"
+  sample_value: {"errorCode":0}
+- standard_name: TBD
+  standard_type: TBD
+  name: TimeGenerated
+  type: datetime
+  description: "The date and time of the event in UTC"
+  sample_value:  2021-08-03T18:48:33.8527147Z
+- standard_name: TBD
+  standard_type: TBD
+  name: TokenIssuerName
+  type: string
+  description: "Name of the identity provider (e.g. sts.microsoft.com )"
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: TokenIssuerType
+  type: string
+  description: "Type of identityProvider (Azure AD, AD Federation Services)"
+  sample_value: "Azure AD"
+- standard_name: TBD
+  standard_type: TBD
+  name: Type
+  type: string
+  description: "The name of the table"
+  sample_value: "SiginLogs"
+- standard_name: TBD
+  standard_type: TBD
+  name: UserAgent
+  type: string
+  description: "User Agent for the sign-in"
+  sample_value: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36 Edg/80.0.361.66"
+- standard_name: TBD
+  standard_type: TBD
+  name: UserDisplayName
+  type: string
+  description: "Display name of the user that initiated the sign-in"
+  sample_value: "Test contoso"
+- standard_name: TBD
+  standard_type: TBD
+  name: UserId
+  type: string
+  description: "ID of the user that initiated the sign-in"
+  samepl_value: "26be570a-1111-5555-b4e2-a37c6808512d"
+- standard_name: TBD
+  standard_type: TBD
+  name: UserPrincipalName
+  type: string
+  description: "User principal name of the user that initiated the sign-in"
+  sample_value: "testaccount1@contoso.com"
+- standard_name: TBD
+  standard_type: TBD
+  name: UserType
+  type: string
+  description: ""
+  sample_value: "Member"
+references:
+- text: Azure SigninLogs schema
+  link: https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/signinlogs
+- text: signIn resource type
+  link: https://docs.microsoft.com/en-us/graph/api/resources/signin?view=graph-rest-beta#properties
+tags: []
