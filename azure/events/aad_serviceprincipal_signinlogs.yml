@@ -137,7 +137,7 @@ event_fields:
   sample_value: "Azure AD"
 - standard_name: TBD
   standard_type: TBD
-  name: AADTenantId
+  name: TenantId
   type: string
   description: "Azure Active Directory Tenant Id"
   sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
