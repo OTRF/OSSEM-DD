@@ -10,3 +10,5 @@ references:
   link: https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/aadnoninteractiveusersigninlogs
 - text: AADServicePrincipalSigninLogs
   link: https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/aadserviceprincipalsigninlogs
+- text: AuditLogs
+  link: https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/auditlogs

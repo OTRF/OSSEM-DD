@@ -1,0 +1,224 @@
+title: Audit log for Azure Active Directory
+description: Audit logs for Azure AD which includes system activity information about user and group management managed applications and directory activities.
+platform: azure
+log_source: auditlogs
+event_code: auditlogs
+event_version: ''
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: AADOperationType
+  type: string
+  description: "Type of the operation. Possible values are Add Update Delete and Other."
+  sample_value: "Update"
+- standard_name: TBD
+  standard_type: TBD
+  name: AADTenantId
+  type: string
+  description: "Azure Active Directory Tenant Id"
+  sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
+- standard_name: TBD
+  standard_type: TBD
+  name: ActivityDateTime
+  type: datetime
+  description: "Date and time the activity was performed in UTC."
+  sample_value:  2021-08-03T18:48:33.8527147Z
+- standard_name: TBD
+  standard_type: TBD
+  name: ActivityDisplayName
+  type: string
+  description: "Activity name or the operation name. Examples include Create User and Add member to group."
+  sample_value: "Add service principal"
+- standard_name: TBD
+  standard_type: TBD
+  name: AdditionalDetails
+  type: dynamic
+  description: "Indicates additional details on the activity."
+  sample_value: | 
+  [
+    {
+      "key":"User-Agent",
+      "value":"Microsoft Azure Graph Client Library 2.1.17-internal"
+    }
+  ]
+- standard_name: TBD
+  standard_type: TBD
+  name: Category
+  type: string
+  description: "Category of the audit logs event"
+  sample_value: "UserManagement"
+- standard_name: TBD
+  standard_type: TBD
+  name: CorrelationId
+  type: string
+  description: "Optional GUID that's passed by the client. Can help correlate client-side operations with server-side operations and is useful when tracking logs that span services."
+  sample_value: "65dd87ce-2183-419e-81a9-d6e20379bcc2"
+- standard_name: TBD
+  standard_type: TBD
+  name: DurationMs
+  type: long
+  description: "The duration of the operation in milliseconds"
+  sample_value: 0
+- standard_name: TBD
+  standard_type: TBD
+  name: Id
+  type: string
+  description: "Unique ID representing the activity"
+  sample_value: "66ea54eb-blah-4ee5-be62-ff5a759b0100"
+- standard_name: TBD
+  standard_type: TBD
+  name: Identity
+  type: string
+  description: "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal"
+  sample_value: "Test User"
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatedBy
+  type: dynamic
+  description: "User or app initiated the activity."
+  sample_value: | 
+  {
+    "app":
+    {
+    "appId":null,
+    "displayName":"Test User",
+    "servicePrincipalId":null,
+    "servicePrincipalName":null
+    }
+  ​}
+- standard_name: TBD
+  standard_type: TBD
+  name: Level
+  type: string
+  description: "The severity level of the event"
+  sample_value: 4
+- standard_name: TBD
+  standard_type: TBD
+  name: Location
+  type: string
+  description: "Location of the datacenter."
+  sample_value: "US"
+- standard_name: TBD
+  standard_type: TBD
+  name: LoggedByService
+  type: string
+  description: "Service that initiated the activity (For example: Self-service Password Management Core Directory B2C Invited Users Microsoft Identity Manager Privileged Identity Management."
+  sample_value: "Core Directory"
+- standard_name: TBD
+  standard_type: TBD
+  name: OperationName
+  type: string
+  description: "Name of the operation."
+  sample_value: ""Add service principal"
+- standard_name: TBD
+  standard_type: TBD
+  name: OperationVersion
+  type: string
+  description: "The REST API version that's requested by the client"
+  sample_value: "1.0"
+- standard_name: TBD
+  standard_type: TBD
+  name: Resource
+  type: string
+  description: "Resource for the logs"
+  sample_value: "Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceGroup
+  type: string
+  description: "Resource group for the logs"
+  sample_value: "Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceId
+  type: string
+  description: "ID of the resource logging the event"
+  sample_value: "/tenants/0abc1234-ab56-7890-abcd-01234567a89b/providers/Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: Result
+  type: string
+  description: "Result of the activity. Possible values are: success failure timeout unknownFutureValue."
+  sample_value: "success"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultDescription
+  type: string
+  description: "Additional description of the result."
+  sample_value: 
+  "This app role assignment was imported: aBCd1-53aBCD9abCd_S_7-AbCDefghDkeysi3vbLXM. The app role granted was 66ea54eb-blah-4ee5-be62-ff5a759b0100. 
+  It was granted to User 66ea54eb-blah-4ee5-be62-ff5a759b0100."
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultReason
+  type: string
+  description: "Describes cause of failure or timeout results."
+  sample_value: 
+  "This app role assignment was imported: aBCd1-53aBCD9abCd_S_7-AbCDefghDkeysi3vbLXM. The app role granted was 66ea54eb-blah-4ee5-be62-ff5a759b0100. 
+  It was granted to User 66ea54eb-blah-4ee5-be62-ff5a759b0100."
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultSignature
+  type: string
+  description: "Property is not used and can be ignored."
+  sample_value: "none"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultType
+  type: string
+  description: "Result of the operation. Possible values are Success and Failure."
+  sample_value: ""
+- standard_name: TBD
+  standard_type: TBD
+  name: SourceSystem
+  type: string
+  description: "Details of source system of the object being provisioned"
+  sample_value: "Azure AD"
+
+- standard_name: TBD
+  standard_type: TBD
+  name: TargetResources
+  type: dynamic
+  description: "Indicates information on which resource was changed due to the activity. Target Resource Type can be User Device Directory App Role Group Policy or Other."
+  sample_value: |
+  [
+    {
+      "id":"66ea54eb-blah-4ee5-be62-ff5a759b0100",
+      "displayName":"",
+      "type":"Other",
+      "modifiedProperties":
+      [{
+        "displayName":"Status",
+        "oldValue":"\"\"",
+        "newValue":"\"Fulfilled\""},
+        {"displayName":"IsDeleted",
+        "oldValue":"\"\"","newValue":"\"False\""
+        }],
+        "administrativeUnits":[]
+        },
+    {
+      "id":"66ea54eb-blah-4ee5-be62-ff5a759b0100",
+      "displayName":"",
+      "type":"Other",
+      "modifiedProperties":[],
+      "administrativeUnits":[]
+    }
+  ]
+- standard_name: TBD
+  standard_type: TBD
+  name: TimeGenerated
+  type: datetime
+  description: "The date and time of the event in UTC"
+  sample_value:  2021-08-03T18:48:33.8527147Z
+- standard_name: TBD
+  standard_type: TBD
+  name: Type
+  type: string
+  description: "The name of the table"
+  sample_value: "AuditLogs"
+references:
+- text: AuditLogs schema
+  link: https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/auditlogs
+- text: Audit Activities
+  link: https://docs.microsoft.com/en-us/azure/active-directory/reports-monitoring/reference-audit-activities
+tags: []
