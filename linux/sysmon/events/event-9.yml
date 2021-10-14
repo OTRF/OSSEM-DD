@@ -1,0 +1,54 @@
+title: 'Event ID 9: RawAccessRead'
+description: The **RawAccessRead** event detects when a process conducts reading operations
+  from the drive. This technique is often used by malware for data exfiltration of files
+  that are locked for reading, as well as to avoid file access auditing tools.
+  The event indicates the source process and target device.
+platform: linux
+log_source: sysmon
+event_code: '9'
+event_version: '4.81'
+event_fields:
+- standard_name: tag
+  standard_type: TBD
+  name: RuleName
+  type: string
+  description: custom tag mapped to event. i.e ATT&CK technique ID
+  sample_value: T1114
+- standard_name: event_creation_time
+  standard_type: TBD
+  name: UtcTime
+  type: date
+  description: Time in UTC when event was created
+  sample_value: '2021-10-13T20:14:04.3360000Z'
+- standard_name: process_guid
+  standard_type: TBD
+  name: ProcessGuid
+  type: string
+  description: Process Guid of the process that conducted reading operations from the drive
+  sample_value: '{A98268C1-959B-5ACD-0000-0010EFD50200}'
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: integer
+  description: Process ID used by the os to identify the process that conducted reading operations from the drive
+  sample_value: '2708'
+- standard_name: process_file_path
+  standard_type: TBD
+  name: Image
+  type: string
+  description: File path of the process that conducted reading operations from the drive
+  sample_value: /sbin/dumpe2fs
+- standard_name: target_device
+  standard_type: TBD
+  name: Device
+  type: string
+  description: Target device
+  sample_value: /dev/sda1
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: Name of the account that read.
+  sample_value: root
+references: []
+tags: []
