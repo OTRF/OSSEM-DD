@@ -1,0 +1,159 @@
+title: Service Principal Signin Logs
+description: Azure authentication signin logs for Service Principals common schema.
+platform: azure
+log_source: aadserviceprincipalsigninlogs
+event_code: aadserviceprincipalsigninlogs
+event_version: ''
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: AppId
+  type: string
+  description: "The application identifier in Azure Active Directory"
+  sample_value: "de8bc8b5-5555-6666-a8ad-b748da725064"
+- standard_name: TBD
+  standard_type: TBD
+  name: Category
+  type: string
+  description: "Category of the sign-in event"
+  sample_value: "ServicePrincipalSignInLogs"
+- standard_name: TBD
+  standard_type: TBD
+  name: CorrelationId
+  type: string
+  description: "ID to provide sign-in trail"
+  sample_value: "65dd87ce-2183-419e-81a9-d6e20379bcc2"
+- standard_name: TBD
+  standard_type: TBD
+  name: Id
+  type: string
+  description: "Unique ID representing the sign-in activity"
+  sample_value: "66ea54eb-blah-4ee5-be62-ff5a759b0100"
+- standard_name: TBD
+  standard_type: TBD
+  name: Identity
+  type: string
+  description: "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal"
+  sample_value: "Test User"
+- standard_name: TBD
+  standard_type: TBD
+  name: IPAddress
+  type: string
+  description: "IP address of the client used to sign in"
+  sample_value: "131.107.159.37"
+- standard_name: TBD
+  standard_type: TBD
+  name: Level
+  type: string
+  description: "The severity level of the event"
+  sample_value: 4
+- standard_name: TBD
+  standard_type: TBD
+  name: Location
+  type: string
+  description: "The region of the resource emitting the event"
+  sample_value: "US"
+- standard_name: TBD
+  standard_type: TBD
+  name: LocationDetails
+  type: dynamic
+  description: "Details of the sign-in location"
+  sample_value: |
+  {
+        "city": "Redmond",
+        "state": "Washington",
+        "countryOrRegion": "US",
+        "geoCoordinates": {
+          "altitude": null,
+          "latitude": 47.68050003051758,
+          "longitude": -122.12094116210938
+        }
+      }
+- standard_name: TBD
+  standard_type: TBD
+  name: OperationName
+  type: string
+  description: "For sign-ins, this value is always Sign-in activity"
+  sample_value: ""Sign-in activity"
+- standard_name: TBD
+  standard_type: TBD
+  name: OperationVersion
+  type: string
+  description: "The REST API version that's requested by the client"
+  sample_value: "1.0"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceDisplayName
+  type: string
+  description: "Name of the resource that the user signed into"
+  sample_value: "Microsoft Graph"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceGroup
+  type: string
+  description: "Resource group for the logs"
+  sample_value: "Microsoft.aadiam"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResourceIdentity
+  type: string
+  description: "ID of the resource that the user signed into"
+  sample_value: "00000002-0000-0000-c000-000000000000"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultDescription
+  type: string
+  description: "Provides the error description for the sign-in operation"
+  sample_value: "Other"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultSignature
+  type: string
+  description: "Contains the error code, if any, for the sign-in operation"
+  sample_value: "none"
+- standard_name: TBD
+  standard_type: TBD
+  name: ResultType
+  type: string
+  description: "The result of the sign-in operation can be Success or Failure"
+  sample_value: 0
+- standard_name: TBD
+  standard_type: TBD
+  name: ServicePrincipalId
+  type: string
+  description: "ID of the service principal who initiated the sign-in"
+  sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
+- standard_name: TBD
+  standard_type: TBD
+  name: ServicePrincipalName
+  type: string
+  description: "Service Principal Name of the service principal who initiated the sign-in"
+  sample_value: "Contoso Tenant"
+- standard_name: TBD
+  standard_type: TBD
+  name: SourceSystem
+  type: string
+  description: "Details of source system of the object being provisioned"
+  sample_value: "Azure AD"
+- standard_name: TBD
+  standard_type: TBD
+  name: TenantId
+  type: string
+  description: "Azure Active Directory Tenant Id"
+  sample_value: "0abc1234-ab56-7890-abcd-01234567a89b"
+- standard_name: TBD
+  standard_type: TBD
+  name: TimeGenerated
+  type: datetime
+  description: "The date and time of the event in UTC"
+  sample_value:  2021-08-03T18:48:33.8527147Z
+- standard_name: TBD
+  standard_type: TBD
+  name: Type
+  type: string
+  description: "The name of the table"
+  sample_value: "AADServicePrincipalSignInLogs"
+references:
+- text: Azure AADServicePrincipalSignInLogs schema
+  link: https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/aadserviceprincipalsigninlogs
+tags: []
