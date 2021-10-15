@@ -51,7 +51,7 @@ event_fields:
   sample_value: '2021-10-14T22:39:15.5650000Z'
 - standard_name: actor_user_name
   standard_type: TBD
-  name: user
+  name: User
   type: string
   description: user that created the file
   sample_value: root
