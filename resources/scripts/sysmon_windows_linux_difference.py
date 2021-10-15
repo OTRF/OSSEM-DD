@@ -17,9 +17,9 @@ for event in sysmon_events:
     for event_field_windows in event_fields_windows:
         event_fields_names_windows.append(event_field_windows.get('name'))
     # Getting metadata of Linux event fields that are not in Windows
-    difference_data = {}
     for event_field_linux in event_fields_linux:
         if event_field_linux.get('name') not in event_fields_names_windows:
+            difference_data = {}
             difference_data.update({'event_code':dict_linux.get('event_code')})
             difference_data.update({'event_name':dict_linux.get('title').split(':')[1]})
             difference_data.update({'field_name':event_field_linux.get('name')})
