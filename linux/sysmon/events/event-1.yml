@@ -78,7 +78,7 @@ event_fields:
   standard_type: TBD
   name: CurrentDirectory
   type: string
-  description: The path without the name of the image associated with the process
+  description: Current working directory from which the main process executed. 
   sample_value: ''
 - standard_name: user_name
   standard_type: TBD
