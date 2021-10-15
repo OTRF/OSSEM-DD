@@ -20,25 +20,25 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6600000Z'
-- standard_name: process_guid
+- standard_name: acting_process_guid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that made the network connection
   sample_value: '{A98268C1-957F-5ACD-0000-0010EB030000}'
-- standard_name: process_id
+- standard_name: acting_process_id
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that made the network connection
   sample_value: '5079'
-- standard_name: process_file_path
+- standard_name: acting_process_file_path
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that made the network connection
   sample_value: /usr/sbin/rsyslogd
-- standard_name: user_name
+- standard_name: actor_user_name
   standard_type: TBD
   name: User
   type: string

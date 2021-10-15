@@ -20,19 +20,19 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:14:04.3360000Z'
-- standard_name: process_guid
+- standard_name: acting_process_guid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that conducted reading operations from the drive
   sample_value: '{A98268C1-959B-5ACD-0000-0010EFD50200}'
-- standard_name: process_id
+- standard_name: acting_process_id
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that conducted reading operations from the drive
   sample_value: '2708'
-- standard_name: process_file_path
+- standard_name: acting_process_file_path
   standard_type: TBD
   name: Image
   type: string
@@ -44,7 +44,7 @@ event_fields:
   type: string
   description: Target device
   sample_value: /dev/sda1
-- standard_name: user_name
+- standard_name: actor_user_name
   standard_type: TBD
   name: User
   type: string

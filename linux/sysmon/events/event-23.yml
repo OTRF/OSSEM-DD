@@ -17,31 +17,31 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6490000Z'
-- standard_name: process_guid
+- standard_name: acting_process_guid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that deleted the file
   sample_value: '{A98268C1-959E-5ACD-0000-0010236E0300}'
-- standard_name: process_id
+- standard_name: acting_process_id
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that deleted the file
   sample_value: '1896'
-- standard_name: process_file_path
+- standard_name: acting_process_file_path
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that deleted the file
   sample_value: /lib/systemd/systemd
-- standard_name: user_name
+- standard_name: actor_user_name
   standard_type: TBD
   name: User
   type: string
   description: Name of the account who deleted the file.
   sample_value: root
-- standard_name: file_name
+- standard_name: target_file_name
   standard_type: TBD
   name: TargetFilename
   type: string

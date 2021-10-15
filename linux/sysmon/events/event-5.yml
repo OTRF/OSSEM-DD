@@ -18,25 +18,25 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6470000Z'
-- standard_name: process_guid
+- standard_name: target_process_guid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that terminated
   sample_value: '{A98268C1-9ECD-5ACD-0000-0010EF6BAF00}'
-- standard_name: process_id
+- standard_name: target_process_id
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that terminated
   sample_value: '2428'
-- standard_name: process_file_path
+- standard_name: target_process_file_path
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that terminated
   sample_value: rsyslogd
-- standard_name: user_name
+- standard_name: actor_user_name
   standard_type: TBD
   name: User
   type: string

@@ -19,31 +19,37 @@ event_fields:
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6590000Z'
-- standard_name: process_guid
+- standard_name: acting_process_guid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that created the file
   sample_value: '{A98268C1-958A-5ACD-0000-0010C62F0100}'
-- standard_name: process_id
+- standard_name: acting_process_id
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that created the file.
   sample_value: '1044'
-- standard_name: process_file_path
+- standard_name: acting_process_file_path
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that created the file
   sample_value: /usr/sbin/rsyslogd
-- standard_name: file_name
+- standard_name: target_file_name
   standard_type: TBD
   name: TargetFilename
   type: string
   description: Name of the file
   sample_value: /run/rsyslogd.pid.tmp
-- standard_name: user_name
+- standard_name: target_file_creation_time
+  standard_type: TBD
+  name: CreationUtcTime
+  type: date
+  description: File creation time
+  sample_value: '2021-10-14T22:39:15.5650000Z'
+- standard_name: actor_user_name
   standard_type: TBD
   name: user
   type: string
