@@ -1,0 +1,36 @@
+title: Event 1006 - NetworkingPlugin1006
+description: null
+platform: windows
+log_source: Microsoft-Windows-TenantRestrictions
+event_code: '1006'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: NetworkingStack
+  type: AnsiString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ImageName
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ModuleName
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ErrorCode
+  type: Int32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Error
+- etw_task_NetworkingPlugin
+- etw_keywords_TrPlugin

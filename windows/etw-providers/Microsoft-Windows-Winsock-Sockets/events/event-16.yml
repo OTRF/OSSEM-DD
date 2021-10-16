@@ -1,0 +1,37 @@
+title: Event 16 - SockListenStop
+description: null
+platform: windows
+log_source: Microsoft-Windows-Winsock-Sockets
+event_code: '16'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: ErrorCode
+  type: HexInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Socket
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Backlog
+  type: Int32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: FailurePoint
+  type: HexInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_task_SockListen
+- etw_keywords_WINSOCK_API_BOUNDARY WINSOCK_SOCKET_LIFETIME
+- etw_opcode_Stop
