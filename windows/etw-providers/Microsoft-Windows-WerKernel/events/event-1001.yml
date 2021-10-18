@@ -1,0 +1,42 @@
+title: Event 1001 - CreateReport
+description: null
+platform: windows
+log_source: Microsoft-Windows-WerKernel
+event_code: '1001'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: ComponentName
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: RequestedPolicy
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: GrantedPolicy
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Status
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ThrottleCheckResult
+  type: UInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_keywords_Werkernel
+- etw_task_CreateReport

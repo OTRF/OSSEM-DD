@@ -1,0 +1,36 @@
+title: Event 1083 - task_01083
+description: null
+platform: windows
+log_source: Microsoft-Windows-ZTraceMaps
+event_code: '1083'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: Function
+  type: AnsiString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Message
+  type: AnsiString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: This
+  type: Pointer
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: Line
+  type: Int32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Informational
+- etw_task_task_0
+- etw_keywords_Debug

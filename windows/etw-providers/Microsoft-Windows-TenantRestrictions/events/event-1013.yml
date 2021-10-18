@@ -1,0 +1,36 @@
+title: Event 1013 - SyncService1013
+description: null
+platform: windows
+log_source: Microsoft-Windows-TenantRestrictions
+event_code: '1013'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: RequestPath
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: HttpErrorCode
+  type: Int32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: ResponseHeaders
+  type: UnicodeString
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: NetworkingErrorCode
+  type: Int32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Error
+- etw_task_SyncService
+- etw_keywords_CloudIdSvc

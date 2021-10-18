@@ -1,0 +1,18 @@
+title: Event 1061 - task_01061
+description: null
+platform: windows
+log_source: Microsoft-Windows-ZTraceMaps
+event_code: '1061'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: MyMessage
+  type: AnsiString
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Error
+- etw_task_task_0
+- etw_keywords_Debug

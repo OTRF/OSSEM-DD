@@ -1,0 +1,102 @@
+title: Event 2 - DPtunnelcreationError
+description: null
+platform: windows
+log_source: Microsoft-Windows-USB-USB4DeviceRouter-EventLogs
+event_code: '2'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DomainId
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpOutRouterTopologyId
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpcdCmId
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpOutAdapterNumber
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpInRouterDepth
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpInAdapterNumber
+  type: UInt8
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_IsRebuilding
+  type: Boolean
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_Attempts
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpOutLocalCapabilities
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpInLocalCapabilities
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_MaskedRemoteCapabilities
+  type: UInt32
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_DpRxPollingDuration
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_ReasonCode1
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_ReasonCode2
+  type: UInt64
+  description: null
+  sample_value: null
+- standard_name: TBD
+  standard_type: TBD
+  name: fid_Status
+  type: UInt32
+  description: null
+  sample_value: null
+references: null
+tags:
+- etw_level_Error
+- etw_task_DPtunnelcreation
+- etw_keywords_Default
