@@ -97,5 +97,5 @@ event_fields:
   sample_value: DANWIN764\dan
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-processblock-process-block
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventprocessblock-process-block
 tags: []

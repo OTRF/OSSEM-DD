@@ -81,5 +81,5 @@ event_fields:
   sample_value: ingress.event.moduleload
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-moduleload-module-load
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventmoduleload-module-load
 tags: []

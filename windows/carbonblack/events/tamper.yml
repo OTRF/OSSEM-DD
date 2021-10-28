@@ -1,4 +1,4 @@
-title: ingress.event.tamper (Cb Response Tamper)
+title: ingress.event.tamper (EDR Tamper)
 description: A process tampered with a critical Carbon Black userspace process or
   kernel driver.
 platform: windows
@@ -10,7 +10,7 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
+  description: Used to distinguish between multiple EDR servers. Set this
     in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
@@ -52,5 +52,5 @@ event_fields:
   sample_value: ingress.event.tamper
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-tamper-cb-response-tamper
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventtamper-edr-tamper
 tags: []

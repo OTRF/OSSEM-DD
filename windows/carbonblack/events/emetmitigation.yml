@@ -17,7 +17,7 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
+  description: Used to distinguish between multiple EDR servers. Set this
     in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
@@ -42,13 +42,13 @@ event_fields:
   standard_type: TBD
   name: link_process
   type: TEXT
-  description: Deep link to Cb Response UI for process
+  description: Deep link to EDR UI for process
   sample_value: https://cbtests/#analyze/00000001-0000-0d10-01d1-39b621f894f9/1
 - standard_name: sensor_link
   standard_type: TBD
   name: link_sensor
   type: TEXT
-  description: Deep link to Cb Response UI for sensor
+  description: Deep link to EDR UI for sensor
   sample_value: https://cbtests/#/host/1
 - standard_name: log_id
   standard_type: TBD
@@ -114,5 +114,5 @@ event_fields:
   sample_value: ingress.event.emetmitigation
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-emetmitigation-emet-mitigation
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventemetmitigation-emet-mitigation
 tags: []

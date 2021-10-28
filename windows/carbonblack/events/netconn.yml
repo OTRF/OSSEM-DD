@@ -131,5 +131,5 @@ event_fields:
   sample_value: ingress.event.netconn
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-netconn-network-connection
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventnetconn-network-connection
 tags: []
