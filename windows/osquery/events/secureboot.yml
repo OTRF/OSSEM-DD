@@ -1,0 +1,23 @@
+title: Secureboot Table
+description: Secure Boot UEFI Settings.
+platform: windows
+log_source: osquery
+event_code: secureboot 
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: secure_boot
+  type: INTEGER
+  description: Whether secure boot is enabled
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: setup_mode
+  type: INTEGER
+  description: Whether setup mode is enabled
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#secureboot 
+tags: []

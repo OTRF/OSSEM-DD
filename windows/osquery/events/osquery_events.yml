@@ -3,7 +3,7 @@ description: Information about the event publishers and subscribers.
 platform: windows
 log_source: osquery
 event_code: osquery_events
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -25,9 +25,27 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
+  name: subscriptions
+  type: INTEGER
+  description: Number of subscriptions the publisher received or subscriber used
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: events
+  type: INTEGER
+  description: Number of events emitted or received since osquery started
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
   name: refreshes
   type: INTEGER
   description: 'Publisher only: number of runloop restarts'
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: active
+  type: INTEGER
+  description: 1 if the publisher or subscriber is active else 0
   sample_value: TBD
 references:
 - text: OSQuery table documentation

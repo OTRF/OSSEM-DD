@@ -3,7 +3,7 @@ description: Certificate Authorities installed in Keychains/ca-bundles.
 platform: windows
 log_source: osquery
 event_code: certificates
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD

@@ -1,0 +1,89 @@
+title: Chassis_info Table
+description: Display information pertaining to the chassis and its security status.
+platform: windows
+log_source: osquery
+event_code: chassis_info
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: audible_alarm
+  type: TEXT
+  description: If TRUE, the frame is equipped with an audible alarm
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: breach_description
+  type: TEXT
+  description: If provided, gives a more detailed description of a detected security breach
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: chassis_types
+  type: TEXT
+  description: A comma-separated list of chassis types, such as Desktop or Laptop
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: An extended description of the chassis if available
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: lock
+  type: TEXT
+  description: If TRUE, the frame is equipped with a lock
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer
+  type: TEXT
+  description: The manufacturer of the chassis
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: model
+  type: TEXT
+  description: The model of the chassis
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: security_breach
+  type: TEXT
+  description: The physical status of the chassis such as Breach Successful, Breach Attempted, etc
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: serial
+  type: TEXT
+  description: The serial number of the chassis
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: smbios_tag
+  type: TEXT
+  description: The assigned asset tag number of the chassis
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sku
+  type: TEXT
+  description: The Stock Keeping Unit number if available
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: status
+  type: TEXT
+  description: If available, gives various operational or nonoperational statuses such as OK, Degraded, and Pred Fail
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: visible_alarm
+  type: TEXT
+  description: If TRUE, the frame is equipped with a visual alarm
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/5.0.1#
+tags: []

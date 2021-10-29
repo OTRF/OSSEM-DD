@@ -1,0 +1,65 @@
+title: Tpm_info Table
+description: A table that lists the TPM related information.
+platform: windows
+log_source: osquery
+event_code: tpm_info
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: activated
+  type: INTEGER
+  description: TPM is activated
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: enabled
+  type: INTEGER
+  description: TPM is enabled
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: owned
+  type: INTEGER
+  description: TPM is ownned
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer_version
+  type: TEXT
+  description: TPM version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer_id
+  type: INTEGER
+  description: TPM manufacturers ID
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manufacturer_name
+  type: TEXT
+  description: TPM manufacturers name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: product_name
+  type: TEXT
+  description: Product name of the TPM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: physical_presence_version
+  type: TEXT
+  description: Version of the Physical Presence Interface
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: spec_version
+  type: TEXT
+  description: Trusted Computing Group specification that the TPM supports
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#tpm_info
+tags: []

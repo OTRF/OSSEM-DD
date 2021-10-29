@@ -3,7 +3,7 @@ description: Track current date and time in the system.
 platform: windows
 log_source: osquery
 event_code: time
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -64,6 +64,12 @@ event_fields:
   name: local_timezone
   type: TEXT
   description: Current local timezone in the system
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: unix_time
+  type: INTEGER
+  description: Current UNIX time in the system, converted to UTC if --utc enabled
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

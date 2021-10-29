@@ -1,0 +1,41 @@
+title: Office_mru Table
+description: View recently opened Office documents.
+platform: windows
+log_source: osquery
+event_code: office_mru
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: application
+  type: TEXT
+  description: Associated Office application
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Office application version number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: File path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_opened_time
+  type: BIGINT
+  description: Most recent opened time file was opened
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sid
+  type: TEXT
+  description: User SID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#office_mru
+tags: []

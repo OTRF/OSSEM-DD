@@ -3,13 +3,19 @@ description: A table of parsed ssh_configs.
 platform: windows
 log_source: osquery
 event_code: ssh_configs
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: uid
   type: BIGINT
   description: The local owner of the ssh_config file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: block
+  type: TEXT
+  description: The host or match block
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

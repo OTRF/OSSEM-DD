@@ -1,0 +1,125 @@
+title: shortcut_files Table
+description: View data about Windows Shortcut files.
+platform: windows
+log_source: osquery
+event_code: shortcut_files
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Directory name
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target_path	
+  type: TEXT
+  description: Target file path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target_modified	
+  type: INTEGER
+  description: Target Modified time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target_created
+  type: INTEGER
+  description: Target Created time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target_accessed
+  type: INTEGER
+  description: Target Accessed time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: target_size
+  type: BIGINT
+  description: Size of target file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: relative_path
+  type: TEXT
+  description: Relative path to target file from lnk file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: local_path
+  type: TEXT
+  description: Local system path to target file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: working_path
+  type: TEXT
+  description: Target file directory
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: icon_path
+  type: TEXT
+  description: Lnk file icon location
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: common_path
+  type: TEXT
+  description: Common system path to target file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: command_args
+  type: TEXT
+  description: Command args passed to lnk file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hostname
+  type: TEXT
+  description: Optional hostname of the target file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: share_name
+  type: TEXT
+  description: Share name of the target file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: device_type
+  type: TEXT
+  description: Device containing the target file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: volume_serial
+  type: TEXT
+  description: Volume serial number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mft_entry
+  type: BIGINT
+  description: Target mft entry
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mft_sequence
+  type: INTEGER
+  description: Target mft sequence
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Lnk file description
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#shortcut_files
+tags: []

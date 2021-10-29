@@ -1,9 +1,9 @@
 title: Carves Table
-description: Forensic Carves.
+description: List the set of completed and in-progress carves. If carve=1 then the query is treated as a new carve request.
 platform: windows
 log_source: osquery
 event_code: carves
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -40,6 +40,12 @@ event_fields:
   name: carve_guid
   type: TEXT
   description: Identifying value of the carve session
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: request_id
+  type: TEXT
+  description: Identifying value of the carve request (e.g., scheduled query name, distributed request, etc)
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

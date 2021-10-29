@@ -4,7 +4,7 @@ description: Details for logical drives on the system. A logical drive generally
 platform: windows
 log_source: osquery
 event_code: logical_drives
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD

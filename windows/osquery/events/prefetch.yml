@@ -1,0 +1,89 @@
+title: prefetch
+description: Prefetch files show metadata related to file execution.
+platform: windows
+log_source: osquery
+event_code: prefetch
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Prefetch file path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: filename
+  type: TEXT
+  description: Executable filename
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hash
+  type: TEXT
+  description: Prefetch CRC hash
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_run_time
+  type: INTEGER
+  description: Most recent time application was run
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: other_run_times
+  type: TEXT
+  description: Other execution times in prefetch file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: run_count
+  type: INTEGER
+  description: Number of times the application has been run
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: size
+  type: INTEGER
+  description: Application file size
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: volume_serial
+  type: TEXT
+  description: Volume serial number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: volume_creation
+  type: TEXT
+  description: Volume creation time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: accessed_files_count
+  type: INTEGER
+  description: Number of files accessed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: accessed_directories_count
+  type: INTEGER
+  description: Number of directories accessed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: accessed_files
+  type: TEXT
+  description: Files accessed by application within ten seconds of launch
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: accessed_directories
+  type: TEXT
+  description: Directories accessed by application within ten seconds of launch
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#prefetch
+tags: []
