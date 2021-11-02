@@ -1,0 +1,65 @@
+title: Ycloud_instance_metadata Table
+description: Yandex.Cloud instance metadata.
+platform: windows
+log_source: osquery
+event_code: ycloud_instance_metadata
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: instance_id
+  type: TEXT
+  description: Unique identifier for the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: folder_id
+  type: TEXT
+  description: Folder identifier for the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: name
+  type: TEXT
+  description: Name of the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: description
+  type: TEXT
+  description: Description of the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: hostname
+  type: TEXT
+  description: Hostname of the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: zone
+  type: TEXT
+  description: Availability zone of the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: ssh_public_key
+  type: TEXT
+  description: SSH public key. Only available if supplied at instance launch time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: serial_port_enabled
+  type: TEXT
+  description: Indicates if serial port is enabled for the VM
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: metadata_endpoint
+  type: TEXT
+  description: Endpoint used to fetch VM metadata
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#ycloud_instance_metadata
+tags: []

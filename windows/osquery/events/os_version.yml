@@ -3,7 +3,7 @@ description: A single row containing the operating system name and version.
 platform: windows
 log_source: osquery
 event_code: os_version
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -61,9 +61,27 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
+  name: arch
+  type: TEXT
+  description: OS Architecture
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
   name: install_date
   type: TEXT
   description: The install date of the OS. [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid_with_namespace
+  type: INTEGER
+  description: Pids that contain a namespace
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mount_namespace_id
+  type: TEXT
+  description: Mount namespace id
   sample_value: TBD
 references:
 - text: OSQuery table documentation

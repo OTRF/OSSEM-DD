@@ -4,7 +4,7 @@ description: Returns the private keys in the users ~/.ssh directory and whether 
 platform: windows
 log_source: osquery
 event_code: user_ssh_keys
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -23,6 +23,18 @@ event_fields:
   name: encrypted
   type: INTEGER
   description: 1 if key is encrypted, 0 otherwise
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: key_type
+  type: TEXT
+  description: The type of the private key. One of [rsa, dsa, dh, ec, hmac, cmac], or the empty string.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid_with_namespace
+  type: INTEGER
+  description: Pids that contain a namespace
   sample_value: TBD
 references:
 - text: OSQuery table documentation

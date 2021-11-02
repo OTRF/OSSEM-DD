@@ -3,7 +3,7 @@ description: System information for identification.
 platform: windows
 log_source: osquery
 event_code: system_info
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -82,6 +82,30 @@ event_fields:
   name: hardware_serial
   type: TEXT
   description: Device or board serial number
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: board_vendor
+  type: TEXT
+  description: Board vendor
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: board_model
+  type: TEXT
+  description: Board model
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: board_version
+  type: TEXT
+  description: Board version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: board_serial
+  type: TEXT
+  description: Board serial number
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

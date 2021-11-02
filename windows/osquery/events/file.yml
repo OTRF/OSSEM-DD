@@ -3,7 +3,7 @@ description: Interactive filesystem attributes and metadata.
 platform: windows
 log_source: osquery
 event_code: file
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: file_path
   standard_type: TBD
@@ -124,6 +124,36 @@ event_fields:
   name: file_id
   type: TEXT
   description: file ID [WINDOWS]
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: file_version
+  type: TEXT
+  description: File version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: product_version
+  type: TEXT
+  description: File product version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: bsd_flags
+  type: TEXT
+  description: The BSD file flags (chflags). Possible values - NODUMP, UF_IMMUTABLE, UF_APPEND, OPAQUE, HIDDEN, ARCHIVED, SF_IMMUTABLE, SF_APPEND
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid_with_namespace	
+  type: INTEGER
+  description: Pids that contain a namespace
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: mount_namespace_id
+  type: TEXT
+  description: Mount namespace id
   sample_value: TBD
 references:
 - text: OSQuery table documentation

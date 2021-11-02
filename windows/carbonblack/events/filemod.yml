@@ -115,5 +115,5 @@ event_fields:
   sample_value: ingress.event.filemod
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-filemod-file-modification
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventfilemod-file-modification
 tags: []

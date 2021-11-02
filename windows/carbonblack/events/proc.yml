@@ -136,5 +136,5 @@ event_fields:
   sample_value: SYSTEM
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-procstart-process-start
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventprocstart-process-start
 tags: []

@@ -5,7 +5,7 @@ description: WMI CommandLineEventConsumer, which can be used for persistence on 
 platform: windows
 log_source: osquery
 event_code: wmi_cli_event_consumers
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD

@@ -95,5 +95,5 @@ event_fields:
   sample_value: ingress.event.regmod
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-regmod-registry-modification
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventregmod-registry-modification
 tags: []

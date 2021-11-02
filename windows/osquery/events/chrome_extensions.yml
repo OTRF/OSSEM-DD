@@ -1,10 +1,16 @@
 title: Chrome_extensions Table
-description: Chrome browser extensions.
+description: Chrome-based browser extensions.
 platform: windows
 log_source: osquery
 event_code: chrome_extensions
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: browser_type
+  type: TEXT
+  description: The browser type (Valid values - chrome, chromium, opera, yandex, brave, edge, edge_beta)
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: uid
@@ -25,9 +31,21 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
+  name: profile_path
+  type: TEXT
+  description: The profile path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: referenced_identifier
+  type: TEXT
+  description: Extension identifier, as specified by the preferences file. Empty if the extension is not in the profile.
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
   name: identifier
   type: TEXT
-  description: Extension identifier
+  description: Extension identifier, computed from its manifest. Empty in case of error.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -43,9 +61,15 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: locale
+  name: default_locale
   type: TEXT
   description: Default locale supported by extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: current_locale
+  type: TEXT
+  description: Current locale supported by extension
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -61,6 +85,12 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
+  name: persistent
+  type: INTEGER
+  description: 1 If extension is persistent across all tabs else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
   name: path
   type: TEXT
   description: Path to extension folder
@@ -73,10 +103,71 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
+  name: permissions_json
+  type: TEXT
+  description: The JSON-encoded permissions required by the extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
   name: optional_permissions
   type: TEXT
   description: The permissions optionally required by the extensions
   sample_value: TBD
+
+- standard_name: TBD
+  standard_type: TBD
+  name: optional_permissions_json
+  type: TEXT
+  description: The JSON-encoded permissions optionally required by the extensions
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: manifest_hash
+  type: TEXT
+  description: The SHA256 hash of the manifest.json file
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: referenced
+  type: BIGINT
+  description: 1 if this extension is referenced by the Preferences file of the profile
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: from_webstore
+  type: TEXT
+  description: True if this extension was installed from the web store
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: state
+  type: TEXT
+  description: 1 if this extension is enabled
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: install_time
+  type: TEXT
+  description: Extension install time, in its original Webkit format
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: install_timestamp
+  type: BIGINT
+  description: Extension install time, converted to unix time
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: manifest_json
+  type: TEXT
+  description: The manifest file of the extension
+  sample_value: TBD 
+- standard_name: TBD
+  standard_type: TBD
+  name: key
+  type: TEXT
+  description: The extension key, from the manifest file 
+  sample_value: TBD 
 references:
 - text: OSQuery table documentation
   link: https://osquery.io/schema/current#chrome_extensions

@@ -1,0 +1,35 @@
+title: Userassist Table
+description: UserAssist Registry Key tracks when a user executes an application from Windows Explorer.
+platform: windows
+log_source: osquery
+event_code: userassist
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Application file path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: last_execution_time
+  type: BIGINT
+  description: Most recent time application was executed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: count
+  type: INTEGER
+  description: Number of times the application has been executed
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: sid
+  type: TEXT
+  description: User SID
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#userassist
+tags: []

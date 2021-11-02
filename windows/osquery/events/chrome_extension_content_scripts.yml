@@ -1,0 +1,65 @@
+title: Chrome_extension_content_scripts Table
+description: Chrome browser extension content scripts.
+platform: windows
+log_source: osquery
+event_code: chrome_extension_content_scripts
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: browser_type
+  type: TEXT
+  description: The browser type (Valid values - chrome, chromium, opera, yandex, brave)
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: uid
+  type: BIGINT
+  description: The local user that owns the extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: identifier
+  type: TEXT
+  description: Extension identifier
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: version
+  type: TEXT
+  description: Extension-supplied version
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: script
+  type: TEXT
+  description: The content script used by the extension
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: match
+  type: TEXT
+  description: The pattern that the script is matched against
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: profile_path
+  type: TEXT
+  description: The profile path
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: Path to extension folder
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: referenced
+  type: BIGINT
+  description: 1 if this extension is referenced by the Preferences file of the profile
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#chrome_extension_content_scripts
+tags: []

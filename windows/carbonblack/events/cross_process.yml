@@ -10,7 +10,7 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
+  description: Used to distinguish between multiple EDR servers. Set this
     in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
@@ -42,19 +42,19 @@ event_fields:
   standard_type: TBD
   name: link_target
   type: TEXT
-  description: Deep link to Cb Response UI for target process
+  description: Deep link to EDR UI for target process
   sample_value: https://cbtests/#analyze/00000007-0000-02c4-01d1-20982cef85d3/1
 - standard_name: process_link
   standard_type: TBD
   name: link_process
   type: TEXT
-  description: Deep link to Cb Response UI for this process
+  description: Deep link to EDR UI for this process
   sample_value: https://cbtests/#analyze/00000007-0000-0ccc-01d1-209ab5339f45/1
 - standard_name: sensor_link
   standard_type: TBD
   name: link_sensor
   type: TEXT
-  description: Deep link to Cb Response UI for sensor
+  description: Deep link to EDR UI for sensor
   sample_value: https://cbtests/#/host/7
 - standard_name: hash
   standard_type: TBD
@@ -132,5 +132,5 @@ event_fields:
   sample_value: ingress.event.crossprocopen
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-crossprocopen-cross-process-open
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventcrossprocopen-cross-process-open
 tags: []

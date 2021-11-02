@@ -3,7 +3,7 @@ description: All running processes on the host system.
 platform: windows
 log_source: osquery
 event_code: processes
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -85,6 +85,12 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
+  name: on_disk
+  type: INTEGER
+  description: The process path exists yes=1, no=0, unknown=-1
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
   name: wired_size
   type: BIGINT
   description: Bytes of unpagable memory used by process
@@ -157,9 +163,28 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: is_elevated_token
+  name: elevated_token
   type: INTEGER
   description: Process uses elevated token yes=1, no=0 [WINDOWS]
+  sample_value: TBD
+
+- standard_name: TBD
+  standard_type: TBD
+  name: secure_process
+  type: INTEGER
+  description: Process is secure (IUM) yes=1, no=0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: protection_type
+  type: TEXT
+  description: The protection type of the process
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: virtual_process
+  type: INTEGER
+  description: Process is virtual (e.g. System, Registry, vmmem) yes=1, no=0
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

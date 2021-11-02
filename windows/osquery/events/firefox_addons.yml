@@ -3,7 +3,7 @@ description: Firefox browser extensions, webapps, and addons.
 platform: windows
 log_source: osquery
 event_code: firefox_addons
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -64,6 +64,24 @@ event_fields:
   name: active
   type: INTEGER
   description: 1 If the addon is active else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: disabled
+  type: INTEGER
+  description: 1 If the addon is application-disabled else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: autoupdate
+  type: INTEGER
+  description: 1 If the addon applies background updates else 0
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: native
+  type: INTEGER
+  description: 1 If the addon includes binary components else 0
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

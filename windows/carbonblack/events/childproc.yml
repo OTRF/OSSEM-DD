@@ -10,7 +10,7 @@ event_fields:
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
+  description: Used to distinguish between multiple EDR servers. Set this
     in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: process_child_guid
@@ -41,19 +41,19 @@ event_fields:
   standard_type: TBD
   name: link_child
   type: TEXT
-  description: Deep link to Cb Response UI for child process
+  description: Deep link to EDR UI for child process
   sample_value: https://cbtests/#analyze/00000001-0000-07b4-01d1-209a100bc217/1
 - standard_name: process_link
   standard_type: TBD
   name: link_process
   type: TEXT
-  description: Deep link to Cb Response UI for parent process
+  description: Deep link to EDR UI for parent process
   sample_value: https://cbtests/#analyze/00000001-0000-0af4-01d1-1e444bf4c3dd/1
 - standard_name: sensor_link
   standard_type: TBD
   name: link_sensor
   type: TEXT
-  description: Deep link to Cb Response UI for sensor
+  description: Deep link to EDR UI for sensor
   sample_value: https://cbtests/#/host/1
 - standard_name: hash
   standard_type: TBD
@@ -93,5 +93,5 @@ event_fields:
   sample_value: ingress.event.childproc
 references:
 - text: Carbon Black Developer Docs
-  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingress-event-childproc-child-process
+  link: https://developer.carbonblack.com/reference/enterprise-response/event-forwarder/event-schema/#ingresseventchildproc-child-process
 tags: []

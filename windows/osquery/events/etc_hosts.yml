@@ -3,7 +3,7 @@ description: Line-parsed /etc/hosts.
 platform: windows
 log_source: osquery
 event_code: etc_hosts
-event_version: 4.4.2
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
@@ -16,6 +16,12 @@ event_fields:
   name: hostnames
   type: TEXT
   description: Raw hosts mapping
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid_with_namespace
+  type: INTEGER
+  description: Pids that contain a namespace
   sample_value: TBD
 references:
 - text: OSQuery table documentation

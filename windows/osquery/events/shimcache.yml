@@ -1,0 +1,35 @@
+title: Shimcache Table
+description: Application Compatibility Cache, contains artifacts of execution.
+platform: windows
+log_source: osquery
+event_code: shimcache
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: entry
+  type: INTEGER
+  description: Execution order
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: path
+  type: TEXT
+  description: This is the path to the executed file
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: modified_time
+  type: INTEGER
+  description: File Modified time
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: execution_flag
+  type: INTEGER
+  description: Boolean Execution flag, 1 for execution, 0 for no execution, -1 for missing (this flag does not exist on Windows 10 and higher)
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#shimcache
+tags: []

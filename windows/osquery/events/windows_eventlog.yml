@@ -1,0 +1,101 @@
+title: windows_eventlog
+description: Table for querying all recorded Windows event logs
+platform: windows
+log_source: osquery
+event_code: windows_eventlog
+event_version: 5.0.1
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: channel
+  type: TEXT
+  description: Source or channel of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: datetime
+  type: TEXT
+  description: System time at which the event occurred
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: task
+  type: INTEGER
+  description: Task value associated with the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: level
+  type: INTEGER
+  description: Severity level associated with the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: provider_name
+  type: TEXT
+  description: Provider name of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: provider_guid
+  type: TEXT
+  description: Provider guid of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: computer_name
+  type: TEXT
+  description: Hostname of system where event was generated
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: eventid
+  type: INTEGER
+  description: Event ID of the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: keywords
+  type: TEXT
+  description: A bitmask of the keywords defined in the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: data
+  type: TEXT
+  description: Data associated with the event
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: pid
+  type: INTEGER
+  description: Process ID which emitted the event record
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: tid
+  type: INTEGER
+  description: Thread ID which emitted the event record
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: time_range
+  type: TEXT
+  description: System time to selectively filter the events
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: timestamp
+  type: TEXT
+  description: Timestamp to selectively filter the events
+  sample_value: TBD
+- standard_name: TBD
+  standard_type: TBD
+  name: xpath
+  type: TEXT
+  description: The custom query to filter events
+  sample_value: TBD
+references:
+- text: OSQuery table documentation
+  link: https://osquery.io/schema/current#windows_eventlog
+tags: []
