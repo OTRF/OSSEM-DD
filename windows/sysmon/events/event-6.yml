@@ -56,3 +56,15 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/driver-loading.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data> 
+      <Data Name="UtcTime">2021-11-03 05:20:48.808</Data> 
+      <Data Name="ImageLoaded">C:\Windows\System32\drivers\VBoxWddm.sys</Data> 
+      <Data Name="Hashes">SHA1=879307DA080D77DDE5141DA9A4A228A164B89535,MD5=83160E7C696E1469DC88DCA12729B019,SHA256=F72285BC625BFF102C5BF283B0E90A37C407D542925B119ADD8D40089F1906F9,IMPHASH=DA88E590C5D4C95F6149672355A98A6B</Data> 
+      <Data Name="Signed">true</Data> 
+      <Data Name="Signature">Oracle Corporation</Data> 
+      <Data Name="SignatureStatus">Valid</Data> 
+      </EventData>
