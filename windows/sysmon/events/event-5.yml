@@ -36,9 +36,26 @@ event_fields:
   type: string
   description: File path of the process that terminated
   sample_value: C:\Windows\System32\backgroundTaskHost.exe
+- standard_name: actor_user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: Name of the account that terminated the process.
+  sample_value: DESKTOP-4FPBTEN\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-5-process-terminated
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-termination.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data> 
+      <Data Name="UtcTime">2021-11-03 05:11:50.226</Data> 
+      <Data Name="ProcessGuid">{3710b5c6-19ed-6182-b803-000000000a00}</Data> 
+      <Data Name="ProcessId">2208</Data> 
+      <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data> 
+      <Data Name="User">DESKTOP-4FPBTEN\pedro</Data> 
+      </EventData>
