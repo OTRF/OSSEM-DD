@@ -1,0 +1,106 @@
+title: 'Event ID 3: An RPC server function was called'
+description: Event monitoring RPC server function calls.
+platform: windows
+log_source: RPCFWP
+event_code: '3'
+event_version:
+event_fields:
+- standard_name: process_id
+  standard_type: TBD
+  name: Process ID
+  type: string
+  description: Id of the process being protected.
+  sample_value: 732
+- standard_name: process_file_path
+  standard_type: TBD
+  name: Image Path
+  type: string
+  description: Process being protected
+  sample_value: C:\Windows\system32\lsass.exe
+- standard_name: rpc_rt_function
+  standard_type: TBD
+  name: RPCRT_Func
+  type: string
+  description: RPC run-time function to handle the connection to the RPC server.
+  sample_value: NdrServerCallAll
+- standard_name: rpc_protocol_sequence
+  standard_type: TBD
+  name: Protocol
+  type: string
+  description: A character string that represents a valid combination of a RPC protocol, a network layer protocol, and a transport layer protocol (i.e ncacn_ip_tcp)
+  sample_value: ncacn_np
+- standard_name: rpc_endpoint
+  standard_type: TBD
+  name: Endpoint
+  type: string
+  description: Depending on the RPC protocol sequence being used, an endpoint could be a port number, a named pipe or simply a name. When client and server are not in the same machine, the server listens on a port or group of ports. These port number are called endpoints in RPC.
+  sample_value: \\pipe\\lsass
+- standard_name: src_ip_addr
+  standard_type: TBD
+  name: Source Network Address
+  type: string
+  description: IP address where the RPC call was requested from.
+  sample_value: \[fe80::598f:a662:ffed:415f\]
+- standard_name: rpc_interface_uuid
+  standard_type: TBD
+  name: InterfaceUuid
+  type: string
+  description: An interface universally unique identifier (UUID) that identifies the interface to which the called RPC operation belongs.
+  sample_value: 3dde7c30-165d-11d1-ab8f-00805f14db40
+- standard_name: rpc_opnum
+  standard_type: TBD
+  name: OpNum
+  type: integer
+  description: An operation number or numeric identifier that is used to identify an specific operation within the interface.
+  sample_value: 0
+- standard_name: user_name
+  standard_type: TBD
+  name: Security ID
+  type: string
+  description: User that requested the RPC call
+  sample_value: MSSENTINEL\wardog
+- standard_name: rpc_authentication_level
+  standard_type: TBD
+  name: Authentication Level
+  type: string
+  description: Level of authentication or message protection that remote procedure call (RPC) applied to the message exchange.
+  sample_value: PKT_PRIVACY
+- standard_name: rpc_authentication_service
+  standard_type: TBD
+  name: Authentication Service
+  type: string
+  description: A service used for authenticating principals within the realm or domain served by the Authentication Service. The authentication services passed to various run-time functions.
+  sample_value: WINNT
+references:
+- https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-rpce/425a7c53-c33a-4868-8e5b-2a850d40dc73
+- https://docs.microsoft.com/en-us/windows/win32/rpc/authentication-service-constants
+- https://medium.com/threat-hunters-forge/extending-the-exploration-and-analysis-of-windows-rpc-methods-calling-other-functions-with-ghidra-e4cdaa9555bd
+tags: []
+example: |
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="RPCFWP" /> 
+      <EventID Qualifiers="24578">3</EventID> 
+      <Level>0</Level> 
+      <Task>0</Task> 
+      <Keywords>0xa0000000000000</Keywords> 
+      <TimeCreated SystemTime="2021-11-13T17:54:19.167918300Z" /> 
+      <EventRecordID>14</EventRecordID> 
+      <Channel>RPCFWP</Channel> 
+      <Computer>DC01.mssentinel.local</Computer> 
+      <Security /> 
+    </System>
+    <EventData>
+      <Data>NdrServerCallAll</Data> 
+      <Data>692</Data> 
+      <Data>C:\Windows\system32\lsass.exe</Data> 
+      <Data>ncacn_np</Data> 
+      <Data>\\pipe\\lsass</Data> 
+      <Data>\[fe80::598f:a662:ffed:415f\]</Data> 
+      <Data>3dde7c30-165d-11d1-ab8f-00805f14db40</Data> 
+      <Data>0</Data> 
+      <Data>MSSENTINEL\wardog</Data> 
+      <Data>PKT_PRIVACY</Data> 
+      <Data>WINNT</Data> 
+    </EventData>
+  </Event>

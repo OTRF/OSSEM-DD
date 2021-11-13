@@ -1,0 +1,40 @@
+title: 'Event ID 2: RPC Firewall protection removed'
+description: Event monitoring RPC Firewall protection being removed from a process.
+platform: windows
+log_source: RPCFWP
+event_code: '2'
+event_version:
+event_fields:
+- standard_name: process_id
+  standard_type: TBD
+  name: Process ID
+  type: string
+  description: Id of the process not being protected anymore.
+  sample_value: 732
+- standard_name: process_file_path
+  standard_type: TBD
+  name: Image Path
+  type: string
+  description: Process which protection got removed.
+  sample_value: C:\Windows\system32\lsass.exe
+references: []
+tags: []
+example: |
+  <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+    <System>
+      <Provider Name="RPCFWP" /> 
+      <EventID Qualifiers="24578">2</EventID> 
+      <Level>0</Level> 
+      <Task>0</Task> 
+      <Keywords>0xa0000000000000</Keywords> 
+      <TimeCreated SystemTime="2021-11-13T17:52:13.574589900Z" /> 
+      <EventRecordID>14</EventRecordID> 
+      <Channel>RPCFWP</Channel> 
+      <Computer>WORKSTATION6.mssentinel.local</Computer> 
+      <Security /> 
+    </System>
+    <EventData>
+      <Data>C:\Windows\system32\svchost.exe</Data> 
+      <Data>3172</Data> 
+    </EventData>
+  </Event>
