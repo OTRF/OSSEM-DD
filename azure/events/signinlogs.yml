@@ -35,16 +35,16 @@ event_fields:
   type: string
   description: "The result of the authentication attempt and additional details on the authentication method."
   sample_value: | 
-  "[ 
-        {
-          "authenticationStepDateTime":"2018-11-06T18:48:03.8313489Z",
-          "authenticationMethod":"Password",
-          "authenticationMethodDetail":"Cloud password",
-          "succeeded":true,
-          "authenticationStepResultDetail":"methodSucceeded",
-          "authenticationStepRequirement":"Primary authentication"
-        }
-      ]"
+    [ 
+      {
+        "authenticationStepDateTime":"2018-11-06T18:48:03.8313489Z",
+        "authenticationMethod":"Password",
+        "authenticationMethodDetail":"Cloud password",
+        "succeeded":true,
+        "authenticationStepResultDetail":"methodSucceeded",
+        "authenticationStepRequirement":"Primary authentication"
+      }
+    ]
 - standard_name: TBD
   standard_type: TBD
   name: AuthenticationMethodsUsed
@@ -87,7 +87,7 @@ event_fields:
   type: string
   description: "Details of the conditional access policies being applied for the sign-in"
   sample_value: |
-  "[
+    [
         {
           "id":"6551c58c-e5da-4036-a6ea-c2c3fad264f1",
           "displayName":"MFA policy",
@@ -105,7 +105,7 @@ event_fields:
           "enforcedSessionControls":[],
           "result":"notEnabled"
         }
-      ]"
+    ]
 - standard_name: TBD
   standard_type: TBD
   name: ConditionalAccessStatus
@@ -130,7 +130,7 @@ event_fields:
   type: dynamic
   description: "Details of the device used for the sign-in"
   sample_value: |
-  {
+    {
         "deviceId":null,
         "displayName":null,
         "operatingSystem":"Windows 10",
@@ -138,7 +138,7 @@ event_fields:
         "isCompliant":null,
         "isManaged":null,
         "trustType":null
-      }
+    }
 - standard_name: TBD
   standard_type: TBD
   name: DurationMs
@@ -211,7 +211,7 @@ event_fields:
   type: dynamic
   description: "Details of the sign-in location"
   sample_value: |
-  {
+    {
         "city": "Redmond",
         "state": "Washington",
         "countryOrRegion": "US",
@@ -220,16 +220,16 @@ event_fields:
           "latitude": 47.68050003051758,
           "longitude": -122.12094116210938
         }
-      }
+    }
 - standard_name: TBD
   standard_type: TBD
   name: MfaDetail
   type: dynamic
   description: "Details of the Multi-factor authentication"
   sample_value: |
-  {
-    "authMethod":"Mobile app notification",
-    "authDetail":"+X XXXXXXXX03"
+    {
+        "authMethod":"Mobile app notification",
+        "authDetail":"+X XXXXXXXX03"
     }
 - standard_name: TBD
   standard_type: TBD
@@ -242,7 +242,7 @@ event_fields:
   name: OperationName
   type: string
   description: "For sign-ins, this value is always Sign-in activity"
-  sample_value: ""Sign-in activity"
+  sample_value: "Sign-in activity"
 - standard_name: TBD
   standard_type: TBD
   name: OperationVersion

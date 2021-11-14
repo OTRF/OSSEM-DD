@@ -35,12 +35,12 @@ event_fields:
   type: dynamic
   description: "Indicates additional details on the activity."
   sample_value: | 
-  [
-    {
-      "key":"User-Agent",
-      "value":"Microsoft Azure Graph Client Library 2.1.17-internal"
-    }
-  ]
+    [
+      {
+        "key":"User-Agent",
+        "value":"Microsoft Azure Graph Client Library 2.1.17-internal"
+      }
+    ]
 - standard_name: TBD
   standard_type: TBD
   name: Category
@@ -77,15 +77,15 @@ event_fields:
   type: dynamic
   description: "User or app initiated the activity."
   sample_value: | 
-  {
-    "app":
     {
-    "appId":null,
-    "displayName":"Test User",
-    "servicePrincipalId":null,
-    "servicePrincipalName":null
+      "app":
+        {
+          "appId":null,
+          "displayName":"Test User",
+          "servicePrincipalId":null,
+          "servicePrincipalName":null
+        }
     }
-  ​}
 - standard_name: TBD
   standard_type: TBD
   name: Level
@@ -109,7 +109,7 @@ event_fields:
   name: OperationName
   type: string
   description: "Name of the operation."
-  sample_value: ""Add service principal"
+  sample_value: "Add service principal"
 - standard_name: TBD
   standard_type: TBD
   name: OperationVersion
@@ -145,17 +145,17 @@ event_fields:
   name: ResultDescription
   type: string
   description: "Additional description of the result."
-  sample_value: 
-  "This app role assignment was imported: aBCd1-53aBCD9abCd_S_7-AbCDefghDkeysi3vbLXM. The app role granted was 66ea54eb-blah-4ee5-be62-ff5a759b0100. 
-  It was granted to User 66ea54eb-blah-4ee5-be62-ff5a759b0100."
+  sample_value: |
+    This app role assignment was imported: aBCd1-53aBCD9abCd_S_7-AbCDefghDkeysi3vbLXM. The app role granted was 66ea54eb-blah-4ee5-be62-ff5a759b0100. 
+    It was granted to User 66ea54eb-blah-4ee5-be62-ff5a759b0100.
 - standard_name: TBD
   standard_type: TBD
   name: ResultReason
   type: string
   description: "Describes cause of failure or timeout results."
-  sample_value: 
-  "This app role assignment was imported: aBCd1-53aBCD9abCd_S_7-AbCDefghDkeysi3vbLXM. The app role granted was 66ea54eb-blah-4ee5-be62-ff5a759b0100. 
-  It was granted to User 66ea54eb-blah-4ee5-be62-ff5a759b0100."
+  sample_value: |
+    This app role assignment was imported: aBCd1-53aBCD9abCd_S_7-AbCDefghDkeysi3vbLXM. The app role granted was 66ea54eb-blah-4ee5-be62-ff5a759b0100. 
+    It was granted to User 66ea54eb-blah-4ee5-be62-ff5a759b0100.
 - standard_name: TBD
   standard_type: TBD
   name: ResultSignature
@@ -174,36 +174,35 @@ event_fields:
   type: string
   description: "Details of source system of the object being provisioned"
   sample_value: "Azure AD"
-
 - standard_name: TBD
   standard_type: TBD
   name: TargetResources
   type: dynamic
   description: "Indicates information on which resource was changed due to the activity. Target Resource Type can be User Device Directory App Role Group Policy or Other."
   sample_value: |
-  [
-    {
-      "id":"66ea54eb-blah-4ee5-be62-ff5a759b0100",
-      "displayName":"",
-      "type":"Other",
-      "modifiedProperties":
-      [{
-        "displayName":"Status",
-        "oldValue":"\"\"",
-        "newValue":"\"Fulfilled\""},
-        {"displayName":"IsDeleted",
-        "oldValue":"\"\"","newValue":"\"False\""
-        }],
+    [
+      {
+        "id":"66ea54eb-blah-4ee5-be62-ff5a759b0100",
+        "displayName":"",
+        "type":"Other",
+        "modifiedProperties":
+          [{
+            "displayName":"Status",
+            "oldValue":"\"\"",
+            "newValue":"\"Fulfilled\""},
+            {"displayName":"IsDeleted",
+            "oldValue":"\"\"","newValue":"\"False\""
+            }],
         "administrativeUnits":[]
-        },
-    {
-      "id":"66ea54eb-blah-4ee5-be62-ff5a759b0100",
-      "displayName":"",
-      "type":"Other",
-      "modifiedProperties":[],
-      "administrativeUnits":[]
-    }
-  ]
+      },
+      {
+        "id":"66ea54eb-blah-4ee5-be62-ff5a759b0100",
+        "displayName":"",
+        "type":"Other",
+        "modifiedProperties":[],
+        "administrativeUnits":[]
+      }
+    ]
 - standard_name: TBD
   standard_type: TBD
   name: TimeGenerated
