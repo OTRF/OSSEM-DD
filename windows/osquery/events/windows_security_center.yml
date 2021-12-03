@@ -5,49 +5,49 @@ log_source: osquery
 event_code: windows_security_center
 event_version: 5.0.1
 event_fields:
-- standard_name: TBD
-  standard_type: TBD
-  name: firewall
-  type: TEXT
-  description: The health of the monitored Firewall (see windows_security_products)
-  sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: autoupdate
-  type: TEXT
-  description: The health of the Windows Autoupdate feature
-  sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: antivirus
-  type: TEXT
-  description: The health of the monitored Antivirus solution (see windows_security_products)
-  sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: antispyware
-  type: TEXT
-  description: The health of the monitored Antispyware solution (see windows_security_products)
-  sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: internet_settings	
-  type: TEXT
-  description: The health of the Internet Settings
-  sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: windows_security_center_service
-  type: TEXT
-  description: The health of the Windows Security Center Service
-  sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: user_account_control
-  type: TEXT
-  description: The health of the User Account Control (UAC) capability in Windows
-  sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: firewall
+    type: TEXT
+    description: The health of the monitored Firewall (see windows_security_products)
+    sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: autoupdate
+    type: TEXT
+    description: The health of the Windows Autoupdate feature
+    sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: antivirus
+    type: TEXT
+    description: The health of the monitored Antivirus solution (see windows_security_products)
+    sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: antispyware
+    type: TEXT
+    description: The health of the monitored Antispyware solution (see windows_security_products)
+    sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: internet_settings
+    type: TEXT
+    description: The health of the Internet Settings
+    sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: windows_security_center_service
+    type: TEXT
+    description: The health of the Windows Security Center Service
+    sample_value: TBD
+  - standard_name: TBD
+    standard_type: TBD
+    name: user_account_control
+    type: TEXT
+    description: The health of the User Account Control (UAC) capability in Windows
+    sample_value: TBD
 references:
-- text: OSQuery table documentation
-  link: https://osquery.io/schema/current#windows_security_center
+  - text: OSQuery table documentation
+    link: https://osquery.io/schema/current#windows_security_center
 tags: []
