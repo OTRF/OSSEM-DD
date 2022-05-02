@@ -1,17 +1,17 @@
-title: Event 22035 - Taskbar_Item_Created
-description: null
+name: Event 22035 - Taskbar_Item_Created
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '22035'
+event_id: '22035'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hwndItem
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

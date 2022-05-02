@@ -1,8 +1,8 @@
-title: Launchd_overrides Table
+name: Launchd_overrides Table
 description: Override keys, per user, for LaunchDaemons and Agents.
 platform: macos
 log_source: osquery
-event_code: launchd_overrides
+event_id: launchd_overrides
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

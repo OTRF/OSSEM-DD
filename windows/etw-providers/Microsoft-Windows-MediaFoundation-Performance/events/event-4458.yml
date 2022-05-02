@@ -1,35 +1,35 @@
-title: Event 4458 - AudioStarvation
-description: null
+name: Event 4458 - AudioStarvation
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
-event_code: '4458'
+event_id: '4458'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: tag
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: byteCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: totalByteCount
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_AudioStarvation

@@ -1,23 +1,23 @@
-title: Event 27064 - PerfTrack_Explorer_VideosLibrary_OpenSearch_PageCompleted
-description: null
+name: Event 27064 - PerfTrack_Explorer_VideosLibrary_OpenSearch_PageCompleted
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '27064'
+event_id: '27064'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: BrowserId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ItemCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

@@ -1,8 +1,8 @@
-title: Elf_segments Table
+name: Elf_segments Table
 description: ELF segment information.
 platform: linux
 log_source: osquery
-event_code: elf_segments
+event_id: elf_segments
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

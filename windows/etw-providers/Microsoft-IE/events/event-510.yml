@@ -1,47 +1,47 @@
-title: Event 510 - FlipAhead_InvokeTarget
-description: null
+name: Event 510 - FlipAhead_InvokeTarget
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '510'
+event_id: '510'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Success
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MatchType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Uri
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TextContent
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FileVersion
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RuleID
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_flipahead

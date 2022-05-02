@@ -1,8 +1,8 @@
-title: Smc_keys Table
+name: Smc_keys Table
 description: Apple's system management controller keys.
 platform: macos
 log_source: osquery
-event_code: smc_keys
+event_id: smc_keys
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

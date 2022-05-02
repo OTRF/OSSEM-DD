@@ -1,23 +1,23 @@
-title: Event 22 - fve:Conversion
-description: null
+name: Event 22 - fve:Conversion
+description:
 platform: windows
 log_source: Microsoft-Windows-BitLocker-Driver-Performance
-event_code: '22'
+event_id: '22'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DevObjPtr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Command
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_fve:Performance

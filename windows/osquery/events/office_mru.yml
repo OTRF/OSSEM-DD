@@ -1,8 +1,8 @@
-title: Office_mru Table
+name: Office_mru Table
 description: View recently opened Office documents.
 platform: windows
 log_source: osquery
-event_code: office_mru
+event_id: office_mru
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

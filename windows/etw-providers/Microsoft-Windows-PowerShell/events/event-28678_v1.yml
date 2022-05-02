@@ -1,35 +1,35 @@
-title: Event 28678 - Serializeordeserializeremotingpayload
-description: null
+name: Event 28678 - Serializeordeserializeremotingpayload
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '28678'
+event_id: '28678'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PropertyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PropertyOwnerType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Exception
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InnerException
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_Serializer

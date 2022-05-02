@@ -1,35 +1,35 @@
-title: Event 100 - IPDataTransfer
-description: null
+name: Event 100 - IPDataTransfer
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-MAUSBHOST
-event_code: '100'
+event_id: '100'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_WdfRequest
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_Irp
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_IoChannelHandle
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_NumberOfBytes
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default IRP

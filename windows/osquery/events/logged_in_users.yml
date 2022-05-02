@@ -1,8 +1,8 @@
-title: Logged_in_users Table
+name: Logged_in_users Table
 description: Users with an active shell on the system.
 platform: windows
 log_source: osquery
-event_code: logged_in_users
+event_id: logged_in_users
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

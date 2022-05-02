@@ -1,8 +1,8 @@
-title: SMB Files Log
-description: null
+name: SMB Files Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: smb_files
+event_id: smb_files
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -100,7 +100,6 @@ event_fields:
   name: prev_name
   type: string
   description: If the rename action was seen, this will be the file's previous name.
-  sample_value: CX$\Johnbillingson\Payroll Documents\Pay\ROLL\Master Slides\Master
-    Payroll Members.pptx
+  sample_value: CX$\Johnbillingson\Payroll Documents\Pay\ROLL\Master Slides\Master Payroll Members.pptx
 references: []
 tags: []

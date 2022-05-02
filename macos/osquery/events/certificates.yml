@@ -1,8 +1,8 @@
-title: Certificates Table
+name: Certificates Table
 description: Certificate Authorities installed in Keychains/ca-bundles.
 platform: macos
 log_source: osquery
-event_code: certificates
+event_id: certificates
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -129,8 +129,7 @@ event_fields:
   standard_type: TBD
   name: store_id
   type: TEXT
-  description: Exists for service/user stores. Contains raw store id provided by WinAPI.
-    [WINDOWS]
+  description: Exists for service/user stores. Contains raw store id provided by WinAPI. [WINDOWS]
   sample_value: TBD
 references:
 - text: OSQuery table documentation

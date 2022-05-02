@@ -1,41 +1,41 @@
-title: Event 123 - MSVideoProcessorMFT_ConstrictionResizer
-description: null
+name: Event 123 - MSVideoProcessorMFT_ConstrictionResizer
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-MSVProc
-event_code: '123'
+event_id: '123'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fourCC
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: srcWidth
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: srcHeight
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dstWidth
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dstHeight
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

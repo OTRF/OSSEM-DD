@@ -1,17 +1,17 @@
-title: Event 7204 - ConnectedSearch_SetActiveImpression
-description: null
+name: Event 7204 - ConnectedSearch_SetActiveImpression
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '7204'
+event_id: '7204'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DroppedAPIcall
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_ConnectedSearch_SetActiveImpression

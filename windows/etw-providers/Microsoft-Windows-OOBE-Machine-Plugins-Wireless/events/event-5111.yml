@@ -1,17 +1,17 @@
-title: Event 5111 - WirelessPageVisibilityResult
-description: null
+name: Event 5111 - WirelessPageVisibilityResult
+description:
 platform: windows
 log_source: Microsoft-Windows-OOBE-Machine-Plugins-Wireless
-event_code: '5111'
+event_id: '5111'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DWORD
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_msoobe

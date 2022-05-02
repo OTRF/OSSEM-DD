@@ -1,53 +1,53 @@
-title: Event 22 - BackgroundTaskInstance
-description: null
+name: Event 22 - BackgroundTaskInstance
+description:
 platform: windows
 log_source: Microsoft-Windows-BrokerInfrastructure
-event_code: '22'
+event_id: '22'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkItemId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ApplicationId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PsmActivationType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CpuThrottleCount
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NetThrottleCount
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_BackgroundTask

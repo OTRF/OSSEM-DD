@@ -1,17 +1,17 @@
-title: Event 60902 - ShellTask_ExecAssoc_ReputationCheck
-description: null
+name: Event 60902 - ShellTask_ExecAssoc_ReputationCheck
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '60902'
+event_id: '60902'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: psz
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

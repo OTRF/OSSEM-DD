@@ -1,17 +1,17 @@
-title: Event 192 - SCHEDULE_CLEAR_D2D_CACHES
-description: null
+name: Event 192 - SCHEDULE_CLEAR_D2D_CACHES
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '192'
+event_id: '192'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PreviousWaitTimeoutMS
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

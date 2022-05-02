@@ -1,41 +1,41 @@
-title: Event 156 - ESE_InstStationId_Trace
-description: null
+name: Event 156 - ESE_InstStationId_Trace
+description:
 platform: windows
 log_source: Microsoft-Windows-ESE
-event_code: '156'
+event_id: '156'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: tsidr
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: iInstance
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: perfstatusEvent
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: wszInstanceName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: wszDisplayName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_StationId

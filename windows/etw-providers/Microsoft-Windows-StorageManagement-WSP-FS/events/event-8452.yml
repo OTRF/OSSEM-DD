@@ -1,17 +1,17 @@
-title: Event 8452 - FileServer
-description: null
+name: Event 8452 - FileServer
+description:
 platform: windows
 log_source: Microsoft-Windows-StorageManagement-WSP-FS
-event_code: '8452'
+event_id: '8452'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Parameter1
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_FileServer

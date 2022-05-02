@@ -1,8 +1,8 @@
-title: 'Event ID 4985: The state of a transaction has changed'
+name: 'Event ID 4985: The state of a transaction has changed'
 description: This is an informational event from file system Transaction Manager.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4985'
+event_id: '4985'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -27,16 +27,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x3e7'
 - standard_name: transaction_guid
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description: 'unique GUID of the transaction. This field can help you correlate
-    this event with other events that might contain the same Transaction ID, such
-    as "4656(S, F): A handle to an object was requested."'
+  description: 'unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID, such as "4656(S, F): A handle to an object was requested."'
   sample_value: '{17EF5E21-5E2C-11E5-810F-00155D987005}'
 - standard_name: transaction_new_state
   standard_type: TBD
@@ -48,16 +45,13 @@ event_fields:
   standard_type: TBD
   name: ResourceManager
   type: GUID
-  description: unique GUID-Identifier of the Resource Manager which associated with
-    this transaction.
+  description: unique GUID-Identifier of the Resource Manager which associated with this transaction.
   sample_value: '{5F5ED427-FCCA-11E3-BD73-B54AB417B853}'
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process through which the state of the
-    transaction was changed. Process ID (PID) is a number used by the operating system
-    to uniquely identify an active process
+  description: hexadecimal Process ID of the process through which the state of the transaction was changed. Process ID (PID) is a number used by the operating system to uniquely identify an active process
   sample_value: '0x370'
 - standard_name: process_path
   standard_type: TBD

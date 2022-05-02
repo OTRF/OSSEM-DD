@@ -1,35 +1,35 @@
-title: Event 316 - ScopeManager_Write
-description: null
+name: Event 316 - ScopeManager_Write
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '316'
+event_id: '316'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MaxWID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Scope
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsCompact
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CacheCapacity
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_IndexingItem Gatherer

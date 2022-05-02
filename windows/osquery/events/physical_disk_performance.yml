@@ -1,9 +1,8 @@
-title: Physical_disk_performance Table
-description: Provides provides raw data from performance counters that monitor hard
-  or fixed disk drives on the system.
+name: Physical_disk_performance Table
+description: Provides provides raw data from performance counters that monitor hard or fixed disk drives on the system.
 platform: windows
 log_source: osquery
-event_code: physical_disk_performance
+event_id: physical_disk_performance
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -28,15 +27,13 @@ event_fields:
   standard_type: TBD
   name: avg_disk_read_queue_length
   type: BIGINT
-  description: Average number of read requests that were queued for the selected disk
-    during the sample interval
+  description: Average number of read requests that were queued for the selected disk during the sample interval
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: avg_disk_write_queue_length
   type: BIGINT
-  description: Average number of write requests that were queued for the selected
-    disk during the sample interval
+  description: Average number of write requests that were queued for the selected disk during the sample interval
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -54,29 +51,25 @@ event_fields:
   standard_type: TBD
   name: current_disk_queue_length
   type: INTEGER
-  description: Number of requests outstanding on the disk at the time the performance
-    data is collected
+  description: Number of requests outstanding on the disk at the time the performance data is collected
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: percent_disk_read_time
   type: BIGINT
-  description: Percentage of elapsed time that the selected disk drive is busy servicing
-    read requests
+  description: Percentage of elapsed time that the selected disk drive is busy servicing read requests
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: percent_disk_write_time
   type: BIGINT
-  description: Percentage of elapsed time that the selected disk drive is busy servicing
-    write requests
+  description: Percentage of elapsed time that the selected disk drive is busy servicing write requests
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: percent_disk_time
   type: BIGINT
-  description: Percentage of elapsed time that the selected disk drive is busy servicing
-    read or write requests
+  description: Percentage of elapsed time that the selected disk drive is busy servicing read or write requests
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

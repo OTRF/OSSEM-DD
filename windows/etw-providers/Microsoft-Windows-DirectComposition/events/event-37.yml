@@ -1,23 +1,23 @@
-title: Event 37 - VIRTUAL_SURFACE_COUNTERS
-description: null
+name: Event 37 - VIRTUAL_SURFACE_COUNTERS
+description:
 platform: windows
 log_source: Microsoft-Windows-DirectComposition
-event_code: '37'
+event_id: '37'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: percentValidTiles
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pixelsPerClump
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_DCompDiagnostic DCompMemory

@@ -1,17 +1,17 @@
-title: Event 134 - ThreadScheduling
-description: null
+name: Event 134 - ThreadScheduling
+description:
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
-event_code: '134'
+event_id: '134'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Threading

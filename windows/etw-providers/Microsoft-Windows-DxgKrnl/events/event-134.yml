@@ -1,35 +1,35 @@
-title: Event 134 - DpiDispatchSystemControl
-description: null
+name: Event 134 - DpiDispatchSystemControl
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '134'
+event_id: '134'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceObject
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StackLocationSize
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StackLocation
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

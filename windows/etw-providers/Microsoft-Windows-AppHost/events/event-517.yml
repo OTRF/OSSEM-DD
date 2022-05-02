@@ -1,53 +1,53 @@
-title: Event 517 - SuspendingSubDownloads
-description: null
+name: Event 517 - SuspendingSubDownloads
+description:
 platform: windows
 log_source: Microsoft-Windows-AppHost
-event_code: '517'
+event_id: '517'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WindowType
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WebPlatformSuspendDownloadPending
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WebPlatformCleanupPending
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PID
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TID
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WWAHOST_KEYWORD

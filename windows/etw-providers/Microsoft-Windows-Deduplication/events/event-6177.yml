@@ -1,29 +1,29 @@
-title: Event 6177 - DataDeduplicationOptimizationTask
-description: null
+name: Event 6177 - DataDeduplicationOptimizationTask
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '6177'
+event_id: '6177'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: JobInstanceId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeGuidPath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeDisplayName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_DataDeduplicationOptimizationTask

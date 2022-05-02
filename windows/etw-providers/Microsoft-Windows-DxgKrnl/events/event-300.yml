@@ -1,41 +1,41 @@
-title: Event 300 - UnwaitCpuWaiter
-description: null
+name: Event 300 - UnwaitCpuWaiter
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '300'
+event_id: '300'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Event
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WaitConditionCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FenceValues
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SyncObjects
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

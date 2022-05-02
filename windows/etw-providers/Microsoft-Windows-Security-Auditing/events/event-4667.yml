@@ -1,8 +1,8 @@
-title: 'Event ID 4667: An application client context was deleted'
+name: 'Event ID 4667: An application client context was deleted'
 description: Not available
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4667'
+event_id: '4667'
 event_version: '0'
 event_fields:
 - standard_name: TBD
@@ -21,8 +21,7 @@ event_fields:
   standard_type: TBD
   name: ClientName
   type: UnicodeString
-  description: the name of the account that requested the "assign token to process"
-    operation.
+  description: the name of the account that requested the "assign token to process" operation.
   sample_value: WIN2008$
 - standard_name: user_domain
   standard_type: TBD

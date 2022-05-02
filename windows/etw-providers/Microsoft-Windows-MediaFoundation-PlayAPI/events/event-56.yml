@@ -1,17 +1,17 @@
-title: Event 56 - MFPlay
-description: null
+name: Event 56 - MFPlay
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-PlayAPI
-event_code: '56'
+event_id: '56'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

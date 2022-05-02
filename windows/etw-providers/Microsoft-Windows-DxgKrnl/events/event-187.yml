@@ -1,17 +1,17 @@
-title: Event 187 - OfferAllocation
-description: null
+name: Event 187 - OfferAllocation
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '187'
+event_id: '187'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hAllocationHandle
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

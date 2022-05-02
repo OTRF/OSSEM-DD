@@ -1,8 +1,8 @@
-title: Ec2_instance_tags Table
+name: Ec2_instance_tags Table
 description: EC2 instance tag key value pairs.
 platform: windows
 log_source: osquery
-event_code: ec2_instance_tags
+event_id: ec2_instance_tags
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

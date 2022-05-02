@@ -1,41 +1,41 @@
-title: Event 550 - SystemIdleEventAssessment
-description: null
+name: Event 550 - SystemIdleEventAssessment
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '550'
+event_id: '550'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeSinceEvent
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IdleTimeout
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WasIgnored
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BusyReason
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic

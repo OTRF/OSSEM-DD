@@ -1,17 +1,17 @@
-title: Event 1728 - ID3D11VideoProcessor_Release
-description: null
+name: Event 1728 - ID3D11VideoProcessor_Release
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '1728'
+event_id: '1728'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pThis
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Start

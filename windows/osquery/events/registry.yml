@@ -1,8 +1,8 @@
-title: Registry Table
+name: Registry Table
 description: All of the Windows registry hives.
 platform: windows
 log_source: osquery
-event_code: registry
+event_id: registry
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

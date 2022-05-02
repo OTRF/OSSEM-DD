@@ -1,8 +1,8 @@
-title: Pipes Table
+name: Pipes Table
 description: Named and Anonymous pipes.
 platform: windows
 log_source: osquery
-event_code: pipes
+event_id: pipes
 event_version: 5.0.1
 event_fields:
 - standard_name: process_id
@@ -33,8 +33,7 @@ event_fields:
   standard_type: TBD
   name: flags
   type: TEXT
-  description: The flags indicating whether this pipe connection is a server or client
-    end, and if the pipe for sending messages or bytes
+  description: The flags indicating whether this pipe connection is a server or client end, and if the pipe for sending messages or bytes
   sample_value: TBD
 references:
 - text: OSQuery table documentation

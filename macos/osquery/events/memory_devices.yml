@@ -1,8 +1,8 @@
-title: Memory_devices Table
+name: Memory_devices Table
 description: Physical memory device (type 17) information retrieved from SMBIOS.
 platform: macos
 log_source: osquery
-event_code: memory_devices
+event_id: memory_devices
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: total_width
   type: INTEGER
-  description: Total width, in bits, of this memory device, including any check or
-    error-correction bits
+  description: Total width, in bits, of this memory device, including any check or error-correction bits
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -46,22 +45,19 @@ event_fields:
   standard_type: TBD
   name: set
   type: INTEGER
-  description: Identifies if memory device is one of a set of devices.  A value of
-    0 indicates no set affiliation.
+  description: Identifies if memory device is one of a set of devices.  A value of 0 indicates no set affiliation.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: device_locator
   type: TEXT
-  description: String number of the string that identifies the physically-labeled
-    socket or board position where the memory device is located
+  description: String number of the string that identifies the physically-labeled socket or board position where the memory device is located
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: bank_locator
   type: TEXT
-  description: String number of the string that identifies the physically-labeled
-    bank where the memory device is located
+  description: String number of the string that identifies the physically-labeled bank where the memory device is located
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

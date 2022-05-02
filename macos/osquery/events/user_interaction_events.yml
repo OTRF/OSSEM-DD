@@ -1,8 +1,8 @@
-title: User_interaction_events Table
+name: User_interaction_events Table
 description: Track user interaction events from macOS' event tapping framework.
 platform: macos
 log_source: osquery
-event_code: user_interaction_events
+event_id: user_interaction_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

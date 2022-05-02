@@ -1,35 +1,35 @@
-title: Event 208 - CSearchCrawlScopeManager_AddHierarchicalScope
-description: null
+name: Event 208 - CSearchCrawlScopeManager_AddHierarchicalScope
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '208'
+event_id: '208'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsInclude
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsDefault
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OverrideChildren
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_CSM

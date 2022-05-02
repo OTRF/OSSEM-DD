@@ -1,8 +1,8 @@
-title: Socks Log
-description: null
+name: Socks Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: socks
+event_id: socks
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -64,7 +64,7 @@ event_fields:
   name: bound_name
   type: string
   description: Server bound name.
-  sample_value: "i)'\xD0\xD0#\"\";\"\"8\xD0\xD0\xF6"
+  sample_value: "i)'ÐÐ#\"\";\"\"8ÐÐö"
 - standard_name: TBD
   standard_type: TBD
   name: bound_p

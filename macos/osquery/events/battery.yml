@@ -1,8 +1,8 @@
-title: Battery Table
+name: Battery Table
 description: Provides information about the internal battery of a Macbook.
 platform: macos
 log_source: osquery
-event_code: battery
+event_id: battery
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -105,15 +105,13 @@ event_fields:
   standard_type: TBD
   name: minutes_until_empty
   type: INTEGER
-  description: The number of minutes until the battery is fully depleted. This value
-    is -1 if this time is still being calculated
+  description: The number of minutes until the battery is fully depleted. This value is -1 if this time is still being calculated
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: minutes_to_full_charge
   type: INTEGER
-  description: The number of minutes until the battery is fully charged. This value
-    is -1 if this time is still being calculated
+  description: The number of minutes until the battery is fully charged. This value is -1 if this time is still being calculated
   sample_value: TBD
 references:
 - text: OSQuery table documentation

@@ -1,41 +1,41 @@
-title: Event 462 - Mshtml_IndependentAnimation_Start
-description: null
+name: Event 462 - Mshtml_IndependentAnimation_Start
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '462'
+event_id: '462'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AnimationID
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AnimationInstanceObject
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AnimationPropertyId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsTransition
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: QPCScheduleTime
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_animation

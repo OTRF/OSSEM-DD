@@ -1,35 +1,35 @@
-title: Event 308 - AppReadiness_ExecuteTask
-description: null
+name: Event 308 - AppReadiness_ExecuteTask
+description:
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
-event_code: '308'
+event_id: '308'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: User
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Source
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_Tasks

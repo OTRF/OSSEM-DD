@@ -1,17 +1,17 @@
-title: Event 1006 - Processinglpksetupunattendedexecutionfromthecommandline
-description: null
+name: Event 1006 - Processinglpksetupunattendedexecutionfromthecommandline
+description:
 platform: windows
 log_source: Microsoft-Windows-LanguagePackSetup
-event_code: '1006'
+event_id: '1006'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Language
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_opcode_Validateunattendedparameters

@@ -1,27 +1,27 @@
-title: Event 58
-description: null
+name: Event 58
+description:
 platform: windows
 log_source: Heap Trace Provider
-event_code: '58'
+event_id: '58'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Heap
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SubSegment
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BucketIndex
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags: []

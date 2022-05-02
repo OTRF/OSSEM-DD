@@ -1,8 +1,8 @@
-title: IMAP Log
-description: null
+name: IMAP Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: imap
+event_id: imap
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

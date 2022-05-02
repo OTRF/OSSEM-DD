@@ -1,35 +1,35 @@
-title: Event 4123 - NetworkSourceBufferingStop
-description: null
+name: Event 4123 - NetworkSourceBufferingStop
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
-event_code: '4123'
+event_id: '4123'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: tag
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: arg1
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: arg2
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_NetworkSourceBufferingStop

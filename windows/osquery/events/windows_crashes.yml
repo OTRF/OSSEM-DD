@@ -1,8 +1,8 @@
-title: Windows_crashes Table
+name: Windows_crashes Table
 description: Extracted information from Windows crash logs (Minidumps).
 platform: windows
 log_source: osquery
-event_code: windows_crashes
+event_id: windows_crashes
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

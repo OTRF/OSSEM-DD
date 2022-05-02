@@ -1,8 +1,5 @@
-title: Zeek Network Observations Event Logs
-description: Data collected about certificates, software, hosts, modbus, 
-  software, services/applications, etc.. that it has seen over time.
-
-  Example, the various software seen by a host over time.
+name: Zeek Network Observations Event Logs
+description: "Data collected about certificates, software, hosts, modbus, software, services/applications, etc.. that it has seen over time.\nExample, the various software seen by a host over time."
 images: []
 references:
 - text: Network Observation Logs

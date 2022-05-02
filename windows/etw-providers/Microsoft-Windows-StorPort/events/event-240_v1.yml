@@ -1,41 +1,41 @@
-title: Event 240 - Port
-description: null
+name: Event 240 - Port
+description:
 platform: windows
 log_source: Microsoft-Windows-StorPort
-event_code: '240'
+event_id: '240'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PoHandle
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PortNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: D3ColdSupported
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IdleTimeoutInMS
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumberOfFStates
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Power

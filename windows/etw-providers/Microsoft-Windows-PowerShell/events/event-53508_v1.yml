@@ -1,29 +1,29 @@
-title: Event 53508 - PowerShellNamedPipeIPC
-description: null
+name: Event 53508 - PowerShellNamedPipeIPC
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '53508'
+event_id: '53508'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: param1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: param2
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: param3
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Transport

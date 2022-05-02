@@ -1,23 +1,23 @@
-title: Event 3051 - task_0
-description: null
+name: Event 3051 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-UserDataAccess-UnifiedStore
-event_code: '3051'
+event_id: '3051'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Prop_Prop1
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Prop_Prop2
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Critical
 - etw_keywords_Unified_Store StateTransition

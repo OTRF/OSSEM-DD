@@ -1,10 +1,8 @@
-title: 'Event ID 5138: A directory service object was undeleted'
-description: This event generates every time an Active Directory object is undeleted.
-  It happens, for example, when an Active Directory object was restored from the Active
-  Directory Recycle Bin.
+name: 'Event ID 5138: A directory service object was undeleted'
+description: This event generates every time an Active Directory object is undeleted. It happens, for example, when an Active Directory object was restored from the Active Directory Recycle Bin.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5138'
+event_id: '5138'
 event_version: '0'
 event_fields:
 - standard_name: dsoperation_correlation_id
@@ -41,8 +39,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x3be49'
 - standard_name: host_domain
   standard_type: TBD
@@ -60,7 +57,7 @@ event_fields:
   standard_type: TBD
   name: OldObjectDN
   type: UnicodeString
-  description: "\_Old distinguished name of undeleted object."
+  description: " Old distinguished name of undeleted object."
   sample_value: CN=Andrei\0ADEL:53511188-bc98-4995-9d78-2d40143c9711,CN=Deleted Objects,DC=contoso,DC=local
 - standard_name: dsobject_new_dn
   standard_type: TBD
@@ -72,9 +69,7 @@ event_fields:
   standard_type: TBD
   name: ObjectGUID
   type: GUID
-  description: each Active Directory object has globally unique identifier (GUID),
-    which is a 128-bit value that is unique not only in the enterprise but also across
-    the world.
+  description: each Active Directory object has globally unique identifier (GUID), which is a 128-bit value that is unique not only in the enterprise but also across the world.
   sample_value: '{53511188-BC98-4995-9D78-2D40143C9711}'
 - standard_name: dsobject_class
   standard_type: TBD

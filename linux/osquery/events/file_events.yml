@@ -1,8 +1,8 @@
-title: File_events Table
+name: File_events Table
 description: Track time/action changes to files specified in configuration data.
 platform: linux
 log_source: osquery
-event_code: file_events
+event_id: file_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,8 +1,8 @@
-title: 'Event ID 2: RPC Firewall protection removed'
+name: 'Event ID 2: RPC Firewall protection removed'
 description: Event monitoring RPC Firewall protection being removed from a process.
 platform: windows
 log_source: RPCFWP
-event_code: '2'
+event_id: '2'
 event_version:
 event_fields:
 - standard_name: process_id
@@ -19,7 +19,7 @@ event_fields:
   sample_value: C:\Windows\system32\lsass.exe
 references: []
 tags: []
-example: |
+example: |-
   <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
     <System>
       <Provider Name="RPCFWP" /> 

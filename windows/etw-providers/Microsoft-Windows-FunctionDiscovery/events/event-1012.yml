@@ -1,23 +1,23 @@
-title: Event 1012 - FunDisc_FunctionInstanceCollectionQueryExecute
-description: null
+name: Event 1012 - FunDisc_FunctionInstanceCollectionQueryExecute
+description:
 platform: windows
 log_source: Microsoft-Windows-FunctionDiscovery
-event_code: '1012'
+event_id: '1012'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Category
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Subcategory
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

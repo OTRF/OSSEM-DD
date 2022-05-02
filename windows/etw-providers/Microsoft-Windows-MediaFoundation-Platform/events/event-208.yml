@@ -1,35 +1,35 @@
-title: Event 208 - MediaFoundationByteStreamOnInputStream_Read
-description: null
+name: Event 208 - MediaFoundationByteStreamOnInputStream_Read
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Platform
-event_code: '208'
+event_id: '208'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: stream
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: length
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: buffer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

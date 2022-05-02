@@ -1,17 +1,17 @@
-title: Event 91 - Jscript_GC_ResetWriteWatch
-description: null
+name: Event 91 - Jscript_GC_ResetWriteWatch
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '91'
+event_id: '91'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_JScriptGarbageCollection

@@ -1,8 +1,8 @@
-title: windows_eventlog
+name: windows_eventlog
 description: Table for querying all recorded Windows event logs
 platform: windows
 log_source: osquery
-event_code: windows_eventlog
+event_id: windows_eventlog
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

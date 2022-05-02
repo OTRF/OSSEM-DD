@@ -1,17 +1,17 @@
-title: Event 714 - Mshtml_CDragPreview_CreateSurface
-description: null
+name: Event 714 - Mshtml_CDragPreview_CreateSurface
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '714'
+event_id: '714'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DragPreview
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_draganddrop touch

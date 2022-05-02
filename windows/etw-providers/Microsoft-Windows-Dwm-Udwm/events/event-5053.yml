@@ -1,17 +1,17 @@
-title: Event 5053 - UdwmFlickVisual
-description: null
+name: Event 5053 - UdwmFlickVisual
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Udwm
-event_code: '5053'
+event_id: '5053'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Enum
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Udwm UdwmInput

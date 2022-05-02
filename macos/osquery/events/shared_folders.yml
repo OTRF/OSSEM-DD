@@ -1,8 +1,8 @@
-title: Shared_folders Table
+name: Shared_folders Table
 description: Folders available to others via SMB or AFP.
 platform: macos
 log_source: osquery
-event_code: shared_folders
+event_id: shared_folders
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

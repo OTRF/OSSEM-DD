@@ -1,29 +1,29 @@
-title: Event 6040 - task_0
-description: null
+name: Event 6040 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-SettingSync
-event_code: '6040'
+event_id: '6040'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SettingUnitId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SettingUnitTimestamp
   type: FILETIME
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DataStreamTimestamp
   type: FILETIME
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

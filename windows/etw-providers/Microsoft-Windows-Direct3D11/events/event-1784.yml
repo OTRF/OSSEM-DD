@@ -1,41 +1,41 @@
-title: Event 1784 - ID3D11VideoContext_DecoderBeginFrame
-description: null
+name: Event 1784 - ID3D11VideoContext_DecoderBeginFrame
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '1784'
+event_id: '1784'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pThis
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pDecoder
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: View
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ContentKeySize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pContentKey
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Start

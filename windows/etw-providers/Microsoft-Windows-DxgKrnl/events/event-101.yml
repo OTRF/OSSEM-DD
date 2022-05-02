@@ -1,41 +1,41 @@
-title: Event 101 - SignalSynchronizationObject
-description: null
+name: Event 101 - SignalSynchronizationObject
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '101'
+event_id: '101'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectArray
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FenceValue
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

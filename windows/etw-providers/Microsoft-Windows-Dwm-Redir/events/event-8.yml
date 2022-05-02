@@ -1,23 +1,23 @@
-title: Event 8 - RedirSetLivePreviewExcludeHwnd
-description: null
+name: Event 8 - RedirSetLivePreviewExcludeHwnd
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Redir
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hwnd
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fExcludedFromLivePreview
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmRedir

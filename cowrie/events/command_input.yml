@@ -1,8 +1,8 @@
-title: Cowrie command input
+name: Cowrie command input
 description: This dictionary details the fields for the command input of the Cowrie honeypot, which triggers when a command is input in an interactive session.
 platform: cowrie
 log_source: honeypot
-event_code: 'cowrie.command.input'
+event_id: 'cowrie.command.input'
 event_version: '0'
 event_fields:
 - standard_name: event_timestamp
@@ -10,7 +10,7 @@ event_fields:
   name: timestamp
   type: string
   description: Timestamp when the data was discovered in ISO 8601 format
-  sample_value: '2020-10-06T06:45:02.021156' 
+  sample_value: '2020-10-06T06:45:02.021156'
 - standard_name: src_ip_addr
   standard_type: ip
   name: src_ip

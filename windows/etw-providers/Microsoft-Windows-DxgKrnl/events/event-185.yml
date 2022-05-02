@@ -1,41 +1,41 @@
-title: Event 185 - RecordQueuePacketTimestamps
-description: null
+name: Event 185 - RecordQueuePacketTimestamps
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '185'
+event_id: '185'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FenceId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessorFrequencyInMHz
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumberOfTimestamps
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Timestamps
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

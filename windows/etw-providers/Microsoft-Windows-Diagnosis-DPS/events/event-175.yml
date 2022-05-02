@@ -1,47 +1,47 @@
-title: Event 175 - ScenarioLifecycle
-description: null
+name: Event 175 - ScenarioLifecycle
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-DPS
-event_code: '175'
+event_id: '175'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InstanceId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OriginalActivityId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DiagnosticModuleImageName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StatusCode
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DiagnosticModuleId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_lifecycle

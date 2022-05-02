@@ -1,29 +1,29 @@
-title: Event 99 - task_0
-description: null
+name: Event 99 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Backup
-event_code: '99'
+event_id: '99'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UserName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TemplateGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScheduleTimesList
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

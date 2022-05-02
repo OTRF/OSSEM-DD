@@ -1,8 +1,8 @@
-title: 'Event ID 4803: The screen saver was dismissed'
+name: 'Event ID 4803: The screen saver was dismissed'
 description: This event is generated when screen saver was dismissed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4803'
+event_id: '4803'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -27,15 +27,13 @@ event_fields:
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x759a9'
 - standard_name: user_session_id
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description: unique ID of a session for which screen saver was dismissed. You can
-    see the list of current session IDs using "query session" command in command prompt.
+  description: unique ID of a session for which screen saver was dismissed. You can see the list of current session IDs using "query session" command in command prompt.
   sample_value: '3'
 references:
 - text: MS Source

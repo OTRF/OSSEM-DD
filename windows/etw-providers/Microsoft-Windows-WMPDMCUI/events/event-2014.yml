@@ -1,17 +1,17 @@
-title: Event 2014 - PLAYTO_INTERNAL_OPERATION_PRECREATEDMCDEVICE
-description: null
+name: Event 2014 - PLAYTO_INTERNAL_OPERATION_PRECREATEDMCDEVICE
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPDMCUI
-event_code: '2014'
+event_id: '2014'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UDN
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_PLAYTO_INTERNAL_OPERATION_PRECREATEDMCDEVICE

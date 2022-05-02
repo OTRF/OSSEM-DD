@@ -1,17 +1,17 @@
-title: Event 1008 - ResourceExhaustionDiagnosisEvents
-description: null
+name: Event 1008 - ResourceExhaustionDiagnosisEvents
+description:
 platform: windows
 log_source: Microsoft-Windows-Resource-Exhaustion-Detector
-event_code: '1008'
+event_id: '1008'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_RDR_DET_KEYWORD_MEMORY_EXHAUSTION

@@ -1,17 +1,17 @@
-title: Event 319 - Debugger_BreakpointController_SetAllEnabledStates
-description: null
+name: Event 319 - Debugger_BreakpointController_SetAllEnabledStates
+description:
 platform: windows
 log_source: Microsoft-Windows-IE-F12-Provider
-event_code: '319'
+event_id: '319'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TraceDescription
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

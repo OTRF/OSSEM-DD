@@ -1,8 +1,8 @@
-title: Audit log for Azure Active Directory
+name: Audit log for Azure Active Directory
 description: Audit logs for Azure AD which includes system activity information about user and group management managed applications and directory activities.
 platform: azure
 log_source: auditlogs
-event_code: auditlogs
+event_id: auditlogs
 event_version: ''
 event_fields:
 - standard_name: TBD
@@ -22,7 +22,7 @@ event_fields:
   name: ActivityDateTime
   type: datetime
   description: "Date and time the activity was performed in UTC."
-  sample_value:  2021-08-03T18:48:33.8527147Z
+  sample_value: 2021-08-03T18:48:33.852715Z
 - standard_name: TBD
   standard_type: TBD
   name: ActivityDisplayName
@@ -34,7 +34,7 @@ event_fields:
   name: AdditionalDetails
   type: dynamic
   description: "Indicates additional details on the activity."
-  sample_value: | 
+  sample_value: |
     [
       {
         "key":"User-Agent",
@@ -76,7 +76,7 @@ event_fields:
   name: InitiatedBy
   type: dynamic
   description: "User or app initiated the activity."
-  sample_value: | 
+  sample_value: |
     {
       "app":
         {
@@ -208,7 +208,7 @@ event_fields:
   name: TimeGenerated
   type: datetime
   description: "The date and time of the event in UTC"
-  sample_value:  2021-08-03T18:48:33.8527147Z
+  sample_value: 2021-08-03T18:48:33.852715Z
 - standard_name: TBD
   standard_type: TBD
   name: Type

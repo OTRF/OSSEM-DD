@@ -1,35 +1,35 @@
-title: Event 5048 - ShowAnimationRequest
-description: null
+name: Event 5048 - ShowAnimationRequest
+description:
 platform: windows
 log_source: Microsoft-Windows-OOBE-FirstLogonAnim
-event_code: '5048'
+event_id: '5048'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fExistingUserOrPostZDP
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fZDP
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fTouchDevice
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fMouseDevice
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_FirstLogonAnim

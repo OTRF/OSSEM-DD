@@ -1,41 +1,41 @@
-title: Event 638 - AppXDeployment.Task.Server.Deployment
-description: null
+name: Event 638 - AppXDeployment.Task.Server.Deployment
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '638'
+event_id: '638'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: runningAppsList
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: directlyServicedPackagesList
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: indirectlyServicedPackagesList
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: numAttempts
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: isSessionLocked
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000

@@ -1,29 +1,29 @@
-title: Event 4513 - Platform:Shutdown_WorkQueue
-description: null
+name: Event 4513 - Platform:Shutdown_WorkQueue
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
-event_code: '4513'
+event_id: '4513'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Platform
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueue
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Index
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

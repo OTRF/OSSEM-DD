@@ -1,8 +1,8 @@
-title: Osquery_events Table
+name: Osquery_events Table
 description: Information about the event publishers and subscribers.
 platform: macos
 log_source: osquery
-event_code: osquery_events
+event_id: osquery_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

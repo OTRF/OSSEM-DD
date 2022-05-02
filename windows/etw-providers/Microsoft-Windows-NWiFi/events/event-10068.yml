@@ -1,41 +1,41 @@
-title: Event 10068 - StartingdevicenetworkatIMdriver
-description: null
+name: Event 10068 - StartingdevicenetworkatIMdriver
+description:
 platform: windows
 log_source: Microsoft-Windows-NWiFi
-event_code: '10068'
+event_id: '10068'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ContextHandle
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MAC
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SSID
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_SOFTAP

@@ -1,17 +1,17 @@
-title: Event 5382 - Dashboard_Network_Adapter_EnumerateAdapters
-description: null
+name: Event 5382 - Dashboard_Network_Adapter_EnumerateAdapters
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
-event_code: '5382'
+event_id: '5382'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AdapterCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_dashboard

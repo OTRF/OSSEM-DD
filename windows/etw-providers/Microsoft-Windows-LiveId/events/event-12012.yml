@@ -1,17 +1,17 @@
-title: Event 12012 - task_0
-description: null
+name: Event 12012 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-LiveId
-event_code: '12012'
+event_id: '12012'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Error Extension

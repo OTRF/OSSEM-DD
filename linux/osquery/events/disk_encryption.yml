@@ -1,8 +1,8 @@
-title: Disk_encryption Table
+name: Disk_encryption Table
 description: Disk encryption status and information.
 platform: linux
 log_source: osquery
-event_code: disk_encryption
+event_id: disk_encryption
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -45,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: encryption_status
   type: TEXT
-  description: 'Disk encryption status with one of following values: encrypted | not
-    encrypted | undefined'
+  description: 'Disk encryption status with one of following values: encrypted | not encrypted | undefined'
   sample_value: TBD
 references:
 - text: OSQuery table documentation

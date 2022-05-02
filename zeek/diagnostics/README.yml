@@ -1,5 +1,5 @@
-title: Zeek Diagnostics Event Logs
-description: null
+name: Zeek Diagnostics Event Logs
+description:
 images: []
 references:
 - text: Diagnostic Logs

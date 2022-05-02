@@ -1,35 +1,35 @@
-title: Event 3502 - InferDescription
-description: null
+name: Event 3502 - InferDescription
+description:
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
-event_code: '3502'
+event_id: '3502'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: data1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: data2
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: data3
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WFServices

@@ -1,29 +1,29 @@
-title: Event 58 - AudioCore_EVT_MMDevAPI
-description: null
+name: Event 58 - AudioCore_EVT_MMDevAPI
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '58'
+event_id: '58'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: flow
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: role
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TargetProcessId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Defaultdevicechangedtriggered

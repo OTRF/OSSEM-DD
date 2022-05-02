@@ -1,23 +1,23 @@
-title: Event 88 - DISCMEDIACHANGE
-description: null
+name: Event 88 - DISCMEDIACHANGE
+description:
 platform: windows
 log_source: Microsoft-Windows-WMP
-event_code: '88'
+event_id: '88'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Value1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Value2
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_mediaplayer

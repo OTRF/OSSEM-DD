@@ -1,23 +1,23 @@
-title: Event 6114 - DocPerf_Task_Setup_DetectRemotePrinterHardwareID
-description: null
+name: Event 6114 - DocPerf_Task_Setup_DetectRemotePrinterHardwareID
+description:
 platform: windows
 log_source: Microsoft-Windows-Documents
-event_code: '6114'
+event_id: '6114'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HardwareID
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

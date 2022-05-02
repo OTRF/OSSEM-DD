@@ -1,47 +1,47 @@
-title: Event 783 - Mshtml_Media_Capture_Sample_Requested
-description: null
+name: Event 783 - Mshtml_Media_Capture_Sample_Requested
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '783'
+event_id: '783'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SampleRequstedCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SampleDeliveredCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SampleReceivedCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SampleDroppedCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TrackKind
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

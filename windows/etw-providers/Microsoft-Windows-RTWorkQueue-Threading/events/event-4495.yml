@@ -1,29 +1,29 @@
-title: Event 4495 - SubscribeCpuGroupMaskChangeWNF
-description: null
+name: Event 4495 - SubscribeCpuGroupMaskChangeWNF
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
-event_code: '4495'
+event_id: '4495'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: queryStatus
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: subscribeStatus
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: changeStamp
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_SubscribeCpuGroupMaskChangeWNF

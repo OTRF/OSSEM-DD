@@ -1,17 +1,17 @@
-title: Event 25058 - Logon_LaunchToReadyForInput
-description: null
+name: Event 25058 - Logon_LaunchToReadyForInput
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
-event_code: '25058'
+event_id: '25058'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ReadyForInputScenario
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

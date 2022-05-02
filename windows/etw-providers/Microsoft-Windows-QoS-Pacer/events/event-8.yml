@@ -1,29 +1,29 @@
-title: Event 8 - task_0
-description: null
+name: Event 8 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-QoS-Pacer
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DsClass
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TrafficClass
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Wmm
   type: Int16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_keyword_40000000000

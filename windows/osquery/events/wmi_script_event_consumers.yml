@@ -1,10 +1,8 @@
-title: Wmi_script_event_consumers Table
-description: WMI ActiveScriptEventConsumer, which can be used for persistence on Windows.
-  See https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf
-  for more details.
+name: Wmi_script_event_consumers Table
+description: WMI ActiveScriptEventConsumer, which can be used for persistence on Windows. See https://www.blackhat.com/docs/us-15/materials/us-15-Graeber-Abusing-Windows-Management-Instrumentation-WMI-To-Build-A-Persistent%20Asynchronous-And-Fileless-Backdoor-wp.pdf for more details.
 platform: windows
 log_source: osquery
-event_code: wmi_script_event_consumers
+event_id: wmi_script_event_consumers
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -17,22 +15,19 @@ event_fields:
   standard_type: TBD
   name: scripting_engine
   type: TEXT
-  description: Name of the scripting engine to use, for example, 'VBScript'. This
-    property cannot be NULL.
+  description: Name of the scripting engine to use, for example, 'VBScript'. This property cannot be NULL.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: script_file_name
   type: TEXT
-  description: Name of the file from which the script text is read, intended as an
-    alternative to specifying the text of the script in the ScriptText property.
+  description: Name of the file from which the script text is read, intended as an alternative to specifying the text of the script in the ScriptText property.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: script_text
   type: TEXT
-  description: Text of the script that is expressed in a language known to the scripting
-    engine. This property must be NULL if the ScriptFileName property is not NULL.
+  description: Text of the script that is expressed in a language known to the scripting engine. This property must be NULL if the ScriptFileName property is not NULL.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

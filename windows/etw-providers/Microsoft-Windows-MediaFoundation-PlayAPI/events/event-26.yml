@@ -1,29 +1,29 @@
-title: Event 26 - MFPlay
-description: null
+name: Event 26 - MFPlay
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-PlayAPI
-event_code: '26'
+event_id: '26'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeIn100ns
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserData
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

@@ -1,8 +1,8 @@
-title: Yara Table
+name: Yara Table
 description: Track YARA matches for files or PIDs.
 platform: windows
 log_source: osquery
-event_code: yara
+event_id: yara
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

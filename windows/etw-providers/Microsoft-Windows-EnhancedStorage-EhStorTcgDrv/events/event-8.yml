@@ -1,23 +1,23 @@
-title: Event 8 - Driver
-description: null
+name: Event 8 - Driver
+description:
 platform: windows
 log_source: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Name
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: String
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_opcode_General

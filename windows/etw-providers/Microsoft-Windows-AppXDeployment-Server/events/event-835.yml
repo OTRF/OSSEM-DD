@@ -1,23 +1,23 @@
-title: Event 835 - AppXDeployment.Task.Server.Dependency
-description: null
+name: Event 835 - AppXDeployment.Task.Server.Dependency
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '835'
+event_id: '835'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageMoniker
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageMoniker2
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

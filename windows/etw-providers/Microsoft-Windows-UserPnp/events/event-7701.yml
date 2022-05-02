@@ -1,23 +1,23 @@
-title: Event 7701 - PnP_SetupAPI_CallClassInstaller
-description: null
+name: Event 7701 - PnP_SetupAPI_CallClassInstaller
+description:
 platform: windows
 log_source: Microsoft-Windows-UserPnp
-event_code: '7701'
+event_id: '7701'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DIF_CODE
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_UserPnp

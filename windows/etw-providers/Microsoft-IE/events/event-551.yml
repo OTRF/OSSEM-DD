@@ -1,23 +1,23 @@
-title: Event 551 - Mshtml_Prerendering
-description: null
+name: Event 551 - Mshtml_Prerendering
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '551'
+event_id: '551'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Prerender_URL
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Deferred_Item
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

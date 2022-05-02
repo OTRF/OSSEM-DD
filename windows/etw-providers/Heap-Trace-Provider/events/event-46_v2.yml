@@ -1,15 +1,15 @@
-title: Event 46
-description: null
+name: Event 46
+description:
 platform: windows
 log_source: Heap Trace Provider
-event_code: '46'
+event_id: '46'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HeapHandle
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags: []

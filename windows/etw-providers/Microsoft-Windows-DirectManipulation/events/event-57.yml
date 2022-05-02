@@ -1,23 +1,23 @@
-title: Event 57 - Manipulation_ManagerDeactivate
-description: null
+name: Event 57 - Manipulation_ManagerDeactivate
+description:
 platform: windows
 log_source: Microsoft-Windows-DirectManipulation
-event_code: '57'
+event_id: '57'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ManagerPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hWnd
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,17 +1,17 @@
-title: Event 2216 - SharingManager_GetQuickShareTarget
-description: null
+name: Event 2216 - SharingManager_GetQuickShareTarget
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '2216'
+event_id: '2216'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Index
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

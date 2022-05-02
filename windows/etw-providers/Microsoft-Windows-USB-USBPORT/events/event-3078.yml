@@ -1,17 +1,17 @@
-title: Event 3078 - MiniportStop
-description: null
+name: Event 3078 - MiniportStop
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
-event_code: '3078'
+event_id: '3078'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_HC
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

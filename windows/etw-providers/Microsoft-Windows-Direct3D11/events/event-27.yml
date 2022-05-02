@@ -1,35 +1,35 @@
-title: Event 27 - QueryInterface
-description: null
+name: Event 27 - QueryInterface
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '27'
+event_id: '27'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pThis
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: riid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: m_Ret
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ppvObject
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_task_QueryInterface

@@ -1,8 +1,8 @@
-title: Virtual_memory_info Table
+name: Virtual_memory_info Table
 description: Darwin Virtual Memory statistics.
 platform: macos
 log_source: osquery
-event_code: virtual_memory_info
+event_id: virtual_memory_info
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -129,15 +129,13 @@ event_fields:
   standard_type: TBD
   name: swap_ins
   type: BIGINT
-  description: The total number of compressed pages that have been swapped out to
-    disk.
+  description: The total number of compressed pages that have been swapped out to disk.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: swap_outs
   type: BIGINT
-  description: The total number of compressed pages that have been swapped back in
-    from disk.
+  description: The total number of compressed pages that have been swapped back in from disk.
   sample_value: TBD
 references:
 - text: OSQuery table documentation

@@ -1,8 +1,8 @@
-title: Background_activities_moderator Table
+name: Background_activities_moderator Table
 description: Background Activities Moderator (BAM) tracks application execution.
 platform: windows
 log_source: osquery
-event_code: background_activities_moderator
+event_id: background_activities_moderator
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

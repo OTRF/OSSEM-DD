@@ -1,35 +1,35 @@
-title: Event 12 - PowerSchemeChanged
-description: null
+name: Event 12 - PowerSchemeChanged
+description:
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
-event_code: '12'
+event_id: '12'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessPath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessPid
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldSchemeGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewSchemeGuid
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_PowerSchemeChanged

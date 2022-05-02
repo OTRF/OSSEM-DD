@@ -1,17 +1,17 @@
-title: Event 16 - MessageExchange
-description: null
+name: Event 16 - MessageExchange
+description:
 platform: windows
 log_source: Microsoft-Windows-WebServices
-event_code: '16'
+event_id: '16'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: correlationId
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_keywords.Message

@@ -1,29 +1,29 @@
-title: Event 490 - AppXDeployment.Task.Server.Deployment
-description: null
+name: Event 490 - AppXDeployment.Task.Server.Deployment
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '490'
+event_id: '490'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Offset
   type: HexInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: HexInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

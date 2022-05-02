@@ -1,29 +1,29 @@
-title: Event 624 - Mshtml_SetStyle
-description: null
+name: Event 624 - Mshtml_SetStyle
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '624'
+event_id: '624'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ElementDDTId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StyleProperty
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewValue
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_verbose

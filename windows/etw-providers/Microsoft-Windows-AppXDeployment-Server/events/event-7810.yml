@@ -1,17 +1,17 @@
-title: Event 7810 - AppXDeployment.Task.Server.OSIM
-description: null
+name: Event 7810 - AppXDeployment.Task.Server.OSIM
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '7810'
+event_id: '7810'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_OSIM_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD APPSYNC_DEH_KEYWORD

@@ -1,17 +1,17 @@
-title: Event 604 - Browseui_CBrowserFrame_CreateInstance_Perftrack
-description: null
+name: Event 604 - Browseui_CBrowserFrame_CreateInstance_Perftrack
+description:
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
-event_code: '604'
+event_id: '604'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

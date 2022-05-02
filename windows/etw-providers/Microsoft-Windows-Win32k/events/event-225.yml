@@ -1,29 +1,29 @@
-title: Event 225 - OnInputXformUpdate
-description: null
+name: Event 225 - OnInputXformUpdate
+description:
 platform: windows
 log_source: Microsoft-Windows-Win32k
-event_code: '225'
+event_id: '225'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Hwnd
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: XformQPCTime
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: XformUpdated
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_MessagePumpInternalAndInput ComponentHosting

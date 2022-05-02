@@ -1,41 +1,41 @@
-title: Event 8501 - AppXDeployment.Task.Server.Extensions
-description: null
+name: Event 8501 - AppXDeployment.Task.Server.Extensions
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '8501'
+event_id: '8501'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MofFile
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PhaseError
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectNum
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FirstLine
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LastLine
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_keyword_20000000000

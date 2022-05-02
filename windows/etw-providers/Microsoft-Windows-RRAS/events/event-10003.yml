@@ -1,35 +1,35 @@
-title: Event 10003 - task_0
-description: null
+name: Event 10003 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-RRAS
-event_code: '10003'
+event_id: '10003'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DebugString
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RoutingDomainID
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RRASUserName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PortNo
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ut:Rtm

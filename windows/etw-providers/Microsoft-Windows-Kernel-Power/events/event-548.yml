@@ -1,23 +1,23 @@
-title: Event 548 - DirectedPowerTransitionEnd
-description: null
+name: Event 548 - DirectedPowerTransitionEnd
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '548'
+event_id: '548'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceNode
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PowerDown
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic

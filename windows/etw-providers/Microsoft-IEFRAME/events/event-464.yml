@@ -1,17 +1,17 @@
-title: Event 464 - BrowserRoamedSettingChange_WinInet
-description: null
+name: Event 464 - BrowserRoamedSettingChange_WinInet
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '464'
+event_id: '464'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HWND
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_roaming

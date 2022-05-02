@@ -1,9 +1,8 @@
-title: Block_devices Table
-description: 'Block (buffered access) device file nodes: disks, ramdisks, and DMG
-  containers.'
+name: Block_devices Table
+description: 'Block (buffered access) device file nodes: disks, ramdisks, and DMG containers.'
 platform: macos
 log_source: osquery
-event_code: block_devices
+event_id: block_devices
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

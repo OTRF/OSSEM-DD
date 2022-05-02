@@ -1,29 +1,29 @@
-title: Event 59994 - ThreadToken
-description: null
+name: Event 59994 - ThreadToken
+description:
 platform: windows
 log_source: Microsoft-Windows-WebIO
-event_code: '59994'
+event_id: '59994'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Token
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SID
   type: SID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Get

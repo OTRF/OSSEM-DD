@@ -1,29 +1,29 @@
-title: Event 28127 - Shell32_StateStoreCommitRetry
-description: null
+name: Event 28127 - Shell32_StateStoreCommitRetry
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '28127'
+event_id: '28127'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UpdateSource
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RetryCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

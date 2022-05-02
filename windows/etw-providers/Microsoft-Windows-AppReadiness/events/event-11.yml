@@ -1,41 +1,41 @@
-title: Event 11 - AppReadiness_Error
-description: null
+name: Event 11 - AppReadiness_Error
+description:
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
-event_code: '11'
+event_id: '11'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Expression
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Function
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: File
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Line
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_Error

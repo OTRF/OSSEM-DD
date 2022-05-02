@@ -1,17 +1,17 @@
-title: Event 317 - TaskEnginestarted_317
-description: null
+name: Event 317 - TaskEnginestarted_317
+description:
 platform: windows
 log_source: Microsoft-Windows-TaskScheduler
-event_code: '317'
+event_id: '317'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TaskEngineName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

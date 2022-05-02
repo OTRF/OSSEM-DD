@@ -1,35 +1,35 @@
-title: Event 656 - SoftKeyboard_OutputManager_PredictionsProcessed
-description: null
+name: Event 656 - SoftKeyboard_OutputManager_PredictionsProcessed
+description:
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
-event_code: '656'
+event_id: '656'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TopPrediction
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Alternate1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Alternate2
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Alternate3
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

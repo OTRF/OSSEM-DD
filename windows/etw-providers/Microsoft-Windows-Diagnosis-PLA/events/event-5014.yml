@@ -1,35 +1,35 @@
-title: Event 5014 - task_0
-description: null
+name: Event 5014 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-PLA
-event_code: '5014'
+event_id: '5014'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Line
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Address
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_memory

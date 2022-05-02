@@ -1,8 +1,8 @@
-title: MySQL Log
-description: null
+name: MySQL Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: mysql
+event_id: mysql
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

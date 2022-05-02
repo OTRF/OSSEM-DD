@@ -1,17 +1,17 @@
-title: Event 13001 - UserStateDeletion
-description: null
+name: Event 13001 - UserStateDeletion
+description:
 platform: windows
 log_source: Microsoft-AppV-Client
-event_code: '13001'
+event_id: '13001'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Package
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_VFS

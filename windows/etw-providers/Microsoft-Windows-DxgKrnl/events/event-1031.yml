@@ -1,35 +1,35 @@
-title: Event 1031 - MiracastUmdDriverCbMiracastIoControl
-description: null
+name: Event 1031 - MiracastUmdDriverCbMiracastIoControl
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1031'
+event_id: '1031'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MiracastLuid
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HardwareAccess
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InputBufferSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OutputBufferSize
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Miracast

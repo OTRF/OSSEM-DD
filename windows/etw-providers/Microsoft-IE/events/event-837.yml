@@ -1,17 +1,17 @@
-title: Event 837 - Mshtml_EventLoop_PerformMicrotaskCheckpoint
-description: null
+name: Event 837 - Mshtml_EventLoop_PerformMicrotaskCheckpoint
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '837'
+event_id: '837'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IsPerformingMicrotaskCheckpoint
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_gwnd

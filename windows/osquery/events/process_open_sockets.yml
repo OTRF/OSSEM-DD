@@ -1,8 +1,8 @@
-title: Process_open_sockets Table
+name: Process_open_sockets Table
 description: Processes which have open network sockets on the system.
 platform: windows
 log_source: osquery
-event_code: process_open_sockets
+event_id: process_open_sockets
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

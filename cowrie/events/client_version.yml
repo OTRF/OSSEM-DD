@@ -1,8 +1,8 @@
-title: Cowrie client version
+name: Cowrie client version
 description: This dictionary details the fields for the client version event of the Cowrie honeypot, which triggers on SSH authentication attempts and logs the version of the remote SSH client.
 platform: cowrie
 log_source: honeypot
-event_code: 'cowrie.client.version'
+event_id: 'cowrie.client.version'
 event_version: '0'
 event_fields:
 - standard_name: event_timestamp
@@ -10,7 +10,7 @@ event_fields:
   name: timestamp
   type: string
   description: Timestamp when the data was discovered in ISO 8601 format
-  sample_value: '2020-10-06T06:45:02.021156' 
+  sample_value: '2020-10-06T06:45:02.021156'
 - standard_name: src_ip_addr
   standard_type: ip
   name: src_ip

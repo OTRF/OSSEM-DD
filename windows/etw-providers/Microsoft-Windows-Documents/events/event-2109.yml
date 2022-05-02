@@ -1,29 +1,29 @@
-title: Event 2109 - DocPerf_Task_PFPM_API_EnterExit
-description: null
+name: Event 2109 - DocPerf_Task_PFPM_API_EnterExit
+description:
 platform: windows
 log_source: Microsoft-Windows-Documents
-event_code: '2109'
+event_id: '2109'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FilterName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

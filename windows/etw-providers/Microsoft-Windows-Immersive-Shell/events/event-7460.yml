@@ -1,17 +1,17 @@
-title: Event 7460 - Perftrack_ConnectedSearch_PageLoadWithImages
-description: null
+name: Event 7460 - Perftrack_ConnectedSearch_PageLoadWithImages
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '7460'
+event_id: '7460'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Scope
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

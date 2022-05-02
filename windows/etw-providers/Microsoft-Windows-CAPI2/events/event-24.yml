@@ -1,17 +1,17 @@
-title: Event 24 - RetrieveCrossCertificatefromNetwork
-description: null
+name: Event 24 - RetrieveCrossCertificatefromNetwork
+description:
 platform: windows
 log_source: Microsoft-Windows-CAPI2
-event_code: '24'
+event_id: '24'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EventWriteData
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PathDiscovery Retrieval

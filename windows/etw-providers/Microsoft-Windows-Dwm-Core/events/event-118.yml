@@ -1,29 +1,29 @@
-title: Event 118 - ETWGUID_DWMUPDATEBLTTRANSLATION_CLIP
-description: null
+name: Event 118 - ETWGUID_DWMUPDATEBLTTRANSLATION_CLIP
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '118'
+event_id: '118'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hWnd
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: rcBltClip
   type: Int8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: rcWindow
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

@@ -1,9 +1,8 @@
-title: 'Event ID 4929: An Active Directory replica source naming context was removed.'
-description: This event generates every time Active Directory replica source naming
-  context was removed.
+name: 'Event ID 4929: An Active Directory replica source naming context was removed.'
+description: This event generates every time Active Directory replica source naming context was removed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4929'
+event_id: '4929'
 event_version: '0'
 event_fields:
 - standard_name: destination_dra

@@ -1,29 +1,29 @@
-title: Event 180 - SVRRequestSample
-description: null
+name: Event 180 - SVRRequestSample
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '180'
+event_id: '180'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RequestsPending
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FrameQueueCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_SVRRequestSample

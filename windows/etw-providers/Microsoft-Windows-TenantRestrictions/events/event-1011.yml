@@ -1,17 +1,17 @@
-title: Event 1011 - SyncService1011
-description: null
+name: Event 1011 - SyncService1011
+description:
 platform: windows
 log_source: Microsoft-Windows-TenantRestrictions
-event_code: '1011'
+event_id: '1011'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InvalidGuid
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_task_SyncService

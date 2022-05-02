@@ -1,8 +1,8 @@
-title: Authenticode Table
+name: Authenticode Table
 description: File (executable, bundle, installer, disk) code signing status.
 platform: windows
 log_source: osquery
-event_code: authenticode
+event_id: authenticode
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

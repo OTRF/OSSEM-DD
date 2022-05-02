@@ -1,8 +1,8 @@
-title: Launchd Table
+name: Launchd Table
 description: LaunchAgents and LaunchDaemons from default search paths.
 platform: macos
 log_source: osquery
-event_code: launchd
+event_id: launchd
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

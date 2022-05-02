@@ -1,17 +1,17 @@
-title: Event 139 - Mshtml_View_OnViewQ
-description: null
+name: Event 139 - Mshtml_View_OnViewQ
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '139'
+event_id: '139'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: View
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

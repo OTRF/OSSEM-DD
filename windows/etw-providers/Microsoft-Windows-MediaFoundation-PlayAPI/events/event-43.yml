@@ -1,29 +1,29 @@
-title: Event 43 - MFPlay
-description: null
+name: Event 43 - MFPlay
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-PlayAPI
-event_code: '43'
+event_id: '43'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Balance
   type: Float
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

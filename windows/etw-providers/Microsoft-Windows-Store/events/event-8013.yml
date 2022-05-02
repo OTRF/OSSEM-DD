@@ -1,35 +1,35 @@
-title: Event 8013 - LMStateMachine
-description: null
+name: Event 8013 - LMStateMachine
+description:
 platform: windows
 log_source: Microsoft-Windows-Store
-event_code: '8013'
+event_id: '8013'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: StateMachine
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StateMachineName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CurrentState
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_keyword_200000000000

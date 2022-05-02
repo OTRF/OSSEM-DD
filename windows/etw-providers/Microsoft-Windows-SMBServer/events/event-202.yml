@@ -1,17 +1,17 @@
-title: Event 202 - Smb2WorkItemStop
-description: null
+name: Event 202 - Smb2WorkItemStop
+description:
 platform: windows
 log_source: Microsoft-Windows-SMBServer
-event_code: '202'
+event_id: '202'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkItem
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Transition

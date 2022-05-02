@@ -1,35 +1,35 @@
-title: Event 128 - PdcInvalidArgumentToFunction
-description: null
+name: Event 128 - PdcInvalidArgumentToFunction
+description:
 platform: windows
 log_source: Microsoft-Windows-PDC
-event_code: '128'
+event_id: '128'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionNameLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ArgumentNameLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ArgumentName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_task_PdcInvalidArgumentToFunction

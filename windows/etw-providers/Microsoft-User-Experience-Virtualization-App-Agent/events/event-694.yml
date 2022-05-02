@@ -1,17 +1,17 @@
-title: Event 694 - AgentService
-description: null
+name: Event 694 - AgentService
+description:
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
-event_code: '694'
+event_id: '694'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: stringValue1
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_AgentService

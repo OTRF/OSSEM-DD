@@ -1,29 +1,29 @@
-title: Event 575 - Mshtml_EventDebug_XmlHttpRequest_Open
-description: null
+name: Event 575 - Mshtml_EventDebug_XmlHttpRequest_Open
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '575'
+event_id: '575'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: XHR
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Method
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Url
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_eventsandtimers

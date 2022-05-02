@@ -1,53 +1,53 @@
-title: Event 1007 - UNCHardeningConfiguration
-description: null
+name: Event 1007 - UNCHardeningConfiguration
+description:
 platform: windows
 log_source: Microsoft-Windows-NetworkProvider
-event_code: '1007'
+event_id: '1007'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UncPathLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UncPath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UncHardeningConfigurationLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UncHardeningConfiguration
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ExpectedToken
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FoundTokenLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FoundToken
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_UncHardening

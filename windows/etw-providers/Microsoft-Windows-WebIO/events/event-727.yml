@@ -1,29 +1,29 @@
-title: Event 727 - SSLConnectionBufferReceive
-description: null
+name: Event 727 - SSLConnectionBufferReceive
+description:
 platform: windows
 log_source: Microsoft-Windows-WebIO
-event_code: '727'
+event_id: '727'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Connection
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldBuffer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewBuffer
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Keyword.RECEIVE

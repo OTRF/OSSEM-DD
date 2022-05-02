@@ -1,35 +1,35 @@
-title: Event 19 - Endpoint
-description: null
+name: Event 19 - Endpoint
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
-event_code: '19'
+event_id: '19'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_HC
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint
   type: FILETIME
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint_Descriptor
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic PowerDiagnostics

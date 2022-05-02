@@ -1,8 +1,8 @@
-title: Service Principal Signin Logs
+name: Service Principal Signin Logs
 description: Azure authentication signin logs for Service Principals common schema.
 platform: azure
 log_source: aadserviceprincipalsigninlogs
-event_code: aadserviceprincipalsigninlogs
+event_id: aadserviceprincipalsigninlogs
 event_version: ''
 event_fields:
 - standard_name: TBD
@@ -146,7 +146,7 @@ event_fields:
   name: TimeGenerated
   type: datetime
   description: "The date and time of the event in UTC"
-  sample_value:  2021-08-03T18:48:33.8527147Z
+  sample_value: 2021-08-03T18:48:33.852715Z
 - standard_name: TBD
   standard_type: TBD
   name: Type

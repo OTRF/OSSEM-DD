@@ -1,41 +1,41 @@
-title: Event 509 - ClientConnection_CallWithReturn
-description: null
+name: Event 509 - ClientConnection_CallWithReturn
+description:
 platform: windows
 log_source: Microsoft-Windows-UIAutomationCore
-event_code: '509'
+event_id: '509'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MethodName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectReference
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Duration
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InstanceId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

@@ -1,17 +1,17 @@
-title: Event 6308 - DocPerf_Task_WSDMon_BackupDeviceId
-description: null
+name: Event 6308 - DocPerf_Task_WSDMon_BackupDeviceId
+description:
 platform: windows
 log_source: Microsoft-Windows-Documents
-event_code: '6308'
+event_id: '6308'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PortName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

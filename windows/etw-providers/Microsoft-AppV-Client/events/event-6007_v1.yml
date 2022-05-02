@@ -1,23 +1,23 @@
-title: Event 6007 - ConfigureVirtualServices
-description: null
+name: Event 6007 - ConfigureVirtualServices
+description:
 platform: windows
 log_source: Microsoft-AppV-Client
-event_code: '6007'
+event_id: '6007'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Item1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Item2
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_VirtualServices

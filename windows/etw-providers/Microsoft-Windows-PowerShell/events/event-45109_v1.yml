@@ -1,17 +1,17 @@
-title: Event 45109 - WorkflowExecution
-description: null
+name: Event 45109 - WorkflowExecution
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '45109'
+event_id: '45109'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: workflowId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_PSWorkflow

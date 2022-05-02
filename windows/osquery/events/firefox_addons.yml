@@ -1,8 +1,8 @@
-title: Firefox_addons Table
+name: Firefox_addons Table
 description: Firefox browser extensions, webapps, and addons.
 platform: windows
 log_source: osquery
-event_code: firefox_addons
+event_id: firefox_addons
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

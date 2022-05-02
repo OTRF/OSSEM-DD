@@ -1,9 +1,8 @@
-title: Patches Table
-description: 'Lists all the patches applied. Note: This does not include patches applied
-  via MSI or downloaded from Windows Update (e.g. Service Packs).'
+name: Patches Table
+description: 'Lists all the patches applied. Note: This does not include patches applied via MSI or downloaded from Windows Update (e.g. Service Packs).'
 platform: windows
 log_source: osquery
-event_code: patches
+event_id: patches
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -46,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: install_date
   type: TEXT
-  description: Indicates when the patch was installed. Lack of a value does not indicate
-    that the patch was not installed.
+  description: Indicates when the patch was installed. Lack of a value does not indicate that the patch was not installed.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

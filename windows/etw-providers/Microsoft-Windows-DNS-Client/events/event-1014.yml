@@ -1,29 +1,29 @@
-title: Event 1014 - DnsAllServersTimeoutSystem
-description: null
+name: Event 1014 - DnsAllServersTimeoutSystem
+description:
 platform: windows
 log_source: Microsoft-Windows-DNS-Client
-event_code: '1014'
+event_id: '1014'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: QueryName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddressLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Address
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_ut:DnsAutoLogKeyword

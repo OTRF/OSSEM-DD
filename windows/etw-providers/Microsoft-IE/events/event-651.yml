@@ -1,29 +1,29 @@
-title: Event 651 - Mshtml_Generic_Diagnosis_Warn0
-description: null
+name: Event 651 - Mshtml_Generic_Diagnosis_Warn0
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '651'
+event_id: '651'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WarningDescription
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StringParam
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_mshtml

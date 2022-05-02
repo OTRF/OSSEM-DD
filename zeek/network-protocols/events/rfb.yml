@@ -1,8 +1,8 @@
-title: RFB Log
-description: null
+name: RFB Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: rfb
+event_id: rfb
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

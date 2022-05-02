@@ -1,29 +1,29 @@
-title: Event 91 - Backoff_HighCPUCheck
-description: null
+name: Event 91 - Backoff_HighCPUCheck
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '91'
+event_id: '91'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Idle
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MaxIdle
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsHigh
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Backoff

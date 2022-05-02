@@ -1,29 +1,29 @@
-title: Event 1245 - RssBindingRundown
-description: null
+name: Event 1245 - RssBindingRundown
+description:
 platform: windows
 log_source: Microsoft-Windows-TCPIP
-event_code: '1245'
+event_id: '1245'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceIndex
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AdapterIndex
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PortNumber
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ut:TcpipInterface ut:TcpipDiagnosis ut:Rss ut:Global

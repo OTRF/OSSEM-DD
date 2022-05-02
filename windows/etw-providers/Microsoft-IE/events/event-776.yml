@@ -1,47 +1,47 @@
-title: Event 776 - Mshtml_Ortc_Capture_Sample_Dropped
-description: null
+name: Event 776 - Mshtml_Ortc_Capture_Sample_Dropped
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '776'
+event_id: '776'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SampleRequstedCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SampleDeliveredCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SampleReceivedCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SampleDroppedCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TrackKind
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

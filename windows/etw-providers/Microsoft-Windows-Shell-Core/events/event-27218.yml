@@ -1,17 +1,17 @@
-title: Event 27218 - PerfTrack_InspectorWindow
-description: null
+name: Event 27218 - PerfTrack_InspectorWindow
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '27218'
+event_id: '27218'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PerfTrackId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell WDI

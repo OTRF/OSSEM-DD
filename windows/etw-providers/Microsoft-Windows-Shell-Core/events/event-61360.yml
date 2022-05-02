@@ -1,53 +1,53 @@
-title: Event 61360 - FileAccessAPI_Enumeration
-description: null
+name: Event 61360 - FileAccessAPI_Enumeration
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '61360'
+event_id: '61360'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TopViewId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumExtensionFilters
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppQuery
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserQuery
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FolderDepth
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IndexerOption
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumSortEntries
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

@@ -1,29 +1,29 @@
-title: Event 2150 - task_0
-description: null
+name: Event 2150 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
-event_code: '2150'
+event_id: '2150'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SettingType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Enabled
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_wpnend wpntroubleshoot wpndebug_platform_setting

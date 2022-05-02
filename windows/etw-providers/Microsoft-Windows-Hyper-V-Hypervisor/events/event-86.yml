@@ -1,41 +1,41 @@
-title: Event 86 - task_0
-description: null
+name: Event 86 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-Hypervisor
-event_code: '86'
+event_id: '86'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ExpectedVersion
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActualVersion
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ExpectedFunctionTableSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActualFunctionTableSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UpdateDllName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_keyword_400000000000

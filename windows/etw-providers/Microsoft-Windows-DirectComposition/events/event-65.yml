@@ -1,23 +1,23 @@
-title: Event 65 - FLIP_PRODUCE_PRESENT
-description: null
+name: Event 65 - FLIP_PRODUCE_PRESENT
+description:
 platform: windows
 log_source: Microsoft-Windows-DirectComposition
-event_code: '65'
+event_id: '65'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: presentId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: result
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_FlipManager

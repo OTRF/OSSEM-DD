@@ -1,17 +1,17 @@
-title: Event 412 - InstallSoftware
-description: null
+name: Event 412 - InstallSoftware
+description:
 platform: windows
 log_source: Microsoft-Windows-DeviceSetupManager
-event_code: '412'
+event_id: '412'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Prop_DevnodeId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,17 +1,17 @@
-title: Event 354 - WordBreakerHistory_Save
-description: null
+name: Event 354 - WordBreakerHistory_Save
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '354'
+event_id: '354'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Data
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_IndexingChunk Gatherer

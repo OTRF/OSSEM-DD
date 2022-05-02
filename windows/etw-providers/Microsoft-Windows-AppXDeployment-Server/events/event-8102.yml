@@ -1,23 +1,23 @@
-title: Event 8102 - AppXDeployment.Task.Server.Deployment.Trust
-description: null
+name: Event 8102 - AppXDeployment.Task.Server.Deployment.Trust
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '8102'
+event_id: '8102'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ModifiedFile
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

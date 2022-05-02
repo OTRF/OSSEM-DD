@@ -1,23 +1,23 @@
-title: Event 7555 - PnP_PlugPlay_DeviceInstall
-description: null
+name: Event 7555 - PnP_PlugPlay_DeviceInstall
+description:
 platform: windows
 log_source: Microsoft-Windows-UserPnp
-event_code: '7555'
+event_id: '7555'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ChildDevice
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ParentDevice
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_UserPnp

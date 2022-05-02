@@ -1,15 +1,15 @@
-title: 'Event ID 5136: A directory service object was modified'
+name: 'Event ID 5136: A directory service object was modified'
 description: This event generates every time an Active Directory object is modified.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5136'
+event_id: '5136'
 event_version: '0'
 event_fields:
 - standard_name: dsoperation_correlation_id
   standard_type: TBD
   name: OpCorrelationID
   type: GUID
-  description: "multiple modifications are often executed as one operation via LDAP.\_"
+  description: "multiple modifications are often executed as one operation via LDAP. "
   sample_value: '{02647639-8626-43CE-AFE6-7AA1AD657739}'
 - standard_name: dsoperation_app_correlation_id
   standard_type: TBD
@@ -39,15 +39,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x432344'
 - standard_name: host_domain
   standard_type: TBD
   name: DSName
   type: UnicodeString
-  description: the name of the Active Directory domain where the modified object is
-    located.
+  description: the name of the Active Directory domain where the modified object is located.
   sample_value: org.local
 - standard_name: dsobject_domain_type
   standard_type: TBD
@@ -65,9 +63,7 @@ event_fields:
   standard_type: TBD
   name: ObjectGUID
   type: GUID
-  description: "each Active Directory object has globally unique identifier (GUID),\
-    \ which is a 128-bit value that is unique not only in the enterprise but also\
-    \ across the world.\_"
+  description: "each Active Directory object has globally unique identifier (GUID), which is a 128-bit value that is unique not only in the enterprise but also across the world. "
   sample_value: CN=users,CN=Builtin,DC=org,DC=local
 - standard_name: dsobject_class
   standard_type: TBD
@@ -85,15 +81,13 @@ event_fields:
   standard_type: TBD
   name: AttributeSyntaxOID
   type: UnicodeString
-  description: The syntax for an attribute defines the storage representation, byte
-    ordering, and matching rules for comparisons of property types.
+  description: The syntax for an attribute defines the storage representation, byte ordering, and matching rules for comparisons of property types.
   sample_value: 2.5.5.3
 - standard_name: dsobject_attribute_value
   standard_type: TBD
   name: AttributeValue
   type: UnicodeString
-  description: the value which was added or deleted, depending on the Operation\Type
-    field.
+  description: the value which was added or deleted, depending on the Operation\Type field.
   sample_value: '512'
 - standard_name: dsoperation_type
   standard_type: TBD

@@ -1,41 +1,41 @@
-title: Event 14 - None
-description: null
+name: Event 14 - None
+description:
 platform: windows
 log_source: Microsoft-Windows-StorPort
-event_code: '14'
+event_id: '14'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Field
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PivotField
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PivotValue
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OriginalValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewValue
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Config

@@ -1,17 +1,17 @@
-title: Event 531 - ClientConnection_StateChange
-description: null
+name: Event 531 - ClientConnection_StateChange
+description:
 platform: windows
 log_source: Microsoft-Windows-UIAutomationCore
-event_code: '531'
+event_id: '531'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NewState
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

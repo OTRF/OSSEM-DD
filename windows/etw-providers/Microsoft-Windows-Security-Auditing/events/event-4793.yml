@@ -1,8 +1,8 @@
-title: 'Event ID 4793: The Password Policy Checking API was called'
+name: 'Event ID 4793: The Password Policy Checking API was called'
 description: This event generates each time the Password Policy Checking API is called.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4793'
+event_id: '4793'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -15,8 +15,7 @@ event_fields:
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested Password Policy Checking API
-    operation.
+  description: the name of the account that requested Password Policy Checking API operation.
   sample_value: dadmin
 - standard_name: user_domain
   standard_type: TBD
@@ -28,33 +27,25 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x36f67'
 - standard_name: source_host_name
   standard_type: TBD
   name: Workstation
   type: UnicodeString
-  description: name of the computer from which the Password Policy Checking API was
-    called. Typically, this is the same computer where this event was generated, for
-    example, DC01. Computer name here does not contain $ symbol at the end. It also
-    can be an IP address or the DNS name of the computer.
+  description: name of the computer from which the Password Policy Checking API was called. Typically, this is the same computer where this event was generated, for example, DC01. Computer name here does not contain $ symbol at the end. It also can be an IP address or the DNS name of the computer.
   sample_value: DC01
 - standard_name: target_user_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: the name of account, which password was provided/requested for validation.
-    This parameter might not be captured in the event, and in that case appears as
-    "-".
+  description: the name of account, which password was provided/requested for validation. This parameter might not be captured in the event, and in that case appears as "-".
   sample_value: '-'
 - standard_name: event_status
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: typically has "0x0" value. Status code is "0x0", no matter meets password
-    domain Password Policy or not.
+  description: typically has "0x0" value. Status code is "0x0", no matter meets password domain Password Policy or not.
   sample_value: '0x0'
 references:
 - text: MS Source

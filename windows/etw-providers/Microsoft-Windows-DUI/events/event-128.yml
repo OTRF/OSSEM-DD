@@ -1,17 +1,17 @@
-title: Event 128 - DirectUI_CreateElement
-description: null
+name: Event 128 - DirectUI_CreateElement
+description:
 platform: windows
 log_source: Microsoft-Windows-DUI
-event_code: '128'
+event_id: '128'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: szResId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default

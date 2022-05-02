@@ -1,8 +1,8 @@
-title: Etc_hosts Table
+name: Etc_hosts Table
 description: Line-parsed /etc/hosts.
 platform: windows
 log_source: osquery
-event_code: etc_hosts
+event_id: etc_hosts
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

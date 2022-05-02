@@ -1,8 +1,8 @@
-title: Acpi_tables Table
+name: Acpi_tables Table
 description: Firmware ACPI functional table common metadata and content.
 platform: linux
 log_source: osquery
-event_code: acpi_tables
+event_id: acpi_tables
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

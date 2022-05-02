@@ -1,35 +1,35 @@
-title: Event 1066 - BltQueueUpdatePresentStats
-description: null
+name: Event 1066 - BltQueueUpdatePresentStats
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1066'
+event_id: '1066'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PresentCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PresentRefreshCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SyncRefreshCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SyncQPCTime
   type: Int64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

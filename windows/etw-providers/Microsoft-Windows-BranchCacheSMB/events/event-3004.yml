@@ -1,35 +1,35 @@
-title: Event 3004 - task_0
-description: null
+name: Event 3004 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-BranchCacheSMB
-event_code: '3004'
+event_id: '3004'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ContentHandle
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ResultCode
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_CscEvtKeywd_SMBBranchCache

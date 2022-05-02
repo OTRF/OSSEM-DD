@@ -1,17 +1,17 @@
-title: Event 60806 - ShellLib_DUIControls_CandidateList_CandidateFocusChanged
-description: null
+name: Event 60806 - ShellLib_DUIControls_CandidateList_CandidateFocusChanged
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '60806'
+event_id: '60806'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Index
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Controls

@@ -1,17 +1,17 @@
-title: Event 1100 - SecurityProblem
-description: null
+name: Event 1100 - SecurityProblem
+description:
 platform: windows
 log_source: Microsoft-Windows-WebAuth
-event_code: '1100'
+event_id: '1100'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Problem
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_AuthHost

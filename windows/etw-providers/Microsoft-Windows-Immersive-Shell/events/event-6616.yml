@@ -1,17 +1,17 @@
-title: Event 6616 - ConnectCharm_PlayTargetsEnum
-description: null
+name: Event 6616 - ConnectCharm_PlayTargetsEnum
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '6616'
+event_id: '6616'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

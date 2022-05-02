@@ -1,47 +1,47 @@
-title: Event 172 - ManipulationDelta
-description: null
+name: Event 172 - ManipulationDelta
+description:
 platform: windows
 log_source: Microsoft-Windows-PDFReader
-event_code: '172'
+event_id: '172'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NewZoom
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TranslationDeltaX
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TranslationDeltaY
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TranslationDeltaIsInertial
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TranslationDeltaAnchorPointX
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TranslationDeltaAnchorPointY
   type: Float
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Reader

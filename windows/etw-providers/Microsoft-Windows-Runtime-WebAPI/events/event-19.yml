@@ -1,35 +1,35 @@
-title: Event 19 - AsyncI/O
-description: null
+name: Event 19 - AsyncI/O
+description:
 platform: windows
 log_source: Microsoft-Windows-Runtime-WebAPI
-event_code: '19'
+event_id: '19'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: uri
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: port
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: errorCode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: errorMessage
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_keywords.Http

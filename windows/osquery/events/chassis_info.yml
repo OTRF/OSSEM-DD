@@ -1,8 +1,8 @@
-title: Chassis_info Table
+name: Chassis_info Table
 description: Display information pertaining to the chassis and its security status.
 platform: windows
 log_source: osquery
-event_code: chassis_info
+event_id: chassis_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

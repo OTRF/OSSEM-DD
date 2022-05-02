@@ -1,8 +1,8 @@
-title: Crontab Table
+name: Crontab Table
 description: Line parsed values from system and user cron/tab.
 platform: macos
 log_source: osquery
-event_code: crontab
+event_id: crontab
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

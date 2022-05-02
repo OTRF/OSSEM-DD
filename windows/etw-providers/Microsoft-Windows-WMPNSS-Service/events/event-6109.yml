@@ -1,35 +1,35 @@
-title: Event 6109 - DeviceAdded
-description: null
+name: Event 6109 - DeviceAdded
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '6109'
+event_id: '6109'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IUPnPDevice
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasAVTransport
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasRenderingControl
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasConnectionManager
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_DeviceAdded

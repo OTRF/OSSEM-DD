@@ -1,17 +1,17 @@
-title: Event 40003 - ETWDebugMsg
-description: null
+name: Event 40003 - ETWDebugMsg
+description:
 platform: windows
 log_source: Microsoft-Windows-FMS
-event_code: '40003'
+event_id: '40003'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ApiName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_GetNameRecordStart

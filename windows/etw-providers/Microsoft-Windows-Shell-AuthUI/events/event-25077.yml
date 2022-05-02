@@ -1,17 +1,17 @@
-title: Event 25077 - Logon_LogonFrame_LogonDialogCallback
-description: null
+name: Event 25077 - Logon_LogonFrame_LogonDialogCallback
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
-event_code: '25077'
+event_id: '25077'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DWORD1
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Logon_LogonFrame_LogonDialogCallback

@@ -1,29 +1,29 @@
-title: Event 1092 - task_01092
-description: null
+name: Event 1092 - task_01092
+description:
 platform: windows
 log_source: Microsoft-Windows-ZTraceMaps
-event_code: '1092'
+event_id: '1092'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Function
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Line
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_task_0

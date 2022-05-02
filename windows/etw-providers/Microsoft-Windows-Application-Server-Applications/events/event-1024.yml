@@ -1,23 +1,23 @@
-title: Event 1024 - CreateBookmark
-description: null
+name: Event 1024 - CreateBookmark
+description:
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
-event_code: '1024'
+event_id: '1024'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: data1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_WFRuntime

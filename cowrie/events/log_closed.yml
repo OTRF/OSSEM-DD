@@ -1,8 +1,8 @@
-title: Cowrie log closed
+name: Cowrie log closed
 description: This dictionary details the fields for the log closed event of the Cowrie honeypot. Cowrie records a log of each terminal session that can then be replayed.
 platform: cowrie
 log_source: honeypot
-event_code: 'cowrie.log.closed'
+event_id: 'cowrie.log.closed'
 event_version: '0'
 event_fields:
 - standard_name: event_timestamp
@@ -10,7 +10,7 @@ event_fields:
   name: timestamp
   type: string
   description: Timestamp when the data was discovered in ISO 8601 format
-  sample_value: '2020-10-06T06:45:02.021156' 
+  sample_value: '2020-10-06T06:45:02.021156'
 - standard_name: src_ip_addr
   standard_type: ip
   name: src_ip
@@ -35,7 +35,7 @@ event_fields:
   type: string
   description: A unique identifier for a cowrie SSH session
   sample_value: aaacde98ab17
-- standard_name: TBD 
+- standard_name: TBD
   standard_type: TBD
   name: ttylog
   type: string
@@ -51,14 +51,14 @@ event_fields:
   standard_type: TBD
   name: shasum
   type: string
-  description: SHA256 checksum of the data that was input to the terminal 
+  description: SHA256 checksum of the data that was input to the terminal
   sample_value: '2638f1c1c2018567a46a4cae049dd90db2d468e1538d60d328f2707d071f73c5'
 - standard_name: TBD
   standard_type: TBD
   name: duplicate
   type: boolean
   description: A boolean indicating whether a tty log with the same name already exists
-  sample_value: False
+  sample_value: false
 - standard_name: event_duration
   standard_type: float
   name: duration

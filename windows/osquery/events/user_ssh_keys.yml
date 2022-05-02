@@ -1,9 +1,8 @@
-title: User_ssh_keys Table
-description: Returns the private keys in the users ~/.ssh directory and whether or
-  not they are encrypted.
+name: User_ssh_keys Table
+description: Returns the private keys in the users ~/.ssh directory and whether or not they are encrypted.
 platform: windows
 log_source: osquery
-event_code: user_ssh_keys
+event_id: user_ssh_keys
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

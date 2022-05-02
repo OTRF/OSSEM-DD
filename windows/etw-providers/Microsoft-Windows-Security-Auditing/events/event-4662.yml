@@ -1,21 +1,15 @@
-title: 'Event ID 4662: An operation was performed on an object'
-description: This event generates every time when an operation was performed on an
-  Active Directory object. This event generates only if appropriate SACL was set for
-  Active Directory object and performed operation meets this SACL. If operation failed
-  then Failure event will be generated. You will get one 4662 for each operation type
-  which was performed.
+name: 'Event ID 4662: An operation was performed on an object'
+description: This event generates every time when an operation was performed on an Active Directory object. This event generates only if appropriate SACL was set for Active Directory object and performed operation meets this SACL. If operation failed then Failure event will be generated. You will get one 4662 for each operation type which was performed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4662'
+event_id: '4662'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested the operation. Event Viewer automatically
-    tries to resolve SIDs and show the account name. If the SID cannot be resolved,
-    you will see the source data in the event.
+  description: SID of account that requested the operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: user_name
   standard_type: TBD
@@ -33,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID.
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID.
   sample_value: '0x2e80c'
 - standard_name: object_server
   standard_type: TBD
@@ -58,17 +51,13 @@ event_fields:
   standard_type: TBD
   name: OperationType
   type: UnicodeString
-  description: the type of operation which was performed on an object. Typically has
-    "Object Access" value for this event.
+  description: the type of operation which was performed on an object. Typically has "Object Access" value for this event.
   sample_value: Object Access
 - standard_name: object_handle_id
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: 'hexadecimal value of a handle to Object Name. This field can help
-    you correlate this event with other events that might contain the same Handle
-    ID, for example, "4661: A handle to an object was requested." This parameter might
-    not be captured in the event, and in that case appears as "0x0".'
+  description: 'hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID, for example, "4661: A handle to an object was requested." This parameter might not be captured in the event, and in that case appears as "0x0".'
   sample_value: '0x0'
 - standard_name: object_access_list
   standard_type: TBD
@@ -86,8 +75,7 @@ event_fields:
   standard_type: TBD
   name: Properties
   type: UnicodeString
-  description: first part is the type of access that was used. Typically has the same
-    value as Accesses field.
+  description: first part is the type of access that was used. Typically has the same value as Accesses field.
   sample_value: '%%1537 {bf967a86-0de6-11d0-a285-00aa003049e2}'
 - standard_name: additionalinfo
   standard_type: TBD

@@ -1,53 +1,53 @@
-title: Event 1476 - TcpipLoopbackPacketTransmit
-description: null
+name: Event 1476 - TcpipLoopbackPacketTransmit
+description:
 platform: windows
 log_source: Microsoft-Windows-TCPIP
-event_code: '1476'
+event_id: '1476'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Nbl
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Interface
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Compartment
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddressLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DestinationAddress
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SourceAddress
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IPTransportProtocol
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_keywords_ut:Loopback
 - etw_task_TcpipLoopbackPacketTransmit

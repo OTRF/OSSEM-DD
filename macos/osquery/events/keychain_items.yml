@@ -1,8 +1,8 @@
-title: Keychain_items Table
+name: Keychain_items Table
 description: Generic details about keychain items.
 platform: macos
 log_source: osquery
-event_code: keychain_items
+event_id: keychain_items
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

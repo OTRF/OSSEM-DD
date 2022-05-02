@@ -1,8 +1,8 @@
-title: S3 Server Access Logs
+name: S3 Server Access Logs
 description: S3 Server Access Log format common schema.
 platform: aws
 log_source: s3_server_access_log
-event_code: s3_server_access
+event_id: s3_server_access
 event_version: '0'
 event_fields:
 - standard_name: TBD

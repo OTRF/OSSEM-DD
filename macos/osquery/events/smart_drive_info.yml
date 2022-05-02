@@ -1,8 +1,8 @@
-title: Smart_drive_info Table
+name: Smart_drive_info Table
 description: Drive information read by SMART controller utilizing autodetect.
 platform: macos
 log_source: osquery
-event_code: smart_drive_info
+event_id: smart_drive_info
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,17 +1,17 @@
-title: Event 53 - Serialize
-description: null
+name: Event 53 - Serialize
+description:
 platform: windows
 log_source: Microsoft-Windows-Runtime-WebAPI
-event_code: '53'
+event_id: '53'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: uri
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_keywords.Format

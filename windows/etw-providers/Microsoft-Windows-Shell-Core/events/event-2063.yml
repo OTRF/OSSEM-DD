@@ -1,17 +1,17 @@
-title: Event 2063 - Browseui_AutoComplete_OnSearchComplete
-description: null
+name: Event 2063 - Browseui_AutoComplete_OnSearchComplete
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '2063'
+event_id: '2063'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

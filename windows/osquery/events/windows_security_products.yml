@@ -1,8 +1,8 @@
-title: Windows_security_products Table
+name: Windows_security_products Table
 description: Enumeration of registered Windows security products.
 platform: windows
 log_source: osquery
-event_code: windows_security_products
+event_id: windows_security_products
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

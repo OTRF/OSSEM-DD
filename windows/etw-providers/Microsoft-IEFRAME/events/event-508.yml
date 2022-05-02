@@ -1,17 +1,17 @@
-title: Event 508 - EmptyTab_Conversion_CleanUpBrowserTab_Begin
-description: null
+name: Event 508 - EmptyTab_Conversion_CleanUpBrowserTab_Begin
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '508'
+event_id: '508'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TabID
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_primarynav

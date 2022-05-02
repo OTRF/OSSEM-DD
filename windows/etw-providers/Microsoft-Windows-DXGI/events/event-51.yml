@@ -1,59 +1,59 @@
-title: Event 51 - FindClosestMatchingMode
-description: null
+name: Event 51 - FindClosestMatchingMode
+description:
 platform: windows
 log_source: Microsoft-Windows-DXGI
-event_code: '51'
+event_id: '51'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pIDXGIOutput
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WidthToMatch
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HeightToMatch
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RefreshNumeratorToMatch
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RefreshDenominatorToMatch
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FormatToMatch
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScanlineOrderingToMatch
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScalingToMatch
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Events

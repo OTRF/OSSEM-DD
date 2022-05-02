@@ -1,29 +1,29 @@
-title: Event 3520 - DeviceUnlock
-description: null
+name: Event 3520 - DeviceUnlock
+description:
 platform: windows
 log_source: Microsoft-Windows-HelloForBusiness
-event_code: '3520'
+event_id: '3520'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceUnlockProvider
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceUnlockGroupA
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceUnlockGroupB
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Internal

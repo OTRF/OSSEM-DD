@@ -1,17 +1,15 @@
-title: ingress.event.childproc (Child Process)
-description: A process has spawned another process on an endpoint monitored by Carbon
-  Black.
+name: ingress.event.childproc (Child Process)
+description: A process has spawned another process on an endpoint monitored by Carbon Black.
 platform: windows
 log_source: carbonblack
-event_code: childproc
+event_id: childproc
 event_version: '0'
 event_fields:
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple EDR servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple EDR servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: process_child_guid
   standard_type: TBD

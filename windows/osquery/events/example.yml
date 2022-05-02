@@ -1,8 +1,8 @@
-title: Example Table
+name: Example Table
 description: This is an example table spec.
 platform: windows
 log_source: osquery
-event_code: example
+event_id: example
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

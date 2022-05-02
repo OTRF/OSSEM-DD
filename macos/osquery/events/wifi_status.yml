@@ -1,8 +1,8 @@
-title: Wifi_status Table
+name: Wifi_status Table
 description: OS X current WiFi status.
 platform: macos
 log_source: osquery
-event_code: wifi_status
+event_id: wifi_status
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

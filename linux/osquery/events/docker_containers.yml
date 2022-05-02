@@ -1,8 +1,8 @@
-title: Docker_containers Table
+name: Docker_containers Table
 description: Docker containers information.
 platform: linux
 log_source: osquery
-event_code: docker_containers
+event_id: docker_containers
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -45,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: state
   type: TEXT
-  description: Container state (created, restarting, running, removing, paused, exited,
-    dead)
+  description: Container state (created, restarting, running, removing, paused, exited, dead)
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

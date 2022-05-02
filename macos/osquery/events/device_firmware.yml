@@ -1,8 +1,8 @@
-title: Device_firmware Table
+name: Device_firmware Table
 description: A best-effort list of discovered firmware versions.
 platform: macos
 log_source: osquery
-event_code: device_firmware
+event_id: device_firmware
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

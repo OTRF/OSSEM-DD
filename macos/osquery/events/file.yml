@@ -1,8 +1,8 @@
-title: File Table
+name: File Table
 description: Interactive filesystem attributes and metadata.
 platform: macos
 log_source: osquery
-event_code: file
+event_id: file
 event_version: 4.4.2
 event_fields:
 - standard_name: file_path
@@ -111,8 +111,7 @@ event_fields:
   standard_type: TBD
   name: bsd_flags
   type: TEXT
-  description: 'The BSD file flags (chflags). Possible values: NODUMP, UF_IMMUTABLE,
-    UF_APPEND, OPAQUE, HIDDEN, ARCHIVED, SF_IMMUTABLE, SF_APPEND [DARWIN]'
+  description: 'The BSD file flags (chflags). Possible values: NODUMP, UF_IMMUTABLE, UF_APPEND, OPAQUE, HIDDEN, ARCHIVED, SF_IMMUTABLE, SF_APPEND [DARWIN]'
   sample_value: TBD
 references:
 - text: OSQuery table documentation

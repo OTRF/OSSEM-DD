@@ -1,17 +1,17 @@
-title: Event 215 - MediaFoundationPresent_Delay
-description: null
+name: Event 215 - MediaFoundationPresent_Delay
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '215'
+event_id: '215'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

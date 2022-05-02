@@ -1,35 +1,35 @@
-title: Event 1051 - MiracastPerfTrackGraphicsLatency
-description: null
+name: Event 1051 - MiracastPerfTrackGraphicsLatency
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1051'
+event_id: '1051'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AverageFrameLatency
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TotalFrames
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: GraphicsDeviceId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: GraphicsDriverVersion
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Miracast

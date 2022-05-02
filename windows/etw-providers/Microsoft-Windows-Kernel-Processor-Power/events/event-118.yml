@@ -1,35 +1,35 @@
-title: Event 118 - ProcessorClassUpdate
-description: null
+name: Event 118 - ProcessorClassUpdate
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Processor-Power
-event_code: '118'
+event_id: '118'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Group
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Number
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EfficiencyClass
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SchedulingClass
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diag

@@ -1,17 +1,17 @@
-title: Event 644 - Mshtml_EventDebug_MutationObserverCallback
-description: null
+name: Event 644 - Mshtml_EventDebug_MutationObserverCallback
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '644'
+event_id: '644'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EventContextId
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_eventsandtimers

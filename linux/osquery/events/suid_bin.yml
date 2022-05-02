@@ -1,8 +1,8 @@
-title: Suid_bin Table
+name: Suid_bin Table
 description: suid binaries in common locations.
 platform: linux
 log_source: osquery
-event_code: suid_bin
+event_id: suid_bin
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

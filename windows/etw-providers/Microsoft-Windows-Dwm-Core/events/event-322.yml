@@ -1,35 +1,35 @@
-title: Event 322 - CHANNELANIMATIONS_ACTIVE
-description: null
+name: Event 322 - CHANNELANIMATIONS_ACTIVE
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '322'
+event_id: '322'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: channelHandle
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: processId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: numberOfDCompAnimationsActive
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: numberOfWinRTAnimationsActive
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore AnimationScreenOff ProcessAttribution

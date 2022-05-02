@@ -1,8 +1,8 @@
-title: SMB Mapping Log
-description: null
+name: SMB Mapping Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: smb_mapping
+event_id: smb_mapping
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -57,15 +57,13 @@ event_fields:
   standard_type: TBD
   name: share_type
   type: string
-  description: If this is SMB2, a share type will be included. For SMB1, the type
-    of share will be deduced and included as well.
+  description: If this is SMB2, a share type will be included. For SMB1, the type of share will be deduced and included as well.
   sample_value: DISK
 - standard_name: TBD
   standard_type: TBD
   name: service
   type: string
-  description: The type of resource of the tree (disk share, printer share, named
-    pipe, etc.).
+  description: The type of resource of the tree (disk share, printer share, named pipe, etc.).
   sample_value: ''
 references: []
 tags: []

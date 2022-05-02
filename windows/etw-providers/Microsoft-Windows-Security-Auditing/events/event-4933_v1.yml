@@ -1,11 +1,8 @@
-title: 'Event ID 4933: Synchronization of a replica of an Active Directory naming
-  context has begun'
-description: This event generates every time synchronization of a replica of an Active
-  Directory naming context has ended. Failure event occurs when synchronization of
-  a replica of an Active Directory naming context failed.
+name: 'Event ID 4933: Synchronization of a replica of an Active Directory naming context has begun'
+description: This event generates every time synchronization of a replica of an Active Directory naming context has ended. Failure event occurs when synchronization of a replica of an Active Directory naming context failed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4933'
+event_id: '4933'
 event_version: '1'
 event_fields:
 - standard_name: destination_dra
@@ -36,10 +33,7 @@ event_fields:
   standard_type: TBD
   name: SessionID
   type: UInt32
-  description: 'unique identifier of replication session. Using this field you can
-    find "4932: Synchronization of a replica of an Active Directory naming context
-    has begun." and "4933: Synchronization of a replica of an Active Directory naming
-    context has ended." events for the same session.'
+  description: 'unique identifier of replication session. Using this field you can find "4932: Synchronization of a replica of an Active Directory naming context has begun." and "4933: Synchronization of a replica of an Active Directory naming context has ended." events for the same session.'
   sample_value: '40'
 - standard_name: end_usn
   standard_type: TBD
@@ -51,9 +45,7 @@ event_fields:
   standard_type: TBD
   name: StatusCode
   type: UInt32
-  description: if there are no issues or errors, the status code will be "0". If an
-    error happened, you will receive Failure event and Status Code will not be equal
-    to "0".
+  description: if there are no issues or errors, the status code will be "0". If an error happened, you will receive Failure event and Status Code will not be equal to "0".
   sample_value: '1722'
 references:
 - text: MS Source

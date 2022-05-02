@@ -1,8 +1,8 @@
-title: Software Log
-description: null
+name: Software Log
+description:
 platform: zeek
 log_source: network-observations
-event_code: software
+event_id: software
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: host_p
   type: integer
-  description: The port on which the software is running. Only sensible for server
-    software
+  description: The port on which the software is running. Only sensible for server software
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -64,9 +63,7 @@ event_fields:
   standard_type: TBD
   name: unparsed_version
   type: string
-  description: The full unparsed version string found because the version parsing
-    does not always work reliably in all cases and this acts as a fallback in the
-    logs.
+  description: The full unparsed version string found because the version parsing does not always work reliably in all cases and this acts as a fallback in the logs.
   sample_value: Microsoft-HTTPAPI/2.0
 - standard_name: TBD
   standard_type: TBD
@@ -78,8 +75,7 @@ event_fields:
   standard_type: TBD
   name: url
   type: string
-  description: present if policy/protocols/http/detect-webapps.bro is loaded Most
-    root URL where the software was discovered.
+  description: present if policy/protocols/http/detect-webapps.bro is loaded Most root URL where the software was discovered.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

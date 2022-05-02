@@ -1,8 +1,8 @@
-title: Safari_extensions Table
+name: Safari_extensions Table
 description: Safari browser extension details for all users.
 platform: macos
 log_source: osquery
-event_code: safari_extensions
+event_id: safari_extensions
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,17 +1,17 @@
-title: Event 14 - UpdateSettings
-description: null
+name: Event 14 - UpdateSettings
+description:
 platform: windows
 log_source: Microsoft-Windows-Magnification
-event_code: '14'
+event_id: '14'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hWndLensCtx
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Magnification

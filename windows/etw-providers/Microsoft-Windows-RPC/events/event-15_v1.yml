@@ -1,35 +1,35 @@
-title: Event 15 - FunctionTrace
-description: null
+name: Event 15 - FunctionTrace
+description:
 platform: windows
 log_source: Microsoft-Windows-RPC
-event_code: '15'
+event_id: '15'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceUuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TypeMgrUuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MaxCalls
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

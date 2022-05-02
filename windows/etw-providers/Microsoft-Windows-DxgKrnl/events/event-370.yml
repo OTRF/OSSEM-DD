@@ -1,47 +1,47 @@
-title: Event 370 - VidMmProcessDemotedCommitmentChange
-description: null
+name: Event 370 - VidMmProcessDemotedCommitmentChange
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '370'
+event_id: '370'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Commitment
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldCommitment
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pDxgAdapter
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PhysicalAdapterIndex
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PriorityClass
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_References

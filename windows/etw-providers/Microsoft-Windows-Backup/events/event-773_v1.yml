@@ -1,29 +1,29 @@
-title: Event 773 - task_0
-description: null
+name: Event 773 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Backup
-event_code: '773'
+event_id: '773'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RestoreTime
   type: FILETIME
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorMessage
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_opcode_Stop

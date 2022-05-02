@@ -1,17 +1,17 @@
-title: Event 109 - MediaFoundationPause
-description: null
+name: Event 109 - MediaFoundationPause
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '109'
+event_id: '109'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: id
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

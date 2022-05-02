@@ -1,17 +1,17 @@
-title: Event 15 - task_0
-description: null
+name: Event 15 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-MSPaint
-event_code: '15'
+event_id: '15'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Color
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

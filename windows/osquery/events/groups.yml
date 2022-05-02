@@ -1,8 +1,8 @@
-title: Groups Table
+name: Groups Table
 description: Local system groups.
 platform: windows
 log_source: osquery
-event_code: groups
+event_id: groups
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

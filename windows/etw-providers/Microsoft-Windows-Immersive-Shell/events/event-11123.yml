@@ -1,29 +1,29 @@
-title: Event 11123 - PLM_JobError
-description: null
+name: Event 11123 - PLM_JobError
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '11123'
+event_id: '11123'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PsmKey
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_PLMComponent

@@ -1,27 +1,21 @@
-title: 'Event ID 4794: An attempt was made to set the Directory Services Restore Mode
-  administrator password'
-description: This event generates every time Directory Services Restore Mode (DSRM)
-  administrator password is changed. This event generates only on domain controllers.
+name: 'Event ID 4794: An attempt was made to set the Directory Services Restore Mode administrator password'
+description: This event generates every time Directory Services Restore Mode (DSRM) administrator password is changed. This event generates only on domain controllers.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4794'
+event_id: '4794'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that made an attempt to set Directory Services Restore
-    Mode administrator password. Event Viewer automatically tries to resolve SIDs
-    and show the account name. If the SID cannot be resolved, you will see the source
-    data in the event.
+  description: SID of account that made an attempt to set Directory Services Restore Mode administrator password. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that made an attempt to set Directory Services
-    Restore Mode administrator password.
+  description: the name of the account that made an attempt to set Directory Services Restore Mode administrator password.
   sample_value: dadmin
 - standard_name: user_domain
   standard_type: TBD
@@ -33,18 +27,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x36f67'
 - standard_name: source_host_name
   standard_type: TBD
   name: Workstation
   type: UnicodeString
-  description: 'the name of computer account from which Directory Services Restore
-    Mode (DSRM) administrator password change request was received. For example: "DC01".
-    If the change request was sent locally (from the same server) this field will
-    have the same name as the computer account.'
+  description: 'the name of computer account from which Directory Services Restore Mode (DSRM) administrator password change request was received. For example: "DC01". If the change request was sent locally (from the same server) this field will have the same name as the computer account.'
   sample_value: DC01
 - standard_name: event_status
   standard_type: TBD

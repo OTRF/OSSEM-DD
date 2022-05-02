@@ -1,53 +1,53 @@
-title: Event 32 - EnergyNotification
-description: null
+name: Event 32 - EnergyNotification
+description:
 platform: windows
 log_source: Microsoft-Windows-Energy-Estimation-Engine
-event_code: '32'
+event_id: '32'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AppName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserId
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Cookie
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BackgroundScreenOffmJ
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BackgroundScreenOnmJ
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ForegroundScreenOffmJ
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ForegroundScreenOnmJ
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_EnergyEstimation

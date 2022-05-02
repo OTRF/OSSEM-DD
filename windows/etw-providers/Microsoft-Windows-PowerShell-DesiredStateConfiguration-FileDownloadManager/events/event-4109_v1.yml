@@ -1,17 +1,17 @@
-title: Event 4109 - ValidaterequestinFileDownloadManager
-description: null
+name: Event 4109 - ValidaterequestinFileDownloadManager
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
-event_code: '4109'
+event_id: '4109'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_task_ValidaterequestinFileDownloadManager

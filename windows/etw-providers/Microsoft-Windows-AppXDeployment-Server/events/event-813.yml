@@ -1,17 +1,17 @@
-title: Event 813 - AppXDeployment.Task.Server.AppxAllUserStore
-description: null
+name: Event 813 - AppXDeployment.Task.Server.AppxAllUserStore
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '813'
+event_id: '813'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageMoniker
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

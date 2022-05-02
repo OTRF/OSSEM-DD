@@ -1,17 +1,17 @@
-title: Event 24638 - Preparestreammap
-description: null
+name: Event 24638 - Preparestreammap
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '24638'
+event_id: '24638'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: StreamContext
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Filter

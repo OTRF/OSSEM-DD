@@ -1,23 +1,23 @@
-title: Event 150 - Taskregistrationoneventfailed
-description: null
+name: Event 150 - Taskregistrationoneventfailed
+description:
 platform: windows
 log_source: Microsoft-Windows-TaskScheduler
-event_code: '150'
+event_id: '150'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TaskName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ResultCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_task_Taskregistrationoneventfailed

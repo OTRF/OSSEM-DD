@@ -1,17 +1,17 @@
-title: Event 6101 - MeasureWwanResumeReconnecttask
-description: null
+name: Event 6101 - MeasureWwanResumeReconnecttask
+description:
 platform: windows
 log_source: Microsoft-Windows-WWAN-SVC-EVENTS
-event_code: '6101'
+event_id: '6101'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_200000000000

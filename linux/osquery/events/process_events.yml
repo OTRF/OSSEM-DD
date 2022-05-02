@@ -1,8 +1,8 @@
-title: Process_events Table
+name: Process_events Table
 description: Track time/action process executions.
 platform: linux
 log_source: osquery
-event_code: process_events
+event_id: process_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,47 +1,47 @@
-title: Event 1117 - DripsBlockerTracking_AddD0LagTime
-description: null
+name: Event 1117 - DripsBlockerTracking_AddD0LagTime
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1117'
+event_id: '1117'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Entry
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Activation
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DAM
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessName
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeInMS
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_DxgKrnl_Power

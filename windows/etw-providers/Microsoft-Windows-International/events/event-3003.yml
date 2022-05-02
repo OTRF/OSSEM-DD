@@ -1,41 +1,41 @@
-title: Event 3003 - NLSlocalefunctions
-description: null
+name: Event 3003 - NLSlocalefunctions
+description:
 platform: windows
 log_source: Microsoft-Windows-International
-event_code: '3003'
+event_id: '3003'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: LocaleName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProdessName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReturnCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_NLSoperations

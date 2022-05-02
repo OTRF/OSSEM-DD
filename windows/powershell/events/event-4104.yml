@@ -1,15 +1,8 @@
-title: 'Event ID 4104: Script Block Logging'
-description: Script block logging records blocks of code as they are executed by the
-  PowerShell engine, thereby capturing the full contents of code executed by an attacker,
-  including scripts and commands. Due to the nature of script block logging, it also
-  records de-obfuscated code as it is executed. For example, in addition to recording
-  the original obfuscated code, script block logging records the decoded commands
-  passed with PowerShell's -EncodedCommand argument, as well as those obfuscated with
-  XOR, Base64, ROT13, encryption, etc., in addition to the original obfuscated code.
-  Script block logging will not record output from the executed code.
+name: 'Event ID 4104: Script Block Logging'
+description: Script block logging records blocks of code as they are executed by the PowerShell engine, thereby capturing the full contents of code executed by an attacker, including scripts and commands. Due to the nature of script block logging, it also records de-obfuscated code as it is executed. For example, in addition to recording the original obfuscated code, script block logging records the decoded commands passed with PowerShell's -EncodedCommand argument, as well as those obfuscated with XOR, Base64, ROT13, encryption, etc., in addition to the original obfuscated code. Script block logging will not record output from the executed code.
 platform: windows
 log_source: powershell
-event_code: '4104'
+event_id: '4104'
 event_version: '0'
 event_fields:
 - standard_name: powershell_message_number

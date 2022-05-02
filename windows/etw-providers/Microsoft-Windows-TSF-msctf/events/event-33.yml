@@ -1,35 +1,35 @@
-title: Event 33 - HandleGlobalInputFocusEvent
-description: null
+name: Event 33 - HandleGlobalInputFocusEvent
+description:
 platform: windows
 log_source: Microsoft-Windows-TSF-msctf
-event_code: '33'
+event_id: '33'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: event
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hwnd
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: event_order
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Focus

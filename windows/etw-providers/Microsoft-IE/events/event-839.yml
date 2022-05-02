@@ -1,23 +1,23 @@
-title: Event 839 - Mshtml_EventLoop_YieldTaskExecution
-description: null
+name: Event 839 - Mshtml_EventLoop_YieldTaskExecution
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '839'
+event_id: '839'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TaskQueueIndex
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PendingTaskCount
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_gwnd

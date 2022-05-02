@@ -1,13 +1,8 @@
-title: 'Event ID 15: FileCreateStreamHash'
-description: This event logs when a **named file stream is created**, and it generates
-  events that log the hash of the contents of the file to which the stream is assigned
-  (the unnamed stream), as well as the contents of the named stream. There are malware
-  variants that drop their executables or configuration settings via browser downloads,
-  and this event is aimed at capturing that based on the browser attaching a Zone.Identifier
-  "mark of the web" stream.
+name: 'Event ID 15: FileCreateStreamHash'
+description: This event logs when a **named file stream is created**, and it generates events that log the hash of the contents of the file to which the stream is assigned (the unnamed stream), as well as the contents of the named stream. There are malware variants that drop their executables or configuration settings via browser downloads, and this event is aimed at capturing that based on the browser attaching a Zone.Identifier "mark of the web" stream.
 platform: windows
 log_source: sysmon
-event_code: '15'
+event_id: '15'
 event_version: '4.32'
 event_fields:
 - standard_name: tag
@@ -57,8 +52,7 @@ event_fields:
   name: Hash
   type: string
   description: hash is a full hash of the file with the algorithms in the HashType field
-  sample_value: SHA1=F897DA14CF93C872CE821F549C34B848E345C8AC, MD5=697C69E7BB023075F14BC0BE25B875D8,
-    SHA256=3157F3E7A854A13A40FFC79472C319E5B7C744B50D869D6E45F40CD4218539C5, IMPHASH=00000000000000000000000000000000
+  sample_value: SHA1=F897DA14CF93C872CE821F549C34B848E345C8AC, MD5=697C69E7BB023075F14BC0BE25B875D8, SHA256=3157F3E7A854A13A40FFC79472C319E5B7C744B50D869D6E45F40CD4218539C5, IMPHASH=00000000000000000000000000000000
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-15-filecreatestreamhash

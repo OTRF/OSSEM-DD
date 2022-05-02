@@ -1,8 +1,8 @@
-title: Shellbags Table
+name: Shellbags Table
 description: Shows directories accessed via Windows Explorer.
 platform: windows
 log_source: osquery
-event_code: shellbags
+event_id: shellbags
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -39,7 +39,7 @@ event_fields:
   standard_type: TBD
   name: accessed_time
   type: BIGINT
-  description: Directory Accessed time 
+  description: Directory Accessed time
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

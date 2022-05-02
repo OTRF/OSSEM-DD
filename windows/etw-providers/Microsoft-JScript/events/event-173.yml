@@ -1,17 +1,17 @@
-title: Event 173 - Memprotect_GC_ResetMarks
-description: null
+name: Event 173 - Memprotect_GC_ResetMarks
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '173'
+event_id: '173'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_MemProtectGarbageCollection

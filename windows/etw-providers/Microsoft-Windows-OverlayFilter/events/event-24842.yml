@@ -1,17 +1,17 @@
-title: Event 24842 - TheWindowsOverlayTask
-description: null
+name: Event 24842 - TheWindowsOverlayTask
+description:
 platform: windows
 log_source: Microsoft-Windows-OverlayFilter
-event_code: '24842'
+event_id: '24842'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_opcode_ActionError

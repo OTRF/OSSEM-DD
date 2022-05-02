@@ -1,17 +1,17 @@
-title: Event 6005 - Actions_EndTask_Process
-description: null
+name: Event 6005 - Actions_EndTask_Process
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
-event_code: '6005'
+event_id: '6005'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ui

@@ -1,8 +1,8 @@
-title: 'Event ID 4634: An account was logged off'
+name: 'Event ID 4634: An account was logged off'
 description: This event shows that logon session was terminated and no longer exists.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4634'
+event_id: '4634'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x1a0992'
 - standard_name: logon_type
   standard_type: TBD

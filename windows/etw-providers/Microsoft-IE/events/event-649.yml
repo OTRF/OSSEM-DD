@@ -1,23 +1,23 @@
-title: Event 649 - Mshtml_Generic_Diagnosis
-description: null
+name: Event 649 - Mshtml_Generic_Diagnosis
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '649'
+event_id: '649'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InfoDescription
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_mshtml

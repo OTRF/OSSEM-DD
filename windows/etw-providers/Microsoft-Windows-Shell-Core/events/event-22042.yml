@@ -1,23 +1,23 @@
-title: Event 22042 - Taskbar_Animation
-description: null
+name: Event 22042 - Taskbar_Animation
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '22042'
+event_id: '22042'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pObj
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: nAnimType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

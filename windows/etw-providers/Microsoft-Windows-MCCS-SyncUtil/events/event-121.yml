@@ -1,17 +1,17 @@
-title: Event 121 - SPERF_TAG_LOAD_XMLDOM
-description: null
+name: Event 121 - SPERF_TAG_LOAD_XMLDOM
+description:
 platform: windows
 log_source: Microsoft-Windows-MCCS-SyncUtil
-event_code: '121'
+event_id: '121'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: P1_UnicodeString
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Performance

@@ -1,17 +1,17 @@
-title: Event 15010 - RegionandLanguagecontrolpanel
-description: null
+name: Event 15010 - RegionandLanguagecontrolpanel
+description:
 platform: windows
 log_source: Microsoft-Windows-International-RegionalOptionsControlPanel
-event_code: '15010'
+event_id: '15010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: LocaleName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_RLOUIoperations

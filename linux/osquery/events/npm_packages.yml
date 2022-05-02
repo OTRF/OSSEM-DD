@@ -1,8 +1,8 @@
-title: Npm_packages Table
+name: Npm_packages Table
 description: Lists all npm packages in a directory or globally installed in a system.
 platform: linux
 log_source: osquery
-event_code: npm_packages
+event_id: npm_packages
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,23 +1,23 @@
-title: Event 166 - task_0
-description: null
+name: Event 166 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-DeviceSetupManager
-event_code: '166'
+event_id: '166'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Prop_DeviceInstanceId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Prop_SoftwareLinks
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

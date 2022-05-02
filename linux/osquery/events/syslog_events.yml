@@ -1,8 +1,8 @@
-title: Syslog_events Table
+name: Syslog_events Table
 description: ''
 platform: linux
 log_source: osquery
-event_code: syslog_events
+event_id: syslog_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

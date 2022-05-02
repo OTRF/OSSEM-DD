@@ -1,17 +1,17 @@
-title: Event 8601 - ContainerDeletion
-description: null
+name: Event 8601 - ContainerDeletion
+description:
 platform: windows
 log_source: Microsoft-Windows-HelloForBusiness
-event_code: '8601'
+event_id: '8601'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessingTime
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_keywords_Internal
 - etw_opcode_Stop

@@ -1,9 +1,8 @@
-title: Drivers Table
-description: Details for in-use Windows device drivers. This does not display installed
-  but unused drivers.
+name: Drivers Table
+description: Details for in-use Windows device drivers. This does not display installed but unused drivers.
 platform: windows
 log_source: osquery
-event_code: drivers
+event_id: drivers
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

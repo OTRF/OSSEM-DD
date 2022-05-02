@@ -1,8 +1,8 @@
-title: Interface_details Table
+name: Interface_details Table
 description: Detailed information and stats of network interfaces.
 platform: windows
 log_source: osquery
-event_code: interface_details
+event_id: interface_details
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -135,8 +135,7 @@ event_fields:
   standard_type: TBD
   name: connection_id
   type: TEXT
-  description: Name of the network connection as it appears in the Network Connections
-    Control Panel program. [WINDOWS]
+  description: Name of the network connection as it appears in the Network Connections Control Panel program. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -172,58 +171,49 @@ event_fields:
   standard_type: TBD
   name: dhcp_enabled
   type: INTEGER
-  description: If TRUE, the dynamic host configuration protocol (DHCP) server automatically
-    assigns an IP address to the computer system when establishing a network connection.
-    [WINDOWS]
+  description: If TRUE, the dynamic host configuration protocol (DHCP) server automatically assigns an IP address to the computer system when establishing a network connection. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dhcp_lease_expires
   type: TEXT
-  description: Expiration date and time for a leased IP address that was assigned
-    to the computer by the dynamic host configuration protocol (DHCP) server. [WINDOWS]
+  description: Expiration date and time for a leased IP address that was assigned to the computer by the dynamic host configuration protocol (DHCP) server. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dhcp_lease_obtained
   type: TEXT
-  description: Date and time the lease was obtained for the IP address assigned to
-    the computer by the dynamic host configuration protocol (DHCP) server. [WINDOWS]
+  description: Date and time the lease was obtained for the IP address assigned to the computer by the dynamic host configuration protocol (DHCP) server. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dhcp_server
   type: TEXT
-  description: IP address of the dynamic host configuration protocol (DHCP) server.
-    [WINDOWS]
+  description: IP address of the dynamic host configuration protocol (DHCP) server. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dns_domain
   type: TEXT
-  description: Organization name followed by a period and an extension that indicates
-    the type of organization, such as 'microsoft.com'. [WINDOWS]
+  description: Organization name followed by a period and an extension that indicates the type of organization, such as 'microsoft.com'. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dns_domain_suffix_search_order
   type: TEXT
-  description: Array of DNS domain suffixes to be appended to the end of host names
-    during name resolution. [WINDOWS]
+  description: Array of DNS domain suffixes to be appended to the end of host names during name resolution. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dns_host_name
   type: TEXT
-  description: Host name used to identify the local computer for authentication by
-    some utilities. [WINDOWS]
+  description: Host name used to identify the local computer for authentication by some utilities. [WINDOWS]
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: dns_server_search_order
   type: TEXT
-  description: Array of server IP addresses to be used in querying for DNS servers.
-    [WINDOWS]
+  description: Array of server IP addresses to be used in querying for DNS servers. [WINDOWS]
   sample_value: TBD
 references:
 - text: OSQuery table documentation

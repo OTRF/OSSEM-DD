@@ -1,8 +1,8 @@
-title: Shimcache Table
+name: Shimcache Table
 description: Application Compatibility Cache, contains artifacts of execution.
 platform: windows
 log_source: osquery
-event_code: shimcache
+event_id: shimcache
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

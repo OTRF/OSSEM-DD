@@ -1,8 +1,8 @@
-title: Traceroute Log
-description: null
+name: Traceroute Log
+description:
 platform: zeek
 log_source: detection
-event_code: traceroute
+event_id: traceroute
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

@@ -1,17 +1,17 @@
-title: Event 24668 - Opendedupfile
-description: null
+name: Event 24668 - Opendedupfile
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '24668'
+event_id: '24668'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FilePath
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Filter

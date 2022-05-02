@@ -1,35 +1,35 @@
-title: Event 333 - ValueIndexSeek
-description: null
+name: Event 333 - ValueIndexSeek
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '333'
+event_id: '333'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HasStartVariant
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasEndVariant
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ExcludeStartVariant
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ExcludeEndVariant
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Indexing Querying

@@ -1,41 +1,41 @@
-title: Event 1069 - Wininet_FileIO
-description: null
+name: Event 1069 - Wininet_FileIO
+description:
 platform: windows
 log_source: Microsoft-Windows-WinINet
-event_code: '1069'
+event_id: '1069'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Handle
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Operation
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClientType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadInfoUIType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsSync
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_IE

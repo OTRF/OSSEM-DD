@@ -1,4 +1,4 @@
-title: Windows Carbon Black Event Logs
+name: Windows Carbon Black Event Logs
 description: Carbon Black data schema as defined by the Carbon Black Developer Resources.
 images:
 - title: Data model

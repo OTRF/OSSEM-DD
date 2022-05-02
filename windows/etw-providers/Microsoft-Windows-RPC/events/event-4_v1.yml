@@ -1,41 +1,41 @@
-title: Event 4 - Debug
-description: null
+name: Event 4 - Debug
+description:
 platform: windows
 log_source: Microsoft-Windows-RPC
-event_code: '4'
+event_id: '4'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Subject
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Verb
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SubjectPointer
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectPointer
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DataPointer
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_Debug

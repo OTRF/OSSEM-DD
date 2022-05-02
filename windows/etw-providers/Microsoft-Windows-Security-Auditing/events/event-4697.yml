@@ -1,8 +1,8 @@
-title: 'Event ID 4697: A service was installed in the system'
+name: 'Event ID 4697: A service was installed in the system'
 description: This event generates when new service was installed in the system.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4697'
+event_id: '4697'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x3e7'
 - standard_name: service_name
   standard_type: TBD
@@ -40,22 +39,19 @@ event_fields:
   standard_type: TBD
   name: ServiceFileName
   type: UnicodeString
-  description: This is the fully rooted path to the file that the Service Control
-    Manager will execute to start the service.
+  description: This is the fully rooted path to the file that the Service Control Manager will execute to start the service.
   sample_value: '%windir%\system32\svchost.exe -k apphost'
 - standard_name: service_type
   standard_type: TBD
   name: ServiceType
   type: HexInt32
-  description: "Indicates the\_type\_of service that was registered with the Service\
-    \ Control Manager."
+  description: "Indicates the type of service that was registered with the Service Control Manager."
   sample_value: '0x20'
 - standard_name: service_start_type
   standard_type: TBD
   name: ServiceStartType
   type: UInt32
-  description: "The service start type can have one of the following values (see:\_\
-    https://msdn.microsoft.com/library/windows/desktop/ms682450(v=vs.85).aspx)"
+  description: "The service start type can have one of the following values (see: https://msdn.microsoft.com/library/windows/desktop/ms682450(v=vs.85).aspx)"
   sample_value: '2'
 - standard_name: service_account_name
   standard_type: TBD

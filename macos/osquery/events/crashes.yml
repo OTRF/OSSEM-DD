@@ -1,8 +1,8 @@
-title: Crashes Table
+name: Crashes Table
 description: Application, System, and Mobile App crash logs.
 platform: macos
 log_source: osquery
-event_code: crashes
+event_id: crashes
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

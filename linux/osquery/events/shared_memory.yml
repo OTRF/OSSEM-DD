@@ -1,8 +1,8 @@
-title: Shared_memory Table
+name: Shared_memory Table
 description: OS shared memory regions.
 platform: linux
 log_source: osquery
-event_code: shared_memory
+event_id: shared_memory
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

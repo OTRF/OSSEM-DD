@@ -1,17 +1,17 @@
-title: Event 31 - FindPointInTimeLibraries
-description: null
+name: Event 31 - FindPointInTimeLibraries
+description:
 platform: windows
 log_source: Microsoft-Windows-FileHistory-Catalog
-event_code: '31'
+event_id: '31'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: BackupSetId
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Start

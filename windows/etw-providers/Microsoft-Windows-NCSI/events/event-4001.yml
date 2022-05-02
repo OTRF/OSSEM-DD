@@ -1,29 +1,29 @@
-title: Event 4001 - WaitforNetReady
-description: null
+name: Event 4001 - WaitforNetReady
+description:
 platform: windows
 log_source: Microsoft-Windows-NCSI
-event_code: '4001'
+event_id: '4001'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CurrentOrNextState
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IfLuid
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_200000000000

@@ -1,8 +1,8 @@
-title: Chrome_extensions Table
+name: Chrome_extensions Table
 description: Chrome-based browser extensions.
 platform: windows
 log_source: osquery
-event_code: chrome_extensions
+event_id: chrome_extensions
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -125,49 +125,49 @@ event_fields:
   name: manifest_hash
   type: TEXT
   description: The SHA256 hash of the manifest.json file
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: referenced
   type: BIGINT
   description: 1 if this extension is referenced by the Preferences file of the profile
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: from_webstore
   type: TEXT
   description: True if this extension was installed from the web store
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: state
   type: TEXT
   description: 1 if this extension is enabled
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: install_time
   type: TEXT
   description: Extension install time, in its original Webkit format
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: install_timestamp
   type: BIGINT
   description: Extension install time, converted to unix time
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: manifest_json
   type: TEXT
   description: The manifest file of the extension
-  sample_value: TBD 
+  sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: key
   type: TEXT
-  description: The extension key, from the manifest file 
-  sample_value: TBD 
+  description: The extension key, from the manifest file
+  sample_value: TBD
 references:
 - text: OSQuery table documentation
   link: https://osquery.io/schema/current#chrome_extensions

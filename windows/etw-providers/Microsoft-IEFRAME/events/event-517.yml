@@ -1,17 +1,17 @@
-title: Event 517 - EmptyTab_Closing
-description: null
+name: Event 517 - EmptyTab_Closing
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '517'
+event_id: '517'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TabID
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_primarynav

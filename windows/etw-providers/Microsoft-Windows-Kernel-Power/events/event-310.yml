@@ -1,47 +1,47 @@
-title: Event 310 - ComponentRegistration
-description: null
+name: Event 310 - ComponentRegistration
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '310'
+event_id: '310'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Token
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Component
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Active
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IdleState
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IdleStateCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IdleStates
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:RuntimeFx

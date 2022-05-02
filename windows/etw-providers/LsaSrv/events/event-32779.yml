@@ -1,17 +1,17 @@
-title: Event 32779 - task_0
-description: null
+name: Event 32779 - task_0
+description:
 platform: windows
 log_source: LsaSrv
-event_code: '32779'
+event_id: '32779'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SubCategoryGuid
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WPDBusEnumStartTrigger

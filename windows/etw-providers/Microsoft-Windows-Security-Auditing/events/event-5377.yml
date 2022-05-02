@@ -1,9 +1,8 @@
-title: 'Event ID 5377: Credential Manager credentials were restored from a backup'
-description: This event generates every time the user (Subject) successfully restores
-  the credential manager database.
+name: 'Event ID 5377: Credential Manager credentials were restored from a backup'
+description: This event generates every time the user (Subject) successfully restores the credential manager database.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5377'
+event_id: '5377'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -28,9 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x30d7c'
 references:
 - text: MS Source

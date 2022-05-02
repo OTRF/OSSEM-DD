@@ -1,41 +1,41 @@
-title: Event 100 - BIND_GDISPRITEBITMAP_FIRST_TOKEN
-description: null
+name: Event 100 - BIND_GDISPRITEBITMAP_FIRST_TOKEN
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '100'
+event_id: '100'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: logicalSurfaceImagePointer
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hDxSharedSurface
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: windowNodePointer
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: windowNodeParentPointer
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: logicalSurfaceImageLHandle
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

@@ -1,8 +1,8 @@
-title: Device_file Table
+name: Device_file Table
 description: Similar to the file table, but use TSK and allow block address access.
 platform: macos
 log_source: osquery
-event_code: device_file
+event_id: device_file
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

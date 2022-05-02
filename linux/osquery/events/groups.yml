@@ -1,8 +1,8 @@
-title: Groups Table
+name: Groups Table
 description: Local system groups.
 platform: linux
 log_source: osquery
-event_code: groups
+event_id: groups
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

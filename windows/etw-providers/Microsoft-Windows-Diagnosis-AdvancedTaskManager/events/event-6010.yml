@@ -1,17 +1,17 @@
-title: Event 6010 - Actions_EndTask_Service
-description: null
+name: Event 6010 - Actions_EndTask_Service
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
-event_code: '6010'
+event_id: '6010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ui

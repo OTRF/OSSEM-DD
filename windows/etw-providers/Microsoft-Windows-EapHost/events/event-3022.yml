@@ -1,23 +1,23 @@
-title: Event 3022 - Common
-description: null
+name: Event 3022 - Common
+description:
 platform: windows
 log_source: Microsoft-Windows-EapHost
-event_code: '3022'
+event_id: '3022'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TypeId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AuthorId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Reg

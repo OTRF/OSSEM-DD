@@ -1,8 +1,8 @@
-title: Chocolatey_packages Table
+name: Chocolatey_packages Table
 description: Chocolatey packages installed in a system.
 platform: windows
 log_source: osquery
-event_code: chocolatey_packages
+event_id: chocolatey_packages
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

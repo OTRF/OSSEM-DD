@@ -1,35 +1,35 @@
-title: Event 803 - WINHTTP_AUTOPROXY_DHCP
-description: null
+name: Event 803 - WINHTTP_AUTOPROXY_DHCP
+description:
 platform: windows
 log_source: Microsoft-Windows-WinHttp
-event_code: '803'
+event_id: '803'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: _InterfaceLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Interface
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _ConfigurationURLLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ConfigurationURL
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_WINHTTP_KEYWORD_AUTOPROXY

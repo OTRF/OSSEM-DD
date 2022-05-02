@@ -1,29 +1,29 @@
-title: Event 15 - HTTPRequestTraceTask
-description: null
+name: Event 15 - HTTPRequestTraceTask
+description:
 platform: windows
 log_source: Microsoft-Windows-HttpService
-event_code: '15'
+event_id: '15'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RequestId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_HTTP_KEYWORD_REQUEST HTTP_KEYWORD_RESPONSE

@@ -1,29 +1,29 @@
-title: Event 218 - Class
-description: null
+name: Event 218 - Class
+description:
 platform: windows
 log_source: Microsoft-Windows-StorDiag
-event_code: '218'
+event_id: '218'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Irp
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PnP

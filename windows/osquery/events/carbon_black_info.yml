@@ -1,8 +1,8 @@
-title: Carbon_black_info Table
+name: Carbon_black_info Table
 description: Returns info about a Carbon Black sensor install.
 platform: windows
 log_source: osquery
-event_code: carbon_black_info
+event_id: carbon_black_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -21,8 +21,7 @@ event_fields:
   standard_type: TBD
   name: collect_store_files
   type: INTEGER
-  description: If the sensor is configured to send back binaries to the Carbon Black
-    server
+  description: If the sensor is configured to send back binaries to the Carbon Black server
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

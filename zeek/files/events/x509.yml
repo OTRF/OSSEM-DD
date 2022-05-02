@@ -1,8 +1,8 @@
-title: x509 Log
-description: null
+name: x509 Log
+description:
 platform: zeek
 log_source: files
-event_code: x509
+event_id: x509
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -111,8 +111,7 @@ event_fields:
   standard_type: TBD
   name: logcert
   type: boolean
-  description: present if policy/protocols/ssl/log-hostcerts-only.bro is loaded Logging
-    of certificate is suppressed if set to F
+  description: present if policy/protocols/ssl/log-hostcerts-only.bro is loaded Logging of certificate is suppressed if set to F
   sample_value: 'true'
 - standard_name: TBD
   standard_type: TBD

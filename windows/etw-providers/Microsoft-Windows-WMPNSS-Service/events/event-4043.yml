@@ -1,23 +1,23 @@
-title: Event 4043 - Obj_Get_Search_Class_Element_Value
-description: null
+name: Event 4043 - Obj_Get_Search_Class_Element_Value
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '4043'
+event_id: '4043'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CountAdded
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,29 +1,29 @@
-title: Event 822 - Mshtml_Gwnd_Task
-description: null
+name: Event 822 - Mshtml_Gwnd_Task
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '822'
+event_id: '822'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TaskName
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DelayTime
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_gwnd

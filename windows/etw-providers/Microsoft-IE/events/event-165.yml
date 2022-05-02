@@ -1,17 +1,17 @@
-title: Event 165 - Mshtml_XmlPre_Run
-description: null
+name: Event 165 - Mshtml_XmlPre_Run
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '165'
+event_id: '165'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CXmlPrePtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_primarynav mshtml

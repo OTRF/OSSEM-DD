@@ -1,35 +1,35 @@
-title: Event 8303 - ODB_TaskActivated
-description: null
+name: Event 8303 - ODB_TaskActivated
+description:
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
-event_code: '8303'
+event_id: '8303'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkItemId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TaskInstanceId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PsmKey
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ExecProductionCircular ExecDevPlatCircular ODB

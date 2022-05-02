@@ -1,17 +1,17 @@
-title: Event 3051 - GetFileCache
-description: null
+name: Event 3051 - GetFileCache
+description:
 platform: windows
 log_source: Microsoft-Windows-CodeIntegrity
-event_code: '3051'
+event_id: '3051'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_task_GetFileCache
