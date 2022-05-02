@@ -85,7 +85,7 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: signature_algorithm	
+  name: signature_algorithm
   type: TEXT
   description: Signature Algorithm
   sample_value: TBD
@@ -97,7 +97,7 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: subject_key_identifier	
+  name: subject_key_identifier
   type: TEXT
   description: Subject Key Identifier
   sample_value: TBD
@@ -127,7 +127,7 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: subject_alternative_names	
+  name: subject_alternative_names
   type: TEXT
   description: Subject Alternative Name
   sample_value: TBD

@@ -31,7 +31,7 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: internet_settings	
+  name: internet_settings
   type: TEXT
   description: The health of the Internet Settings
   sample_value: TBD

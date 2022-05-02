@@ -13,13 +13,13 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: target_path	
+  name: target_path
   type: TEXT
   description: Target file path
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: target_modified	
+  name: target_modified
   type: INTEGER
   description: Target Modified time
   sample_value: TBD

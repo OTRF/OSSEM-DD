@@ -145,7 +145,7 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: pid_with_namespace	
+  name: pid_with_namespace
   type: INTEGER
   description: Pids that contain a namespace
   sample_value: TBD

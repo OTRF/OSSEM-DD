@@ -43,7 +43,7 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: strings	
+  name: strings
   type: TEXT
   description: Matching strings
   sample_value: TBD
