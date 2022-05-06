@@ -1,8 +1,8 @@
-title: Running_apps Table
+name: Running_apps Table
 description: macOS applications currently running on the host system.
 platform: macos
 log_source: osquery
-event_code: running_apps
+event_id: running_apps
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

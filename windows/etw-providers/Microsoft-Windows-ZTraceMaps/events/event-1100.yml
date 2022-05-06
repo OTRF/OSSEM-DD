@@ -1,17 +1,17 @@
-title: Event 1100 - task_01100
-description: null
+name: Event 1100 - task_01100
+description:
 platform: windows
 log_source: Microsoft-Windows-ZTraceMaps
-event_code: '1100'
+event_id: '1100'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MyMessage
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

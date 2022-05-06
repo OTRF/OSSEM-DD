@@ -1,29 +1,29 @@
-title: Event 1006 - Requestreceivedbytheserialclassextension
-description: null
+name: Event 1006 - Requestreceivedbytheserialclassextension
+description:
 platform: windows
 log_source: Microsoft-Windows-Serial-ClassExtension
-event_code: '1006'
+event_id: '1006'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Request
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Length
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

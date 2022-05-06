@@ -1,17 +1,17 @@
-title: Event 1230 - AppXDeployment.Task.Server.StagingManager
-description: null
+name: Event 1230 - AppXDeployment.Task.Server.StagingManager
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '1230'
+event_id: '1230'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

@@ -1,4 +1,4 @@
-title: RPC Firewall Events
+name: RPC Firewall Events
 description: RPC is the underlying mechanism which is used for numerous lateral movement techniques, reconnaisense, relay attacks, or simply to exploit vulnerable RPC services. RPC Firewall allows you to monitor RPC activity over the network and block connections based on specific RPC interfaces, opnums and even IP addresses.
 images: []
 references:

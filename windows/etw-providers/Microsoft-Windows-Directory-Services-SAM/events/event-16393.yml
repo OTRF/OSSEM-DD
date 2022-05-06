@@ -1,35 +1,35 @@
-title: Event 16393 - task_0
-description: null
+name: Event 16393 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Directory-Services-SAM
-event_code: '16393'
+event_id: '16393'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AccountDistinguishedName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: GroupName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: __binLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_task_0

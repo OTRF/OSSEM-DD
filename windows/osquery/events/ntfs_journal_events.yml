@@ -1,8 +1,8 @@
-title: Ntfs_journal_events Table
+name: Ntfs_journal_events Table
 description: Track time/action changes to files specified in configuration data.
 platform: windows
 log_source: osquery
-event_code: ntfs_journal_events
+event_id: ntfs_journal_events
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -51,8 +51,7 @@ event_fields:
   standard_type: TBD
   name: parent_ref_number
   type: TEXT
-  description: The ordinal that associates a journal record with a filename's parent
-    directory
+  description: The ordinal that associates a journal record with a filename's parent directory
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -70,8 +69,7 @@ event_fields:
   standard_type: TBD
   name: partial
   type: BIGINT
-  description: Set to 1 if either path or old_path only contains the file or folder
-    name
+  description: Set to 1 if either path or old_path only contains the file or folder name
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

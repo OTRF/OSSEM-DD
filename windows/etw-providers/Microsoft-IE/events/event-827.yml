@@ -1,17 +1,17 @@
-title: Event 827 - Mshtml_Aligned_RAF_Fire
-description: null
+name: Event 827 - Mshtml_Aligned_RAF_Fire
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '827'
+event_id: '827'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WindowObject
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_paintbeat

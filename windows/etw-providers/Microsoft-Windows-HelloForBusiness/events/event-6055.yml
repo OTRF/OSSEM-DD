@@ -1,23 +1,23 @@
-title: Event 6055 - ContainerCreation
-description: null
+name: Event 6055 - ContainerCreation
+description:
 platform: windows
 log_source: Microsoft-Windows-HelloForBusiness
-event_code: '6055'
+event_id: '6055'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessingTime
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_Internal

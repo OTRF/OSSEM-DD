@@ -1,23 +1,23 @@
-title: Event 13 - ThemePreview
-description: null
+name: Event 13 - ThemePreview
+description:
 platform: windows
 log_source: Microsoft-Windows-ThemeUI
-event_code: '13'
+event_id: '13'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: type
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pszBackgroundFile
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_ThemePreview

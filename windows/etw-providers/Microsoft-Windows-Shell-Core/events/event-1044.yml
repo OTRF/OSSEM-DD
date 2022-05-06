@@ -1,23 +1,23 @@
-title: Event 1044 - DataLayer_CommandExecute
-description: null
+name: Event 1044 - DataLayer_CommandExecute
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '1044'
+event_id: '1044'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HandlerId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fReuse
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

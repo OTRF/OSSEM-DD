@@ -1,29 +1,29 @@
-title: Event 801 - WININET_AUTOPROXY_SEARCH
-description: null
+name: Event 801 - WININET_AUTOPROXY_SEARCH
+description:
 platform: windows
 log_source: Microsoft-Windows-WinINet
-event_code: '801'
+event_id: '801'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: _ConnectionNameLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ConnectionName
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DetectFlags
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WININET_KEYWORD_AUTOPROXY

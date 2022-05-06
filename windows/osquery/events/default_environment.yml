@@ -1,8 +1,8 @@
-title: Default_environment Table
+name: Default_environment Table
 description: Default environment variables and values.
 platform: windows
 log_source: osquery
-event_code: default_environment
+event_id: default_environment
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

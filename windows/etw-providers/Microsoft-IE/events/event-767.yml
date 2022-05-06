@@ -1,41 +1,41 @@
-title: Event 767 - Mshtml_Selectors_Api_Query_Selector
-description: null
+name: Event 767 - Mshtml_Selectors_Api_Query_Selector
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '767'
+event_id: '767'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SelectorType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Selector
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TargetType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Target
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsQueryAll
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_verbose

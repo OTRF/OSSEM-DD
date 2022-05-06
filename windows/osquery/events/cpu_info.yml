@@ -1,8 +1,8 @@
-title: Cpu_info Table
+name: Cpu_info Table
 description: Retrieve cpu hardware info of the machine.
 platform: windows
 log_source: osquery
-event_code: cpu_info
+event_id: cpu_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

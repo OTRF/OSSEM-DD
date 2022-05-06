@@ -1,8 +1,8 @@
-title: Disk_events Table
+name: Disk_events Table
 description: Track DMG disk image events (appearance/disappearance) when opened.
 platform: macos
 log_source: osquery
-event_code: disk_events
+event_id: disk_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,29 +1,29 @@
-title: Event 151 - PartitionInitialAddMemory
-description: null
+name: Event 151 - PartitionInitialAddMemory
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '151'
+event_id: '151'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PartitionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RunCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PageCount
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_MemoryPartitions

@@ -1,41 +1,41 @@
-title: Event 260 - TELEMETRY_AGGREGATED_TTFF_ANALYSIS_EVENT
-description: null
+name: Event 260 - TELEMETRY_AGGREGATED_TTFF_ANALYSIS_EVENT
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '260'
+event_id: '260'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AnimationScenario
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TotalHits
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: metrics1
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: metrics2
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: metrics3
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore LowOverheadSmoothnessTracking

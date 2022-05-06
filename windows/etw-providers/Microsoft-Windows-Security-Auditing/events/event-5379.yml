@@ -1,24 +1,21 @@
-title: 'Event ID 5379: Credential Manager credentials were read'
-description: This event occurs when a user performs a read operation on stored credentials
-  in Credential Manager.
+name: 'Event ID 5379: Credential Manager credentials were read'
+description: This event occurs when a user performs a read operation on stored credentials in Credential Manager.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5379'
+event_id: '5379'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that performed a read operation on stored credentials
-    in CM
+  description: SID of account that performed a read operation on stored credentials in CM
   sample_value: S-1-5-18
 - standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that performed a read operation on stored credentials
-    in CM
+  description: the name of the account that performed a read operation on stored credentials in CM
   sample_value: ACCT001$
 - standard_name: user_domain
   standard_type: TBD
@@ -30,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x3e7'
 - standard_name: credentials_read
   standard_type: TBD

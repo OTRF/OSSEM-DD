@@ -1,17 +1,17 @@
-title: Event 4517 - TaskGroup
-description: null
+name: Event 4517 - TaskGroup
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
-event_code: '4517'
+event_id: '4517'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TaskGroup
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

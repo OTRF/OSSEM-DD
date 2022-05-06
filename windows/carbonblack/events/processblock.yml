@@ -1,18 +1,15 @@
-title: ingress.event.processblock (Process Block)
-description: A process was blocked from executing on an endpoint monitored by Carbon
-  Black because the process MD5 has been blacklisted.
+name: ingress.event.processblock (Process Block)
+description: A process was blocked from executing on an endpoint monitored by Carbon Black because the process MD5 has been blacklisted.
 platform: windows
 log_source: carbonblack
-event_code: processblock
+event_id: processblock
 event_version: '0'
 event_fields:
 - standard_name: blocked_event
   standard_type: TBD
   name: blocked_event
   type: TEXT
-  description: 'The type of event that was blocked: either ProcessCreate (the process
-    was terminated immediately upon execution) or RunningProcess (the process was
-    already running on the endpoint when the block was applied).'
+  description: 'The type of event that was blocked: either ProcessCreate (the process was terminated immediately upon execution) or RunningProcess (the process was already running on the endpoint when the block was applied).'
   sample_value: ProcessCreate
 - standard_name: blocked_reason
   standard_type: TBD
@@ -24,16 +21,13 @@ event_fields:
   standard_type: TBD
   name: blocked_result
   type: TEXT
-  description: 'The result of the blocked action: ProcessTerminated, NotTerminatedCBProcess,
-    NotTerminatedSystemProcess, NotTerminatedCriticalSystemProcess, NotTerminatedWhitelistPath,
-    NotTerminatedOpenProcessError, or NotTerminatedTerminateError.'
+  description: 'The result of the blocked action: ProcessTerminated, NotTerminatedCBProcess, NotTerminatedSystemProcess, NotTerminatedCriticalSystemProcess, NotTerminatedWhitelistPath, NotTerminatedOpenProcessError, or NotTerminatedTerminateError.'
   sample_value: ProcessTerminated
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple Cb Response servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: process_command_line
   standard_type: TBD

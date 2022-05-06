@@ -1,17 +1,17 @@
-title: Event 8451 - FileServer
-description: null
+name: Event 8451 - FileServer
+description:
 platform: windows
 log_source: Microsoft-Windows-StorageManagement-WSP-FS
-event_code: '8451'
+event_id: '8451'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Parameter1
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_FileServer

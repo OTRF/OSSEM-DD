@@ -1,8 +1,8 @@
-title: System_info Table
+name: System_info Table
 description: System information for identification.
 platform: linux
 log_source: osquery
-event_code: system_info
+event_id: system_info
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

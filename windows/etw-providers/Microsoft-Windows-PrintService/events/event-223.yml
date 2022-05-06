@@ -1,23 +1,23 @@
-title: Event 223 - Tracingaspoolermessage
-description: null
+name: Event 223 - Tracingaspoolermessage
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '223'
+event_id: '223'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LastError
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_TRACE

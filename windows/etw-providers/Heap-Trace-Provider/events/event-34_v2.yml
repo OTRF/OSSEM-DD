@@ -1,45 +1,45 @@
-title: Event 34
-description: null
+name: Event 34
+description:
 platform: windows
 log_source: Heap Trace Provider
-event_code: '34'
+event_id: '34'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HeapHandle
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewAllocAddress
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldAllocAddress
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewAllocSize
   type: Object
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldAllocSize
   type: Object
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SourceId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags: []

@@ -1,41 +1,41 @@
-title: Event 23 - SavePersistedLogger
-description: null
+name: Event 23 - SavePersistedLogger
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-EventTracing
-event_code: '23'
+event_id: '23'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BufferSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BuffersPersisted
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BuffersWritten
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_ETW_KEYWORD_SOFT_RESTART

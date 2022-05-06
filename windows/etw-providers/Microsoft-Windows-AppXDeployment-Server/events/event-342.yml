@@ -1,23 +1,23 @@
-title: Event 342 - AppXDeployment.Task.Server.OSIM
-description: null
+name: Event 342 - AppXDeployment.Task.Server.OSIM
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '342'
+event_id: '342'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DehName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RunAsSystem
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_OSIM_KEYWORD keyword_400000000000

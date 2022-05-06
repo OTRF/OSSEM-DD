@@ -1,8 +1,8 @@
-title: Dns_resolvers Table
+name: Dns_resolvers Table
 description: Resolvers used by this host.
 platform: macos
 log_source: osquery
-event_code: dns_resolvers
+event_id: dns_resolvers
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,8 +1,8 @@
-title: Security Finding Format(SFF)
+name: Security Finding Format(SFF)
 description: AWS Security Finding Format common schema.
 platform: aws
 log_source: security_finding_format
-event_code: security_finding_format
+event_id: security_finding_format
 event_version: '0'
 event_fields:
 - standard_name: TBD
@@ -21,7 +21,7 @@ event_fields:
   standard_type: TBD
   name: Confidence
   type: integer
-  description: "A finding's confidence. Confidence is defined as the likelihood that a finding accurately identifies the behavior or issue that it was intended to identify.Confidence is scored on a 0\u2013100 basis using a ratio scale, where 0 means zero-percent confidence and 100 means 100-percent confidence.However, a data exfiltration detection based on a statistical deviation of network traffic has a much lower confidence because an actual exfiltration hasn't been verified."
+  description: "A finding's confidence. Confidence is defined as the likelihood that a finding accurately identifies the behavior or issue that it was intended to identify.Confidence is scored on a 0–100 basis using a ratio scale, where 0 means zero-percent confidence and 100 means 100-percent confidence.However, a data exfiltration detection based on a statistical deviation of network traffic has a much lower confidence because an actual exfiltration hasn't been verified."
   sample_value: '42'
 - standard_name: TBD
   standard_type: TBD
@@ -33,7 +33,7 @@ event_fields:
   standard_type: TBD
   name: Criticality
   type: integer
-  description: "The level of importance that is assigned to the resources associated with the finding. A score of 0 means that the underlying resources have no criticality, and a score of 100 is reserved for the most critical resources.  Criticality is scored on a 0\u2013100 basis, using a ratio scale that supports only full integers. This means that you should assess not only which findings impact resources that are more critical than others but also how much more critical those resources are compared to other resources. A score of 0 means that the underlying resources have no criticality, and a score of 100 is reserved for the most critical resources."
+  description: "The level of importance that is assigned to the resources associated with the finding. A score of 0 means that the underlying resources have no criticality, and a score of 100 is reserved for the most critical resources.  Criticality is scored on a 0–100 basis, using a ratio scale that supports only full integers. This means that you should assess not only which findings impact resources that are more critical than others but also how much more critical those resources are compared to other resources. A score of 0 means that the underlying resources have no criticality, and a score of 100 is reserved for the most critical resources."
   sample_value: '99'
 - standard_name: TBD
   standard_type: TBD
@@ -177,7 +177,7 @@ event_fields:
   standard_type: TBD
   name: VerificationState
   type: string
-  description: "The veracity of a finding. Findings products can provide the value of UNKNOWN for this field. A findings product should provide this value if there is a meaningful analog in the findings product's system. This field is typically populated by a user determination or action after they have investigated a finding.Valid values:* UNKNOWN \u2013 The default disposition of a security finding unless a user changes it.* TRUE_POSITIVE \u2013 A user sets this value if the security finding has been confirmed.* FALSE_POSITIVE \u2013 A user sets this value if the security finding has been determined to be a false alarm.* BENIGN_POSITIVE \u2013 A user sets this value as a special case of TRUE_POSITIVE where the finding doesn't   pose any threat, is expected, or both"
+  description: "The veracity of a finding. Findings products can provide the value of UNKNOWN for this field. A findings product should provide this value if there is a meaningful analog in the findings product's system. This field is typically populated by a user determination or action after they have investigated a finding.Valid values:* UNKNOWN – The default disposition of a security finding unless a user changes it.* TRUE_POSITIVE – A user sets this value if the security finding has been confirmed.* FALSE_POSITIVE – A user sets this value if the security finding has been determined to be a false alarm.* BENIGN_POSITIVE – A user sets this value as a special case of TRUE_POSITIVE where the finding doesn't   pose any threat, is expected, or both"
   sample_value: TRUE_POSITIVE
 - standard_name: TBD
   standard_type: TBD
@@ -189,7 +189,7 @@ event_fields:
   standard_type: TBD
   name: "WorkflowState (deprecated)"
   type: string
-  description: "This field is being deprecated in favor of the Status field of the Workflow object.The workflow state of a finding. Findings products can provide the value of NEW for this field. A findings product can provide a value for this field if there is a meaningful analog in the findings product's system.Valid values:* NEW \u2013 This can be associated with findings in the Active record state. This is the default workflow state for any new finding.* ASSIGNED \u2013 This can be associated with findings in the Active record state.   The finding has been acknowledged and given to someone to review or address.* IN_PROGRESS \u2013 This can be associated with findings in the Active record state. Team members are actively working on the finding.* RESOLVED \u2013 This can be associated with findings in the Archived record state.   This differs from DEFERRED findings in that if the finding were to occur again (be updated by the native service)   or any new finding matching this, the finding appears to customers as an active, new finding.* DEFERRED \u2013 This can be associated with findings in the Archived record state, and it means that any additional findings   that match this finding aren't shown for a set amount of time or indefinitely.  Either the customer doesn't consider the finding to be applicable, or it's a known issue that they don't want to include   in the active dataset.* DUPLICATE \u2013 This can be associated with findings in the Archived record state.   It means that the finding is a duplicate of another finding."
+  description: "This field is being deprecated in favor of the Status field of the Workflow object.The workflow state of a finding. Findings products can provide the value of NEW for this field. A findings product can provide a value for this field if there is a meaningful analog in the findings product's system.Valid values:* NEW – This can be associated with findings in the Active record state. This is the default workflow state for any new finding.* ASSIGNED – This can be associated with findings in the Active record state.   The finding has been acknowledged and given to someone to review or address.* IN_PROGRESS – This can be associated with findings in the Active record state. Team members are actively working on the finding.* RESOLVED – This can be associated with findings in the Archived record state.   This differs from DEFERRED findings in that if the finding were to occur again (be updated by the native service)   or any new finding matching this, the finding appears to customers as an active, new finding.* DEFERRED – This can be associated with findings in the Archived record state, and it means that any additional findings   that match this finding aren't shown for a set amount of time or indefinitely.  Either the customer doesn't consider the finding to be applicable, or it's a known issue that they don't want to include   in the active dataset.* DUPLICATE – This can be associated with findings in the Archived record state.   It means that the finding is a duplicate of another finding."
   sample_value: NEW
 references:
 - text: AWS Security Finding Format (ASFF) Syntax

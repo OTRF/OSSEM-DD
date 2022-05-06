@@ -1,17 +1,17 @@
-title: Event 13001 - NLSUnattendedRegionalandLanguageOptions
-description: null
+name: Event 13001 - NLSUnattendedRegionalandLanguageOptions
+description:
 platform: windows
 log_source: Microsoft-Windows-International
-event_code: '13001'
+event_id: '13001'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: LocaleName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_NLSoperations

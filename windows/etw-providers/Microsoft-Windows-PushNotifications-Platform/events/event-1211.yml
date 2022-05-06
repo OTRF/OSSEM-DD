@@ -1,32 +1,31 @@
-title: Event 1211 - ConnectionEstablishment
-description: null
+name: Event 1211 - ConnectionEstablishment
+description:
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
-event_code: '1211'
+event_id: '1211'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ConnectionType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HostName
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Port
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
-- etw_keywords_wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage
-  wnptrans
+- etw_keywords_wpnperf_FirstCloudNotification wpnperf_FirstCloudNotificationWithCloudImage wnptrans
 - etw_opcode_Start
 - etw_task_ConnectionEstablishment

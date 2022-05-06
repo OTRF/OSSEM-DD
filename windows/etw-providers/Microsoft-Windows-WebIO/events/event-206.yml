@@ -1,47 +1,47 @@
-title: Event 206 - ConnectionNameResolutionRequest
-description: null
+name: Event 206 - ConnectionNameResolutionRequest
+description:
 platform: windows
 log_source: Microsoft-Windows-WebIO
-event_code: '206'
+event_id: '206'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DnsQuery
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FQDN
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CanonicalName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddressCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SockaddrLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SockAddr
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

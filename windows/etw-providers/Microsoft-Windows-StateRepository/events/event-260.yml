@@ -1,47 +1,47 @@
-title: Event 260 - StateRepository.Task.DataAccessLayer
-description: null
+name: Event 260 - StateRepository.Task.DataAccessLayer
+description:
 platform: windows
 log_source: Microsoft-Windows-StateRepository
-event_code: '260'
+event_id: '260'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Entity
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Field
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Filename
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SQL
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Count
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Ids
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_STATEREPOSITORY_KEYWORD

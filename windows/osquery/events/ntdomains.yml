@@ -1,8 +1,8 @@
-title: Ntdomains Table
+name: Ntdomains Table
 description: Display basic NT domain information of a Windows machine.
 platform: windows
 log_source: osquery
-event_code: ntdomains
+event_id: ntdomains
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

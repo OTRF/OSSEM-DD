@@ -1,17 +1,17 @@
-title: Event 5062 - PINRecovery
-description: null
+name: Event 5062 - PINRecovery
+description:
 platform: windows
 log_source: Microsoft-Windows-HelloForBusiness
-event_code: '5062'
+event_id: '5062'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UserSid
   type: SID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Internal

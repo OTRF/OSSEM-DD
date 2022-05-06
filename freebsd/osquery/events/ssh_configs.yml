@@ -1,8 +1,8 @@
-title: Ssh_configs Table
+name: Ssh_configs Table
 description: A table of parsed ssh_configs.
 platform: freebsd
 log_source: osquery
-event_code: ssh_configs
+event_id: ssh_configs
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,41 +1,41 @@
-title: Event 208 - BootSI
-description: null
+name: Event 208 - BootSI
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '208'
+event_id: '208'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InitState
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StatusCode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FailureAddress
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReferenceAddress
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReasonCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_keyword_80000000000

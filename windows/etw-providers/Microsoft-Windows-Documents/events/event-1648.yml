@@ -1,17 +1,17 @@
-title: Event 1648 - DocPerf_Task_XpsPrint_API_EnterExit
-description: null
+name: Event 1648 - DocPerf_Task_XpsPrint_API_EnterExit
+description:
 platform: windows
 log_source: Microsoft-Windows-Documents
-event_code: '1648'
+event_id: '1648'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

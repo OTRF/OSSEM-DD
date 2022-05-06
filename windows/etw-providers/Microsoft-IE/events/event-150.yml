@@ -1,29 +1,29 @@
-title: Event 150 - Mshtml_DOM_CustomSiteEvent
-description: null
+name: Event 150 - Mshtml_DOM_CustomSiteEvent
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '150'
+event_id: '150'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CWindow
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Markup
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_extended mshtml pagemark

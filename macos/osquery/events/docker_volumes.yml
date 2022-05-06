@@ -1,8 +1,8 @@
-title: Docker_volumes Table
+name: Docker_volumes Table
 description: Docker volumes information.
 platform: macos
 log_source: osquery
-event_code: docker_volumes
+event_id: docker_volumes
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,23 +1,23 @@
-title: Event 294 - MIDMANIPULATION_UPDATE_INTERACTION_ADDITION
-description: null
+name: Event 294 - MIDMANIPULATION_UPDATE_INTERACTION_ADDITION
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '294'
+event_id: '294'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Interaction
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Visual
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore DwmInput

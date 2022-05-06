@@ -1,17 +1,17 @@
-title: Event 5909 - AppActivation_UnresponsiveApplicationCheck
-description: null
+name: Event 5909 - AppActivation_UnresponsiveApplicationCheck
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '5909'
+event_id: '5909'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AppClosed
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_AppActivation_UnresponsiveApplicationCheck

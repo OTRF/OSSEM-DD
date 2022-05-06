@@ -1,23 +1,23 @@
-title: Event 3 - Actionqueue
-description: null
+name: Event 3 - Actionqueue
+description:
 platform: windows
 log_source: Microsoft-Windows-Websocket-Protocol-Component
-event_code: '3'
+event_id: '3'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Id
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActionType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_keywords.KW_ALL

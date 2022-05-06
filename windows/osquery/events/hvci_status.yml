@@ -1,8 +1,8 @@
-title: Hvci_status Table
+name: Hvci_status Table
 description: Retrieve HVCI info of the machine.
 platform: windows
 log_source: osquery
-event_code: hvci_status
+event_id: hvci_status
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -21,22 +21,19 @@ event_fields:
   standard_type: TBD
   name: vbs_status
   type: TEXT
-  description: The status of the virtualization based security settings. Returns UNKNOWN
-    if an error is encountered.
+  description: The status of the virtualization based security settings. Returns UNKNOWN if an error is encountered.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: code_integrity_policy_enforcement_status
   type: TEXT
-  description: The status of the code integrity policy enforcement settings. Returns
-    UNKNOWN if an error is encountered.
+  description: The status of the code integrity policy enforcement settings. Returns UNKNOWN if an error is encountered.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: umci_policy_status
   type: TEXT
-  description: The status of the User Mode Code Integrity security settings. Returns
-    UNKNOWN if an error is encountered.
+  description: The status of the User Mode Code Integrity security settings. Returns UNKNOWN if an error is encountered.
   sample_value: TBD
 references:
 - text: OSQuery table documentation

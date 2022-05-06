@@ -1,41 +1,41 @@
-title: Event 451 - DCompVisualSetInteraction
-description: null
+name: Event 451 - DCompVisualSetInteraction
+description:
 platform: windows
 log_source: Microsoft-Windows-Win32k
-event_code: '451'
+event_id: '451'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Channel
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VisualInternalHandle
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InteractionInternalHandle
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VisualInternalHandleAndChannel
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InteractionInternalHandleAndChannel
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DCompInput

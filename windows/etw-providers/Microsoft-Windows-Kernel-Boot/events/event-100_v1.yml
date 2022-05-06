@@ -1,17 +1,17 @@
-title: Event 100 - InitializeLibrary
-description: null
+name: Event 100 - InitializeLibrary
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '100'
+event_id: '100'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Secure
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SoftRestart

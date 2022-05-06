@@ -1,17 +1,17 @@
-title: Event 391 - Bundlestreamingreader
-description: null
+name: Event 391 - Bundlestreamingreader
+description:
 platform: windows
 log_source: Microsoft-Windows-AppxPackagingOM
-event_code: '391'
+event_id: '391'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: packageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Bundlestreamingreader

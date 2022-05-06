@@ -1,29 +1,29 @@
-title: Event 5388 - Dashboard_Network_Adapter_WWanSetProperties
-description: null
+name: Event 5388 - Dashboard_Network_Adapter_WWanSetProperties
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-AdvancedTaskManager
-event_code: '5388'
+event_id: '5388'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ServiceProvider
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PhysicalNetworkType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SignalQuality
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_dashboard

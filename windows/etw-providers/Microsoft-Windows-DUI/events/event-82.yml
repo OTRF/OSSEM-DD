@@ -1,17 +1,17 @@
-title: Event 82 - DirectUI_ModernProgressBarPercentCompleted
-description: null
+name: Event 82 - DirectUI_ModernProgressBarPercentCompleted
+description:
 platform: windows
 log_source: Microsoft-Windows-DUI
-event_code: '82'
+event_id: '82'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: percent
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default

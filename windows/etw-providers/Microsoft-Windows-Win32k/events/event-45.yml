@@ -1,41 +1,41 @@
-title: Event 45 - ThreadExit
-description: null
+name: Event 45 - ThreadExit
+description:
 platform: windows
 log_source: Microsoft-Windows-Win32k
-event_code: '45'
+event_id: '45'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeSinceInputCheckMs
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeSinceInputRemoveMs
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeSinceOldestInputMs
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ThreadInfo

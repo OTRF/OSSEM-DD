@@ -1,17 +1,17 @@
-title: Event 37 - Marker
-description: null
+name: Event 37 - Marker
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D12
-event_code: '37'
+event_id: '37'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pID3D12CommandQueue
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Markers

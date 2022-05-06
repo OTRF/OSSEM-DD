@@ -1,23 +1,23 @@
-title: Event 1027 - task_0
-description: null
+name: Event 1027 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-GPIO-ClassExtension
-event_code: '1027'
+event_id: '1027'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PinNumber
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Gsiv
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_SpuriousInterruptDetected

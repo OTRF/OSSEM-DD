@@ -1,4 +1,4 @@
-title: Linux Osquery Event Logs
+name: Linux Osquery Event Logs
 description: Osquery schema is defined in tables by osquery engineers.
 images: []
 references:

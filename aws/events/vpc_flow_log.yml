@@ -1,8 +1,8 @@
-title: VPC Flow Logs
+name: VPC Flow Logs
 description: VPC Flow Log format common schema.
 platform: aws
 log_source: vpc_flow_log
-event_code: vpc_flow
+event_id: vpc_flow
 event_version: '2'
 event_fields:
 - standard_name: TBD

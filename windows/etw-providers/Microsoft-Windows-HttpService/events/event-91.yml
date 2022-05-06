@@ -1,23 +1,23 @@
-title: Event 91 - HTTPSSLTraceTask
-description: null
+name: Event 91 - HTTPSSLTraceTask
+description:
 platform: windows
 log_source: Microsoft-Windows-HttpService
-event_code: '91'
+event_id: '91'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EndpointConfigObj
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EndpointName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_HTTP_KEYWORD_ENDPOINT HTTP_KEYWORD_SSL

@@ -1,17 +1,17 @@
-title: Event 208 - Lockdown
-description: null
+name: Event 208 - Lockdown
+description:
 platform: windows
 log_source: Microsoft-Windows-Management-SecureAssessment
-event_code: '208'
+event_id: '208'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EnrollmentID
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SecureAssessment

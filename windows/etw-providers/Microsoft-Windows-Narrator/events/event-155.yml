@@ -1,17 +1,17 @@
-title: Event 155 - UpdateSoftFocus
-description: null
+name: Event 155 - UpdateSoftFocus
+description:
 platform: windows
 log_source: Microsoft-Windows-Narrator
-event_code: '155'
+event_id: '155'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AutomationContext
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

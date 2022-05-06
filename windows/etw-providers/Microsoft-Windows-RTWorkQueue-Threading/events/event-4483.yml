@@ -1,41 +1,41 @@
-title: Event 4483 - WorkQueue:AddImmediateDeadline
-description: null
+name: Event 4483 - WorkQueue:AddImmediateDeadline
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
-event_code: '4483'
+event_id: '4483'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueuePointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ItemPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: GlobalDeadline
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeltaAhead_usec
   type: Int64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

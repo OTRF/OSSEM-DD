@@ -1,35 +1,35 @@
-title: Event 663 - Mshtml_CDMScrollableTouchTarget_BeginInteraction
-description: null
+name: Event 663 - Mshtml_CDMScrollableTouchTarget_BeginInteraction
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '663'
+event_id: '663'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ManualGestureConfiguration
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PointerID
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsIHTThread
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CDMScrollableTouchTarget
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_touch

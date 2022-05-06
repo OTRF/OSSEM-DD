@@ -1,41 +1,41 @@
-title: Event 114 - RequestEntityCompleteCallback
-description: null
+name: Event 114 - RequestEntityCompleteCallback
+description:
 platform: windows
 log_source: Microsoft-Windows-WebIO
-event_code: '114'
+event_id: '114'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Request
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DataChunks
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CompletionContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CompletionInformation
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Keyword.API Keyword.SEND

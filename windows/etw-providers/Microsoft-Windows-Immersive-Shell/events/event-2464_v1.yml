@@ -1,41 +1,41 @@
-title: Event 2464 - PerfTrack_PLM_ResumeApplication
-description: null
+name: Event 2464 - PerfTrack_PLM_ResumeApplication
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '2464'
+event_id: '2464'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PsmKey
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackedResumeDurationsMs_HiWordAppLoWordPackage
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PLMComponent keyword_200000000000

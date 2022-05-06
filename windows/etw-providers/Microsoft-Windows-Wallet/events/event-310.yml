@@ -1,23 +1,23 @@
-title: Event 310 - Core_GetProperty
-description: null
+name: Event 310 - Core_GetProperty
+description:
 platform: windows
 log_source: Microsoft-Windows-Wallet
-event_code: '310'
+event_id: '310'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ItemId
   type: HexInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WalletItemPropertyType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Performance

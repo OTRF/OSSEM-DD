@@ -1,23 +1,23 @@
-title: Event 502 - FileWrite
-description: null
+name: Event 502 - FileWrite
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3DShaderCache
-event_code: '502'
+event_id: '502'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumBytes
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Profiling

@@ -1,8 +1,8 @@
-title: Sharing_preferences Table
+name: Sharing_preferences Table
 description: OS X Sharing preferences.
 platform: macos
 log_source: osquery
-event_code: sharing_preferences
+event_id: sharing_preferences
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

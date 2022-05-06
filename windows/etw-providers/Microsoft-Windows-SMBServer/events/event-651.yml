@@ -1,17 +1,17 @@
-title: Event 651 - Smb2FileDisconnect
-description: null
+name: Event 651 - Smb2FileDisconnect
+description:
 platform: windows
 log_source: Microsoft-Windows-SMBServer
-event_code: '651'
+event_id: '651'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: OpenGUID
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_File

@@ -1,17 +1,17 @@
-title: Event 470 - BrowserRoamedSettingChange_TrackingProtection
-description: null
+name: Event 470 - BrowserRoamedSettingChange_TrackingProtection
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '470'
+event_id: '470'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HWND
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_roaming

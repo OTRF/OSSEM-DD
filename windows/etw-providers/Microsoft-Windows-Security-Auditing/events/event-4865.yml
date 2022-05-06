@@ -1,32 +1,27 @@
-title: 'Event ID 4865: A trusted forest information entry was added.'
+name: 'Event ID 4865: A trusted forest information entry was added.'
 description: This event generates when new trusted forest information entry was added.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4865'
+event_id: '4865'
 event_version: '0'
 event_fields:
 - standard_name: forest_root
   standard_type: TBD
   name: ForestRoot
   type: UnicodeString
-  description: the name of the Active Directory forest for which trusted forest information
-    entry was added.
+  description: the name of the Active Directory forest for which trusted forest information entry was added.
   sample_value: Fabrikam.local
 - standard_name: forest_sid
   standard_type: TBD
   name: ForestRootSid
   type: SID
-  description: the SID of the Active Directory forest for which trusted forest information
-    entry was added.
+  description: the SID of the Active Directory forest for which trusted forest information entry was added.
   sample_value: S-1-5-21-2703072690-1374247579-2643703677
 - standard_name: operation_id
   standard_type: TBD
   name: OperationId
   type: HexInt64
-  description: 'unique hexadecimal identifier of the operation. You can correlate
-    this event with other events (4866(S): A trusted forest information entry was
-    removed, 4867(S): A trusted forest information entry was modified.) using this
-    field.'
+  description: 'unique hexadecimal identifier of the operation. You can correlate this event with other events (4866(S): A trusted forest information entry was removed, 4867(S): A trusted forest information entry was modified.) using this field.'
   sample_value: '0x648620'
 - standard_name: forest_entry_type
   standard_type: TBD
@@ -50,36 +45,31 @@ event_fields:
   standard_type: TBD
   name: DnsName
   type: UnicodeString
-  description: DNS name of the trust partner. This parameter might not be captured
-    in the event, and in that case appears as "-".
+  description: DNS name of the trust partner. This parameter might not be captured in the event, and in that case appears as "-".
   sample_value: Fabrikam.local
 - standard_name: netbios_name
   standard_type: TBD
   name: NetbiosName
   type: UnicodeString
-  description: NetBIOS name of the trust partner. This parameter might not be captured
-    in the event, and in that case appears as "-".
+  description: NetBIOS name of the trust partner. This parameter might not be captured in the event, and in that case appears as "-".
   sample_value: FABRIKAM
 - standard_name: domain_sid
   standard_type: TBD
   name: DomainSid
   type: SID
-  description: ID of the trust partner. This parameter might not be captured in the
-    event, and in that case appears as "NULL SID".
+  description: ID of the trust partner. This parameter might not be captured in the event, and in that case appears as "NULL SID".
   sample_value: S-1-5-21-2703072690-1374247579-2643703677
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: ']: SID of account that requested the "add a trusted forest information
-    entry" operation.'
+  description: ']: SID of account that requested the "add a trusted forest information entry" operation.'
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "add a trusted forest information
-    entry" operation.
+  description: the name of the account that requested the "add a trusted forest information entry" operation.
   sample_value: dadmin
 - standard_name: user_domain
   standard_type: TBD
@@ -91,9 +81,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x138eb0'
 references:
 - text: MS Source

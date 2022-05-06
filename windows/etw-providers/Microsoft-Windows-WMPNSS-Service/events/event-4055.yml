@@ -1,29 +1,29 @@
-title: Event 4055 - CPR_Get_Attrib
-description: null
+name: Event 4055 - CPR_Get_Attrib
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '4055'
+event_id: '4055'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Index
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WMPAtom
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,8 +1,8 @@
-title: Yum_sources Table
+name: Yum_sources Table
 description: Current list of Yum repositories or software channels.
 platform: linux
 log_source: osquery
-event_code: yum_sources
+event_id: yum_sources
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

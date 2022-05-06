@@ -1,41 +1,41 @@
-title: Event 1205 - RdClientRADCworkspace
-description: null
+name: Event 1205 - RdClientRADCworkspace
+description:
 platform: windows
 log_source: Microsoft-Windows-TerminalServices-ClientActiveXCore
-event_code: '1205'
+event_id: '1205'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Event
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TenantId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TotalTimeWithoutAdal
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AdalTime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Thiseventisraisedwhenaworkspaceeventlikesubscribe/updatesucceeded.

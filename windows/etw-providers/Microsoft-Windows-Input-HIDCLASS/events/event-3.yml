@@ -1,47 +1,47 @@
-title: Event 3 - task_0
-description: null
+name: Event 3 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Input-HIDCLASS
-event_code: '3'
+event_id: '3'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceObject
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VendorID
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProductID
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VersionNumber
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReportDescriptorLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReportDescriptor
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default

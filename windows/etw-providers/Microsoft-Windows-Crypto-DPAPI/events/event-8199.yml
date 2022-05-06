@@ -1,29 +1,29 @@
-title: Event 8199 - MasterKeyOperation
-description: null
+name: Event 8199 - MasterKeyOperation
+description:
 platform: windows
 log_source: Microsoft-Windows-Crypto-DPAPI
-event_code: '8199'
+event_id: '8199'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CredKeyIdentifier
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserSid
   type: SID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ETW_TASK_MASTERKEY_OPERATION

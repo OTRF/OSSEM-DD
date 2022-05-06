@@ -1,7 +1,5 @@
-title: Zeek Miscellaneous Event Logs
-description: 'Events regarding abnormal traffic (ie: protocols that are not 
-  adhering to an RFC) and or that could commonly be used to try to evade 
-  different detections/analyzers for that protocol.'
+name: Zeek Miscellaneous Event Logs
+description: 'Events regarding abnormal traffic (ie: protocols that are not adhering to an RFC) and or that could commonly be used to try to evade different detections/analyzers for that protocol.'
 images: []
 references:
 - text: Miscellaneous Logs

@@ -1,29 +1,29 @@
-title: Event 521 - BatteryCountChange
-description: null
+name: Event 521 - BatteryCountChange
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '521'
+event_id: '521'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ValidBatteryCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorBatteryCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AbandonedBatteryCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic po:DiagnosticLight

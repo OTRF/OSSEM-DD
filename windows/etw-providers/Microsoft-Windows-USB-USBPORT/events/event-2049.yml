@@ -1,23 +1,23 @@
-title: Event 2049 - MiniportStart
-description: null
+name: Event 2049 - MiniportStart
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
-event_code: '2049'
+event_id: '2049'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_HC
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_MiniportStatus
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

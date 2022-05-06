@@ -1,29 +1,29 @@
-title: Event 648 - Mshtml_Generic_Diagnosis_Trace_Hr_Error
-description: null
+name: Event 648 - Mshtml_Generic_Diagnosis_Trace_Hr_Error
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '648'
+event_id: '648'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorDescription
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThisPtr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HR
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_mshtml

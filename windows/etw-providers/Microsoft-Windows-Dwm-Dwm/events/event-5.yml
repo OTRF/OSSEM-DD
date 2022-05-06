@@ -1,17 +1,17 @@
-title: Event 5 - CompositionEnabledByPolicy
-description: null
+name: Event 5 - CompositionEnabledByPolicy
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Dwm
-event_code: '5'
+event_id: '5'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Flag
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmExe

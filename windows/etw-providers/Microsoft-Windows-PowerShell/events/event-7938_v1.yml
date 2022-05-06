@@ -1,29 +1,29 @@
-title: Event 7938 - None
-description: null
+name: Event 7938 - None
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '7938'
+event_id: '7938'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ContextInfo
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserData
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Payload
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Cmdlets

@@ -1,17 +1,17 @@
-title: Event 277 - ProcessPolicyEvent
-description: null
+name: Event 277 - ProcessPolicyEvent
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '277'
+event_id: '277'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

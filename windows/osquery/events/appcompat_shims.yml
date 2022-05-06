@@ -1,19 +1,15 @@
-title: Appcompat_shims Table
-description: Application Compatibility shims are a way to persist malware. This table
-  presents the AppCompat Shim information from the registry in a nice format. See
-  http://files.brucon.org/2015/Tomczak_and_Ballenthin_Shims_for_the_Win.pdf for more
-  details.
+name: Appcompat_shims Table
+description: Application Compatibility shims are a way to persist malware. This table presents the AppCompat Shim information from the registry in a nice format. See http://files.brucon.org/2015/Tomczak_and_Ballenthin_Shims_for_the_Win.pdf for more details.
 platform: windows
 log_source: osquery
-event_code: appcompat_shims
+event_id: appcompat_shims
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: executable
   type: TEXT
-  description: Name of the executable that is being shimmed. This is pulled from the
-    registry.
+  description: Name of the executable that is being shimmed. This is pulled from the registry.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

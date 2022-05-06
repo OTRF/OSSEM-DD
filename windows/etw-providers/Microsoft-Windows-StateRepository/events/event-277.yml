@@ -1,29 +1,29 @@
-title: Event 277 - StateRepository.Task.DataAccessLayer
-description: null
+name: Event 277 - StateRepository.Task.DataAccessLayer
+description:
 platform: windows
 log_source: Microsoft-Windows-StateRepository
-event_code: '277'
+event_id: '277'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Entity
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Id
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Fields
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_STATEREPOSITORY_KEYWORD keyword_200000000000

@@ -1,23 +1,23 @@
-title: Event 1055 - PrefetchScheduleTask
-description: null
+name: Event 1055 - PrefetchScheduleTask
+description:
 platform: windows
 log_source: Microsoft-Windows-Superfetch
-event_code: '1055'
+event_id: '1055'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AppKey
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FullPackageName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PfAp

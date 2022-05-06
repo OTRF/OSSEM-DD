@@ -1,29 +1,29 @@
-title: Event 2 - Targetreset
-description: null
+name: Event 2 - Targetreset
+description:
 platform: windows
 log_source: Microsoft-Windows-StorPort
-event_code: '2'
+event_id: '2'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PortNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PathID
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TargetID
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Reset

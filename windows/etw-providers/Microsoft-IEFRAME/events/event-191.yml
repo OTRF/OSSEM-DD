@@ -1,23 +1,23 @@
-title: Event 191 - Shdocvw_BaseBrowser_FireEvent_NavigateComplete
-description: null
+name: Event 191 - Shdocvw_BaseBrowser_FireEvent_NavigateComplete
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '191'
+event_id: '191'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TabID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TabState
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_primarynav

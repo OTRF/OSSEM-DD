@@ -1,17 +1,17 @@
-title: Event 3 - ProvisionAndSetTarget
-description: null
+name: Event 3 - ProvisionAndSetTarget
+description:
 platform: windows
 log_source: Microsoft-Windows-FileHistory-ConfigManager
-event_code: '3'
+event_id: '3'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TargetUrl
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Start

@@ -1,47 +1,47 @@
-title: Event 7401 - task_0
-description: null
+name: Event 7401 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '7401'
+event_id: '7401'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HeaderAddr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Section
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_APPMODEL_RUNTIME_DMR_KEYWORD

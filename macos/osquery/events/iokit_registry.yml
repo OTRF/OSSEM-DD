@@ -1,8 +1,8 @@
-title: Iokit_registry Table
+name: Iokit_registry Table
 description: The full IOKit registry without selecting a plane.
 platform: macos
 log_source: osquery
-event_code: iokit_registry
+event_id: iokit_registry
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

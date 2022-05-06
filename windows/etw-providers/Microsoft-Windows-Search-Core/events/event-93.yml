@@ -1,29 +1,29 @@
-title: Event 93 - Backoff_HighNotificationsCheck
-description: null
+name: Event 93 - Backoff_HighNotificationsCheck
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '93'
+event_id: '93'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NotificationRate
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HighNotificationThreshold
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsHigh
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Backoff

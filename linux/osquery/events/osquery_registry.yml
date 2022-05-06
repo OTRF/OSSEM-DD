@@ -1,8 +1,8 @@
-title: Osquery_registry Table
+name: Osquery_registry Table
 description: List the osquery registry plugins.
 platform: linux
 log_source: osquery
-event_code: osquery_registry
+event_id: osquery_registry
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

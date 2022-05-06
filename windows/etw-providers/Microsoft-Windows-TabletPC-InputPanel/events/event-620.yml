@@ -1,17 +1,17 @@
-title: Event 620 - SoftKeyboard_OutputManager_GetIntendedKeyPress
-description: null
+name: Event 620 - SoftKeyboard_OutputManager_GetIntendedKeyPress
+description:
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
-event_code: '620'
+event_id: '620'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SequenceNumber
   type: Int64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

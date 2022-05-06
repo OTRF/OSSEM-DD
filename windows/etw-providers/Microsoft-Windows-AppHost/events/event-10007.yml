@@ -1,17 +1,17 @@
-title: Event 10007 - Drawing
-description: null
+name: Event 10007 - Drawing
+description:
 platform: windows
 log_source: Microsoft-Windows-AppHost
-event_code: '10007'
+event_id: '10007'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Value
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WWAHOST_KEYWORD

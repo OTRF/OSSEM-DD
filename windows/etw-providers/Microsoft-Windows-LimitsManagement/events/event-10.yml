@@ -1,17 +1,17 @@
-title: Event 10 - PolicyRemoved
-description: null
+name: Event 10 - PolicyRemoved
+description:
 platform: windows
 log_source: Microsoft-Windows-LimitsManagement
-event_code: '10'
+event_id: '10'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Token
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_PolicyRemoved

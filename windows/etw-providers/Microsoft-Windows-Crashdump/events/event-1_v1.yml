@@ -1,23 +1,23 @@
-title: Event 1 - Resumecapablesettings
-description: null
+name: Event 1 - Resumecapablesettings
+description:
 platform: windows
 log_source: Microsoft-Windows-Crashdump
-event_code: '1'
+event_id: '1'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ResumeCapable
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReasonCodes
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Config

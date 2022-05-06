@@ -1,29 +1,29 @@
-title: Event 1045 - AppXDeployment.Task.Server.StagingManager
-description: null
+name: Event 1045 - AppXDeployment.Task.Server.StagingManager
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '1045'
+event_id: '1045'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageUri
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFolder
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFolderOld
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD APPXDEPLOYMENTSERVER_PERF_KEYWORD

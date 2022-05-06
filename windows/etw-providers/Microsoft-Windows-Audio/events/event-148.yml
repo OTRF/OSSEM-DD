@@ -1,41 +1,41 @@
-title: Event 148 - AEData
-description: null
+name: Event 148 - AEData
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '148'
+event_id: '148'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: objInstance
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ucType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Data1
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Data2
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Data3
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_AEData

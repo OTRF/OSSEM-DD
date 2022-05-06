@@ -1,17 +1,17 @@
-title: Event 4 - SLSvcInit_PhaseTwo
-description: null
+name: Event 4 - SLSvcInit_PhaseTwo
+description:
 platform: windows
 log_source: Microsoft-Windows-Security-SPP
-event_code: '4'
+event_id: '4'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

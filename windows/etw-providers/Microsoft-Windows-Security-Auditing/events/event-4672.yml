@@ -1,9 +1,8 @@
-title: 'Event ID 4672: Special privileges assigned to new logon'
-description: 'This event generates for new account logons if any of the following
-  sensitive privileges are assigned to the new logon session:'
+name: 'Event ID 4672: Special privileges assigned to new logon'
+description: 'This event generates for new account logons if any of the following sensitive privileges are assigned to the new logon session:'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4672'
+event_id: '4672'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -28,17 +27,14 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x671101'
 - standard_name: user_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
   description: the list of sensitive privileges, assigned to the new logon.
-  sample_value: SeTcbPrivilege SeSecurityPrivilege SeTakeOwnershipPrivilege SeLoadDriverPrivilege
-    SeBackupPrivilege SeRestorePrivilege SeDebugPrivilege SeSystemEnvironmentPrivilege
-    SeEnableDelegationPrivilege SeImpersonatePrivilege
+  sample_value: SeTcbPrivilege SeSecurityPrivilege SeTakeOwnershipPrivilege SeLoadDriverPrivilege SeBackupPrivilege SeRestorePrivilege SeDebugPrivilege SeSystemEnvironmentPrivilege SeEnableDelegationPrivilege SeImpersonatePrivilege
 references:
 - text: MS Source
   link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4672.md

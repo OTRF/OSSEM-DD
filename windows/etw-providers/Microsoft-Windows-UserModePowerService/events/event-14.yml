@@ -1,47 +1,47 @@
-title: Event 14 - PowerMeterMetaData
-description: null
+name: Event 14 - PowerMeterMetaData
+description:
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
-event_code: '14'
+event_id: '14'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MeterId
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SamplingPeriod
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MeterNameLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MeterName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MeteredHardwareCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MeteredHardwareName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PowerMeter

@@ -1,23 +1,23 @@
-title: Event 39 - Audio_Glitch_Detection
-description: null
+name: Event 39 - Audio_Glitch_Detection
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '39'
+event_id: '39'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pCAudioBasePin
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LockedDataPointer
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_BASEInputNullLastBufferwithLockedData!=LoopedBuffer

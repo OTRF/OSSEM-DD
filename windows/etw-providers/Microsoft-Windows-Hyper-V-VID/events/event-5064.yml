@@ -1,29 +1,29 @@
-title: Event 5064 - VMT_VID_GPA_UNMAP
-description: null
+name: Event 5064 - VMT_VID_GPA_UNMAP
+description:
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-VID
-event_code: '5064'
+event_id: '5064'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FirstPage
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LastPage
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PartitionGuid
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_VMK_GPA

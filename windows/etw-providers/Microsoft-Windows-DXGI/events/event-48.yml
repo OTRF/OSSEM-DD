@@ -1,41 +1,41 @@
-title: Event 48 - ResizeTarget
-description: null
+name: Event 48 - ResizeTarget
+description:
 platform: windows
 log_source: Microsoft-Windows-DXGI
-event_code: '48'
+event_id: '48'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pIDXGISwapChain
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReturnValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pNewPrimary
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pNewProxyPrimary
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewWinFlipProxyBufferCount
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Events

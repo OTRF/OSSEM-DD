@@ -1,23 +1,23 @@
-title: Event 134 - AddDevice
-description: null
+name: Event 134 - AddDevice
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBHUB3
-event_code: '134'
+event_id: '134'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_UsbDevice
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_NtStatus
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Default HWVerifyHub keyword_400000000000

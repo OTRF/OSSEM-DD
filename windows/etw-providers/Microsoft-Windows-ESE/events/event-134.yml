@@ -1,35 +1,35 @@
-title: Event 134 - ESE_GPTaskManagerPost_Trace
-description: null
+name: Event 134 - ESE_GPTaskManagerPost_Trace
+description:
 platform: windows
 log_source: Microsoft-Windows-ESE
-event_code: '134'
+event_id: '134'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pgptm
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pfnCompletion
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pvParam
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pTaskInfo
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Task

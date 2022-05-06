@@ -1,23 +1,23 @@
-title: Event 2010 - VisibilityInputType
-description: null
+name: Event 2010 - VisibilityInputType
+description:
 platform: windows
 log_source: Microsoft-Windows-TabletPC-InputPanel
-event_code: '2010'
+event_id: '2010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hwnd
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fVisible
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_TabletPC_InputPanel_Keyword

@@ -1,8 +1,8 @@
-title: Opera_extensions Table
+name: Opera_extensions Table
 description: Opera browser extensions.
 platform: linux
 log_source: osquery
-event_code: opera_extensions
+event_id: opera_extensions
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

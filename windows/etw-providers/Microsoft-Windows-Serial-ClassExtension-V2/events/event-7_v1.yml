@@ -1,35 +1,35 @@
-title: Event 7 - task_0
-description: null
+name: Event 7 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Serial-ClassExtension-V2
-event_code: '7'
+event_id: '7'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Device
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TransmitTransferSmContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReceiveTransferSmContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceInstanceId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PNP

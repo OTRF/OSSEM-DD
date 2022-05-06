@@ -1,17 +1,17 @@
-title: Event 5122 - WirelessWizardPage_SectionReady
-description: null
+name: Event 5122 - WirelessWizardPage_SectionReady
+description:
 platform: windows
 log_source: Microsoft-Windows-OOBE-Machine-DUI
-event_code: '5122'
+event_id: '5122'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Text
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_msoobe

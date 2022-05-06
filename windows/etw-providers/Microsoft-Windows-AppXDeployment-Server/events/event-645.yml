@@ -1,17 +1,17 @@
-title: Event 645 - AppXDeployment.Task.Server.Deployment
-description: null
+name: Event 645 - AppXDeployment.Task.Server.Deployment
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '645'
+event_id: '645'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000

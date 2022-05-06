@@ -1,17 +1,17 @@
-title: Event 1001 - MediaFoundationLoadTopology
-description: null
+name: Event 1001 - MediaFoundationLoadTopology
+description:
 platform: windows
 log_source: Microsoft-Windows-MF
-event_code: '1001'
+event_id: '1001'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

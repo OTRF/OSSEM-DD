@@ -1,29 +1,29 @@
-title: Event 85 - SCHEDULE_ROUNDTRIPREQUEST_STATE
-description: null
+name: Event 85 - SCHEDULE_ROUNDTRIPREQUEST_STATE
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '85'
+event_id: '85'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NextState
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RequestId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FrameToWaitFor
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

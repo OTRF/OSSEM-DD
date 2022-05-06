@@ -1,17 +1,17 @@
-title: Event 3203 - EdgeUi_Invoke_Discrete
-description: null
+name: Event 3203 - EdgeUi_Invoke_Discrete
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '3203'
+event_id: '3203'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EdgeUiComponent
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_EdgeUi_Invoke_Discrete

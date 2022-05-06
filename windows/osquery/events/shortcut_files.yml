@@ -1,8 +1,8 @@
-title: shortcut_files Table
+name: shortcut_files Table
 description: View data about Windows Shortcut files.
 platform: windows
 log_source: osquery
-event_code: shortcut_files
+event_id: shortcut_files
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -13,13 +13,13 @@ event_fields:
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: target_path	
+  name: target_path
   type: TEXT
   description: Target file path
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
-  name: target_modified	
+  name: target_modified
   type: INTEGER
   description: Target Modified time
   sample_value: TBD

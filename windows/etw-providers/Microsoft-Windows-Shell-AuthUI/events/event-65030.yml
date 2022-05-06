@@ -1,29 +1,29 @@
-title: Event 65030 - LockscreenNotifications_NotificationUpdated
-description: null
+name: Event 65030 - LockscreenNotifications_NotificationUpdated
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
-event_code: '65030'
+event_id: '65030'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NotificationType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Operation
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,47 +1,47 @@
-title: Event 217 - Installingaprinterdriver
-description: null
+name: Event 217 - Installingaprinterdriver
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '217'
+event_id: '217'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Context
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AdditionalInfo
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessorArchitecture
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LastError
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HResult
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_PRINTER SPOOLER_KEYWORD_SETUP

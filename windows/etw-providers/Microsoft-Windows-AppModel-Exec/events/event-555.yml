@@ -1,17 +1,17 @@
-title: Event 555 - BM_DPLCancelWorkItem
-description: null
+name: Event 555 - BM_DPLCancelWorkItem
+description:
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
-event_code: '555'
+event_id: '555'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkItemId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_BM ExecProductionCircular ExecDevPlatCircular

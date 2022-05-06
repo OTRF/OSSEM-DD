@@ -1,17 +1,17 @@
-title: Event 62401 - CloudExperienceHost_AppActivity
-description: null
+name: Event 62401 - CloudExperienceHost_AppActivity
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '62401'
+event_id: '62401'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell CloudExperienceHost

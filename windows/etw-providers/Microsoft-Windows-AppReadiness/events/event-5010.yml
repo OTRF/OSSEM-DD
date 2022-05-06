@@ -1,29 +1,29 @@
-title: Event 5010 - AppReadiness_Timeline
-description: null
+name: Event 5010 - AppReadiness_Timeline
+description:
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
-event_code: '5010'
+event_id: '5010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UserId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActivityId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Timeline

@@ -1,17 +1,17 @@
-title: Event 17 - Proximity_SessionAppLaunch
-description: null
+name: Event 17 - Proximity_SessionAppLaunch
+description:
 platform: windows
 log_source: Microsoft-Windows-Proximity-Common
-event_code: '17'
+event_id: '17'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: String
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

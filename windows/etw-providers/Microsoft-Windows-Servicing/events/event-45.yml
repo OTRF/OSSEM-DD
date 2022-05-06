@@ -1,17 +1,17 @@
-title: Event 45 - Generic_Task
-description: null
+name: Event 45 - Generic_Task
+description:
 platform: windows
 log_source: Microsoft-Windows-Servicing
-event_code: '45'
+event_id: '45'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EventReport
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Stop

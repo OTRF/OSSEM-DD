@@ -1,17 +1,15 @@
-title: ingress.event.crossprocopen (Cross Process Open)
-description: A process has attempted to open a handle into another process OR if a
-  remote thread was created.
+name: ingress.event.crossprocopen (Cross Process Open)
+description: A process has attempted to open a handle into another process OR if a remote thread was created.
 platform: windows
 log_source: carbonblack
-event_code: cross_process
+event_id: cross_process
 event_version: '0'
 event_fields:
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple EDR servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple EDR servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
   standard_type: TBD
@@ -23,8 +21,7 @@ event_fields:
   standard_type: TBD
   name: cross_process_type
   type: TEXT
-  description: 'The type of cross process event: either open_process (opening a handle
-    to another process) or open_thread'
+  description: 'The type of cross process event: either open_process (opening a handle to another process) or open_thread'
   sample_value: open_process
 - standard_name: event_type
   standard_type: TBD
@@ -66,8 +63,7 @@ event_fields:
   standard_type: TBD
   name: pid
   type: INTEGER
-  description: Endpoint OS Process id of process that generated the crossprocopen
-    event
+  description: Endpoint OS Process id of process that generated the crossprocopen event
   sample_value: '3276'
 - standard_name: process_guid
   standard_type: TBD
@@ -79,8 +75,7 @@ event_fields:
   standard_type: TBD
   name: requested_access
   type: INTEGER
-  description: Windows bitfield representing the requested access for this process
-    or thread handle (decimal)
+  description: Windows bitfield representing the requested access for this process or thread handle (decimal)
   sample_value: '5136'
 - standard_name: sensor_id
   standard_type: TBD

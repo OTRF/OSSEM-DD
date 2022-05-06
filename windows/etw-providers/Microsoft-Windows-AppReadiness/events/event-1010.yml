@@ -1,29 +1,29 @@
-title: Event 1010 - AppReadiness_Api_ProcessTasks
-description: null
+name: Event 1010 - AppReadiness_Api_ProcessTasks
+description:
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
-event_code: '1010'
+event_id: '1010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: User
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Api

@@ -1,17 +1,17 @@
-title: Event 2153 - PerfTrack_Picker_NavigateUNC_ViewComplete
-description: null
+name: Event 2153 - PerfTrack_Picker_NavigateUNC_ViewComplete
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '2153'
+event_id: '2153'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TotalCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,17 +1,17 @@
-title: Event 2 - HealthCenter_IconMessage
-description: null
+name: Event 2 - HealthCenter_IconMessage
+description:
 platform: windows
 log_source: Microsoft-Windows-HealthCenter
-event_code: '2'
+event_id: '2'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_HealthCenter_IconMessage

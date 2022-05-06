@@ -1,17 +1,17 @@
-title: Event 772 - AppXDeployment.Task.Server.Deployment
-description: null
+name: Event 772 - AppXDeployment.Task.Server.Deployment
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '772'
+event_id: '772'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

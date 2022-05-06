@@ -1,29 +1,29 @@
-title: Event 28673 - Serializeordeserializeremotingpayload
-description: null
+name: Event 28673 - Serializeordeserializeremotingpayload
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '28673'
+event_id: '28673'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeserializedType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CastedToType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RehydratedType
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Serializer

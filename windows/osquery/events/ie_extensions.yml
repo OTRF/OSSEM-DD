@@ -1,8 +1,8 @@
-title: Ie_extensions Table
+name: Ie_extensions Table
 description: Internet Explorer browser extensions.
 platform: windows
 log_source: osquery
-event_code: ie_extensions
+event_id: ie_extensions
 event_version: 5.0.1
 event_fields:
 - standard_name: extension_name

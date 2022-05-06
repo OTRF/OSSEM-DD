@@ -1,13 +1,10 @@
-title: 'Event ID 4730: A security-enabled global group was deleted'
-description: 'Event 4730 is the same as 4734, but it is generated for a global security
-  group instead of a local security group. All event fields, XML, and recommendations
-  are the same. The type of group is the only difference.
+name: 'Event ID 4730: A security-enabled global group was deleted'
+description: 'Event 4730 is the same as 4734, but it is generated for a global security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-  Event 4730(S) generates only for domain groups, so the Local sections in event 4734
-  do not apply.'
+  Event 4730(S) generates only for domain groups, so the Local sections in event 4734 do not apply.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4730'
+event_id: '4730'
 event_version: '0'
 event_fields:
 - standard_name: group_name
@@ -26,17 +23,13 @@ event_fields:
   standard_type: TBD
   name: TargetSid
   type: SID
-  description: SID of deleted group. Event Viewer automatically tries to resolve SIDs
-    and show the group name. If the SID cannot be resolved, you will see the source
-    data in the event.
+  description: SID of deleted group. Event Viewer automatically tries to resolve SIDs and show the group name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-6605
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested the "delete group" operation. Event Viewer
-    automatically tries to resolve SIDs and show the account name. If the SID cannot
-    be resolved, you will see the source data in the event.
+  description: SID of account that requested the "delete group" operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: user_name
   standard_type: TBD
@@ -54,18 +47,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x35e38'
 - standard_name: user_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: the list of user privileges which were used during the operation, for
-    example, SeBackupPrivilege. This parameter might not be captured in the event,
-    and in that case appears as "-". See full list of user privileges in "Table 8.
-    User Privileges.".
+  description: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as "-". See full list of user privileges in "Table 8. User Privileges.".
   sample_value: '-'
 references:
 - text: MS Source

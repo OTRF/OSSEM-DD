@@ -1,17 +1,17 @@
-title: Event 19628 - Shell32_ControlPanel_SlowAppletsLoaded
-description: null
+name: Event 19628 - Shell32_ControlPanel_SlowAppletsLoaded
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '19628'
+event_id: '19628'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Value
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

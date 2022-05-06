@@ -1,11 +1,8 @@
-title: Programs Table
-description: Represents products as they are installed by Windows Installer. A product
-  generally correlates to one installation package on Windows. Some fields may be
-  blank as Windows installation details are left to the discretion of the product
-  author.
+name: Programs Table
+description: Represents products as they are installed by Windows Installer. A product generally correlates to one installation package on Windows. Some fields may be blank as Windows installation details are left to the discretion of the product author.
 platform: windows
 log_source: osquery
-event_code: programs
+event_id: programs
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -60,8 +57,7 @@ event_fields:
   standard_type: TBD
   name: identifying_number
   type: TEXT
-  description: Product identification such as a serial number on software, or a die
-    number on a hardware chip.
+  description: Product identification such as a serial number on software, or a die number on a hardware chip.
   sample_value: TBD
 references:
 - text: OSQuery table documentation

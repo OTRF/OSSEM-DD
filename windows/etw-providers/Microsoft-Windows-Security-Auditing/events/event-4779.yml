@@ -1,10 +1,8 @@
-title: 'Event ID 4779: A session was disconnected from a Window Station'
-description: This event is generated when a user disconnects from an existing Terminal
-  Services session, or when a user switches away from an existing desktop using Fast
-  User Switching.
+name: 'Event ID 4779: A session was disconnected from a Window Station'
+description: This event is generated when a user disconnects from an existing Terminal Services session, or when a user switches away from an existing desktop using Fast User Switching.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4779'
+event_id: '4779'
 event_version: '0'
 event_fields:
 - standard_name: user_name
@@ -23,8 +21,7 @@ event_fields:
   standard_type: TBD
   name: LogonID
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x1e01f6'
 - standard_name: session_name
   standard_type: TBD
@@ -36,8 +33,7 @@ event_fields:
   standard_type: TBD
   name: ClientName
   type: UnicodeString
-  description: machine name from which the session was disconnected. Has "Unknown"value
-    for console session.
+  description: machine name from which the session was disconnected. Has "Unknown"value for console session.
   sample_value: WIN81
 - standard_name: src_ip_addr
   standard_type: TBD

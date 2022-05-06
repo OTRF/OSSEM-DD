@@ -1,23 +1,23 @@
-title: Event 149 - DecodeSwapchainNotUsed
-description: null
+name: Event 149 - DecodeSwapchainNotUsed
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '149'
+event_id: '149'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SwapchainState
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_DecodeSwapchainNotUsed

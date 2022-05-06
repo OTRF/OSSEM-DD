@@ -1,17 +1,17 @@
-title: Event 6115 - task_0
-description: null
+name: Event 6115 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-LiveId
-event_code: '6115'
+event_id: '6115'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Value
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WlidSvc SOAP

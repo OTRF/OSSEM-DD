@@ -1,8 +1,8 @@
-title: Cloudtrail
+name: Cloudtrail
 description: AWS CloudTrail Log format common schema
 platform: aws
 log_source: cloudtrail
-event_code: cloudtrail
+event_id: cloudtrail
 event_version: '1.05'
 event_fields:
 - standard_name: TBD

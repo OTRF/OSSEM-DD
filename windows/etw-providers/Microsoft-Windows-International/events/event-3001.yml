@@ -1,47 +1,47 @@
-title: Event 3001 - NLSdate/timefunctions
-description: null
+name: Event 3001 - NLSdate/timefunctions
+description:
 platform: windows
 log_source: Microsoft-Windows-International
-event_code: '3001'
+event_id: '3001'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProdessName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Locale
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Calendar
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CalType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: lpLCalData
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_NLSoperations

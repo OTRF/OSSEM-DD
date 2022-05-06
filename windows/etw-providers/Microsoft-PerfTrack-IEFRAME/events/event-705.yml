@@ -1,17 +1,17 @@
-title: Event 705 - Browseui_Tabs_Tearoff_BetweenWindows
-description: null
+name: Event 705 - Browseui_Tabs_Tearoff_BetweenWindows
+description:
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
-event_code: '705'
+event_id: '705'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,35 +1,35 @@
-title: Event 4341 - LdapAuthentication
-description: null
+name: Event 4341 - LdapAuthentication
+description:
 platform: windows
 log_source: Microsoft-Windows-NlaSvc
-event_code: '4341'
+event_id: '4341'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Addresses
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TryCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Resolver Intranet

@@ -1,29 +1,29 @@
-title: Event 4049 - Obj_Pop_Artist_Author
-description: null
+name: Event 4049 - Obj_Pop_Artist_Author
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '4049'
+event_id: '4049'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WMPAtom
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReturnedCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

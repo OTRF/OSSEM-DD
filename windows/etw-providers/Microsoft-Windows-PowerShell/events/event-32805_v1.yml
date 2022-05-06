@@ -1,23 +1,23 @@
-title: Event 32805 - task_0
-description: null
+name: Event 32805 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '32805'
+event_id: '32805'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Uri
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Transport

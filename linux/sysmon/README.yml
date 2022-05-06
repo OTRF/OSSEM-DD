@@ -1,7 +1,4 @@
-title: Sysmon Event Logs
-description: System Monitor (Sysmon) for Linux is an open-source system monitor tool developed to collect
-  security events from Linux environments using eBPF (Extended Berkeley Packet Filter) and sending them
-  to Syslog for easy consumption. Sysmon for Linux is built on a library named “sysinternalsEBPF”
-  which is built on libbpf including a library of eBPF inline functions used as helpers.
+name: Sysmon Event Logs
+description: System Monitor (Sysmon) for Linux is an open-source system monitor tool developed to collect security events from Linux environments using eBPF (Extended Berkeley Packet Filter) and sending them to Syslog for easy consumption. Sysmon for Linux is built on a library named “sysinternalsEBPF” which is built on libbpf including a library of eBPF inline functions used as helpers.
 images: []
 references: []

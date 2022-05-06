@@ -1,23 +1,23 @@
-title: Event 103 - USBUSER_OP_RAW_RESET_PORT
-description: null
+name: Event 103 - USBUSER_OP_RAW_RESET_PORT
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
-event_code: '103'
+event_id: '103'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_HC
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_PortNumber
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

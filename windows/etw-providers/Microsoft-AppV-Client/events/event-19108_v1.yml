@@ -1,29 +1,29 @@
-title: Event 19108 - PublishingRefresh
-description: null
+name: Event 19108 - PublishingRefresh
+description:
 platform: windows
 log_source: Microsoft-AppV-Client
-event_code: '19108'
+event_id: '19108'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Guid1
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Guid2
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Guid3
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_PublishingRefresh

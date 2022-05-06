@@ -1,17 +1,17 @@
-title: Event 712 - Find_FindFirstHit_Perftrack
-description: null
+name: Event 712 - Find_FindFirstHit_Perftrack
+description:
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
-event_code: '712'
+event_id: '712'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

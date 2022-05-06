@@ -1,17 +1,17 @@
-title: Event 42 - task_0
-description: null
+name: Event 42 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBXHCI
-event_code: '42'
+event_id: '42'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_InterrupterNumber
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default Performance

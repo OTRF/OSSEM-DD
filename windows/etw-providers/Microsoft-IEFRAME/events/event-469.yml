@@ -1,17 +1,17 @@
-title: Event 469 - BrowserRoamedSettingChange_FlipAhead
-description: null
+name: Event 469 - BrowserRoamedSettingChange_FlipAhead
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '469'
+event_id: '469'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HWND
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_roaming

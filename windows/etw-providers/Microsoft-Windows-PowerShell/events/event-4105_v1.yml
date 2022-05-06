@@ -1,23 +1,23 @@
-title: Event 4105 - StartingCommand
-description: null
+name: Event 4105 - StartingCommand
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '4105'
+event_id: '4105'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ScriptBlockId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RunspaceId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Runspace

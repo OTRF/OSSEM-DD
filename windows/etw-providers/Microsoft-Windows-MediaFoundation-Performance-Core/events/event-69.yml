@@ -1,29 +1,29 @@
-title: Event 69 - AudStreamSink_InternalFlush_Task
-description: null
+name: Event 69 - AudStreamSink_InternalFlush_Task
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
-event_code: '69'
+event_id: '69'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hResult
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fDiscontinuity
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

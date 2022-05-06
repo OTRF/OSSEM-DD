@@ -1,35 +1,35 @@
-title: Event 854 - IDXGISwapChainPartner_PresentBuffer
-description: null
+name: Event 854 - IDXGISwapChainPartner_PresentBuffer
+description:
 platform: windows
 log_source: Microsoft-Windows-DXGI
-event_code: '854'
+event_id: '854'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pThis
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BufferToPresent
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SyncInterval
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Start

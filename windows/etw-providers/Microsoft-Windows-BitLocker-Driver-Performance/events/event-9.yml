@@ -1,23 +1,23 @@
-title: Event 9 - fve:WriteSubRequest
-description: null
+name: Event 9 - fve:WriteSubRequest
+description:
 platform: windows
 log_source: Microsoft-Windows-BitLocker-Driver-Performance
-event_code: '9'
+event_id: '9'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DevObjPtr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IrpPtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_fve:Performance

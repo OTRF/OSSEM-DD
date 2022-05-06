@@ -1,23 +1,23 @@
-title: Event 834 - Mshtml_EventLoop_OnSentinelFired
-description: null
+name: Event 834 - Mshtml_EventLoop_OnSentinelFired
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '834'
+event_id: '834'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Priority
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NestingLevel
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_gwnd

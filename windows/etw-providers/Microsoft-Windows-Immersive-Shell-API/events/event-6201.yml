@@ -1,17 +1,17 @@
-title: Event 6201 - DataTransferManager_API_AppReturnData
-description: null
+name: Event 6201 - DataTransferManager_API_AppReturnData
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell-API
-event_code: '6201'
+event_id: '6201'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AppID
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

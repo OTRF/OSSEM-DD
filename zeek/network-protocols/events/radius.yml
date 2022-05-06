@@ -1,8 +1,8 @@
-title: Radius Log
-description: null
+name: Radius Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: radius
+event_id: radius
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -51,9 +51,7 @@ event_fields:
   standard_type: TBD
   name: ttl
   type: float
-  description: The duration between the first request and either the "Access-Accept"
-    message or an error. If the field is empty, it means that either the request or
-    response was not seen
+  description: The duration between the first request and either the "Access-Accept" message or an error. If the field is empty, it means that either the request or response was not seen
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -77,23 +75,19 @@ event_fields:
   standard_type: TBD
   name: framed_addr
   type: ip
-  description: The address given to the network access server, if present. This is
-    only a hint from the RADIUS server and the network access server is not required
-    to honor the address
+  description: The address given to the network access server, if present. This is only a hint from the RADIUS server and the network access server is not required to honor the address
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: reply_msg
   type: string
-  description: Reply message from the server challenge. This is frequently shown to
-    the user authenticating
+  description: Reply message from the server challenge. This is frequently shown to the user authenticating
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: tunnel_client
   type: string
-  description: Address (IPv4, IPv6, or FQDN) of the initiator end of the tunnel, if
-    present. This is collected from the Tunnel-Client-Endpoint attribute
+  description: Address (IPv4, IPv6, or FQDN) of the initiator end of the tunnel, if present. This is collected from the Tunnel-Client-Endpoint attribute
   sample_value: '``'
 references: []
 tags: []

@@ -1,17 +1,17 @@
-title: Event 9077 - Perf_CreateRoamingCollectionFolder
-description: null
+name: Event 9077 - Perf_CreateRoamingCollectionFolder
+description:
 platform: windows
 log_source: Microsoft-Windows-SettingSync-OneDrive
-event_code: '9077'
+event_id: '9077'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CollectionId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_RoamingSettings

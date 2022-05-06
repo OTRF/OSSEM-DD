@@ -1,35 +1,35 @@
-title: Event 49 - Audio_Glitch_Detection
-description: null
+name: Event 49 - Audio_Glitch_Detection
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '49'
+event_id: '49'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pCAudioRenderPinStandardStreaming
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DevicePosition
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StreamPosition
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AvailableFrames
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_STRENEXCLPULLInvalidBufferCount

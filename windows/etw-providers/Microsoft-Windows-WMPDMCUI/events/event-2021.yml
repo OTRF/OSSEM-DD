@@ -1,17 +1,17 @@
-title: Event 2021 - PLAYTO_DEVICE_PLAY
-description: null
+name: Event 2021 - PLAYTO_DEVICE_PLAY
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPDMCUI
-event_code: '2021'
+event_id: '2021'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UDN
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

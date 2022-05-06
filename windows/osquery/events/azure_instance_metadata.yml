@@ -1,9 +1,9 @@
-title: Azure_instance_metadata Table
+name: Azure_instance_metadata Table
 description: Azure instance metadata.
 platform: windows
 log_source: osquery
-event_code: azure_instance_metadata
-event_version:  5.0.1
+event_id: azure_instance_metadata
+event_version: 5.0.1
 event_fields:
 - standard_name: TBD
   standard_type: TBD

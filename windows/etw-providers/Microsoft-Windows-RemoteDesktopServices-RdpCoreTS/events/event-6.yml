@@ -1,29 +1,29 @@
-title: Event 6 - RemoteFXmodule
-description: null
+name: Event 6 - RemoteFXmodule
+description:
 platform: windows
 log_source: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
-event_code: '6'
+event_id: '6'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NumMonitors
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RequestedMode
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppliedMode
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_opcode_Initialize

@@ -1,17 +1,17 @@
-title: Event 28028 - Shell32_RegistryPackageChangeListener_Rescan
-description: null
+name: Event 28028 - Shell32_RegistryPackageChangeListener_Rescan
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '28028'
+event_id: '28028'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Identity
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

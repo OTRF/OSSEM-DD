@@ -1,8 +1,8 @@
-title: Authorized_keys Table
+name: Authorized_keys Table
 description: A line-delimited authorized_keys table.
 platform: macos
 log_source: osquery
-event_code: authorized_keys
+event_id: authorized_keys
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

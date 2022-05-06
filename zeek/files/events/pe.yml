@@ -1,8 +1,8 @@
-title: PE Log
-description: null
+name: PE Log
+description:
 platform: zeek
 log_source: files
-event_code: pe
+event_id: pe
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -76,8 +76,7 @@ event_fields:
   name: section_names
   type: array_string
   description: The names of the sections, in order.
-  sample_value: '[ ".text", ".rdata", ".data", ".pdata", ".rsrc", ".reloc", "PAGEdimg",
-    "minATL", ]'
+  sample_value: '[ ".text", ".rdata", ".data", ".pdata", ".rsrc", ".reloc", "PAGEdimg", "minATL", ]'
 - standard_name: TBD
   standard_type: TBD
   name: subsystem

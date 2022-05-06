@@ -1,17 +1,17 @@
-title: Event 833 - AppXDeployment.Task.Server.Deployment.StateRepositoryFixIntegrity
-description: null
+name: Event 833 - AppXDeployment.Task.Server.Deployment.StateRepositoryFixIntegrity
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '833'
+event_id: '833'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD keyword_400000000000

@@ -1,17 +1,17 @@
-title: Event 656 - Device_Info_Util
-description: null
+name: Event 656 - Device_Info_Util
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '656'
+event_id: '656'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: String
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_primarynav

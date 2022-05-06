@@ -1,35 +1,35 @@
-title: Event 78 - PepGetIdleStatesV2Rundown
-description: null
+name: Event 78 - PepGetIdleStatesV2Rundown
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Processor-Power
-event_code: '78'
+event_id: '78'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Group
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Number
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StateCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: States
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diag

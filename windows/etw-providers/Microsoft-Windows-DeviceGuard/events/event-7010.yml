@@ -1,35 +1,35 @@
-title: Event 7010 - task_0
-description: null
+name: Event 7010 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-DeviceGuard
-event_code: '7010'
+event_id: '7010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SiPolicy
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PolicyFilePath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reboot
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_DeviceGuard

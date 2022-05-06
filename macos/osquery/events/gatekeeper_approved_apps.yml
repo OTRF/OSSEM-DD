@@ -1,8 +1,8 @@
-title: Gatekeeper_approved_apps Table
+name: Gatekeeper_approved_apps Table
 description: Gatekeeper apps a user has allowed to run.
 platform: macos
 log_source: osquery
-event_code: gatekeeper_approved_apps
+event_id: gatekeeper_approved_apps
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

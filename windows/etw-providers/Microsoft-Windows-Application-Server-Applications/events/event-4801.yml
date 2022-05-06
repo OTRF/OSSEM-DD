@@ -1,23 +1,23 @@
-title: Event 4801 - DiscoveryClient
-description: null
+name: Event 4801 - DiscoveryClient
+description:
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
-event_code: '4801'
+event_id: '4801'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SerializedException
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_Discovery

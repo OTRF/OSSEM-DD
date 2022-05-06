@@ -1,23 +1,23 @@
-title: Event 316 - AppReadiness_ExecuteTask
-description: null
+name: Event 316 - AppReadiness_ExecuteTask
+description:
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
-event_code: '316'
+event_id: '316'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: User
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_Tasks

@@ -1,23 +1,23 @@
-title: Event 158 - IDXGIOutput_GetDisplaySurfaceData
-description: null
+name: Event 158 - IDXGIOutput_GetDisplaySurfaceData
+description:
 platform: windows
 log_source: Microsoft-Windows-DXGI
-event_code: '158'
+event_id: '158'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pThis
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pScanoutSurface
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Start

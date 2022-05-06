@@ -1,4 +1,4 @@
-title: FreeBSD Osquery Event Logs
+name: FreeBSD Osquery Event Logs
 description: Osquery schema is defined in tables by osquery engineers.
 images: []
 references:

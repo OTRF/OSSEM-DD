@@ -1,35 +1,35 @@
-title: Event 55 - ThreadPoolWorkerThreadAdjustment
-description: null
+name: Event 55 - ThreadPoolWorkerThreadAdjustment
+description:
 platform: windows
 log_source: Microsoft-Windows-DotNETRuntime
-event_code: '55'
+event_id: '55'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AverageThroughput
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewWorkerThreadCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClrInstanceID
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ThreadingKeyword

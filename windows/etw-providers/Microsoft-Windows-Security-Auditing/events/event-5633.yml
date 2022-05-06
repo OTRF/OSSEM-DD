@@ -1,32 +1,27 @@
-title: 'Event ID 5633: A request was made to authenticate to a wired network'
-description: This event generates when 802.1x authentication attempt was made for
-  wired network.
+name: 'Event ID 5633: A request was made to authenticate to a wired network'
+description: This event generates when 802.1x authentication attempt was made for wired network.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5633'
+event_id: '5633'
 event_version: '0'
 event_fields:
 - standard_name: host_interface_name
   standard_type: TBD
   name: InterfaceName
   type: UnicodeString
-  description: the name (description) of network interface which was used for authentication
-    request. You can get the list of all available network adapters using "ipconfig
-    /all" command.
+  description: the name (description) of network interface which was used for authentication request. You can get the list of all available network adapters using "ipconfig /all" command.
   sample_value: Microsoft Hyper-V Network Adapter
 - standard_name: user_identity
   standard_type: TBD
   name: Identity
   type: UnicodeString
-  description: User Principal Name (UPN) of account for which 802.1x authentication
-    request was made.
+  description: User Principal Name (UPN) of account for which 802.1x authentication request was made.
   sample_value: '-'
 - standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account for which 802.1x authentication request was
-    made
+  description: the name of the account for which 802.1x authentication request was made
   sample_value: '-'
 - standard_name: user_domain
   standard_type: TBD
@@ -38,8 +33,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x0'
 - standard_name: event_reason_code
   standard_type: TBD
@@ -51,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: ReasonText
   type: UnicodeString
-  description: contains Reason Text (explanation of Reason Code) and Reason Code for
-    wired authentication results.
+  description: contains Reason Text (explanation of Reason Code) and Reason Code for wired authentication results.
   sample_value: The network does not support authentication
 - standard_name: event_error_code
   standard_type: TBD

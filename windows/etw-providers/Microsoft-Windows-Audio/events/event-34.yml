@@ -1,41 +1,41 @@
-title: Event 34 - Audio_Glitch_Detection
-description: null
+name: Event 34 - Audio_Glitch_Detection
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '34'
+event_id: '34'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pCCrossProcessServerOutputEndpoint
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WriteBytePos
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DroppedBytes
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReadBytePos
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BytesToWrite
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_CPServerOutputEndpoint_QueueFullPacketDrop

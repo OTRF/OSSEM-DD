@@ -1,23 +1,23 @@
-title: Event 133 - MediaFoundationVisible
-description: null
+name: Event 133 - MediaFoundationVisible
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '133'
+event_id: '133'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: id
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: priority
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_MediaFoundationVisible

@@ -1,35 +1,35 @@
-title: Event 1002 - DxgkDdiMiracastCreateContext
-description: null
+name: Event 1002 - DxgkDdiMiracastCreateContext
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1002'
+event_id: '1002'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MiniportContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MiracastContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TargetId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReturnStatus
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Miracast

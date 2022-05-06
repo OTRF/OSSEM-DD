@@ -1,23 +1,23 @@
-title: Event 1 - MasterKeyOperation
-description: null
+name: Event 1 - MasterKeyOperation
+description:
 platform: windows
 log_source: Microsoft-Windows-Crypto-DPAPI
-event_code: '1'
+event_id: '1'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MasterKeyGUID
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserStorage
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ETW_TASK_MASTERKEY_OPERATION

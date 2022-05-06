@@ -1,23 +1,23 @@
-title: Event 475 - Mshtml_CScriptCollection_DevToolbar_FirstScriptExecutionEvent
-description: null
+name: Event 475 - Mshtml_CScriptCollection_DevToolbar_FirstScriptExecutionEvent
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '475'
+event_id: '475'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CScriptCollection
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CMarkup
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

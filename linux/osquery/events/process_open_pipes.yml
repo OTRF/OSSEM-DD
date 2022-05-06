@@ -1,8 +1,8 @@
-title: Process_open_pipes Table
+name: Process_open_pipes Table
 description: Pipes and partner processes for each process.
 platform: linux
 log_source: osquery
-event_code: process_open_pipes
+event_id: process_open_pipes
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

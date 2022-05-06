@@ -1,29 +1,29 @@
-title: Event 11302 - LockScreenCallBroker_StartCall
-description: null
+name: Event 11302 - LockScreenCallBroker_StartCall
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '11302'
+event_id: '11302'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ConnectionGUID
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppID
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppArguments
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_LockScreenCallBroker

@@ -1,8 +1,8 @@
-title: NTLM Log
-description: null
+name: NTLM Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: ntlm
+event_id: ntlm
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

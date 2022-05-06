@@ -1,47 +1,47 @@
-title: Event 8 - task_0
-description: null
+name: Event 8 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-RPC-Events
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ApplicationName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RPCProtocolSequence
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RPCEndpoint
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGUID
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RPCStatus
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_task_task_0

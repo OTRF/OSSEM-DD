@@ -1,17 +1,17 @@
-title: Event 195 - IDXGISwapChain_GetFrameStatistics
-description: null
+name: Event 195 - IDXGISwapChain_GetFrameStatistics
+description:
 platform: windows
 log_source: Microsoft-Windows-DXGI
-event_code: '195'
+event_id: '195'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: m_Ret
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Stop

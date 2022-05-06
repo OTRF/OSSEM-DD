@@ -1,8 +1,8 @@
-title: Cowrie client size event
+name: Cowrie client size event
 description: This dictionary details the fields for the client size event of the Cowrie honeypot, which gives information about the size of the client terminal. It might not trigger.
 platform: cowrie
 log_source: honeypot
-event_code: 'cowrie.client.size'
+event_id: 'cowrie.client.size'
 event_version: '0'
 event_fields:
 - standard_name: event_timestamp
@@ -10,7 +10,7 @@ event_fields:
   name: timestamp
   type: string
   description: Timestamp when the data was discovered in ISO 8601 format
-  sample_value: '2020-10-06T06:45:02.021156' 
+  sample_value: '2020-10-06T06:45:02.021156'
 - standard_name: src_ip_addr
   standard_type: ip
   name: src_ip
@@ -35,7 +35,7 @@ event_fields:
   type: string
   description: A unique identifier for a cowrie SSH session
   sample_value: aaacde98ab17
-- standard_name: TBD 
+- standard_name: TBD
   standard_type: TBD
   name: width
   type: TBD

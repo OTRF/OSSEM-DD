@@ -1,23 +1,23 @@
-title: Event 153 - task_0
-description: null
+name: Event 153 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-ModernDeployment-Diagnostics-Provider
-event_code: '153'
+event_id: '153'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InitialState
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UpdateState
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

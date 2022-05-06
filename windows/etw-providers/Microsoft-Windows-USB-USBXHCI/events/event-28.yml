@@ -1,17 +1,17 @@
-title: Event 28 - USBXHCIControllerInternalReset
-description: null
+name: Event 28 - USBXHCIControllerInternalReset
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBXHCI
-event_code: '28'
+event_id: '28'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_UcxController
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default

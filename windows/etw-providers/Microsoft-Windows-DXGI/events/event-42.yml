@@ -1,41 +1,41 @@
-title: Event 42 - Present
-description: null
+name: Event 42 - Present
+description:
 platform: windows
 log_source: Microsoft-Windows-DXGI
-event_code: '42'
+event_id: '42'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pIDXGISwapChain
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SyncInterval
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DirtyRects
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScrollRects
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Events

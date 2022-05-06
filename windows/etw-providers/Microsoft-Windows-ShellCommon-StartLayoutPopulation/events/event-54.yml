@@ -1,17 +1,17 @@
-title: Event 54 - StartTileCollection_TDLMigration
-description: null
+name: Event 54 - StartTileCollection_TDLMigration
+description:
 platform: windows
 log_source: Microsoft-Windows-ShellCommon-StartLayoutPopulation
-event_code: '54'
+event_id: '54'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: groupData
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_StartTileCollection_TDLMigration

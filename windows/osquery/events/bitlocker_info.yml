@@ -1,8 +1,8 @@
-title: Bitlocker_info Table
+name: Bitlocker_info Table
 description: Retrieve bitlocker status of the machine.
 platform: windows
 log_source: osquery
-event_code: bitlocker_info
+event_id: bitlocker_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

@@ -1,17 +1,17 @@
-title: Event 1010 - SensorsNativeIoctlTask
-description: null
+name: Event 1010 - SensorsNativeIoctlTask
+description:
 platform: windows
 log_source: Microsoft-Windows-Sensors-Core-Performance
-event_code: '1010'
+event_id: '1010'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IoctlType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Stop

@@ -1,41 +1,41 @@
-title: Event 32 - Audio_Glitch_Detection
-description: null
+name: Event 32 - Audio_Glitch_Detection
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '32'
+event_id: '32'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pCCrossProcessClientOutputEndpoint
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WriteOffset
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReadOffset
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BytesToWrite
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EndOfDataOffset
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_CPClientOutputEndpoint_ReadPointerOverwrite

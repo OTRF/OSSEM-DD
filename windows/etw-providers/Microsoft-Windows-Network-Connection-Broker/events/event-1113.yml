@@ -1,41 +1,41 @@
-title: Event 1113 - task_0
-description: null
+name: Event 1113 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Network-Connection-Broker
-event_code: '1113'
+event_id: '1113'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Description
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Appprovidedtime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Currentkeepalivetime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Loweredkeepalivetime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WNStestinputtime
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Aoac

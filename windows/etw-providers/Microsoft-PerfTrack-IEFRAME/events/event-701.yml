@@ -1,17 +1,17 @@
-title: Event 701 - Browseui_Tabs_Tearoff_ShowVisual
-description: null
+name: Event 701 - Browseui_Tabs_Tearoff_ShowVisual
+description:
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
-event_code: '701'
+event_id: '701'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

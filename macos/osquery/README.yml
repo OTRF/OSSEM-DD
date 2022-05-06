@@ -1,4 +1,4 @@
-title: macOS Osquery Event Logs
+name: macOS Osquery Event Logs
 description: Osquery schema is defined in tables by osquery engineers.
 images: []
 references:

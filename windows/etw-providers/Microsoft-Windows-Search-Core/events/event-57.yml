@@ -1,41 +1,41 @@
-title: Event 57 - ClientGetNextRows
-description: null
+name: Event 57 - ClientGetNextRows
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '57'
+event_id: '57'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Rowset
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Chapter
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RowsToSkip
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RowsRequested
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RowsReturned
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_ClientGetNextRows

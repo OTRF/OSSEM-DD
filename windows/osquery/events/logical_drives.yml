@@ -1,9 +1,8 @@
-title: Logical_drives Table
-description: Details for logical drives on the system. A logical drive generally represents
-  a single partition.
+name: Logical_drives Table
+description: Details for logical drives on the system. A logical drive generally represents a single partition.
 platform: windows
 log_source: osquery
-event_code: logical_drives
+event_id: logical_drives
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -22,8 +21,7 @@ event_fields:
   standard_type: TBD
   name: description
   type: TEXT
-  description: The canonical description of the drive, e.g. 'Logical Fixed Disk',
-    'CD-ROM Disk'.
+  description: The canonical description of the drive, e.g. 'Logical Fixed Disk', 'CD-ROM Disk'.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

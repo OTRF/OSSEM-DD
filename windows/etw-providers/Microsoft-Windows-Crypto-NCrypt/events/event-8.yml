@@ -1,29 +1,29 @@
-title: Event 8 - OperationFailure_8
-description: null
+name: Event 8 - OperationFailure_8
+description:
 platform: windows
 log_source: Microsoft-Windows-Crypto-NCrypt
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_ETW_KEYWORD_PROTECT_OPERATION

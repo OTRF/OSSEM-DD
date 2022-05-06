@@ -1,17 +1,17 @@
-title: Event 179 - Mshtml_Dx_TargetSurfaceEnsure
-description: null
+name: Event 179 - Mshtml_Dx_TargetSurfaceEnsure
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '179'
+event_id: '179'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RenderTarget
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_subsystem pageloadbreakdown

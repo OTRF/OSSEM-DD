@@ -1,8 +1,8 @@
-title: Cpuid Table
+name: Cpuid Table
 description: Useful CPU features from the cpuid ASM call.
 platform: windows
 log_source: osquery
-event_code: cpuid
+event_id: cpuid
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

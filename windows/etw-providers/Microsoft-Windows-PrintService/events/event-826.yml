@@ -1,29 +1,29 @@
-title: Event 826 - ClientSideRenderingrevertingtoServerSideRendering
-description: null
+name: Event 826 - ClientSideRenderingrevertingtoServerSideRendering
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '826'
+event_id: '826'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrinterPath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PortName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SPOOLER_KEYWORD_CSR

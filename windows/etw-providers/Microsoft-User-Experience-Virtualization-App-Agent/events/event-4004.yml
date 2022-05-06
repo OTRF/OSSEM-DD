@@ -1,35 +1,35 @@
-title: Event 4004 - Synchronizationtofilesystem
-description: null
+name: Event 4004 - Synchronizationtofilesystem
+description:
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
-event_code: '4004'
+event_id: '4004'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fileIdentifier
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: packagePath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: serverRoot
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hresult
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_AppAgent

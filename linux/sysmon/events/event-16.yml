@@ -1,8 +1,8 @@
-title: Event ID 16 - Sysmon Config State Changed
+name: Event ID 16 - Sysmon Config State Changed
 description: This event logs when the local **sysmon configuration is updated**.
 platform: linux
 log_source: sysmon
-event_code: '16'
+event_id: '16'
 event_version: '4.81'
 event_fields:
 - standard_name: event_creation_time

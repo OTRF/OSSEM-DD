@@ -1,23 +1,23 @@
-title: Event 512 - IdleCheckPoint
-description: null
+name: Event 512 - IdleCheckPoint
+description:
 platform: windows
 log_source: Microsoft-Windows-TaskScheduler
-event_code: '512'
+event_id: '512'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DetectionResult
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ForcedIdleProcessing

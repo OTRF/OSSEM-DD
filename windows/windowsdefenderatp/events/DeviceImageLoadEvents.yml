@@ -1,8 +1,8 @@
-title: DeviceImageLoadEvents
+name: DeviceImageLoadEvents
 description: DLL loading events
 platform: windows
 log_source: windowsdefenderatp
-event_code: DeviceImageLoadEvents
+event_id: DeviceImageLoadEvents
 event_version: '0'
 event_fields:
 - standard_name: event_date_creation
@@ -69,24 +69,19 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessAccountSid
   type: string
-  description: Security Identifier (SID) of the account that ran the process responsible
-    for the event
+  description: Security Identifier (SID) of the account that ran the process responsible for the event
   sample_value: ''
 - standard_name: process_integrity_level
   standard_type: TBD
   name: InitiatingProcessIntegrityLevel
   type: string
-  description: Integrity level of the process that initiated the event. Windows assigns
-    integrity levels to processes based on certain characteristics, such as if they
-    were launched from an internet download. These integrity levels influence permissions
-    to resources.
+  description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.
   sample_value: ''
 - standard_name: process_token_elevation
   standard_type: TBD
   name: InitiatingProcessTokenElevation
   type: string
-  description: Token type indicating the presence or absence of User Access Control
-    (UAC) privilege elevation applied to the process that initiated the event
+  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
   sample_value: ''
 - standard_name: process_hash_sha1
   standard_type: TBD
@@ -134,36 +129,31 @@ event_fields:
   standard_type: TBD
   name: InitiatingProcessParentId
   type: int
-  description: Process ID (PID) of the parent process that spawned the process responsible
-    for the event
+  description: Process ID (PID) of the parent process that spawned the process responsible for the event
   sample_value: ''
 - standard_name: process_parent_name
   standard_type: TBD
   name: InitiatingProcessParentFileName
   type: string
-  description: Name of the parent process that spawned the process responsible for
-    the event
+  description: Name of the parent process that spawned the process responsible for the event
   sample_value: ''
 - standard_name: process_parent_creation_time
   standard_type: TBD
   name: InitiatingProcessParentCreationTime
   type: date
-  description: Date and time when the parent of the process responsible for the event
-    was started
+  description: Date and time when the parent of the process responsible for the event was started
   sample_value: ''
 - standard_name: report_id
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events,
-    this column must be used in conjunction with the ComputerName and EventTime columns.
+  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.
   sample_value: ''
 - standard_name: app_guard_container_id
   standard_type: TBD
   name: AppGuardContainerId
   type: string
-  description: Identifier for the virtualized container used by Application Guard
-    to isolate browser activity
+  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
   sample_value: ''
 references: []
 tags: []

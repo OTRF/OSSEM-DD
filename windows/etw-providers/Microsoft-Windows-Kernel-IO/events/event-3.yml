@@ -1,35 +1,35 @@
-title: Event 3 - VolumeMount
-description: null
+name: Event 3 - VolumeMount
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-IO
-event_code: '3'
+event_id: '3'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeNameLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_VolumeMounts

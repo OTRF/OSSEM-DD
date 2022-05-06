@@ -1,17 +1,17 @@
-title: Event 2110 - Picker_ActionButton_EnabledChanged
-description: null
+name: Event 2110 - Picker_ActionButton_EnabledChanged
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '2110'
+event_id: '2110'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IsEnabled
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Picker_ActionButton_EnabledChanged

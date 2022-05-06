@@ -1,17 +1,17 @@
-title: Event 46348 - None
-description: null
+name: Event 46348 - None
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '46348'
+event_id: '46348'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ContainerParentJobInstanceId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_None

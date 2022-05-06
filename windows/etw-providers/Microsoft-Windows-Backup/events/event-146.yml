@@ -1,23 +1,23 @@
-title: Event 146 - task_0
-description: null
+name: Event 146 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Backup
-event_code: '146'
+event_id: '146'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeFriendlyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeAccessPath
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_task_0

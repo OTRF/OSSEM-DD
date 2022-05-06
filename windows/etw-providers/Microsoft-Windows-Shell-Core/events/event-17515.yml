@@ -1,23 +1,23 @@
-title: Event 17515 - GetCorrectOwnerSid_Lookup
-description: null
+name: Event 17515 - GetCorrectOwnerSid_Lookup
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '17515'
+event_id: '17515'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Success
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Properties

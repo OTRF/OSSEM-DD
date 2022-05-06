@@ -1,35 +1,35 @@
-title: Event 7 - CpuBasePriorityChange
-description: null
+name: Event 7 - CpuBasePriorityChange
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Process
-event_code: '7'
+event_id: '7'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldPriority
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewPriority
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_WINEVENT_KEYWORD_CPU_PRIORITY

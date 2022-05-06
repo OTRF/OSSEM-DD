@@ -1,47 +1,47 @@
-title: Event 5 - AitSystemUsageByExe
-description: null
+name: Event 5 - AitSystemUsageByExe
+description:
 platform: windows
 log_source: Microsoft-Windows-AIT
-event_code: '5'
+event_id: '5'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: cchIdStringIncludingNull
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Category
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ManifestVersion
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ApplicationImageHeaderHash
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IdString
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_AitSystemUsageByExe

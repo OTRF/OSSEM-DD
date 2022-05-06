@@ -1,23 +1,23 @@
-title: Event 5981 - PerfTrack_ModernApp_ResizeVisibleComplete
-description: null
+name: Event 5981 - PerfTrack_ModernApp_ResizeVisibleComplete
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '5981'
+event_id: '5981'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Reserved
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ViewId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

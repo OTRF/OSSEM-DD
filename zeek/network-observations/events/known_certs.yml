@@ -1,8 +1,8 @@
-title: Known Certs Log
-description: null
+name: Known Certs Log
+description:
 platform: zeek
 log_source: network-observations
-event_code: known_certs
+event_id: known_certs
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: port_num
   type: integer
-  description: If the certificate was handed out by a server, this is the port that
-    the server was listening on
+  description: If the certificate was handed out by a server, this is the port that the server was listening on
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

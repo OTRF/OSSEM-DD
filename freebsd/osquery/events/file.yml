@@ -1,8 +1,8 @@
-title: File Table
+name: File Table
 description: Interactive filesystem attributes and metadata.
 platform: freebsd
 log_source: osquery
-event_code: file
+event_id: file
 event_version: 4.4.2
 event_fields:
 - standard_name: file_path

@@ -1,41 +1,41 @@
-title: Event 45063 - WorkflowHosting
-description: null
+name: Event 45063 - WorkflowHosting
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '45063'
+event_id: '45063'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: endpointName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: user
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hostingMode
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: protocol
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: configuration
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_PSWorkflow

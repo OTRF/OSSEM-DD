@@ -1,8 +1,8 @@
-title: Gatekeeper Table
+name: Gatekeeper Table
 description: OS X Gatekeeper Details.
 platform: macos
 log_source: osquery
-event_code: gatekeeper
+event_id: gatekeeper
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -15,8 +15,7 @@ event_fields:
   standard_type: TBD
   name: dev_id_enabled
   type: INTEGER
-  description: 1 If a Gatekeeper allows execution from identified developers else
-    0
+  description: 1 If a Gatekeeper allows execution from identified developers else 0
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

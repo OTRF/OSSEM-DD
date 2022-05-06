@@ -1,8 +1,8 @@
-title: 'Event ID 4706: A new trust was created to a domain.'
+name: 'Event ID 4706: A new trust was created to a domain.'
 description: This event generates when a new trust was created to a domain.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4706'
+event_id: '4706'
 event_version: '0'
 event_fields:
 - standard_name: trust_name
@@ -39,9 +39,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e99d6'
 - standard_name: trust_type
   standard_type: TBD

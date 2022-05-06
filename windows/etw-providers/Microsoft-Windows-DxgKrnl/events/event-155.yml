@@ -1,41 +1,41 @@
-title: Event 155 - DdiSetPowerState
-description: null
+name: Event 155 - DdiSetPowerState
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '155'
+event_id: '155'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MiniportContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceUid
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DevicePowerState
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActionType
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

@@ -1,13 +1,8 @@
-title: 'Event ID 7: Image loaded'
-description: The **image loaded** event logs when a module is loaded in a specific process.
-  This event is disabled by default and needs to be configured with the -l option.
-  It indicates the process in which the module is loaded, hashes and signature information.
-  The signature is created asynchronously for performance reasons and indicates if
-  the file was removed after loading. This event should be configured carefully, as
-  monitoring all image load events will generate a large number of events.
+name: 'Event ID 7: Image loaded'
+description: The **image loaded** event logs when a module is loaded in a specific process. This event is disabled by default and needs to be configured with the -l option. It indicates the process in which the module is loaded, hashes and signature information. The signature is created asynchronously for performance reasons and indicates if the file was removed after loading. This event should be configured carefully, as monitoring all image load events will generate a large number of events.
 platform: windows
 log_source: sysmon
-event_code: '7'
+event_id: '7'
 event_version: '4.32'
 event_fields:
 - standard_name: tag
@@ -63,7 +58,7 @@ event_fields:
   name: Product
   type: string
   description: Product name the image loaded belongs to
-  sample_value: "Microsoft\xAE Windows\xAE Operating System"
+  sample_value: "Microsoft® Windows® Operating System"
 - standard_name: file_company
   standard_type: TBD
   name: Company
@@ -113,23 +108,23 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/image-loading.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-      <EventData>
-      <Data Name="RuleName">-</Data> 
-      <Data Name="UtcTime">2021-11-03 05:36:29.401</Data> 
-      <Data Name="ProcessGuid">{3710b5c6-1e65-6182-a700-000000000b00}</Data> 
-      <Data Name="ProcessId">3060</Data> 
-      <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-      <Data Name="ImageLoaded">C:\Windows\System32\apphelp.dll</Data> 
-      <Data Name="FileVersion">10.0.19041.928 (WinBuild.160101.0800)</Data> 
-      <Data Name="Description">Application Compatibility Client Library</Data> 
-      <Data Name="Product">Microsoft® Windows® Operating System</Data> 
-      <Data Name="Company">Microsoft Corporation</Data> 
-      <Data Name="OriginalFileName">Apphelp</Data> 
-      <Data Name="Hashes">SHA1=78CFFBD33E0D4FA25FD2245654CE6DF5228DFD32,MD5=A1F85CED28142B87D7564C686456E620,SHA256=426772C63E04E58AE45494D063AB7CA551E69D1CE7B9972CEC9E25FA8F427C1C,IMPHASH=5C8954A2CCAA6D01B27343336271E2CA</Data> 
-      <Data Name="Signed">true</Data> 
-      <Data Name="Signature">Microsoft Windows</Data> 
-      <Data Name="SignatureStatus">Valid</Data> 
-      <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-      </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data> 
+    <Data Name="UtcTime">2021-11-03 05:36:29.401</Data> 
+    <Data Name="ProcessGuid">{3710b5c6-1e65-6182-a700-000000000b00}</Data> 
+    <Data Name="ProcessId">3060</Data> 
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
+    <Data Name="ImageLoaded">C:\Windows\System32\apphelp.dll</Data> 
+    <Data Name="FileVersion">10.0.19041.928 (WinBuild.160101.0800)</Data> 
+    <Data Name="Description">Application Compatibility Client Library</Data> 
+    <Data Name="Product">Microsoft® Windows® Operating System</Data> 
+    <Data Name="Company">Microsoft Corporation</Data> 
+    <Data Name="OriginalFileName">Apphelp</Data> 
+    <Data Name="Hashes">SHA1=78CFFBD33E0D4FA25FD2245654CE6DF5228DFD32,MD5=A1F85CED28142B87D7564C686456E620,SHA256=426772C63E04E58AE45494D063AB7CA551E69D1CE7B9972CEC9E25FA8F427C1C,IMPHASH=5C8954A2CCAA6D01B27343336271E2CA</Data> 
+    <Data Name="Signed">true</Data> 
+    <Data Name="Signature">Microsoft Windows</Data> 
+    <Data Name="SignatureStatus">Valid</Data> 
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
+    </EventData>

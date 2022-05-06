@@ -1,29 +1,29 @@
-title: Event 139 - ThermalDurationPerfTrack
-description: null
+name: Event 139 - ThermalDurationPerfTrack
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '139'
+event_id: '139'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ThrottleDuration
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ZoneLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Zone
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_ThermalDurationPerfTrack

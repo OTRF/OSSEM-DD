@@ -1,41 +1,41 @@
-title: Event 33 - Audio_Glitch_Detection
-description: null
+name: Event 33 - Audio_Glitch_Detection
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '33'
+event_id: '33'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pCCrossProcessServerInputEndpoint
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WriteOffset
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReadOffset
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BufferSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BytesAvailable
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_CPServerInputEndpoint_Starvation

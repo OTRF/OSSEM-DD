@@ -1,35 +1,35 @@
-title: Event 1108 - SensorServiceprocessingsensordatafororientation,pitchangletestresult
-description: null
+name: Event 1108 - SensorServiceprocessingsensordatafororientation,pitchangletestresult
+description:
 platform: windows
 log_source: Microsoft-Windows-Sensors
-event_code: '1108'
+event_id: '1108'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IsPitchGreaterThanThreshold
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PitchAngle
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PitchThreshold
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PitchCalibration
   type: Float
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SensPerf

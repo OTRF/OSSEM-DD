@@ -1,17 +1,17 @@
-title: Event 533 - DownloadWindow_Items_Removed
-description: null
+name: Event 533 - DownloadWindow_Items_Removed
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '533'
+event_id: '533'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Uint32Val
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_DownloadWindow

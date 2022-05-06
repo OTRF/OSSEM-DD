@@ -1,41 +1,41 @@
-title: Event 4097 - task_0
-description: null
+name: Event 4097 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-BitLocker-DrivePreparationTool
-event_code: '4097'
+event_id: '4097'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DiskId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Type
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Offset
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Initialization

@@ -1,8 +1,8 @@
-title: Managed Identity Signin Logs
+name: Managed Identity Signin Logs
 description: Managed identity Azure Active Directory sign-in logs.
 platform: azure
 log_source: aadmanagedidentitysigninlogs
-event_code: aadmanagedidentitysigninlogs
+event_id: aadmanagedidentitysigninlogs
 event_version: ''
 event_fields:
 - standard_name: TBD
@@ -152,7 +152,7 @@ event_fields:
   name: TimeGenerated
   type: datetime
   description: "The date and time of the event in UTC"
-  sample_value:  2021-08-03T18:48:33.8527147Z
+  sample_value: 2021-08-03T18:48:33.852715Z
 - standard_name: TBD
   standard_type: TBD
   name: Type

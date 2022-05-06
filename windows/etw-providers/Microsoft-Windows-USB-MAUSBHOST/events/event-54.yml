@@ -1,23 +1,23 @@
-title: Event 54 - PALManagementChannel
-description: null
+name: Event 54 - PALManagementChannel
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-MAUSBHOST
-event_code: '54'
+event_id: '54'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_Controller
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_Error
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Default HWVerifyHost keyword_400000000000

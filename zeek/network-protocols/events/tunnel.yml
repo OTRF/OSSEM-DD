@@ -1,8 +1,8 @@
-title: Tunnel Log
-description: null
+name: Tunnel Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: tunnel
+event_id: tunnel
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -39,10 +39,7 @@ event_fields:
   standard_type: TBD
   name: uid
   type: string
-  description: The unique identifier for the tunnel, which may correspond to a connection's
-    uid field for non-IP-in-IP tunnels. This is optional because there could be numerous
-    connections for payload proxies like SOCKS but we should treat it as a single
-    tunnel
+  description: The unique identifier for the tunnel, which may correspond to a connection's uid field for non-IP-in-IP tunnels. This is optional because there could be numerous connections for payload proxies like SOCKS but we should treat it as a single tunnel
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

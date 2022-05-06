@@ -1,17 +1,17 @@
-title: Event 10026 - task_0
-description: null
+name: Event 10026 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Search
-event_code: '10026'
+event_id: '10026'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ExtraInfo
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_opcode_128

@@ -1,29 +1,29 @@
-title: Event 6000 - HelperClassInfo
-description: null
+name: Event 6000 - HelperClassInfo
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-Networking
-event_code: '6000'
+event_id: '6000'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HelperClassName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventDescription
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventVerbosity
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ndf:NDFHelperClassEvents keyword_400000000000

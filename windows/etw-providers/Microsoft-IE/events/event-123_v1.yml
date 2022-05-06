@@ -1,41 +1,41 @@
-title: Event 123 - Mshtml_CSS_Parser
-description: null
+name: Event 123 - Mshtml_CSS_Parser
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '123'
+event_id: '123'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Parser
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ParserType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ParseType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsInline
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_subsystem mshtml

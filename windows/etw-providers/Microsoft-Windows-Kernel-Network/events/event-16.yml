@@ -1,59 +1,59 @@
-title: Event 16 - KERNEL_NETWORK_TASK_TCPIP
-description: null
+name: Event 16 - KERNEL_NETWORK_TASK_TCPIP
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Network
-event_code: '16'
+event_id: '16'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: size
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: daddr
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: saddr
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dport
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: sport
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: seqnum
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: connid
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_KERNEL_NETWORK_KEYWORD_IPV4

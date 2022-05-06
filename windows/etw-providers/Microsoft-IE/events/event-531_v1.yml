@@ -1,41 +1,41 @@
-title: Event 531 - Mshtml_EventDebug_Timer_Invoke_Callback
-description: null
+name: Event 531 - Mshtml_EventDebug_Timer_Invoke_Callback
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '531'
+event_id: '531'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TimerType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CallbackCookie
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeoutValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScriptContextId
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_eventsandtimers

@@ -1,18 +1,15 @@
-title: 'Event ID 5159: The Windows Filtering Platform has blocked a bind to a local
-  port.'
-description: This event is logged if the Windows Filtering Platform has blocked a
-  bind to a local port.
+name: 'Event ID 5159: The Windows Filtering Platform has blocked a bind to a local port.'
+description: This event is logged if the Windows Filtering Platform has blocked a bind to a local port.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5159'
+event_id: '5159'
 event_version: '0'
 event_fields:
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: UInt64
-  description: Hexadecimal Process ID of the process which was permitted to bind to
-    the local port.
+  description: Hexadecimal Process ID of the process which was permitted to bind to the local port.
   sample_value: '7924'
 - standard_name: process_path
   standard_type: TBD

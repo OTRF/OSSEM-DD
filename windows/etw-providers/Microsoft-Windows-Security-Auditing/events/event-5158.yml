@@ -1,18 +1,15 @@
-title: 'Event ID 5158: The Windows Filtering Platform has permitted a bind to a local
-  port'
-description: This event generates every time Windows Filtering Platform permits an
-  application or service to bind to a local port.
+name: 'Event ID 5158: The Windows Filtering Platform has permitted a bind to a local port'
+description: This event generates every time Windows Filtering Platform permits an application or service to bind to a local port.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5158'
+event_id: '5158'
 event_version: '0'
 event_fields:
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: UInt64
-  description: Hexadecimal Process ID of the process which was permitted to bind to
-    the local port.
+  description: Hexadecimal Process ID of the process which was permitted to bind to the local port.
   sample_value: '4556'
 - standard_name: process_path
   standard_type: TBD

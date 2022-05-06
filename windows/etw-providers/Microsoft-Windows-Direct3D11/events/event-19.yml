@@ -1,29 +1,29 @@
-title: Event 19 - Device
-description: null
+name: Event 19 - Device
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '19'
+event_id: '19'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SemaphoreHandle
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AdjustValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PresentCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Devices

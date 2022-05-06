@@ -1,8 +1,8 @@
-title: Iokit_devicetree Table
+name: Iokit_devicetree Table
 description: The IOKit registry matching the DeviceTree plane.
 platform: macos
 log_source: osquery
-event_code: iokit_devicetree
+event_id: iokit_devicetree
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

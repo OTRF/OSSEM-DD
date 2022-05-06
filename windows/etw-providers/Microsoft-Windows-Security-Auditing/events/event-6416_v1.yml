@@ -1,9 +1,8 @@
-title: 'Event ID 6416: A new external device was recognized by the System.'
-description: This event generates every time a new external device is recognized by
-  a system.
+name: 'Event ID 6416: A new external device was recognized by the System.'
+description: This event generates every time a new external device is recognized by a system.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '6416'
+event_id: '6416'
 event_version: '1'
 event_fields:
 - standard_name: user_sid
@@ -28,9 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
 - standard_name: device_id
   standard_type: TBD
@@ -61,8 +58,7 @@ event_fields:
   name: VendorIds
   type: UnicodeString
   description: '"Hardware Ids" attribute of device.'
-  sample_value: SCSI\DiskSeagate_Expansion___0636 SCSI\DiskSeagateExpansion__ SCSI\DiskSeagate_
-    SCSI\Seagate_Expansion___0 Seagate_Expansion___0 GenDisk
+  sample_value: SCSI\DiskSeagate_Expansion___0636 SCSI\DiskSeagateExpansion__ SCSI\DiskSeagate_ SCSI\Seagate_Expansion___0 Seagate_Expansion___0 GenDisk
 - standard_name: compatible_ids
   standard_type: TBD
   name: CompatibleIds

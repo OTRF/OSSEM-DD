@@ -1,35 +1,35 @@
-title: Event 142 - MediaFoundationPresent_IgnoreVSync
-description: null
+name: Event 142 - MediaFoundationPresent_IgnoreVSync
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '142'
+event_id: '142'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: QPC
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Delta
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Frames
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_MediaFoundationPresent_IgnoreVSync

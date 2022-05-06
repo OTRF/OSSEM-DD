@@ -1,17 +1,17 @@
-title: Event 511 - SpmStatusRundown
-description: null
+name: Event 511 - SpmStatusRundown
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '511'
+event_id: '511'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SpmStatus
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic po:DiagnosticLight

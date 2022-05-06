@@ -1,23 +1,23 @@
-title: Event 47 - AdaptiveStandby
-description: null
+name: Event 47 - AdaptiveStandby
+description:
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
-event_code: '47'
+event_id: '47'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Action
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_AdaptiveStandby

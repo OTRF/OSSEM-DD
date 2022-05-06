@@ -1,17 +1,17 @@
-title: Event 2007 - PREVIOUS_BUTTON
-description: null
+name: Event 2007 - PREVIOUS_BUTTON
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPDMCUI
-event_code: '2007'
+event_id: '2007'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: result
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

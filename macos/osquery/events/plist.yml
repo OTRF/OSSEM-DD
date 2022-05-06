@@ -1,8 +1,8 @@
-title: Plist Table
+name: Plist Table
 description: Read and parse a plist file.
 platform: macos
 log_source: osquery
-event_code: plist
+event_id: plist
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,17 +1,17 @@
-title: Event 5500 - das_Query
-description: null
+name: Event 5500 - das_Query
+description:
 platform: windows
 log_source: Microsoft-Windows-DeviceAssociationService
-event_code: '5500'
+event_id: '5500'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DasContext
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DeviceAssociationService query

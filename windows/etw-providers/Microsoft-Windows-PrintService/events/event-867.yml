@@ -1,17 +1,17 @@
-title: Event 867 - InitializingtheWS_PrintPortMonitor
-description: null
+name: Event 867 - InitializingtheWS_PrintPortMonitor
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '867'
+event_id: '867'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HResultErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_WSDMON

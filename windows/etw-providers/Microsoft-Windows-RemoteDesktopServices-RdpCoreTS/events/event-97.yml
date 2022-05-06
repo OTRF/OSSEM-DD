@@ -1,23 +1,23 @@
-title: Event 97 - RemoteFXmodule_4
-description: null
+name: Event 97 - RemoteFXmodule_4
+description:
 platform: windows
 log_source: Microsoft-Windows-RemoteDesktopServices-RdpCoreTS
-event_code: '97'
+event_id: '97'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ComponentName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_opcode_ProtocolExchange

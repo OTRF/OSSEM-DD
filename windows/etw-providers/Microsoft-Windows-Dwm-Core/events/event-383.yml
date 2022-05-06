@@ -1,17 +1,17 @@
-title: Event 383 - COMPUTESCRIBBLE_INCOMPATIBLE
-description: null
+name: Event 383 - COMPUTESCRIBBLE_INCOMPATIBLE
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '383'
+event_id: '383'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore

@@ -1,29 +1,29 @@
-title: Event 103 - ActivatorActiveTooLong
-description: null
+name: Event 103 - ActivatorActiveTooLong
+description:
 platform: windows
 log_source: Microsoft-Windows-PDC
-event_code: '103'
+event_id: '103'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TimeContinuouslyActive
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClientIdAndActivityTypeAndOnAc
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserClientProcess
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_activators Cs CsDiag

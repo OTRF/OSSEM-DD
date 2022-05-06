@@ -1,29 +1,29 @@
-title: Event 860 - Mshtml_Canvas_CommandList
-description: null
+name: Event 860 - Mshtml_Canvas_CommandList
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '860'
+event_id: '860'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CommandList
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumCommands
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BytesUsed
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_subsystem composition

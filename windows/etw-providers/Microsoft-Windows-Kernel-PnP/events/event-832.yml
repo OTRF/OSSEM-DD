@@ -1,17 +1,17 @@
-title: Event 832 - DeviceRemoval
-description: null
+name: Event 832 - DeviceRemoval
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-PnP
-event_code: '832'
+event_id: '832'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Device
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Enumeration

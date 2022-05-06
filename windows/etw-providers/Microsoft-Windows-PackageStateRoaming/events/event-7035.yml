@@ -1,17 +1,17 @@
-title: Event 7035 - NotifyConsistencyMonitorForPFNIfNeeded
-description: null
+name: Event 7035 - NotifyConsistencyMonitorForPFNIfNeeded
+description:
 platform: windows
 log_source: Microsoft-Windows-PackageStateRoaming
-event_code: '7035'
+event_id: '7035'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CollectionId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PackageStateRoaming

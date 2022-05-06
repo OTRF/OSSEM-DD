@@ -1,9 +1,8 @@
-title: ingress.event.filemod (File Modification)
-description: A file on the filesystem has been created, deleted, or modified on an
-  endpoint monitored by Carbon Black.
+name: ingress.event.filemod (File Modification)
+description: A file on the filesystem has been created, deleted, or modified on an endpoint monitored by Carbon Black.
 platform: windows
 log_source: carbonblack
-event_code: filemod
+event_id: filemod
 event_version: '0'
 event_fields:
 - standard_name: action
@@ -16,15 +15,13 @@ event_fields:
   standard_type: TBD
   name: actiontype
   type: INTEGER
-  description: 'Enum value of the file modification: 1=create, 2=write, 4=delete,
-    8=lastwrite'
+  description: 'Enum value of the file modification: 1=create, 2=write, 4=delete, 8=lastwrite'
   sample_value: '1'
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple Cb Response servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
   standard_type: TBD
@@ -42,16 +39,13 @@ event_fields:
   standard_type: TBD
   name: filetype
   type: INTEGER
-  description: Enum value of the detected file type of this file. Only valid for "lastwrite"
-    actions. See the CbFileType protobuf definition for the available values.
+  description: Enum value of the detected file type of this file. Only valid for "lastwrite" actions. See the CbFileType protobuf definition for the available values.
   sample_value: '0'
 - standard_name: filetype_name
   standard_type: TBD
   name: filetype_name
   type: TEXT
-  description: 'The detected file type of this file. Only valid for "lastwrite" actions.
-    Currently supported file types: PE, ELF, UniversalBin, Eicar, OfficeLegacy, OfficeOpenXml,
-    PDF, PKZIP, LZH, LZW, RAR, TAR, and 7zip.'
+  description: 'The detected file type of this file. Only valid for "lastwrite" actions. Currently supported file types: PE, ELF, UniversalBin, Eicar, OfficeLegacy, OfficeOpenXml, PDF, PKZIP, LZH, LZW, RAR, TAR, and 7zip.'
   sample_value: Unknown
 - standard_name: process_link
   standard_type: TBD

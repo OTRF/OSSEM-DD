@@ -1,8 +1,8 @@
-title: Usb_devices Table
+name: Usb_devices Table
 description: USB devices that are actively plugged into the host system.
 platform: linux
 log_source: osquery
-event_code: usb_devices
+event_id: usb_devices
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

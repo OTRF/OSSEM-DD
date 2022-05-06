@@ -1,17 +1,17 @@
-title: Event 2901 - Shutdownofadriverhostprocess._41
-description: null
+name: Event 2901 - Shutdownofadriverhostprocess._41
+description:
 platform: windows
 log_source: Microsoft-Windows-DriverFrameworks-UserMode
-event_code: '2901'
+event_id: '2901'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: LifetimeId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

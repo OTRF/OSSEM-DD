@@ -1,47 +1,47 @@
-title: Event 1102 - task_0
-description: null
+name: Event 1102 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-IPxlatCfg
-event_code: '1102'
+event_id: '1102'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceLuid
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Metric
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RemotePrefix
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RemotePrefixLength
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LocalPrefix
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: LocalPrefixLength
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

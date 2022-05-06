@@ -1,29 +1,29 @@
-title: Event 512 - Mshtml_CView_ExecuteInvalidationTasks_Stats
-description: null
+name: Event 512 - Mshtml_CView_ExecuteInvalidationTasks_Stats
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '512'
+event_id: '512'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CView
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ElementsInvalidated
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InvalidationFlags
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_verbose invalidation

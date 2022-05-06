@@ -1,17 +1,17 @@
-title: Event 1036 - FunDisc_ProviderInstancePropertyStoreFlush
-description: null
+name: Event 1036 - FunDisc_ProviderInstancePropertyStoreFlush
+description:
 platform: windows
 log_source: Microsoft-Windows-FunctionDiscovery
-event_code: '1036'
+event_id: '1036'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionInstanceID
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

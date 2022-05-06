@@ -1,35 +1,35 @@
-title: Event 233 - StateRepository.Task.Migrate
-description: null
+name: Event 233 - StateRepository.Task.Migrate
+description:
 platform: windows
 log_source: Microsoft-Windows-StateRepository
-event_code: '233'
+event_id: '233'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MachineDisposition
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PreviousMachineVersion
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeploymentDisposition
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PreviousDeploymentVersion
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_STATEREPOSITORY_KEYWORD

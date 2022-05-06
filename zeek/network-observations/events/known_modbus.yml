@@ -1,8 +1,8 @@
-title: Known Modbus Log
-description: null
+name: Known Modbus Log
+description:
 platform: zeek
 log_source: network-observations
-event_code: known_modbus
+event_id: known_modbus
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

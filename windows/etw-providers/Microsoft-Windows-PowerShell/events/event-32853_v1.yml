@@ -1,23 +1,23 @@
-title: Event 32853 - task_0
-description: null
+name: Event 32853 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '32853'
+event_id: '32853'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: param1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: param2
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Transport

@@ -1,23 +1,23 @@
-title: Event 24 - None
-description: null
+name: Event 24 - None
+description:
 platform: windows
 log_source: Microsoft-Windows-StorPort
-event_code: '24'
+event_id: '24'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Operation
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Duration_100ns
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Perf

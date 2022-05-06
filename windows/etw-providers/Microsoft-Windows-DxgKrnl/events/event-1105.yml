@@ -1,47 +1,47 @@
-title: Event 1105 - PresentRedirected
-description: null
+name: Event 1105 - PresentRedirected
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1105'
+event_id: '1105'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hSyncObj
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VidPnSourceId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hCompSurface
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CompSurfaceLuid
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReturnStatus
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

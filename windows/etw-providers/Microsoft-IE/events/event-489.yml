@@ -1,17 +1,17 @@
-title: Event 489 - Mshtml_IndependentHitTest
-description: null
+name: Event 489 - Mshtml_IndependentHitTest
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '489'
+event_id: '489'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PointerID
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

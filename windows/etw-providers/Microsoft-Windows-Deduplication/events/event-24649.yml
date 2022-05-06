@@ -1,17 +1,17 @@
-title: Event 24649 - Dofullrecallondedupfile
-description: null
+name: Event 24649 - Dofullrecallondedupfile
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '24649'
+event_id: '24649'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CompletionStatus
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Filter

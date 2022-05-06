@@ -1,17 +1,17 @@
-title: Event 657 - Device_Info_Util
-description: null
+name: Event 657 - Device_Info_Util
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '657'
+event_id: '657'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: String
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_primarynav

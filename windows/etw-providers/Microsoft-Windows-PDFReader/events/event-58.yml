@@ -1,17 +1,17 @@
-title: Event 58 - TriggerChangeLayout
-description: null
+name: Event 58 - TriggerChangeLayout
+description:
 platform: windows
 log_source: Microsoft-Windows-PDFReader
-event_code: '58'
+event_id: '58'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UInt32Param
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Reader

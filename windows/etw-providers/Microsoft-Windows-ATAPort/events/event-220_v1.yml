@@ -1,29 +1,29 @@
-title: Event 220 - Port
-description: null
+name: Event 220 - Port
+description:
 platform: windows
 log_source: Microsoft-Windows-ATAPort
-event_code: '220'
+event_id: '220'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: QueueTag
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Operation
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Queue

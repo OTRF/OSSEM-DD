@@ -1,19 +1,18 @@
-title: Event 1016 - WinNatMemoryAllocationFailure
-description: null
+name: Event 1016 - WinNatMemoryAllocationFailure
+description:
 platform: windows
 log_source: Microsoft-Windows-WinNat
-event_code: '1016'
+event_id: '1016'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Description
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
-- etw_keywords_ut:Session ut:Binding ut:Translation ut:Configuration ut:NatDrop ut:NatSkip
-  ut:NatForward
+- etw_keywords_ut:Session ut:Binding ut:Translation ut:Configuration ut:NatDrop ut:NatSkip ut:NatForward
 - etw_task_WinNatMemoryAllocationFailure

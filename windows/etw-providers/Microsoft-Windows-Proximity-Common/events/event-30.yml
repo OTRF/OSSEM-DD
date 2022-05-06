@@ -1,17 +1,17 @@
-title: Event 30 - Proximity_ReceiveSharedContent
-description: null
+name: Event 30 - Proximity_ReceiveSharedContent
+description:
 platform: windows
 log_source: Microsoft-Windows-Proximity-Common
-event_code: '30'
+event_id: '30'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Pointer1
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

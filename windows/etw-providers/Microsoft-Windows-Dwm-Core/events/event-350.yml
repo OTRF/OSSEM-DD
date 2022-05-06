@@ -1,17 +1,17 @@
-title: Event 350 - SHADERS_EFFECT_COMPILE
-description: null
+name: Event 350 - SHADERS_EFFECT_COMPILE
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '350'
+event_id: '350'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pCompilationTask
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

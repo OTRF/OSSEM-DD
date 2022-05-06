@@ -1,8 +1,8 @@
-title: Package_receipts Table
+name: Package_receipts Table
 description: OS X package receipt details.
 platform: macos
 log_source: osquery
-event_code: package_receipts
+event_id: package_receipts
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

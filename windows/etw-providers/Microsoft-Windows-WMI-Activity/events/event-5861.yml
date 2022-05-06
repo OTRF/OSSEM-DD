@@ -1,35 +1,35 @@
-title: Event 5861 - task_0
+name: Event 5861 - task_0
 description: WMI permanent event created
 platform: windows
 log_source: Microsoft-Windows-WMI-Activity
-event_code: '5861'
+event_id: '5861'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Namespace
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ESS
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CONSUMER
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PossibleCause
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_task_task_0

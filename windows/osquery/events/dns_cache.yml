@@ -1,8 +1,8 @@
-title: Dns_cache Table
+name: Dns_cache Table
 description: Enumerate the DNS cache using the undocumented DnsGetCacheDataTable function in dnsapi.dll.
 platform: windows
 log_source: osquery
-event_code: dns_cache
+event_id: dns_cache
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

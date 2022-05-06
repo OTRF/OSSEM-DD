@@ -1,47 +1,47 @@
-title: Event 31 - ProcessActivity
-description: null
+name: Event 31 - ProcessActivity
+description:
 platform: windows
 log_source: Microsoft-Windows-DesktopActivityModerator
-event_code: '31'
+event_id: '31'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ImageFileNameLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ImageFileName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CommandLineLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CommandLine
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ProcessActivity

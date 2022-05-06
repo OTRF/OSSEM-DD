@@ -1,8 +1,8 @@
-title: HTTP Log
-description: null
+name: HTTP Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: http
+event_id: http
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -45,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: orig_fuids
   type: array_string
-  description: present if base/protocols/http/entities.bro is loaded An ordered vector
-    of file unique IDs.
+  description: present if base/protocols/http/entities.bro is loaded An ordered vector of file unique IDs.
   sample_value: '``'
 - standard_name: url_user_name
   standard_type: TBD
@@ -64,8 +63,7 @@ event_fields:
   standard_type: TBD
   name: resp_fuids
   type: array_string
-  description: present if base/protocols/http/entities.bro is loaded An ordered vector
-    of file unique IDs.
+  description: present if base/protocols/http/entities.bro is loaded An ordered vector of file unique IDs.
   sample_value: '["FE7s2f1ljAxbVlbasi"]'
 - standard_name: url_host_name
   standard_type: TBD
@@ -77,19 +75,14 @@ event_fields:
   standard_type: TBD
   name: cookie_vars
   type: array_string
-  description: present if policy/protocols/http/var-extraction-cookies.bro is loaded
-    Variable names extracted from all cookies."
+  description: present if policy/protocols/http/var-extraction-cookies.bro is loaded Variable names extracted from all cookies."
   sample_value: '[ "nflx-rgn", "nfvdid", "memclid", "NetflixId" ]'
 - standard_name: http_request_header_names
   standard_type: TBD
   name: client_header_names
   type: array_string
-  description: present if policy/protocols/http/header-names.bro is loaded The vector
-    of HTTP header names sent by the client. No header values are included here, just
-    the header names.
-  sample_value: '["USER-AGENT", "ACCEPT", "ACCEPT-LANGUAGE", "ACCEPT-ENCODING", "ACCEPT-CHARSET",
-    "KEEP-ALIVE", "CONNECTION", "DATE", "SERVER", "MICROSOFTOFFICEWEBSERVER", "X-POWERED-BY",
-    "CONTENT-LENGTH", "CONTENT-TYPE", "SET-COOKIE", "CACHE-CONTROL"]'
+  description: present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the client. No header values are included here, just the header names.
+  sample_value: '["USER-AGENT", "ACCEPT", "ACCEPT-LANGUAGE", "ACCEPT-ENCODING", "ACCEPT-CHARSET", "KEEP-ALIVE", "CONNECTION", "DATE", "SERVER", "MICROSOFTOFFICEWEBSERVER", "X-POWERED-BY", "CONTENT-LENGTH", "CONTENT-TYPE", "SET-COOKIE", "CACHE-CONTROL"]'
 - standard_name: http_informational_code
   standard_type: TBD
   name: info_code
@@ -112,15 +105,13 @@ event_fields:
   standard_type: TBD
   name: orig_filenames
   type: string
-  description: present if base/protocols/http/entities.bro is loaded An ordered vector
-    of filenames from the client.
+  description: present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the client.
   sample_value: '``'
 - standard_name: src_mime_type
   standard_type: TBD
   name: orig_mime_types
   type: array_string
-  description: present if base/protocols/http/entities.bro is loaded An ordered vector
-    of mime types.
+  description: present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.
   sample_value: '["text/html"]'
 - standard_name: http_header_origin
   standard_type: TBD
@@ -138,15 +129,13 @@ event_fields:
   standard_type: TBD
   name: proxied
   type: array_string
-  description: 'All of the headers that may indicate if the request was proxied. example:
-    FORWARDED;X-FORWARDED-FOR;X-FORWARDED-FROM;CLIENT-IP;VIA;XROXY-CONNECTION;PROXY-CONNECTION'
+  description: 'All of the headers that may indicate if the request was proxied. example: FORWARDED;X-FORWARDED-FOR;X-FORWARDED-FROM;CLIENT-IP;VIA;XROXY-CONNECTION;PROXY-CONNECTION'
   sample_value: '``'
 - standard_name: httpreferrer original
   standard_type: TBD
   name: referrer
   type: string
-  description: Value of the "referer" header. The comment is deliberately misspelled
-    like the standard declares, but the name used here is "referrer" spelled correctly
+  description: Value of the "referer" header. The comment is deliberately misspelled like the standard declares, but the name used here is "referrer" spelled correctly
   sample_value: http://localcontrol.netflix.com/js/boot.js
 - standard_name: http_request_body_bytes
   standard_type: TBD
@@ -164,25 +153,19 @@ event_fields:
   standard_type: TBD
   name: server_header_names
   type: array_string
-  description: present if policy/protocols/http/header-names.bro is loaded The vector
-    of HTTP header names sent by the server. No header values are included here, just
-    the header names.
-  sample_value: '["HOST", "USER-AGENT", "ACCEPT", "ACCEPT-LANGUAGE", "ACCEPT-ENCODING",
-    "ACCEPT-CHARSET", "KEEP-ALIVE", "CONNECTION", "DATE", "SERVER", "MICROSOFTOFFICEWEBSERVER",
-    "X-POWERED-BY", "CONTENT-LENGTH", "CONTENT-TYPE", "SET-COOKIE", "CACHE-CONTROL"]'
+  description: present if policy/protocols/http/header-names.bro is loaded The vector of HTTP header names sent by the server. No header values are included here, just the header names.
+  sample_value: '["HOST", "USER-AGENT", "ACCEPT", "ACCEPT-LANGUAGE", "ACCEPT-ENCODING", "ACCEPT-CHARSET", "KEEP-ALIVE", "CONNECTION", "DATE", "SERVER", "MICROSOFTOFFICEWEBSERVER", "X-POWERED-BY", "CONTENT-LENGTH", "CONTENT-TYPE", "SET-COOKIE", "CACHE-CONTROL"]'
 - standard_name: dst_mime_type
   standard_type: TBD
   name: resp_mime_types
   type: array_string
-  description: present if base/protocols/http/entities.bro is loaded An ordered vector
-    of mime types.
+  description: present if base/protocols/http/entities.bro is loaded An ordered vector of mime types.
   sample_value: '["text/plain", "application/pdf" ]'
 - standard_name: TBD
   standard_type: TBD
   name: omniture
   type: boolean
-  description: present if policy/protocols/http/software-browser-plugins.bro is loaded
-    Indicates if the server is an omniture advertising server.
+  description: present if policy/protocols/http/software-browser-plugins.bro is loaded Indicates if the server is an omniture advertising server.
   sample_value: '``'
 - standard_name: http_status_code
   standard_type: TBD
@@ -200,8 +183,7 @@ event_fields:
   standard_type: TBD
   name: trans_depth
   type: integer
-  description: Represents the pipelined depth into the connection of this request/response
-    transaction
+  description: Represents the pipelined depth into the connection of this request/response transaction
   sample_value: '1'
 - standard_name: http_version
   standard_type: TBD
@@ -213,22 +195,19 @@ event_fields:
   standard_type: TBD
   name: resp_filenames
   type: array_string
-  description: present if base/protocols/http/entities.bro is loaded An ordered vector
-    of filenames from the server.
+  description: present if base/protocols/http/entities.bro is loaded An ordered vector of filenames from the server.
   sample_value: UserHistorySheetNew.xls
 - standard_name: TBD
   standard_type: TBD
   name: flash_version
   type: string
-  description: present if policy/protocols/http/software-browser-plugins.bro is loaded
-    The unparsed Flash version, if detected.
+  description: present if policy/protocols/http/software-browser-plugins.bro is loaded The unparsed Flash version, if detected.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: tags
   type: array_string
-  description: A set of indicators of various attributes discovered and related to
-    a particular request/response pair
+  description: A set of indicators of various attributes discovered and related to a particular request/response pair
   sample_value: '["HTTP::URI_SQLI"]'
 - standard_name: url_original
   standard_type: TBD
@@ -240,15 +219,13 @@ event_fields:
   standard_type: TBD
   name: uri_vars
   type: array_string
-  description: present if policy/protocols/http/var-extraction-uri.bro is loaded Variable
-    names from the URI.
+  description: present if policy/protocols/http/var-extraction-uri.bro is loaded Variable names from the URI.
   sample_value: '``'
 - standard_name: user_agent_original
   standard_type: TBD
   name: user_agent
   type: string
   description: Value of the User-Agent header from the client
-  sample_value: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.5) Gecko/2008120122
-    Firefox/3.0.5
+  sample_value: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.5) Gecko/2008120122 Firefox/3.0.5
 references: []
 tags: []

@@ -1,7 +1,5 @@
-title: Zeek Detection Event Logs
-description: Events related to detection or indicators as well as other things 
-  that could or would be considered an alert or something you would want to 
-  know occurs.
+name: Zeek Detection Event Logs
+description: Events related to detection or indicators as well as other things that could or would be considered an alert or something you would want to know occurs.
 images: []
 references:
 - text: Detection Logs

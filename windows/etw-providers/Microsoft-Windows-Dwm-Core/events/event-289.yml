@@ -1,65 +1,65 @@
-title: Event 289 - DISPLAYSURFACE_SWAPCHAINCANDIDATE
-description: null
+name: Event 289 - DISPLAYSURFACE_SWAPCHAINCANDIDATE
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '289'
+event_id: '289'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: surfaceLuid
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsDirectFlipCompatible
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsAdvancedDirectFlipCompatible
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsOverlayCompatible
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsOverlayRequired
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BoundsLeft
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BoundsTop
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BoundsRight
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BoundsBottom
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

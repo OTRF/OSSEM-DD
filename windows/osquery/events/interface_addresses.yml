@@ -1,8 +1,8 @@
-title: Interface_addresses Table
+name: Interface_addresses Table
 description: Network interfaces and relevant metadata.
 platform: windows
 log_source: osquery
-event_code: interface_addresses
+event_id: interface_addresses
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

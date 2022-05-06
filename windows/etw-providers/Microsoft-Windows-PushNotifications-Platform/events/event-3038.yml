@@ -1,23 +1,23 @@
-title: Event 3038 - RequestNotification
-description: null
+name: Event 3038 - RequestNotification
+description:
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
-event_code: '3038'
+event_id: '3038'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Count
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RequestControl
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_wpnui

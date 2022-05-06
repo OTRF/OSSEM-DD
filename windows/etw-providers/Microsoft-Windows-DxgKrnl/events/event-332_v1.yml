@@ -1,35 +1,35 @@
-title: Event 332 - GpuVirtualAddressRange
-description: null
+name: Event 332 - GpuVirtualAddressRange
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '332'
+event_id: '332'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pVaAllocator
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StartAddress
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EndAddress
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_GPUVA

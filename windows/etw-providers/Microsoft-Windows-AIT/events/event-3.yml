@@ -1,29 +1,29 @@
-title: Event 3 - AitAppInfo
-description: null
+name: Event 3 - AitAppInfo
+description:
 platform: windows
 log_source: Microsoft-Windows-AIT
-event_code: '3'
+event_id: '3'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: cchAppPathIncludingNull
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ApplicationImageHeaderHash
   type: Binary
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppPath
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_AitAppInfo

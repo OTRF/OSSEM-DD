@@ -1,9 +1,8 @@
-title: Shadow Table
-description: Local system users encrypted passwords and related information. Please
-  note, that you usually need superuser rights to access `/etc/shadow`.
+name: Shadow Table
+description: Local system users encrypted passwords and related information. Please note, that you usually need superuser rights to access `/etc/shadow`.
 platform: linux
 log_source: osquery
-event_code: shadow
+event_id: shadow
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

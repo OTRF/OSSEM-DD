@@ -1,29 +1,29 @@
-title: Event 4012 - MessageQueueRegister
-description: null
+name: Event 4012 - MessageQueueRegister
+description:
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
-event_code: '4012'
+event_id: '4012'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Uri
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_ActivationServices

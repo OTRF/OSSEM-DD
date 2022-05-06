@@ -1,8 +1,8 @@
-title: Keychain_acls Table
+name: Keychain_acls Table
 description: Applications that have ACL entries in the keychain.
 platform: macos
 log_source: osquery
-event_code: keychain_acls
+event_id: keychain_acls
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

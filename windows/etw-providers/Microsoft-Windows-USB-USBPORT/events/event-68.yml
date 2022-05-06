@@ -1,65 +1,65 @@
-title: Event 68 - URB_FUNCTION_CONTROL_TRANSFER
-description: null
+name: Event 68 - URB_FUNCTION_CONTROL_TRANSFER
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBPORT
-event_code: '68'
+event_id: '68'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_HC
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Device
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint
   type: CountedUtf16String
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_Endpoint_Descriptor
   type: '25'
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_IRP_Ptr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_URB_Ptr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_USBPORT_URB_CONTROL_TRANSFER
   type: '31'
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_URB_TransferDataLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fid_URB_TransferData
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Diagnostic

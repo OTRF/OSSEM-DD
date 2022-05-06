@@ -1,35 +1,35 @@
-title: Event 132 - ESE_TaskManagerPost_Trace
-description: null
+name: Event 132 - ESE_TaskManagerPost_Trace
+description:
 platform: windows
 log_source: Microsoft-Windows-ESE
-event_code: '132'
+event_id: '132'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ptm
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pfnCompletion
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dwCompletionKey1
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dwCompletionKey2
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Task

@@ -1,17 +1,17 @@
-title: Event 125 - ESE_EventLogError_Trace
-description: null
+name: Event 125 - ESE_EventLogError_Trace
+description:
 platform: windows
 log_source: Microsoft-Windows-ESE
-event_code: '125'
+event_id: '125'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: szTrace
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Trace

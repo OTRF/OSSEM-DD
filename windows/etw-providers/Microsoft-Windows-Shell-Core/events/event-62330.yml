@@ -1,23 +1,23 @@
-title: Event 62330 - FilePlaceholder_StreamResolver_RetrievePrimaryStream
-description: null
+name: Event 62330 - FilePlaceholder_StreamResolver_RetrievePrimaryStream
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '62330'
+event_id: '62330'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Position
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

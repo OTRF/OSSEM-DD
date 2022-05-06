@@ -1,35 +1,35 @@
-title: Event 35 - Marker
-description: null
+name: Event 35 - Marker
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D12
-event_code: '35'
+event_id: '35'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pID3D12CommandQueue
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Metadata
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DataSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Data
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Markers

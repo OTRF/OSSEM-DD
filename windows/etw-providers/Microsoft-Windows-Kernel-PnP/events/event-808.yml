@@ -1,17 +1,17 @@
-title: Event 808 - DeviceAdd
-description: null
+name: Event 808 - DeviceAdd
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-PnP
-event_code: '808'
+event_id: '808'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Enumeration

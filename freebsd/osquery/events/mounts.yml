@@ -1,8 +1,8 @@
-title: Mounts Table
+name: Mounts Table
 description: System mounted devices and filesystems (not process specific).
 platform: freebsd
 log_source: osquery
-event_code: mounts
+event_id: mounts
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

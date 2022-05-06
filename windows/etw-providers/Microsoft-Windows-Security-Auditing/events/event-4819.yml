@@ -1,9 +1,8 @@
-title: 'Event ID 4819: Central Access Policies on the machine have been changed.'
-description: This event generates when Central Access Policy on the machine have been
-  changed.
+name: 'Event ID 4819: Central Access Policies on the machine have been changed.'
+description: This event generates when Central Access Policy on the machine have been changed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4819'
+event_id: '4819'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -16,8 +15,7 @@ event_fields:
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that changed the Central Access Policies on
-    the machine.
+  description: the name of the account that changed the Central Access Policies on the machine.
   sample_value: DC01$
 - standard_name: user_domain
   standard_type: TBD
@@ -29,9 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
 - standard_name: object_server
   standard_type: TBD
@@ -43,29 +39,25 @@ event_fields:
   standard_type: TBD
   name: ObjectType
   type: UnicodeString
-  description: The type of an object to which this event applies. Always "Central
-    Access Policies" for this event.
+  description: The type of an object to which this event applies. Always "Central Access Policies" for this event.
   sample_value: Central Access Policies
 - standard_name: cap_added
   standard_type: TBD
   name: AddedCAPs
   type: UnicodeString
-  description: the list of added Central Access Policies. Empty if no Central Access
-    Policies were added.
+  description: the list of added Central Access Policies. Empty if no Central Access Policies were added.
   sample_value: Main POlicy
 - standard_name: cap_deleted
   standard_type: TBD
   name: DeletedCAPs
   type: UnicodeString
-  description: the list of deleted Central Access Policies. Empty if no Central Access
-    Policies were deleted.
+  description: the list of deleted Central Access Policies. Empty if no Central Access Policies were deleted.
   sample_value: None
 - standard_name: cap_modified
   standard_type: TBD
   name: ModifiedCAPs
   type: UnicodeString
-  description: the list of modified Central Access Policies. Empty if no Central Access
-    Policies were modified.
+  description: the list of modified Central Access Policies. Empty if no Central Access Policies were modified.
   sample_value: None
 - standard_name: cap_unmodified
   standard_type: TBD

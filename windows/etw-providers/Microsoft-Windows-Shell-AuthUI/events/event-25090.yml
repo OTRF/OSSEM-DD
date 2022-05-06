@@ -1,23 +1,23 @@
-title: Event 25090 - Logon_BSDR_AddApplication
-description: null
+name: Event 25090 - Logon_BSDR_AddApplication
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
-event_code: '25090'
+event_id: '25090'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: message1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DWORD1
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

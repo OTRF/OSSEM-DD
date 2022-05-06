@@ -1,23 +1,23 @@
-title: Event 146 - Jscript_GC_BackgroundResetWriteWatch
-description: null
+name: Event 146 - Jscript_GC_BackgroundResetWriteWatch
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '146'
+event_id: '146'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BackgroundMarkRescanCount
   type: Int8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_JScriptGarbageCollection

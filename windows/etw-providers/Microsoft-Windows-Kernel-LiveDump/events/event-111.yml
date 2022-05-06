@@ -1,17 +1,17 @@
-title: Event 111 - SizingWorkflow
-description: null
+name: Event 111 - SizingWorkflow
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-LiveDump
-event_code: '111'
+event_id: '111'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CallbackIdentifier
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_RemovePagesCallbacks
