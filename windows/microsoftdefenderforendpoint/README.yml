@@ -1,5 +1,5 @@
-name: Windows Defender Advanced Threat Protection Event Logs
-description: None
+name: Microsoft Defender for Endpoint Event Logs
+description: Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats.
 images: []
 references:
 - text: Windows Defender Advanced Threat Protection
@@ -7,8 +7,8 @@ references:
 - text: Advanced Hunting with WDATP
   link: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/advanced-hunting-windows-defender-advanced-threat-protection
 - text: Field Reference
-  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/advanced-hunting-reference-windows-defender-advanced-threat-protection
-- text: WDATP Query Best Practices
-  link: https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/advanced-hunting-best-practices-windows-defender-advanced-threat-protection
+  link: https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-schema-tables?view=o365-worldwide
+- text: Query Best Practices
+  link: https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-best-practices?view=o365-worldwide
 - text: WDATP and Notebooks
   link: https://github.com/Microsoft/WindowsDefenderATP-Hunting-Queries/tree/master/Notebooks

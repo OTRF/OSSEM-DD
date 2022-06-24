@@ -1,7 +1,7 @@
 name: DeviceNetworkInfo
 description: Network properties of machines, including adapters, IP and MAC addresses, as well as connected networks and domains
 platform: windows
-log_source: windowsdefenderatp
+log_source: Microsoft Defender for Endpoint
 event_id: DeviceNetworkInfo
 event_version: '0'
 event_fields:

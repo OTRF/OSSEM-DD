@@ -1,7 +1,7 @@
 name: DeviceAlertEvents
 description: Alerts on Windows Defender Security Center
 platform: windows
-log_source: windowsdefenderatp
+log_source: Microsoft Defender for Endpoint
 event_id: DeviceAlertEvents
 event_version: '0'
 event_fields:

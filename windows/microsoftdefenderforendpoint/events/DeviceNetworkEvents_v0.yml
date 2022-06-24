@@ -1,7 +1,7 @@
 name: DeviceNetworkEvents
 description: Network connection and related events
 platform: windows
-log_source: windowsdefenderatp
+log_source: Microsoft Defender for Endpoint
 event_id: DeviceNetworkEvents
 event_version: '0'
 event_fields:

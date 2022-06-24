@@ -1,7 +1,7 @@
 name: DeviceInfo
 description: Machine information, including OS information
 platform: windows
-log_source: windowsdefenderatp
+log_source: Microsoft Defender for Endpoint
 event_id: DeviceInfo
 event_version: '0'
 event_fields:
