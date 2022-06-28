@@ -41,9 +41,27 @@ event_fields:
   type: string
   description: Target device
   sample_value: \Device\HarddiskVolume2
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: Name of the account of the process that conducted reading operations from the drive
+  sample_value: NT AUTHORITY\SYSTEM
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-9-rawaccessread
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/raw-access-read.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+        <EventData>
+        <Data Name="RuleName">-</Data> 
+        <Data Name="UtcTime">2021-11-04 23:30:24.705</Data> 
+        <Data Name="ProcessGuid">{3710b5c6-6bc3-6184-1f00-000000000d00}</Data> 
+        <Data Name="ProcessId">1200</Data> 
+        <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
+        <Data Name="Device">\Device\HarddiskVolume2</Data> 
+        <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
+        </EventData>

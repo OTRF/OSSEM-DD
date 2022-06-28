@@ -47,9 +47,28 @@ event_fields:
   type: date
   description: File creation time
   sample_value: 12/4/17 17:38
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: Name of the account who created the file
+  sample_value: DESKTOP-4FPBTEN\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-11-filecreate
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/file-create.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data> 
+      <Data Name="UtcTime">2021-11-04 23:40:40.783</Data> 
+      <Data Name="ProcessGuid">{3710b5c6-6c2f-6184-7f00-000000000d00}</Data> 
+      <Data Name="ProcessId">4236</Data> 
+      <Data Name="Image">C:\Windows\Explorer.EXE</Data> 
+      <Data Name="TargetFilename">C:\Users\pedro\Desktop\New Text Document.txt</Data> 
+      <Data Name="CreationUtcTime">2021-11-04 23:40:40.783</Data> 
+      <Data Name="User">DESKTOP-4FPBTEN\pedro</Data> 
+      </EventData>
