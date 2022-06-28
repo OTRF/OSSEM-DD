@@ -119,26 +119,3 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/network-connections.md
 tags: []
-event_sample:
-  - format: xml
-    sample: |-
-        <EventData>
-        <Data Name="RuleName">-</Data> 
-        <Data Name="UtcTime">2021-11-03 05:01:26.226</Data> 
-        <Data Name="ProcessGuid">{3710b5c6-f3dd-6181-4000-000000000a00}</Data> 
-        <Data Name="ProcessId">2484</Data> 
-        <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-        <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-        <Data Name="Protocol">tcp</Data> 
-        <Data Name="Initiated">true</Data> 
-        <Data Name="SourceIsIpv6">false</Data> 
-        <Data Name="SourceIp">192.168.10.8</Data> 
-        <Data Name="SourceHostname">-</Data> 
-        <Data Name="SourcePort">50026</Data> 
-        <Data Name="SourcePortName">-</Data> 
-        <Data Name="DestinationIsIpv6">false</Data> 
-        <Data Name="DestinationIp">52.167.249.196</Data> 
-        <Data Name="DestinationHostname">-</Data> 
-        <Data Name="DestinationPort">443</Data> 
-        <Data Name="DestinationPortName">-</Data> 
-        </EventData>
