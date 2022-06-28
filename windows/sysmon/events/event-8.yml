@@ -82,9 +82,40 @@ event_fields:
   type: string
   description: Start function is reported if exact match to function in image export table
   sample_value: CtrlRoutine
+- standard_name: TBD
+  standard_type: TBD
+  name: SourceUser
+  type: string
+  description: Name of the account of the source process that created a thread in another process.
+  sample_value: DESKTOP-4FPBTEN\pedro
+- standard_name: TBD
+  standard_type: TBD
+  name: TargetUser
+  type: string
+  description: Name of the account of the target process
+  sample_value: NT AUTHORITY\SYSTEM
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-8-createremotethread
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+        <EventData>
+        <Data Name="RuleName">-</Data> 
+        <Data Name="UtcTime">2021-11-03 05:37:19.746</Data> 
+        <Data Name="SourceProcessGuid">{3710b5c6-1e40-6182-9000-000000000b00}</Data> 
+        <Data Name="SourceProcessId">5504</Data> 
+        <Data Name="SourceImage">C:\Windows\System32\VBoxTray.exe</Data> 
+        <Data Name="TargetProcessGuid">{3710b5c6-1d95-6182-0800-000000000b00}</Data> 
+        <Data Name="TargetProcessId">548</Data> 
+        <Data Name="TargetImage">C:\Windows\System32\csrss.exe</Data> 
+        <Data Name="NewThreadId">3920</Data> 
+        <Data Name="StartAddress">0xFFFFFD58E52520D0</Data> 
+        <Data Name="StartModule">-</Data> 
+        <Data Name="StartFunction">-</Data> 
+        <Data Name="SourceUser">DESKTOP-4FPBTEN\pedro</Data> 
+        <Data Name="TargetUser">NT AUTHORITY\SYSTEM</Data> 
+        </EventData>
