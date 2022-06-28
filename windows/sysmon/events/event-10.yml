@@ -71,9 +71,39 @@ event_fields:
   type: string
   description: Stack trace of where open process is called. Included is the DLL and the relative virtual address of the functions in the call stack right before the open process call
   sample_value: C:\WINDOWS\SYSTEM32\ntdll.dll+a0344
+- standard_name: TBD
+  standard_type: TBD
+  name: SourceUser
+  type: string
+  description: Name of the account of the source process that created a thread in another process.
+  sample_value: NT AUTHORITY\SYSTEM
+- standard_name: TBD
+  standard_type: TBD
+  name: TargetUser
+  type: string
+  description: Name of the account of the target process
+  sample_value: DESKTOP-4FPBTEN\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-10-processaccess
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-access.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+        <EventData>
+        <Data Name="RuleName">-</Data> 
+        <Data Name="UtcTime">2021-11-04 23:31:51.894</Data> 
+        <Data Name="SourceProcessGUID">{3710b5c6-95f1-6184-1c00-000000000d00}</Data> 
+        <Data Name="SourceProcessId">1136</Data> 
+        <Data Name="SourceThreadId">1160</Data> 
+        <Data Name="SourceImage">C:\Windows\System32\VBoxService.exe</Data> 
+        <Data Name="TargetProcessGUID">{3710b5c6-6c6b-6184-9500-000000000d00}</Data> 
+        <Data Name="TargetProcessId">1880</Data> 
+        <Data Name="TargetImage">C:\Windows\System32\smartscreen.exe</Data> 
+        <Data Name="GrantedAccess">0x1400</Data> 
+        <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9d234|C:\Windows\System32\KERNELBASE.dll+2c0fe|C:\Windows\System32\VBoxService.exe+13357|C:\Windows\System32\VBoxService.exe+145d4|C:\Windows\System32\VBoxService.exe+1487e|C:\Windows\System32\VBoxService.exe+102bb|C:\Windows\System32\VBoxService.exe+10dc0|C:\Windows\System32\VBoxService.exe+17ee|C:\Windows\System32\VBoxService.exe+3248f|C:\Windows\System32\VBoxService.exe+3604c|C:\Windows\System32\VBoxService.exe+103653|C:\Windows\System32\VBoxService.exe+1036e7|C:\Windows\System32\KERNEL32.DLL+17034|C:\Windows\SYSTEM32\ntdll.dll+52651</Data> 
+        <Data Name="SourceUser">NT AUTHORITY\SYSTEM</Data> 
+        <Data Name="TargetUser">DESKTOP-4FPBTEN\pedro</Data> 
+        </EventData>
