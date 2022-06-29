@@ -107,3 +107,23 @@ tags:
 - etw_task_task_0
 - Detailed Tracking
 - Audit Process Creation
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
+    <Data Name="SubjectDomainName">WORKGROUP</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="NewProcessId">0xc9c</Data>
+    <Data Name="NewProcessName">C:\Windows\System32\backgroundTaskHost.exe</Data>
+    <Data Name="TokenElevationType">%%1938</Data>
+    <Data Name="ProcessId">0x2c4</Data>
+    <Data Name="CommandLine"></Data>
+    <Data Name="TargetUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
+    <Data Name="TargetUserName">pedro</Data>
+    <Data Name="TargetDomainName">DESKTOP-CQF82L6</Data>
+    <Data Name="TargetLogonId">0xb1198</Data>
+    <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="MandatoryLabel">S-1-16-4096</Data>
+    </EventData>

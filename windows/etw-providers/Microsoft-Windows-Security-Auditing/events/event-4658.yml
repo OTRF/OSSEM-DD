@@ -77,3 +77,16 @@ tags:
 - Audit Kernel Object
 - Audit Registry
 - Audit Removable Storage
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
+    <Data Name="SubjectDomainName">WORKGROUP</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="ObjectServer">Security</Data>
+    <Data Name="HandleId">0x2fc</Data>
+    <Data Name="ProcessId">0x558</Data>
+    <Data Name="ProcessName">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2205.7-0\MsMpEng.exe</Data>
+    </EventData>

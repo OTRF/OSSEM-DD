@@ -89,3 +89,20 @@ tags:
 - etw_task_task_0
 - Policy Change
 - Audit Authorization Policy Change
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
+    <Data Name="SubjectDomainName">WORKGROUP</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-18</Data>
+    <Data Name="TargetUserName">DESKTOP-CQF82L6$</Data>
+    <Data Name="TargetDomainName">WORKGROUP</Data>
+    <Data Name="TargetLogonId">0x3e7</Data>
+    <Data Name="ProcessName">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="ProcessId">0x2c4</Data>
+    <Data Name="EnabledPrivilegeList">SeBackupPrivilege</Data>
+    <Data Name="DisabledPrivilegeList">-</Data>
+    </EventData>

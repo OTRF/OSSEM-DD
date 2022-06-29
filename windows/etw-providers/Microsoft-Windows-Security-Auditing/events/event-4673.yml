@@ -74,3 +74,17 @@ tags:
 - Privilege Use
 - Audit Sensitive Privilege Use
 - Audit Non Sensitive Privilege Use
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
+    <Data Name="SubjectUserName">pedro</Data>
+    <Data Name="SubjectDomainName">DESKTOP-CQF82L6</Data>
+    <Data Name="SubjectLogonId">0xb1198</Data>
+    <Data Name="ObjectServer">Security</Data>
+    <Data Name="Service">-</Data>
+    <Data Name="PrivilegeList">SeProfileSingleProcessPrivilege</Data>
+    <Data Name="ProcessId">0x113c</Data>
+    <Data Name="ProcessName">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    </EventData>

@@ -65,3 +65,16 @@ tags:
 - etw_task_task_0
 - Object Access
 - Audit Filtering Platform Connection
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="ProcessId">2548</Data>
+    <Data Name="Application">\device\harddiskvolume2\windows\system32\smartscreen.exe</Data>
+    <Data Name="SourceAddress">0.0.0.0</Data>
+    <Data Name="SourcePort">50738</Data>
+    <Data Name="Protocol">6</Data>
+    <Data Name="FilterRTID">0</Data>
+    <Data Name="LayerName">%%14608</Data>
+    <Data Name="LayerRTID">36</Data>
+    </EventData>

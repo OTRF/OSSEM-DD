@@ -59,3 +59,15 @@ tags:
 - etw_task_task_0
 - Detailed Tracking
 - Audit Process Termination
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
+    <Data Name="SubjectUserName">pedro</Data>
+    <Data Name="SubjectDomainName">DESKTOP-CQF82L6</Data>
+    <Data Name="SubjectLogonId">0xb1169</Data>
+    <Data Name="Status">0x42b</Data>
+    <Data Name="ProcessId">0x1670</Data>
+    <Data Name="ProcessName">C:\Windows\System32\cleanmgr.exe</Data>
+    </EventData>
