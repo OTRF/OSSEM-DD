@@ -59,3 +59,17 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/dns-query.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2022-06-29 19:06:02.389</Data>
+      <Data Name="ProcessGuid">{01e2a015-a2b2-62bc-ab05-000000000500}</Data>
+      <Data Name="ProcessId">3704</Data>
+      <Data Name="QueryName">checkappexec.microsoft.com</Data>
+      <Data Name="QueryStatus">0</Data>
+      <Data Name="QueryResults">type:  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>
+      <Data Name="Image">C:\Windows\System32\smartscreen.exe</Data>
+      <Data Name="User">DESKTOP-CQF82L6\pedro</Data> 
+      </EventData> 

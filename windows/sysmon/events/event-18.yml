@@ -53,3 +53,16 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/named-pipes.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">ConnectPipe</Data>
+      <Data Name="UtcTime">2022-06-29 19:02:29.022</Data>
+      <Data Name="ProcessGuid">{01e2a015-0003-62bc-1b00-000000000500}</Data>
+      <Data Name="ProcessId">676</Data>
+      <Data Name="PipeName">\VBoxTrayIPC-pedro</Data>
+      <Data Name="Image">C:\Windows\System32\VBoxService.exe</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      </EventData>

@@ -1,9 +1,9 @@
-name: 'Event ID 23: FileDelete (A file delete was detected)'
-description: This event logs when a **file is deleted** by a process.
+name: 'Event ID 26: FileDeleteDetected (File Delete logged)'
+description: A file was deleted.
 platform: windows
 log_source: sysmon
-event_id: '23'
-event_version: '4.32'
+event_id: '26'
+event_version: '5'
 event_fields:
 - standard_name: tag
   standard_type: TBD
@@ -59,12 +59,6 @@ event_fields:
   type: bool
   description: TBD
   sample_value: TBD
-- standard_name: TBD
-  standard_type: TBD
-  name: Archived
-  type: string
-  description: States if the file was archived when deleted
-  sample_value: true
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-23-filedelete-a-file-delete-was-detected
@@ -76,13 +70,12 @@ event_sample:
     sample: |-
       <EventData>
       <Data Name="RuleName">-</Data>
-      <Data Name="UtcTime">2022-06-29 19:25:26.450</Data>
-      <Data Name="ProcessGuid">{01e2a015-02ee-62bc-0e01-000000000500}</Data>
-      <Data Name="ProcessId">1368</Data>
+      <Data Name="UtcTime">2022-06-29 19:34:33.740</Data>
+      <Data Name="ProcessGuid">{01e2a015-0004-62bc-2200-000000000500}</Data>
+      <Data Name="ProcessId">1192</Data>
       <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-      <Data Name="Image">C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2205.7-0\MsMpEng.exe</Data>
-      <Data Name="TargetFilename">C:\ProgramData\Microsoft\Windows Defender\Scans\Scans\History\CacheManager\7A012CB2-69ED-4AFD-BEF6-F12032FAA46E</Data>
-      <Data Name="Hashes">SHA1=A35327FFEBFF1BBA6499C087CD8E1A73C12586E9,MD5=3CEB4359DFE139A2AFF614B7C7AE7DC7,SHA256=895578306B9F70AE5F670564BB039A66B0D77775D98994EE19D2ABEA0876B2D5,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\Prefetch\SPPSVC.EXE-B0F8131B.pf</Data>
+      <Data Name="Hashes">SHA1=7501B6DCEBA3379749BEA17751AF10F41D2A55D1,MD5=6E44A50630221D4F99C0941EC808DC90,SHA256=93B0AD70DA6A6429C78DDED50DEE477A2299EC8D74E76E8E71CE11C5F85F1322,IMPHASH=00000000000000000000000000000000</Data>
       <Data Name="IsExecutable">false</Data>
-      <Data Name="Archived">true</Data>
       </EventData>

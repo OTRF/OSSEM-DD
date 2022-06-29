@@ -59,3 +59,17 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">SetValue</Data>
+      <Data Name="UtcTime">2022-06-29 18:58:42.007</Data>
+      <Data Name="ProcessGuid">{01e2a015-00dd-62bc-7800-000000000500}</Data>
+      <Data Name="ProcessId">2632</Data>
+      <Data Name="Image">C:\Windows\system32\ctfmon.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-2073674718-3587034731-622476709-1001\SOFTWARE\Microsoft\Input\TypingInsights\Insights</Data>
+      <Data Name="Details">Binary Data</Data>
+      <Data Name="User">DESKTOP-CQF82L6\pedro</Data>
+      </EventData>

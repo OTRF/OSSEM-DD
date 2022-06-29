@@ -59,3 +59,17 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/file-create-time-change.md
 tags: []
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2022-06-29 18:37:12.607</Data>
+    <Data Name="ProcessGuid">{01e2a015-752e-62bc-2e03-000000000500}</Data>
+    <Data Name="ProcessId">1836</Data>
+    <Data Name="Image">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name="TargetFilename">C:\Users\pedro\AppData\Local\Microsoft\Edge\User Data\6403de3a-d41b-499a-85f6-6ca715a2c53e.tmp</Data>
+    <Data Name="CreationUtcTime">2022-06-28 16:50:17.602</Data>
+    <Data Name="PreviousCreationUtcTime">2022-06-29 18:37:12.607</Data>
+    <Data Name="User">DESKTOP-CQF82L6\pedro</Data>
+    </EventData>
