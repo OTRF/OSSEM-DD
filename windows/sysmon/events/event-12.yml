@@ -41,12 +41,18 @@ event_fields:
   type: string
   description: File path of the process that created or deleted a registry key
   sample_value: C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe
-- standard_name: registry_path
+- standard_name: registry_key_path
   standard_type: TBD
   name: TargetObject
   type: string
   description: complete path of the registry key
   sample_value: HKU.DEFAULT\Software\Microsoft\Office\16.0\Common
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: The name of the account that created or deleted a registry key or value
+  sample_value: DESKTOP-CQF82L6\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-12-registryevent-object-create-and-delete

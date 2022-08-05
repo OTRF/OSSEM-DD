@@ -11,7 +11,7 @@ event_fields:
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_type
+- standard_name: registry_event_type
   standard_type: TBD
   name: EventType
   type: string
@@ -41,18 +41,24 @@ event_fields:
   type: string
   description: File path of the process that that modified a registry value
   sample_value: C:\WINDOWS\Explorer.EXE
-- standard_name: registry_path
+- standard_name: registry_key_path
   standard_type: TBD
   name: TargetObject
   type: string
   description: complete path of the registry key
   sample_value: HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Notifications\Data\418A073AA3BC3475
-- standard_name: registry_value
+- standard_name: registry_value_data
   standard_type: TBD
   name: Details
   type: string
   description: Details added to the registry key
   sample_value: Binary Data
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: The name of the account that modified a registry value.
+  sample_value: DESKTOP-CQF82L6\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-13-registryevent-value-set
