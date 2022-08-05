@@ -1,17 +1,17 @@
-title: Event 77 - task_0
-description: null
+name: Event 77 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider
-event_code: '77'
+event_id: '77'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_task_0

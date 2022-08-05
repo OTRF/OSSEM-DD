@@ -1,8 +1,8 @@
-title: Modbus Log
-description: null
+name: Modbus Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: modbus
+event_id: modbus
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -69,29 +69,25 @@ event_fields:
   standard_type: TBD
   name: delta
   type: float
-  description: The time delta between when the old_val and new_val were seen. (present
-    if policy/protocols/modbus/track-memmap.bro is loaded)
+  description: The time delta between when the old_val and new_val were seen. (present if policy/protocols/modbus/track-memmap.bro is loaded)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: new_val
   type: integer
-  description: The new value stored in the register (present if policy/protocols/modbus/track-memmap.bro
-    is loaded)
+  description: The new value stored in the register (present if policy/protocols/modbus/track-memmap.bro is loaded)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: old_val
   type: integer
-  description: The old value stored in the register. (present if policy/protocols/modbus/track-memmap.bro
-    is loaded)
+  description: The old value stored in the register. (present if policy/protocols/modbus/track-memmap.bro is loaded)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: register
   type: integer
-  description: The device memory offset. (present if policy/protocols/modbus/track-memmap.bro
-    is loaded)
+  description: The device memory offset. (present if policy/protocols/modbus/track-memmap.bro is loaded)
   sample_value: '``'
 references: []
 tags: []

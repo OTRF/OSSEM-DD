@@ -1,23 +1,23 @@
-title: Event 111 - Jscript_Recycler_Allocation
-description: null
+name: Event 111 - Jscript_Recycler_Allocation
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '111'
+event_id: '111'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MemoryAddress
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TypeId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_JScriptObjectAllocation

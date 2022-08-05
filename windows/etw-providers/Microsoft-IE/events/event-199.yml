@@ -1,29 +1,29 @@
-title: Event 199 - Mshtml_SAM_Segment_Create
-description: null
+name: Event 199 - Mshtml_SAM_Segment_Create
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '199'
+event_id: '199'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Allocator
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Allocation
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_verbose

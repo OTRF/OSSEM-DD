@@ -1,17 +1,17 @@
-title: Event 424 - AppXPackaging.Task.PackageWriter.AddPayloadFiles
-description: null
+name: Event 424 - AppXPackaging.Task.PackageWriter.AddPayloadFiles
+description:
 platform: windows
 log_source: Microsoft-Windows-AppxPackagingOM
-event_code: '424'
+event_id: '424'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fileCount
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_400000000000

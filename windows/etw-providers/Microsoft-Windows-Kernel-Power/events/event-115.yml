@@ -1,101 +1,101 @@
-title: Event 115 - ActiveCoolingDiagnostic
-description: null
+name: Event 115 - ActiveCoolingDiagnostic
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '115'
+event_id: '115'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ThermalZoneDeviceInstanceLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThermalZoneDeviceInstance
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventTime
   type: FILETIME
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActiveCoolingState
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC0
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC1
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC2
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC3
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC4
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC5
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC6
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC7
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC8
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _AC9
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: _TMP
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Thermal

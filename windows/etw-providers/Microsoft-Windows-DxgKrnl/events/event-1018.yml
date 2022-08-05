@@ -1,65 +1,65 @@
-title: Event 1018 - MiracastInterrupt
-description: null
+name: Event 1018 - MiracastInterrupt
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '1018'
+event_id: '1018'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MiracastLuid
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VidPnTargetId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ChunkType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FrameNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PartNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessingTime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EncodeRate
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrivateDataDriverSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Miracast

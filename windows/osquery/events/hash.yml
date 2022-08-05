@@ -1,8 +1,8 @@
-title: Hash Table
+name: Hash Table
 description: Filesystem hash data.
 platform: windows
 log_source: osquery
-event_code: hash
+event_id: hash
 event_version: 5.0.1
 event_fields:
 - standard_name: file_path

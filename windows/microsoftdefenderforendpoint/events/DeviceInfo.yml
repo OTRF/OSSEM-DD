@@ -1,8 +1,8 @@
-title: DeviceInfo
+name: DeviceInfo
 description: Machine information, including OS information
 platform: windows
-log_source: windowsdefenderatp
-event_code: DeviceInfo
+log_source: Microsoft Defender for Endpoint
+event_id: DeviceInfo
 event_version: '0'
 event_fields:
 - standard_name: event_date_creation
@@ -57,15 +57,13 @@ event_fields:
   standard_type: TBD
   name: ISAzureADJoined
   type: boolean
-  description: Boolean indicator of whether machine is joined to the Azure Active
-    Directory
+  description: Boolean indicator of whether machine is joined to the Azure Active Directory
   sample_value: ''
 - standard_name: logged_on_users
   standard_type: TBD
   name: LoggedOnUsers
   type: string
-  description: List of all users that are logged on the machine at the time of the
-    event in JSON array format
+  description: List of all users that are logged on the machine at the time of the event in JSON array format
   sample_value: ''
 - standard_name: registry_device_tag
   standard_type: TBD
@@ -77,8 +75,7 @@ event_fields:
   standard_type: TBD
   name: ReportId
   type: long
-  description: Event identifier based on a repeating counter. To identify unique events,
-    this column must be used in conjunction with the ComputerName and EventTime columns.
+  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the ComputerName and EventTime columns.
   sample_value: ''
 - standard_name: os_version
   standard_type: TBD

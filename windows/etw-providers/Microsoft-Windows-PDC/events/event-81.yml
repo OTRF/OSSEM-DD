@@ -1,29 +1,29 @@
-title: Event 81 - TaskReference
-description: null
+name: Event 81 - TaskReference
+description:
 platform: windows
 log_source: Microsoft-Windows-PDC
-event_code: '81'
+event_id: '81'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TaskClient
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: At
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReferenceDereference
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_tasks CsDiag

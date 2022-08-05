@@ -1,17 +1,17 @@
-title: Event 857 - Mshtml_EventLoop_DriveRegularTasksFromLow
-description: null
+name: Event 857 - Mshtml_EventLoop_DriveRegularTasksFromLow
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '857'
+event_id: '857'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CancelledLowPri
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_gwnd

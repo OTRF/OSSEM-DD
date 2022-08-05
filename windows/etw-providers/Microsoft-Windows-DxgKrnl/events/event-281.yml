@@ -1,17 +1,17 @@
-title: Event 281 - PagingPreparation
-description: null
+name: Event 281 - PagingPreparation
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '281'
+event_id: '281'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pDmaBuffer
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

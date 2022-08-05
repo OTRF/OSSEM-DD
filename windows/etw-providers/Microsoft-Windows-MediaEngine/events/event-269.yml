@@ -1,17 +1,17 @@
-title: Event 269 - MediaFoundationPresentAtSleep
-description: null
+name: Event 269 - MediaFoundationPresentAtSleep
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '269'
+event_id: '269'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

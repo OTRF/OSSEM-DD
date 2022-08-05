@@ -1,23 +1,23 @@
-title: Event 3 - task_0
-description: null
+name: Event 3 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-BitLocker-DrivePreparationTool
-event_code: '3'
+event_id: '3'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MessageCode
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MessageText
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_opcode_Create

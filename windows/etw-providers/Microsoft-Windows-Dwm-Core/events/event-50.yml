@@ -1,35 +1,35 @@
-title: Event 50 - ETWGUID_DRAWEVENT
-description: null
+name: Event 50 - ETWGUID_DRAWEVENT
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '50'
+event_id: '50'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: left
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: top
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: right
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: bottom
   type: Float
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_DwmCore

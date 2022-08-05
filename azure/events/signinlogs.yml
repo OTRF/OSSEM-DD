@@ -1,8 +1,8 @@
-title: Signin Logs
+name: Signin Logs
 description: Azure authentication signin logs common schema.
 platform: azure
 log_source: signinlogs
-event_code: signinlogs
+event_id: signinlogs
 event_version: ''
 event_fields:
 - standard_name: TBD
@@ -34,7 +34,7 @@ event_fields:
   name: AuthenticationDetails
   type: string
   description: "The result of the authentication attempt and additional details on the authentication method."
-  sample_value: | 
+  sample_value: |
     [ 
       {
         "authenticationStepDateTime":"2018-11-06T18:48:03.8313489Z",
@@ -192,7 +192,7 @@ event_fields:
   name: IsRisky
   type: bool
   description: "Indicates if a sign-in is considered risky or not"
-  sample_value: null
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Level
@@ -296,7 +296,7 @@ event_fields:
   name: ResourceProvider
   type: string
   description: ""
-  sample_value: null
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ResourceTenantId
@@ -368,7 +368,7 @@ event_fields:
   name: ServicePrincipalName
   type: string
   description: "Service Principal Name of the service principal who initiated the sign-in"
-  sample_value: null
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SignInIdentifier
@@ -380,7 +380,7 @@ event_fields:
   name: SignInIdentifierType
   type: string
   description: ""
-  sample_value: null
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SourceSystem
@@ -392,19 +392,19 @@ event_fields:
   name: Status
   type: dynamic
   description: "Details of the sign-in status"
-  sample_value: {"errorCode":0}
+  sample_value: {"errorCode": 0}
 - standard_name: TBD
   standard_type: TBD
   name: TimeGenerated
   type: datetime
   description: "The date and time of the event in UTC"
-  sample_value:  2021-08-03T18:48:33.8527147Z
+  sample_value: 2021-08-03T18:48:33.852715Z
 - standard_name: TBD
   standard_type: TBD
   name: TokenIssuerName
   type: string
   description: "Name of the identity provider (e.g. sts.microsoft.com )"
-  sample_value: null
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TokenIssuerType

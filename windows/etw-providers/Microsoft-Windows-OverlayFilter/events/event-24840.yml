@@ -1,23 +1,23 @@
-title: Event 24840 - TheWindowsOverlayTask
-description: null
+name: Event 24840 - TheWindowsOverlayTask
+description:
 platform: windows
 log_source: Microsoft-Windows-OverlayFilter
-event_code: '24840'
+event_id: '24840'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: filename
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: offset
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_ResumeHashFile

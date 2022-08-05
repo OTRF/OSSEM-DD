@@ -1,41 +1,41 @@
-title: Event 16 - NotificationMessage
-description: null
+name: Event 16 - NotificationMessage
+description:
 platform: windows
 log_source: Microsoft-Windows-PDC
-event_code: '16'
+event_id: '16'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Client
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Control
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PdcSequence
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_notifications CsDiag

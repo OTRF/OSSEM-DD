@@ -1,47 +1,47 @@
-title: Event 1248 - Ndkpi_Create_Cq
-description: null
+name: Event 1248 - Ndkpi_Create_Cq
+description:
 platform: windows
 log_source: Microsoft-Windows-TCPIP
-event_code: '1248'
+event_id: '1248'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NdkAdapter
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CqDepth
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CqNotificationContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AffinityMask
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AffinityGroup
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RequestContext
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ut:TcpipNdkpi

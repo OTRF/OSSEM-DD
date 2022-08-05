@@ -1,8 +1,8 @@
-title: Alf_explicit_auths Table
+name: Alf_explicit_auths Table
 description: ALF services explicitly allowed to perform networking.
 platform: macos
 log_source: osquery
-event_code: alf_explicit_auths
+event_id: alf_explicit_auths
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

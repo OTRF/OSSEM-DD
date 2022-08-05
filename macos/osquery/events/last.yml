@@ -1,8 +1,8 @@
-title: Last Table
+name: Last Table
 description: System logins and logouts.
 platform: macos
 log_source: osquery
-event_code: last
+event_id: last
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

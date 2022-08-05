@@ -1,35 +1,35 @@
-title: Event 131 - Settingprinterconfiguration
-description: null
+name: Event 131 - Settingprinterconfiguration
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '131'
+event_id: '131'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Label
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_LOCALSPL SPOOLER_KEYWORD_PRINTER

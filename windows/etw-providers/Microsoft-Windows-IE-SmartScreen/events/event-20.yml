@@ -1,47 +1,47 @@
-title: Event 20 - URLReputationCheck
-description: null
+name: Event 20 - URLReputationCheck
+description:
 platform: windows
 log_source: Microsoft-Windows-IE-SmartScreen
-event_code: '20'
+event_id: '20'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PCL
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: THREAT
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Heuristic
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasAnyInputFields
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasPasswordField
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_functionality

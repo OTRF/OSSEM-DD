@@ -1,8 +1,8 @@
-title: Cowrie login failed
+name: Cowrie login failed
 description: This dictionary details the fields for the login failed event of the Cowrie honeypot.
 platform: cowrie
 log_source: honeypot
-event_code: 'cowrie.login.failed'
+event_id: 'cowrie.login.failed'
 event_version: '0'
 event_fields:
 - standard_name: event_timestamp
@@ -10,7 +10,7 @@ event_fields:
   name: timestamp
   type: string
   description: Timestamp when the data was discovered in ISO 8601 format
-  sample_value: '2020-10-06T06:45:02.021156' 
+  sample_value: '2020-10-06T06:45:02.021156'
 - standard_name: src_ip_addr
   standard_type: ip
   name: src_ip
@@ -39,13 +39,13 @@ event_fields:
   standard_type: string
   name: username
   type: string
-  description: Username used for the failed login 
+  description: Username used for the failed login
   sample_value: root
 - standard_name: user_password
   standard_type: string
   name: password
   type: string
-  description: Password used for the failed login 
+  description: Password used for the failed login
   sample_value: root
 references:
 - text: Cowrie authentication checking code

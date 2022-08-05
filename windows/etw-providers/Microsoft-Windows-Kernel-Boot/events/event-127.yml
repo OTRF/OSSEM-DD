@@ -1,17 +1,17 @@
-title: Event 127 - AllocatePhysicalPagesForMdl
-description: null
+name: Event 127 - AllocatePhysicalPagesForMdl
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '127'
+event_id: '127'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Mdl
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SoftRestart PhysicalMemory

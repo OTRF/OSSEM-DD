@@ -1,16 +1,15 @@
-title: 'Event ID 4945: A rule was listed when the Windows Firewall started.'
+name: 'Event ID 4945: A rule was listed when the Windows Firewall started.'
 description: This event generates every time Windows Firewall service starts.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4945'
+event_id: '4945'
 event_version: '0'
 event_fields:
 - standard_name: profile_used
   standard_type: TBD
   name: ProfileUsed
   type: UnicodeString
-  description: the name of the profile that the rule belongs to. It always has value
-    "Public", because this event shows rules only for "Public" profile.
+  description: the name of the profile that the rule belongs to. It always has value "Public", because this event shows rules only for "Public" profile.
   sample_value: Public
 - standard_name: rule_id
   standard_type: TBD

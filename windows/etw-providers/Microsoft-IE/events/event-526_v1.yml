@@ -1,35 +1,35 @@
-title: Event 526 - Mshtml_EventDebug_DOM_Event_Dispatch
-description: null
+name: Event 526 - Mshtml_EventDebug_DOM_Event_Dispatch
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '526'
+event_id: '526'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventParam
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventTarget
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventContextId
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_eventsandtimers

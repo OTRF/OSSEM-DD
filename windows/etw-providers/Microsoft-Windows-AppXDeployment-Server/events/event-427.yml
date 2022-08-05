@@ -1,29 +1,29 @@
-title: Event 427 - AppXDeployment.Task.Server.Dependency
-description: null
+name: Event 427 - AppXDeployment.Task.Server.Dependency
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '427'
+event_id: '427'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageVersion
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageVersion2
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_APPXDEPLOYMENTSERVER_KEYWORD

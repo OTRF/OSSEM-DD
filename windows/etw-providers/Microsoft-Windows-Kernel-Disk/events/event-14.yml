@@ -1,35 +1,35 @@
-title: Event 14 - task_0
-description: null
+name: Event 14 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Disk
-event_code: '14'
+event_id: '14'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DiskNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IrpFlags
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HighResResponseTime
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IORequestPacket
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -1,29 +1,29 @@
-title: Event 20512 - Mapfilecachedata
-description: null
+name: Event 20512 - Mapfilecachedata
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '20512'
+event_id: '20512'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CacheFileObject
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Offset
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Length
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_KmFileCache

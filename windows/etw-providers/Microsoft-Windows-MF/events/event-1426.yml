@@ -1,17 +1,17 @@
-title: Event 1426 - DeviceMFTMDeviceTransformSetOutputType
-description: null
+name: Event 1426 - DeviceMFTMDeviceTransformSetOutputType
+description:
 platform: windows
 log_source: Microsoft-Windows-MF
-event_code: '1426'
+event_id: '1426'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

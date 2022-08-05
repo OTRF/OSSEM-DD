@@ -1,23 +1,23 @@
-title: Event 10301 - Power
-description: null
+name: Event 10301 - Power
+description:
 platform: windows
 log_source: Microsoft-Windows-NDIS
-event_code: '10301'
+event_id: '10301'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NetLuidIndex
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NdisStatusCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Power

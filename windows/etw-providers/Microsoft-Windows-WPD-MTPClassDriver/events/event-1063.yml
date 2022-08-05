@@ -1,23 +1,23 @@
-title: Event 1063 - DeviceError
-description: null
+name: Event 1063 - DeviceError
+description:
 platform: windows
 log_source: Microsoft-Windows-WPD-MTPClassDriver
-event_code: '1063'
+event_id: '1063'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PKeyGuid
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ID
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_DeviceError

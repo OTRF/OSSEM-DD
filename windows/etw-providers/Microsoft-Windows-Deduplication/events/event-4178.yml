@@ -1,35 +1,35 @@
-title: Event 4178 - task_0
-description: null
+name: Event 4178 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '4178'
+event_id: '4178'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Param1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Param2
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Context
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DebugInfo
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_task_0

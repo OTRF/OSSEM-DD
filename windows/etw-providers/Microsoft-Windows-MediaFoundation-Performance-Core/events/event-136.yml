@@ -1,41 +1,41 @@
-title: Event 136 - MFMFAudio_Render_StreamSink
-description: null
+name: Event 136 - MFMFAudio_Render_StreamSink
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
-event_code: '136'
+event_id: '136'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MaxPendingRequestSample
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumContainers
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DurationInUse
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hnsMinAllocation
   type: Int64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_AudStreamSink_CheckAllocationLimits_NeedMoreData

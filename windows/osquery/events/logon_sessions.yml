@@ -1,8 +1,8 @@
-title: Logon_sessions Table
+name: Logon_sessions Table
 description: Windows Logon Session.
 platform: windows
 log_source: osquery
-event_code: logon_sessions
+event_id: logon_sessions
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -21,15 +21,13 @@ event_fields:
   standard_type: TBD
   name: logon_domain
   type: TEXT
-  description: The name of the domain used to authenticate the owner of the logon
-    session.
+  description: The name of the domain used to authenticate the owner of the logon session.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: authentication_package
   type: TEXT
-  description: The authentication package used to authenticate the owner of the logon
-    session.
+  description: The authentication package used to authenticate the owner of the logon session.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -59,8 +57,7 @@ event_fields:
   standard_type: TBD
   name: logon_server
   type: TEXT
-  description: The name of the server used to authenticate the owner of the logon
-    session.
+  description: The name of the server used to authenticate the owner of the logon session.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

@@ -1,35 +1,35 @@
-title: Event 15026 - Common_GetCredentialCount
-description: null
+name: Event 15026 - Common_GetCredentialCount
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
-event_code: '15026'
+event_id: '15026'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: message1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DWORD1
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DWORD2
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Boolean1
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Common_GetCredentialCount

@@ -1,17 +1,17 @@
-title: Event 422 - PowerDisplayChange
-description: null
+name: Event 422 - PowerDisplayChange
+description:
 platform: windows
 log_source: Microsoft-Windows-Win32k
-event_code: '422'
+event_id: '422'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Location
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_win32Power

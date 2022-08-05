@@ -1,35 +1,35 @@
-title: Event 701 - Mshtml_DragAndDrop_Fire_DragEnd
-description: null
+name: Event 701 - Mshtml_DragAndDrop_Fire_DragEnd
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '701'
+event_id: '701'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Element
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DropEffect
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScreenLocationX
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScreenLocationY
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_draganddrop

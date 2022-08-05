@@ -1,8 +1,8 @@
-title: Cowrie file upload
+name: Cowrie file upload
 description: This dictionary details the fields for the file upload event of the Cowrie honeypot, which triggers when a file is downloaded to the honeypot, for example with wget.
 platform: cowrie
 log_source: honeypot
-event_code: 'cowrie.session.file_download'
+event_id: 'cowrie.session.file_download'
 event_version: '0'
 event_fields:
 - standard_name: event_timestamp
@@ -10,7 +10,7 @@ event_fields:
   name: timestamp
   type: string
   description: Timestamp when the data was discovered in ISO 8601 format
-  sample_value: '2020-10-06T06:45:02.021156' 
+  sample_value: '2020-10-06T06:45:02.021156'
 - standard_name: src_ip_addr
   standard_type: ip
   name: src_ip
@@ -37,7 +37,7 @@ event_fields:
   sample_value: aaacde98ab17
 - standard_name: file_name
   standard_type: string
-  name: filename 
+  name: filename
   type: string
   description: The name of the file downloaded
   sample_value: 'bad.exe'
@@ -51,7 +51,7 @@ event_fields:
   standard_type: string
   name: shasum
   type: string
-  description: The SHA256 hash of the file 
+  description: The SHA256 hash of the file
   sample_value: 2267ef2579a94a6c2b0ba83e56a52031d4c21e916e1c45b7dfd1e01c98d6c5d9
 - standard_name: TBD
   standard_type: TBD

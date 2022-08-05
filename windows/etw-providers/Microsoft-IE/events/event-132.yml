@@ -1,23 +1,23 @@
-title: Event 132 - JScript_Run
-description: null
+name: Event 132 - JScript_Run
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '132'
+event_id: '132'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Element
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Zero
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_jscript_verbose pageloadbreakdown

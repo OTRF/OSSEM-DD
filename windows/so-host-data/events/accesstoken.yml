@@ -1,10 +1,8 @@
-title: SO Host Data - Access Token Table
-description: Get-SOHostData collects Access Tokens from every running Process and
-  Thread. Threads only have their own Access Token if they are using impersonation,
-  otherwise they inherit the token from their containing process.
+name: SO Host Data - Access Token Table
+description: Get-SOHostData collects Access Tokens from every running Process and Thread. Threads only have their own Access Token if they are using impersonation, otherwise they inherit the token from their containing process.
 platform: windows
 log_source: so-host-data
-event_code: accesstoken
+event_id: accesstoken
 event_version: '0'
 event_fields:
 - standard_name: source_type

@@ -1,17 +1,17 @@
-title: Event 2044 - CoreApplicationQuiesceWaitForAppResume
-description: null
+name: Event 2044 - CoreApplicationQuiesceWaitForAppResume
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell-API
-event_code: '2044'
+event_id: '2044'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadId
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_CoreApplicationQuiesceWaitForAppResume

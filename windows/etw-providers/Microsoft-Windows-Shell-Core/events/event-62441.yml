@@ -1,23 +1,23 @@
-title: Event 62441 - AppDefaults_ResetToRecommended
-description: null
+name: Event 62441 - AppDefaults_ResetToRecommended
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '62441'
+event_id: '62441'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ProgId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ExtOrUriScheme
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_AppDefaults_ResetToRecommended

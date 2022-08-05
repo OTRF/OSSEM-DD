@@ -1,41 +1,41 @@
-title: Event 8 - Class
-description: null
+name: Event 8 - Class
+description:
 platform: windows
 log_source: Microsoft-Windows-StorDiag
-event_code: '8'
+event_id: '8'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceNumber
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SenseKey
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddSense
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddSenseQ
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CurrentRetryCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SenseData

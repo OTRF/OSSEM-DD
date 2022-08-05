@@ -1,23 +1,23 @@
-title: Event 2315 - Launcher_Apps_ViewChange
-description: null
+name: Event 2315 - Launcher_Apps_ViewChange
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '2315'
+event_id: '2315'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ViewFromGuid
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ViewToGuid
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

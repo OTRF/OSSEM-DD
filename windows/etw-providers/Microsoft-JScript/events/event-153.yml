@@ -1,23 +1,23 @@
-title: Event 153 - Jscript_GC_SynchronousMarkWait
-description: null
+name: Event 153 - Jscript_GC_SynchronousMarkWait
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '153'
+event_id: '153'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Timeout
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_JScriptGarbageCollection

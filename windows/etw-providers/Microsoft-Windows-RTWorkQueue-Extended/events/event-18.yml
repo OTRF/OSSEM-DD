@@ -1,29 +1,29 @@
-title: Event 18 - WorkQueue:TimerResChange
-description: null
+name: Event 18 - WorkQueue:TimerResChange
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Extended
-event_code: '18'
+event_id: '18'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: workqueue
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Resolution
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

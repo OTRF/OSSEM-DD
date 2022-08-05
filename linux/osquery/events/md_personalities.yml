@@ -1,8 +1,8 @@
-title: Md_personalities Table
+name: Md_personalities Table
 description: Software RAID setting supported by the kernel.
 platform: linux
 log_source: osquery
-event_code: md_personalities
+event_id: md_personalities
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

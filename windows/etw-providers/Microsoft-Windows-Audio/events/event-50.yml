@@ -1,29 +1,29 @@
-title: Event 50 - System_Effect_APO_Initialized
-description: null
+name: Event 50 - System_Effect_APO_Initialized
+description:
 platform: windows
 log_source: Microsoft-Windows-Audio
-event_code: '50'
+event_id: '50'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: APOCLSID
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AudioSignalProcessingMode
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InitializeForDiscoveryOnly
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_System_Effect_APO_Initialized

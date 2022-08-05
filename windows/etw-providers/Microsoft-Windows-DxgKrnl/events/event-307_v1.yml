@@ -1,71 +1,71 @@
-title: Event 307 - PagingOpVirtualFill
-description: null
+name: Event 307 - PagingOpVirtualFill
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '307'
+event_id: '307'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pDxgAdapter
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hDmaBuffer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ContinueNextBuffer
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hAllocationGlobalHandle
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AllocationOffset
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FillSize
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FillPattern
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SegmentId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DestinationVirtualAddress
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SegmentOffset
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Resource

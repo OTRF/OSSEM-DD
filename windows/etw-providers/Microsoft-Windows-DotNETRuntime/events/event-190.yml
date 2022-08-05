@@ -1,53 +1,53 @@
-title: Event 190 - Method
-description: null
+name: Event 190 - Method
+description:
 platform: windows
 log_source: Microsoft-Windows-DotNETRuntime
-event_code: '190'
+event_id: '190'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MethodID
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReJITID
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MethodExtent
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CountOfMapEntries
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ILOffsets
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NativeOffsets
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClrInstanceID
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_JittedMethodILToNativeMapKeyword

@@ -1,35 +1,35 @@
-title: Event 421 - PeriodicFrameNotificationDpc
-description: null
+name: Event 421 - PeriodicFrameNotificationDpc
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '421'
+event_id: '421'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: VidPnSourceID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NotificationID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DpcFrameTimeValue
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DpcFrameNumber
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_GPUScheduler

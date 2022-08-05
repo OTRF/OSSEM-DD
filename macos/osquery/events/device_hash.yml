@@ -1,8 +1,8 @@
-title: Device_hash Table
+name: Device_hash Table
 description: Similar to the hash table, but use TSK and allow block address access.
 platform: macos
 log_source: osquery
-event_code: device_hash
+event_id: device_hash
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

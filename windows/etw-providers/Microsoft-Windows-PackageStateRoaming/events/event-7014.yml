@@ -1,29 +1,29 @@
-title: Event 7014 - Perf_StructuredState_MergeUnit
-description: null
+name: Event 7014 - Perf_StructuredState_MergeUnit
+description:
 platform: windows
 log_source: Microsoft-Windows-PackageStateRoaming
-event_code: '7014'
+event_id: '7014'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Count
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PackageStateRoaming

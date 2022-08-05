@@ -1,8 +1,8 @@
-title: Chrome_extensions Table
+name: Chrome_extensions Table
 description: Chrome browser extensions.
 platform: freebsd
 log_source: osquery
-event_code: chrome_extensions
+event_id: chrome_extensions
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

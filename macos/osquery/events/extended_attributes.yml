@@ -1,8 +1,8 @@
-title: Extended_attributes Table
+name: Extended_attributes Table
 description: Returns the extended attributes for files (similar to Windows ADS).
 platform: macos
 log_source: osquery
-event_code: extended_attributes
+event_id: extended_attributes
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

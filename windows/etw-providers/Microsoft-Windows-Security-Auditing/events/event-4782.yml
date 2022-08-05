@@ -1,18 +1,15 @@
-title: 'Event ID 4782: The password hash an account was accessed'
-description: This event generates on domain controllers during password migration
-  of an account using Active Directory Migration Toolkit. Typically "Subject\Security
-  ID" is the SYSTEM account.
+name: 'Event ID 4782: The password hash an account was accessed'
+description: This event generates on domain controllers during password migration of an account using Active Directory Migration Toolkit. Typically "Subject\Security ID" is the SYSTEM account.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4782'
+event_id: '4782'
 event_version: '0'
 event_fields:
 - standard_name: target_user_name
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: 'the name of the account for which the password hash was migrated.
-    For example: ServiceDesk'
+  description: 'the name of the account for which the password hash was migrated. For example: ServiceDesk'
   sample_value: Andrei
 - standard_name: target_user_domain
   standard_type: TBD
@@ -24,9 +21,7 @@ event_fields:
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested hash migration operation. Event Viewer
-    automatically tries to resolve SIDs and show the account name. If the SID cannot
-    be resolved, you will see the source data in the even
+  description: SID of account that requested hash migration operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the even
   sample_value: S-1-5-18
 - standard_name: user_name
   standard_type: TBD
@@ -44,9 +39,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
 references:
 - text: MS Source

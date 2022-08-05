@@ -1,17 +1,17 @@
-title: Event 842 - Snippet_UserSelExtraction_Perftrack
-description: null
+name: Event 842 - Snippet_UserSelExtraction_Perftrack
+description:
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
-event_code: '842'
+event_id: '842'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_nonPerfTrack

@@ -1,9 +1,8 @@
-title: 'Event ID 4660: An object was deleted'
-description: This event generates when an object was deleted. The object could be
-  a file system, kernel, or registry object.
+name: 'Event ID 4660: An object was deleted'
+description: This event generates when an object was deleted. The object could be a file system, kernel, or registry object.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4660'
+event_id: '4660'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -28,9 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x4367b'
 - standard_name: object_server
   standard_type: TBD
@@ -42,17 +39,13 @@ event_fields:
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: 'hexadecimal value of a handle to Object Name. This field can help
-    you correlate this event with other events that might contain the same Handle
-    ID, for example, "4663(S): An attempt was made to access an object."'
+  description: 'hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID, for example, "4663(S): An attempt was made to access an object."'
   sample_value: '0x1678'
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that deleted the object. Process
-    ID (PID) is a number used by the operating system to uniquely identify an active
-    process.
+  description: hexadecimal Process ID of the process that deleted the object. Process ID (PID) is a number used by the operating system to uniquely identify an active process.
   sample_value: '0xef0'
 - standard_name: process_path
   standard_type: TBD
@@ -64,9 +57,7 @@ event_fields:
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description: 'unique GUID of the transaction. This field can help you correlate
-    this event with other events that might contain the same Transaction ID, such
-    as "4656(S, F): A handle to an object was requested."'
+  description: 'unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID, such as "4656(S, F): A handle to an object was requested."'
   sample_value: '{00000000-0000-0000-0000-000000000000}'
 references:
 - text: MS Source

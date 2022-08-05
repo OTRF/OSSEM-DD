@@ -1,47 +1,47 @@
-title: Event 365 - ScopeChangeNotification_OnChanged
-description: null
+name: Event 365 - ScopeChangeNotification_OnChanged
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '365'
+event_id: '365'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ScopeId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Path
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SuccessEvent
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_IndexingItem Gatherer

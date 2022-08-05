@@ -1,5 +1,4 @@
-title: Microsoft-AppV-SharedPerformance ETW events
-description: This page contains the list of events for Microsoft-AppV-SharedPerformance,
-  as collected by the Event Tracing for Windows.
+name: Microsoft-AppV-SharedPerformance ETW events
+description: This page contains the list of events for Microsoft-AppV-SharedPerformance, as collected by the Event Tracing for Windows.
 images: []
 references: []

@@ -1,41 +1,41 @@
-title: Event 11012 - task_0
-description: null
+name: Event 11012 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-WWAN-SVC-EVENTS
-event_code: '11012'
+event_id: '11012'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InterfaceGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RequestId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PinType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PinOperation
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_LwtDiagnostic WwanOid keyword_400000000000

@@ -1,8 +1,8 @@
-title: Video_info Table
+name: Video_info Table
 description: Retrieve video card information of the machine.
 platform: windows
 log_source: osquery
-event_code: video_info
+event_id: video_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

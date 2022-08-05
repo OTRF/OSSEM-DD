@@ -1,35 +1,35 @@
-title: Event 273 - ConnectionTime
-description: null
+name: Event 273 - ConnectionTime
+description:
 platform: windows
 log_source: Microsoft-Windows-TerminalServices-RemoteConnectionManager
-event_code: '273'
+event_id: '273'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Param1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Param2
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Param3
   type: Int64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Param4
   type: Int64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

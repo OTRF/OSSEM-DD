@@ -1,23 +1,23 @@
-title: Event 204 - Performancemetricevent
-description: null
+name: Event 204 - Performancemetricevent
+description:
 platform: windows
 log_source: Microsoft-Windows-EapMethods-Ttls
-event_code: '204'
+event_id: '204'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CAThumbprint
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ServerName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

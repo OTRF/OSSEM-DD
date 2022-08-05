@@ -1,8 +1,8 @@
-title: Ntfs_acl_permissions Table
+name: Ntfs_acl_permissions Table
 description: Retrieve NTFS ACL permission information for files and directories.
 platform: windows
 log_source: osquery
-event_code: ntfs_acl_permissions
+event_id: ntfs_acl_permissions
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

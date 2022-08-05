@@ -1,35 +1,35 @@
-title: Event 19303 - PublishingRefresh
-description: null
+name: Event 19303 - PublishingRefresh
+description:
 platform: windows
 log_source: Microsoft-AppV-Client
-event_code: '19303'
+event_id: '19303'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Package
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Version
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorHigh
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorLow
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_PublishingRefresh

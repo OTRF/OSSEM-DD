@@ -1,29 +1,29 @@
-title: Event 64005 - LockScreenCall_StartCall
-description: null
+name: Event 64005 - LockScreenCall_StartCall
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-AuthUI
-event_code: '64005'
+event_id: '64005'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: guid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: message1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: message2
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

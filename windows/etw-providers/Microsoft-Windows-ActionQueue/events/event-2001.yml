@@ -1,35 +1,35 @@
-title: Event 2001 - ExecuteCommand
-description: null
+name: Event 2001 - ExecuteCommand
+description:
 platform: windows
 log_source: Microsoft-Windows-ActionQueue
-event_code: '2001'
+event_id: '2001'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ExecutableName
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Arguments
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Identity
   type: AnsiString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Pass
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_keyPerformance

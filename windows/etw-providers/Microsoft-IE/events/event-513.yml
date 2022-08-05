@@ -1,17 +1,17 @@
-title: Event 513 - Mshtml_XML_Http_Request_Open_Sync_On_UI_Thread
-description: null
+name: Event 513 - Mshtml_XML_Http_Request_Open_Sync_On_UI_Thread
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '513'
+event_id: '513'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

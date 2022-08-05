@@ -1,35 +1,35 @@
-title: Event 4 - task_0
-description: null
+name: Event 4 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-ShimEngine
-event_code: '4'
+event_id: '4'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceClass
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FlagSource
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

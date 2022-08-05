@@ -1,17 +1,17 @@
-title: Event 5047 - AppReadiness_ExecuteTask
-description: null
+name: Event 5047 - AppReadiness_ExecuteTask
+description:
 platform: windows
 log_source: Microsoft-Windows-AppReadiness
-event_code: '5047'
+event_id: '5047'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: User
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Tasks

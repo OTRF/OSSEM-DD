@@ -1,23 +1,23 @@
-title: Event 1117 - MediaFoundationRequiredSchema
-description: null
+name: Event 1117 - MediaFoundationRequiredSchema
+description:
 platform: windows
 log_source: Microsoft-Windows-MF
-event_code: '1117'
+event_id: '1117'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: context
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: type
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_MediaFoundationRequiredSchema

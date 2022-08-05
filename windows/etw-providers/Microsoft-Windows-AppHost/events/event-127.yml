@@ -1,59 +1,59 @@
-title: Event 127 - Telemetry.WERReporting
-description: null
+name: Event 127 - Telemetry.WERReporting
+description:
 platform: windows
 log_source: Microsoft-Windows-AppHost
-event_code: '127'
+event_id: '127'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DisplayName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ApplicationName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppUserModelId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorDescription
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DocumentFile
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StackTrace
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_WWAHOST_KEYWORD

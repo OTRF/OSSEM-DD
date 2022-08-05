@@ -1,4 +1,4 @@
-title: 'Event ID 5051: A file was virtualized'
+name: 'Event ID 5051: A file was virtualized'
 description: 'This event should be generated when file was virtualized using LUAFV.
 
   This event occurs very rarely during standard LUAFV file virtualization.
@@ -6,7 +6,7 @@ description: 'This event should be generated when file was virtualized using LUA
   There is no example of this event in this document.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5051'
+event_id: '5051'
 event_version: '0'
 event_fields:
 - standard_name: user_logon_id
@@ -31,16 +31,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, 4624 An account was
-    successfully logged on.
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, 4624 An account was successfully logged on.
   sample_value: '0x72d9d'
 - standard_name: file_name
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: the name of a file or folder that the virtualized file name refers
-    to.
+  description: the name of a file or folder that the virtualized file name refers to.
   sample_value: C:\notepad.exe
 - standard_name: file_virtual_name
   standard_type: TBD
@@ -52,14 +49,14 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: process_name
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 references:
 - text: MS Source
   link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-5051.md

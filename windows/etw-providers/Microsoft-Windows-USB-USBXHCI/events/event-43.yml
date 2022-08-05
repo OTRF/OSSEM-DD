@@ -1,17 +1,17 @@
-title: Event 43 - Deferredwork(DPC/WorkItem)
-description: null
+name: Event 43 - Deferredwork(DPC/WorkItem)
+description:
 platform: windows
 log_source: Microsoft-Windows-USB-USBXHCI
-event_code: '43'
+event_id: '43'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fid_InterrupterNumber
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Default Performance

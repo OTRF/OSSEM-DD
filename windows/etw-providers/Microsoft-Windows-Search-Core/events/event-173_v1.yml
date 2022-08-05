@@ -1,17 +1,17 @@
-title: Event 173 - RobotThread_IsWildcardTransaction
-description: null
+name: Event 173 - RobotThread_IsWildcardTransaction
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '173'
+event_id: '173'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ITrans
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_IndexingItem Gatherer

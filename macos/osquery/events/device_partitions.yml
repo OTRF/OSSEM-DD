@@ -1,8 +1,8 @@
-title: Device_partitions Table
+name: Device_partitions Table
 description: Use TSK to enumerate details about partitions on a disk device.
 platform: macos
 log_source: osquery
-event_code: device_partitions
+event_id: device_partitions
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

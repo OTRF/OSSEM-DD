@@ -1,17 +1,17 @@
-title: Event 14068 - task_0
-description: null
+name: Event 14068 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-WLAN-AutoConfig
-event_code: '14068'
+event_id: '14068'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IsEnabled
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_State

@@ -1,23 +1,23 @@
-title: Event 533 - BM_TaskWallClockExpired
-description: null
+name: Event 533 - BM_TaskWallClockExpired
+description:
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
-event_code: '533'
+event_id: '533'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkItemId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TaskInstanceId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_BM ExecProductionCircular ExecDevPlatCircular

@@ -1,17 +1,17 @@
-title: Event 248 - DisplayRotationTask
-description: null
+name: Event 248 - DisplayRotationTask
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '248'
+event_id: '248'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Rotation
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_DisplayRotationTask

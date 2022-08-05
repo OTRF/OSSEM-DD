@@ -1,65 +1,65 @@
-title: Event 697 - Mshtml_CTouchHelper_IsDoubleClick
-description: null
+name: Event 697 - Mshtml_CTouchHelper_IsDoubleClick
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '697'
+event_id: '697'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: fPotentialDoubleTap
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fDoubleTapTimerPending
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pMessageTime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MaxTimeForSecondTap
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FirstTapPointX
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FirstTapPointY
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SecondTapPointX
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SecondTapPointY
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fIsDoubleClick
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_touch

@@ -1,8 +1,8 @@
-title: Iptables Table
+name: Iptables Table
 description: Linux IP packet filtering and NAT tool.
 platform: linux
 log_source: osquery
-event_code: iptables
+event_id: iptables
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,17 +1,17 @@
-title: Event 4097 - ValidaterequestinFileDownloadManager
-description: null
+name: Event 4097 - ValidaterequestinFileDownloadManager
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager
-event_code: '4097'
+event_id: '4097'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ExceptionSeen
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_ValidaterequestinFileDownloadManager

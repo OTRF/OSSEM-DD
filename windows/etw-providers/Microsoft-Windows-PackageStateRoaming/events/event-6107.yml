@@ -1,17 +1,17 @@
-title: Event 6107 - Debug_PackageActivityMonitor_EndQuiescentPeriod
-description: null
+name: Event 6107 - Debug_PackageActivityMonitor_EndQuiescentPeriod
+description:
 platform: windows
 log_source: Microsoft-Windows-PackageStateRoaming
-event_code: '6107'
+event_id: '6107'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

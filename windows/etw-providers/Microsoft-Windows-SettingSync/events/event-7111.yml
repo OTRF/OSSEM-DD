@@ -1,17 +1,17 @@
-title: Event 7111 - Perf_RemoteDeleteCollectionBackup
-description: null
+name: Event 7111 - Perf_RemoteDeleteCollectionBackup
+description:
 platform: windows
 log_source: Microsoft-Windows-SettingSync
-event_code: '7111'
+event_id: '7111'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CollectionId
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_RoamingSettings

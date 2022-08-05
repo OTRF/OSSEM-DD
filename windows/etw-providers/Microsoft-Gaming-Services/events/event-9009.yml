@@ -1,23 +1,23 @@
-title: Event 9009 - GamingServices_9009
-description: null
+name: Event 9009 - GamingServices_9009
+description:
 platform: windows
 log_source: Microsoft-Gaming-Services
-event_code: '9009'
+event_id: '9009'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Message
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_GamingServices

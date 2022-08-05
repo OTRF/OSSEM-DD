@@ -1,17 +1,17 @@
-title: Event 205 - Memprotect_GC_ProcessTrackedObject
-description: null
+name: Event 205 - Memprotect_GC_ProcessTrackedObject
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '205'
+event_id: '205'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_MemProtectGarbageCollection

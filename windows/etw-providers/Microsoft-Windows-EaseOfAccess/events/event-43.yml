@@ -1,41 +1,41 @@
-title: Event 43 - Magnify_MouseMove
-description: null
+name: Event 43 - Magnify_MouseMove
+description:
 platform: windows
 log_source: Microsoft-Windows-EaseOfAccess
-event_code: '43'
+event_id: '43'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: InitialX
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InitialY
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DestinationX
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DestinationY
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsTracking
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

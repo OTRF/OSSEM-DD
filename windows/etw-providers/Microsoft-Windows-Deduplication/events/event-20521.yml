@@ -1,17 +1,17 @@
-title: Event 20521 - Getchunkcontainerfilesize
-description: null
+name: Event 20521 - Getchunkcontainerfilesize
+description:
 platform: windows
 log_source: Microsoft-Windows-Deduplication
-event_code: '20521'
+event_id: '20521'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CompletionStatus
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_KmChunkContainer

@@ -1,8 +1,8 @@
-title: Managed_policies Table
+name: Managed_policies Table
 description: The managed configuration policies from AD, MDM, MCX, etc.
 platform: macos
 log_source: osquery
-event_code: managed_policies
+event_id: managed_policies
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

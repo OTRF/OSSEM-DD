@@ -1,8 +1,8 @@
-title: 'Event ID 5140: A network share object was accessed'
+name: 'Event ID 5140: A network share object was accessed'
 description: This event generates every time network share object was accessed.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5140'
+event_id: '5140'
 event_version: '1'
 event_fields:
 - standard_name: user_sid
@@ -27,15 +27,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x541f35'
 - standard_name: object_type
   standard_type: TBD
   name: ObjectType
   type: UnicodeString
-  description: The type of an object that was accessed during the operation. Always
-    "File" for this event.
+  description: The type of an object that was accessed during the operation. Always "File" for this event.
   sample_value: File
 - standard_name: src_ip_addr
   standard_type: TBD
@@ -47,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: IpPort
   type: UnicodeString
-  description: source TCP or UDP port which was used from remote or local machine
-    to request the access.
+  description: source TCP or UDP port which was used from remote or local machine to request the access.
   sample_value: '49212'
 - standard_name: share_name
   standard_type: TBD
@@ -66,16 +63,13 @@ event_fields:
   standard_type: TBD
   name: AccessMask
   type: HexInt32
-  description: the sum of hexadecimal values of requested access rights. See "Table
-    13. File access codes."
+  description: the sum of hexadecimal values of requested access rights. See "Table 13. File access codes."
   sample_value: '0x1'
 - standard_name: user_access_list
   standard_type: TBD
   name: AccessList
   type: UnicodeString
-  description: the list of access rights which were requested by Subject\Security
-    ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)"
-    value for this event.
+  description: the list of access rights which were requested by Subject\Security ID. These access rights depend on Object Type. Has always "ReadData (or ListDirectory)" value for this event.
   sample_value: '%%4416'
 references:
 - text: MS Source

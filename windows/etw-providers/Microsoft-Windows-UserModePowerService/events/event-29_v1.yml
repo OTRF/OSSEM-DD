@@ -1,35 +1,35 @@
-title: Event 29 - SmartUserPresenceIntervalsSet
-description: null
+name: Event 29 - SmartUserPresenceIntervalsSet
+description:
 platform: windows
 log_source: Microsoft-Windows-UserModePowerService
-event_code: '29'
+event_id: '29'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UserSid
   type: SID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IntervalCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AwayIntervals
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Flags
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SmartUserPresence

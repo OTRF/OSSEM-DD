@@ -1,8 +1,8 @@
-title: Intel Log
-description: null
+name: Intel Log
+description:
 platform: zeek
 log_source: detection
-event_code: intel
+event_id: intel
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -39,31 +39,25 @@ event_fields:
   standard_type: TBD
   name: uid
   type: string
-  description: If a connection was associated with this intelligence hit, this is
-    the uid for the connection
+  description: If a connection was associated with this intelligence hit, this is the uid for the connection
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: fuid
   type: string
-  description: present if base/frameworks/intel/files.bro is loaded If a file was
-    associated with this intelligence hit, this is the uid for the file.
+  description: present if base/frameworks/intel/files.bro is loaded If a file was associated with this intelligence hit, this is the uid for the file.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: file_mime_type
   type: string
-  description: present if base/frameworks/intel/files.bro is loaded A mime type if
-    the intelligence hit is related to a file. If the $f field is provided this will
-    be automatically filled out.
+  description: present if base/frameworks/intel/files.bro is loaded A mime type if the intelligence hit is related to a file. If the $f field is provided this will be automatically filled out.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: file_desc
   type: string
-  description: present if base/frameworks/intel/files.bro is loaded Frequently files
-    can be "described" to give a bit more context. If the $f field is provided this
-    field will be automatically filled out.
+  description: present if base/frameworks/intel/files.bro is loaded Frequently files can be "described" to give a bit more context. If the $f field is provided this field will be automatically filled out.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

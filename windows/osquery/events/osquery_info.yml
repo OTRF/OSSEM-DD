@@ -1,8 +1,8 @@
-title: Osquery_info Table
+name: Osquery_info Table
 description: Top level information about the running version of osquery.
 platform: windows
 log_source: osquery
-event_code: osquery_info
+event_id: osquery_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

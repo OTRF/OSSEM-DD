@@ -1,41 +1,41 @@
-title: Event 32769 - task_0
-description: null
+name: Event 32769 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '32769'
+event_id: '32769'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Runspace_InstanceId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PowerShell_InstanceId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Destination
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DataType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TargetInterface
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Transport

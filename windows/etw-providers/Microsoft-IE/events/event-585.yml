@@ -1,23 +1,23 @@
-title: Event 585 - Mshtml_Media_TextTrack_Parsing
-description: null
+name: Event 585 - Mshtml_Media_TextTrack_Parsing
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '585'
+event_id: '585'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Parser
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Stream
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_subsystem mshtml

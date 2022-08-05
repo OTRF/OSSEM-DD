@@ -1,17 +1,17 @@
-title: Event 615 - Recovery_ReadRecoveryStore
-description: null
+name: Event 615 - Recovery_ReadRecoveryStore
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '615'
+event_id: '615'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_verbose

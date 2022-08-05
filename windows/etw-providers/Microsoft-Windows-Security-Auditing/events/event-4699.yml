@@ -1,22 +1,21 @@
-title: 'Event ID 4699: A scheduled task was deleted'
+name: 'Event ID 4699: A scheduled task was deleted'
 description: This event generates every time a scheduled task was deleted.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4699'
+event_id: '4699'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: "SID of account that requested the \"delete scheduled task\" operation.\_"
+  description: "SID of account that requested the \"delete scheduled task\" operation. "
   sample_value: ORG\UserA
 - standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "delete scheduled task"
-    operation.
+  description: the name of the account that requested the "delete scheduled task" operation.
   sample_value: UserA
 - standard_name: user_domain
   standard_type: TBD
@@ -28,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might
+  description: hexadecimal value that can help you correlate this event with recent events that might
   sample_value: contain
 - standard_name: scheduled_task_name
   standard_type: TBD
@@ -42,19 +40,7 @@ event_fields:
   name: TaskContent
   type: UnicodeString
   description: the XML of the deleted task.
-  sample_value: <?xml version="1.0" encoding="UTF-16"?> <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
-    <RegistrationInfo> <Date>2015-08-25T13:56:10.5315552</Date> <Author>CONTOSO\\dadmin</Author>
-    </RegistrationInfo> <Triggers /> <Principals> <Principal id="Author"> <RunLevel>LeastPrivilege</RunLevel>
-    <UserId>CONTOSO\\dadmin</UserId> <LogonType>Password</LogonType> </Principal>
-    </Principals> <Settings> <MultipleInstancesPolicy>IgnoreNew </MultipleInstancesPolicy>
-    <DisallowStartIfOnBatteries>false< /DisallowStartIfOnBatteries> <StopIfGoingOnBatteries>true
-    </StopIfGoingOnBatteries> <AllowHardTerminate>false</AllowHardTerminate> <StartWhenAvailable>false</StartWhenAvailable>
-    <RunOnlyIfNetworkAvailable> false</RunOnlyIfNetworkAvailable> <IdleSettings> <StopOnIdleEnd>true
-    </StopOnIdleEnd> <RestartOnIdle>false</RestartOnIdle> </IdleSettings> <AllowStartOnDemand>true</AllowStartOnDemand>
-    <Enabled>true</Enabled> <Hidden>false</Hidden> <RunOnlyIfIdle>false</RunOnlyIfIdle>
-    <WakeToRun> false</WakeToRun> <ExecutionTimeLimit>PT0S</ExecutionTimeLimit> <Priority>7
-    </Priority> </Settings> <Actions Context="Author"> <Exec> <Command>C:\\Windows\\notepad.exe</Command>
-    </Exec> </Actions> </Task></Data>
+  sample_value: <?xml version="1.0" encoding="UTF-16"?> <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task"> <RegistrationInfo> <Date>2015-08-25T13:56:10.5315552</Date> <Author>CONTOSO\\dadmin</Author> </RegistrationInfo> <Triggers /> <Principals> <Principal id="Author"> <RunLevel>LeastPrivilege</RunLevel> <UserId>CONTOSO\\dadmin</UserId> <LogonType>Password</LogonType> </Principal> </Principals> <Settings> <MultipleInstancesPolicy>IgnoreNew </MultipleInstancesPolicy> <DisallowStartIfOnBatteries>false< /DisallowStartIfOnBatteries> <StopIfGoingOnBatteries>true </StopIfGoingOnBatteries> <AllowHardTerminate>false</AllowHardTerminate> <StartWhenAvailable>false</StartWhenAvailable> <RunOnlyIfNetworkAvailable> false</RunOnlyIfNetworkAvailable> <IdleSettings> <StopOnIdleEnd>true </StopOnIdleEnd> <RestartOnIdle>false</RestartOnIdle> </IdleSettings> <AllowStartOnDemand>true</AllowStartOnDemand> <Enabled>true</Enabled> <Hidden>false</Hidden> <RunOnlyIfIdle>false</RunOnlyIfIdle> <WakeToRun> false</WakeToRun> <ExecutionTimeLimit>PT0S</ExecutionTimeLimit> <Priority>7 </Priority> </Settings> <Actions Context="Author"> <Exec> <Command>C:\\Windows\\notepad.exe</Command> </Exec> </Actions> </Task></Data>
 references:
 - text: MS Source
   link: https://github.com/MicrosoftDocs/windows-itpro-docs/blob/master/windows/security/threat-protection/auditing/event-4699.md

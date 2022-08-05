@@ -1,8 +1,8 @@
-title: SSH Log
-description: null
+name: SSH Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: ssh
+event_id: ssh
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -45,18 +45,13 @@ event_fields:
   standard_type: TBD
   name: direction
   type: string
-  description: Direction of the connection. If the client was a local host logging
-    into an external host, this would be OUTBOUND. INBOUND would be set for the opposite
-    situation
+  description: Direction of the connection. If the client was a local host logging into an external host, this would be OUTBOUND. INBOUND would be set for the opposite situation
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: auth_attempts
   type: integer
-  description: The number of authentication attemps we observed. There's always at
-    least one, since some servers might support no authentication at all. It's important
-    to note that not all of these are failures, since some servers require two-factor
-    auth (e.g. password AND pubkey)
+  description: The number of authentication attemps we observed. There's always at least one, since some servers might support no authentication at all. It's important to note that not all of these are failures, since some servers require two-factor auth (e.g. password AND pubkey)
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

@@ -1,8 +1,8 @@
-title: 'Event ID 4688: A new process has been created'
+name: 'Event ID 4688: A new process has been created'
 description: This event generates every time a new process starts.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4688'
+event_id: '4688'
 event_version: '2'
 event_fields:
 - standard_name: user_sid
@@ -27,10 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'contains error code for Failure events. For Success events this parameter
-    has "0x0" value. hexadecimal value that can help you correlate this event with
-    recent events that might contain the same Logon ID, for example, "4624: An account
-    was successfully logged on."'
+  description: 'contains error code for Failure events. For Success events this parameter has "0x0" value. hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
 - standard_name: process_id
   standard_type: TBD
@@ -60,10 +57,7 @@ event_fields:
   standard_type: TBD
   name: CommandLine
   type: UnicodeString
-  description: contains the name of executable and arguments which were passed to
-    it. You must enable "Administrative Templates\System\Audit Process Creation\Include
-    command line in process creation events" group policy to include command line
-    in process creation events
+  description: contains the name of executable and arguments which were passed to it. You must enable "Administrative Templates\System\Audit Process Creation\Include command line in process creation events" group policy to include command line in process creation events
   sample_value: ''
 - standard_name: target_user_sid
   standard_type: TBD
@@ -87,9 +81,7 @@ event_fields:
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x4a5af0'
 - standard_name: process_parent_path
   standard_type: TBD
@@ -115,3 +107,23 @@ tags:
 - etw_task_task_0
 - Detailed Tracking
 - Audit Process Creation
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
+    <Data Name="SubjectDomainName">WORKGROUP</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="NewProcessId">0xc9c</Data>
+    <Data Name="NewProcessName">C:\Windows\System32\backgroundTaskHost.exe</Data>
+    <Data Name="TokenElevationType">%%1938</Data>
+    <Data Name="ProcessId">0x2c4</Data>
+    <Data Name="CommandLine"></Data>
+    <Data Name="TargetUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
+    <Data Name="TargetUserName">pedro</Data>
+    <Data Name="TargetDomainName">DESKTOP-CQF82L6</Data>
+    <Data Name="TargetLogonId">0xb1198</Data>
+    <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
+    <Data Name="MandatoryLabel">S-1-16-4096</Data>
+    </EventData>

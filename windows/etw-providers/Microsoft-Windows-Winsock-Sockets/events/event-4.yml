@@ -1,35 +1,35 @@
-title: Event 4 - SockCloseStop
-description: null
+name: Event 4 - SockCloseStop
+description:
 platform: windows
 log_source: Microsoft-Windows-Winsock-Sockets
-event_code: '4'
+event_id: '4'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Socket
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsProviderSocket
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FailurePoint
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_SockClose

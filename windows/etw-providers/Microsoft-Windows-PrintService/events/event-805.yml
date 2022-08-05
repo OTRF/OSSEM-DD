@@ -1,65 +1,65 @@
-title: Event 805 - Printjobdiagnostics
-description: null
+name: Event 805 - Printjobdiagnostics
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '805'
+event_id: '805'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: JobId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: GdiJobSize
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ICMMethod
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Color
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: XRes
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: YRes
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Quality
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Copies
   type: Int16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TTOption
   type: Int16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Printjobdiagnostics

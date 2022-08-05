@@ -1,9 +1,8 @@
-title: 'Event ID 5: Process terminated'
-description: The **process terminate** event reports when a process terminates. It provides
-  the UtcTime, ProcessGuid and ProcessId of the process.
+name: 'Event ID 5: Process terminated'
+description: The **process terminate** event reports when a process terminates. It provides the UtcTime, ProcessGuid and ProcessId of the process.
 platform: windows
 log_source: sysmon
-event_code: '5'
+event_id: '5'
 event_version: '4.32'
 event_fields:
 - standard_name: tag
@@ -49,13 +48,13 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-termination.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-      <EventData>
-      <Data Name="RuleName">-</Data> 
-      <Data Name="UtcTime">2021-11-03 05:11:50.226</Data> 
-      <Data Name="ProcessGuid">{3710b5c6-19ed-6182-b803-000000000a00}</Data> 
-      <Data Name="ProcessId">2208</Data> 
-      <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data> 
-      <Data Name="User">DESKTOP-4FPBTEN\pedro</Data> 
-      </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data> 
+    <Data Name="UtcTime">2021-11-03 05:11:50.226</Data> 
+    <Data Name="ProcessGuid">{3710b5c6-19ed-6182-b803-000000000a00}</Data> 
+    <Data Name="ProcessId">2208</Data> 
+    <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data> 
+    <Data Name="User">DESKTOP-4FPBTEN\pedro</Data> 
+    </EventData>

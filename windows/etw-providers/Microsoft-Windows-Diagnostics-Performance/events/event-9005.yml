@@ -1,17 +1,17 @@
-title: Event 9005 - SecondaryLogon_ChangedState
-description: null
+name: Event 9005 - SecondaryLogon_ChangedState
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-Performance
-event_code: '9005'
+event_id: '9005'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NewState
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_SecondaryLogonStatus

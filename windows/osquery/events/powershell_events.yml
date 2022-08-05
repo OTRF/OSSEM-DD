@@ -1,9 +1,8 @@
-title: Powershell_events Table
-description: Powershell script blocks reconstructed to their full script content,
-  this table requires script block logging to be enabled.
+name: Powershell_events Table
+description: Powershell script blocks reconstructed to their full script content, this table requires script block logging to be enabled.
 platform: windows
 log_source: osquery
-event_code: powershell_events
+event_id: powershell_events
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -52,8 +51,7 @@ event_fields:
   standard_type: TBD
   name: cosine_similarity
   type: DOUBLE
-  description: How similar the Powershell script is to a provided 'normal' character
-    frequency
+  description: How similar the Powershell script is to a provided 'normal' character frequency
   sample_value: TBD
 references:
 - text: OSQuery table documentation

@@ -1,8 +1,8 @@
-title: Process_memory_map Table
+name: Process_memory_map Table
 description: Process memory mapped files and pseudo device/regions.
 platform: windows
 log_source: osquery
-event_code: process_memory_map
+event_id: process_memory_map
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

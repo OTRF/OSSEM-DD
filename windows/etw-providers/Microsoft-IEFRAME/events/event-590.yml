@@ -1,17 +1,17 @@
-title: Event 590 - Immersive_Travellog_PageAvailable_Fired
-description: null
+name: Event 590 - Immersive_Travellog_PageAvailable_Fired
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '590'
+event_id: '590'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: BindContext
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_TravelLogScreenshotNav

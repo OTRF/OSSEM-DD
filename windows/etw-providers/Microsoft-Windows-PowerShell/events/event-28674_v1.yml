@@ -1,35 +1,35 @@
-title: Event 28674 - Serializeordeserializeremotingpayload
-description: null
+name: Event 28674 - Serializeordeserializeremotingpayload
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '28674'
+event_id: '28674'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeserializedType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CastedToType
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TypeCastException
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TypeCastInnerException
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Serializer

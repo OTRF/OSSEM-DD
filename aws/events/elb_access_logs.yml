@@ -1,8 +1,8 @@
-title: Elastic Load Balancing(ELB) Access Logs
+name: Elastic Load Balancing(ELB) Access Logs
 description: Elastic Load Balancing(ELB) Access Event Schema
 platform: aws
 log_source: elb_access_logs
-event_code: elb_access
+event_id: elb_access
 event_version: '0'
 event_fields:
 - standard_name: TBD

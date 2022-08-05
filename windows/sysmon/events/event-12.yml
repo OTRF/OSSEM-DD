@@ -1,10 +1,8 @@
-title: 'Event ID 12: RegistryEvent (Object create and delete)'
-description: '**Registry key and value create and delete** operations map to this event
-  type, which can be useful for monitoring for changes to Registry autostart locations,
-  or specific malware registry modifications.'
+name: 'Event ID 12: RegistryEvent (Object create and delete)'
+description: '**Registry key and value create and delete** operations map to this event type, which can be useful for monitoring for changes to Registry autostart locations, or specific malware registry modifications.'
 platform: windows
 log_source: sysmon
-event_code: '12'
+event_id: '12'
 event_version: '4.32'
 event_fields:
 - standard_name: tag
@@ -43,15 +41,34 @@ event_fields:
   type: string
   description: File path of the process that created or deleted a registry key
   sample_value: C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe
-- standard_name: registry_path
+- standard_name: registry_key_path
   standard_type: TBD
   name: TargetObject
   type: string
   description: complete path of the registry key
   sample_value: HKU.DEFAULT\Software\Microsoft\Office\16.0\Common
+- standard_name: user_name
+  standard_type: TBD
+  name: User
+  type: string
+  description: The name of the account that created or deleted a registry key or value
+  sample_value: DESKTOP-CQF82L6\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-12-registryevent-object-create-and-delete
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="EventType">CreateKey</Data>
+      <Data Name="UtcTime">2022-06-29 18:53:12.949</Data>
+      <Data Name="ProcessGuid">{01e2a015-00dd-62bc-7800-000000000500}</Data>
+      <Data Name="ProcessId">2632</Data>
+      <Data Name="Image">C:\Windows\system32\ctfmon.exe</Data>
+      <Data Name="TargetObject">HKU\S-1-5-21-2073674718-3587034731-622476709-1001\SOFTWARE\Microsoft\Input\TypingInsights</Data>
+      <Data Name="User">DESKTOP-CQF82L6\pedro</Data>
+      </EventData>

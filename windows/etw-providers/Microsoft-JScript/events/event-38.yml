@@ -1,23 +1,23 @@
-title: Event 38 - Jscript_Projection_InvokeEventEvParamPrep
-description: null
+name: Event 38 - Jscript_Projection_InvokeEventEvParamPrep
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '38'
+event_id: '38'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TypeName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_JScriptProjection

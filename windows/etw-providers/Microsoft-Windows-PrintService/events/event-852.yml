@@ -1,29 +1,29 @@
-title: Event 852 - Installingaprinterdriver
-description: null
+name: Event 852 - Installingaprinterdriver
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '852'
+event_id: '852'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: OriginalDriver
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewDriver
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrinterName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_SPOOLER_KEYWORD_DRIVER

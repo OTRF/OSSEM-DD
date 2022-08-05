@@ -1,8 +1,8 @@
-title: Etc_protocols Table
+name: Etc_protocols Table
 description: Line-parsed /etc/protocols.
 platform: windows
 log_source: osquery
-event_code: etc_protocols
+event_id: etc_protocols
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

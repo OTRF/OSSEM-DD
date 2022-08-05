@@ -1,35 +1,35 @@
-title: Event 2 - DisableAdd_on
-description: null
+name: Event 2 - DisableAdd_on
+description:
 platform: windows
 log_source: Application-Addon-Event-Provider
-event_code: '2'
+event_id: '2'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Application
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddonName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Publisher
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Version
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

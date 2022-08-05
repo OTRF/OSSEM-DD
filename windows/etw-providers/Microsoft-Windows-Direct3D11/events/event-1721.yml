@@ -1,23 +1,23 @@
-title: Event 1721 - ID3D11VideoDevice_CreateVideoProcessor
-description: null
+name: Event 1721 - ID3D11VideoDevice_CreateVideoProcessor
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '1721'
+event_id: '1721'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: m_Ret
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ppVideoProcessor
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Stop

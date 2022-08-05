@@ -1,29 +1,29 @@
-title: Event 226 - ServiceShutdown
-description: null
+name: Event 226 - ServiceShutdown
+description:
 platform: windows
 log_source: Microsoft-Windows-Application Server-Applications
-event_code: '226'
+event_id: '226'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ClosedCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TotalCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AppDomain
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_WebHost HealthMonitoring

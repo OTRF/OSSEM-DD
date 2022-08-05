@@ -1,47 +1,47 @@
-title: Event 6118 - DocPerf_Task_Setup_FindDriverFromWindowsUpdate
-description: null
+name: Event 6118 - DocPerf_Task_Setup_FindDriverFromWindowsUpdate
+description:
 platform: windows
 log_source: Microsoft-Windows-Documents
-event_code: '6118'
+event_id: '6118'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Model
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Manufacturer
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Provider
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HardwareID
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DriverDate
   type: FILETIME
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DriverVersion
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DocPerf

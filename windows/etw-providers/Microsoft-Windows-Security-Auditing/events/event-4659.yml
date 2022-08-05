@@ -1,8 +1,8 @@
-title: 'Event ID 4659: A handle to an object was requested with intent to delete'
+name: 'Event ID 4659: A handle to an object was requested with intent to delete'
 description: A handle to an object was requested with intent to delete.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4659'
+event_id: '4659'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -21,14 +21,13 @@ event_fields:
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
-  description: "subject\u2019s domain or computer name"
+  description: "subject’s domain or computer name"
   sample_value: CONTOSO
 - standard_name: user_logon_id
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x671101'
 - standard_name: object_server
   standard_type: TBD
@@ -52,15 +51,13 @@ event_fields:
   standard_type: TBD
   name: HandleId
   type: Pointer
-  description: hexadecimal value of a handle to Object Name. This field can help you
-    correlate this event with other events that might contain the same Handle ID
+  description: hexadecimal value of a handle to Object Name. This field can help you correlate this event with other events that might contain the same Handle ID
   sample_value: '0x0'
 - standard_name: transaction_guid
   standard_type: TBD
   name: TransactionId
   type: GUID
-  description: unique GUID of the transaction. This field can help you correlate this
-    event with other events that might contain the same Transaction ID
+  description: unique GUID of the transaction. This field can help you correlate this event with other events that might contain the same Transaction ID
   sample_value: '-'
 - standard_name: object_access_list
   standard_type: TBD
@@ -72,16 +69,13 @@ event_fields:
   standard_type: TBD
   name: AccessMask
   type: HexInt32
-  description: "The desired access mask. This mask depends on Object Server and Object\
-    \ Type parameters values. The value of this parameter is in decimal format. There\
-    \ is no detailed information about this parameter in this document. If Desired\
-    \ Access is not presented, then this parameter will have \u201C0\u201D value."
+  description: "The desired access mask. This mask depends on Object Server and Object Type parameters values. The value of this parameter is in decimal format. There is no detailed information about this parameter in this document. If Desired Access is not presented, then this parameter will have “0” value."
   sample_value: '-'
 - standard_name: user_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: null
+  description:
   sample_value: '-'
 - standard_name: process_id
   standard_type: TBD

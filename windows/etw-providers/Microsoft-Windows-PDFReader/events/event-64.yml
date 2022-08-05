@@ -1,17 +1,17 @@
-title: Event 64 - SmoothZoom
-description: null
+name: Event 64 - SmoothZoom
+description:
 platform: windows
 log_source: Microsoft-Windows-PDFReader
-event_code: '64'
+event_id: '64'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DoubleParam
   type: Double
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Reader

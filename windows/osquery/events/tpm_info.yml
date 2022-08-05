@@ -1,8 +1,8 @@
-title: Tpm_info Table
+name: Tpm_info Table
 description: A table that lists the TPM related information.
 platform: windows
 log_source: osquery
-event_code: tpm_info
+event_id: tpm_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

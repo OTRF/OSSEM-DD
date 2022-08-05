@@ -1,41 +1,41 @@
-title: Event 3009 - CheckHostLockdownPolicy
-description: null
+name: Event 3009 - CheckHostLockdownPolicy
+description:
 platform: windows
 log_source: Microsoft-Windows-VerifyHardwareSecurity
-event_code: '3009'
+event_id: '3009'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HostProvider
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ModulePath
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Method
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InternalName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_opcode_HostLockdownCheck

@@ -1,8 +1,8 @@
-title: Wmi_event_filters Table
+name: Wmi_event_filters Table
 description: Lists WMI event filters.
 platform: windows
 log_source: osquery
-event_code: wmi_event_filters
+event_id: wmi_event_filters
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD
@@ -15,9 +15,7 @@ event_fields:
   standard_type: TBD
   name: query
   type: TEXT
-  description: Windows Management Instrumentation Query Language (WQL) event query
-    that specifies the set of events for consumer notification, and the specific conditions
-    for notification.
+  description: Windows Management Instrumentation Query Language (WQL) event query that specifies the set of events for consumer notification, and the specific conditions for notification.
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

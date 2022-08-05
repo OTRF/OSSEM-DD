@@ -1,29 +1,29 @@
-title: Event 10321 - Refcountrundown
-description: null
+name: Event 10321 - Refcountrundown
+description:
 platform: windows
 log_source: Microsoft-Windows-NDIS
-event_code: '10321'
+event_id: '10321'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NetLuid
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ComponentId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RefcountValue
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Power LwtDiagnostic

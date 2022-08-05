@@ -1,9 +1,8 @@
-title: Kva_speculative_info Table
-description: Display kernel virtual address and speculative execution information
-  for the system.
+name: Kva_speculative_info Table
+description: Display kernel virtual address and speculative execution information for the system.
 platform: windows
 log_source: osquery
-event_code: kva_speculative_info
+event_id: kva_speculative_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

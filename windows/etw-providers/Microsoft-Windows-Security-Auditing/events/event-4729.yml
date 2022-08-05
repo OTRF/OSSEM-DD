@@ -1,22 +1,17 @@
-title: 'Event ID 4729: A member was removed from a security-enabled global group'
-description: 'Event 4729 is the same as 4733, but it is generated for a global security
-  group instead of a local security group. All event fields, XML, and recommendations
-  are the same. The type of group is the only difference.
+name: 'Event ID 4729: A member was removed from a security-enabled global group'
+description: 'Event 4729 is the same as 4733, but it is generated for a global security group instead of a local security group. All event fields, XML, and recommendations are the same. The type of group is the only difference.
 
-  Event 4729(S) generates only for domain groups, so the Local sections in event 4733
-  do not apply.'
+  Event 4729(S) generates only for domain groups, so the Local sections in event 4733 do not apply.'
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4729'
+event_id: '4729'
 event_version: '0'
 event_fields:
 - standard_name: target_user_name
   standard_type: TBD
   name: MemberName
   type: UnicodeString
-  description: 'distinguished name of account that was removed from the group. For
-    example: "CN=Auditor,CN=Users,DC=contoso,DC=local". For local groups this field
-    typically has "-" value, even if removed member is a domain account.'
+  description: 'distinguished name of account that was removed from the group. For example: "CN=Auditor,CN=Users,DC=contoso,DC=local". For local groups this field typically has "-" value, even if removed member is a domain account.'
   sample_value: CN=Auditor,CN=Users,DC=contoso,DC=local
 - standard_name: target_user_sid
   standard_type: TBD
@@ -28,8 +23,7 @@ event_fields:
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
-  description: 'The name of the group from which the member was removed. For example:
-    ServiceDesk'
+  description: 'The name of the group from which the member was removed. For example: ServiceDesk'
   sample_value: AccountOperators
 - standard_name: group_domain
   standard_type: TBD
@@ -53,8 +47,7 @@ event_fields:
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that requested the "remove member from the
-    group" operation.
+  description: the name of the account that requested the "remove member from the group" operation.
   sample_value: dadmin
 - standard_name: user_domain
   standard_type: TBD
@@ -66,17 +59,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x35e38'
 - standard_name: user_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: the list of user privileges which were used during the operation, for
-    example, SeBackupPrivilege. This parameter might not be captured in the event,
-    and in that case appears as "-".
+  description: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as "-".
   sample_value: '-'
 references:
 - text: MS Source

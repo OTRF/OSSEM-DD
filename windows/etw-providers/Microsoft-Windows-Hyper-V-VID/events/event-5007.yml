@@ -1,17 +1,17 @@
-title: Event 5007 - VID_reservepages
-description: null
+name: Event 5007 - VID_reservepages
+description:
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-VID
-event_code: '5007'
+event_id: '5007'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Parameter0
   type: Int64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_VMK_HYPERV_PERF_INNER VMK_HYPERV_PERF

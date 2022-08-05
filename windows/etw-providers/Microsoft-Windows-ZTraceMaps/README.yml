@@ -1,5 +1,4 @@
-title: Microsoft-Windows-ZTraceMaps ETW events
-description: This page contains the list of events for Microsoft-Windows-ZTraceMaps,
-  as collected by the Event Tracing for Windows.
+name: Microsoft-Windows-ZTraceMaps ETW events
+description: This page contains the list of events for Microsoft-Windows-ZTraceMaps, as collected by the Event Tracing for Windows.
 images: []
 references: []

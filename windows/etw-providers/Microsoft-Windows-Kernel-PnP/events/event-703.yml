@@ -1,17 +1,17 @@
-title: Event 703 - CfgMgr_DeviceInterfaceList
-description: null
+name: Event 703 - CfgMgr_DeviceInterfaceList
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-PnP
-event_code: '703'
+event_id: '703'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_CfgMgr ObjectLists

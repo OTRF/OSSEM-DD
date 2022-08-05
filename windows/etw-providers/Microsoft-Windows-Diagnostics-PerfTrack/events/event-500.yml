@@ -1,47 +1,47 @@
-title: Event 500 - SqmLogger_AddToScenarioStream
-description: null
+name: Event 500 - SqmLogger_AddToScenarioStream
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnostics-PerfTrack
-event_code: '500'
+event_id: '500'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CanAddToScenarioStream
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioDuration
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioPackedContext
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MoshTimeValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioMetadata
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SQMStatus

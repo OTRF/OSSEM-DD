@@ -1,8 +1,8 @@
-title: Time Table
+name: Time Table
 description: Track current date and time in the system.
 platform: windows
 log_source: osquery
-event_code: time
+event_id: time
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

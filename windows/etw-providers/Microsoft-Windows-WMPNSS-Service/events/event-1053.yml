@@ -1,29 +1,29 @@
-title: Event 1053 - UpdateObject
-description: null
+name: Event 1053 - UpdateObject
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '1053'
+event_id: '1053'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ID
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CurrentTagValue
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewTagValue
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

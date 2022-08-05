@@ -1,23 +1,23 @@
-title: Event 39 - task_0
-description: null
+name: Event 39 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-TerminalServices-ServerUSBDevices
-event_code: '39'
+event_id: '39'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: objectPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ntStatus
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

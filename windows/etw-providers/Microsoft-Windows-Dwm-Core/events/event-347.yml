@@ -1,35 +1,35 @@
-title: Event 347 - HOLOGRAPHICINTEROPTARGET_RENDERCOMPLETE
-description: null
+name: Event 347 - HOLOGRAPHICINTEROPTARGET_RENDERCOMPLETE
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '347'
+event_id: '347'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TotalRenderCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TotalPosts
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RenderPostGap
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PendingImageCount
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmCore DwmHolographic

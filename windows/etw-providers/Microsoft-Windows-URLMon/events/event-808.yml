@@ -1,35 +1,35 @@
-title: Event 808 - URLMON_CINet_Write
-description: null
+name: Event 808 - URLMON_CINet_Write
+description:
 platform: windows
 log_source: Microsoft-Windows-URLMon
-event_code: '808'
+event_id: '808'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Operation
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Bytes
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CInet
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_URLMON_KEYWORD

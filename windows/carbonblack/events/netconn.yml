@@ -1,17 +1,15 @@
-title: ingress.event.netconn (Network Connection)
-description: A network connection has been received or initiated by an endpoint monitored
-  by Carbon Black.
+name: ingress.event.netconn (Network Connection)
+description: A network connection has been received or initiated by an endpoint monitored by Carbon Black.
 platform: windows
 log_source: carbonblack
-event_code: netconn
+event_id: netconn
 event_version: '0'
 event_fields:
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple Cb Response servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
   standard_type: TBD
@@ -41,8 +39,7 @@ event_fields:
   standard_type: TBD
   name: ipv4
   type: TEXT
-  description: remote ipv4 address of network connection. Maintained for backward
-    compatibility for earlier versions of the event forwarder. See local_ip and remote_ip.
+  description: remote ipv4 address of network connection. Maintained for backward compatibility for earlier versions of the event forwarder. See local_ip and remote_ip.
   sample_value: 23.4.187.27
 - standard_name: process_link
   standard_type: TBD
@@ -84,8 +81,7 @@ event_fields:
   standard_type: TBD
   name: port
   type: INTEGER
-  description: remote port of the network connection. Maintained for backward compatibility
-    for earlier versions of the event forwarder. See local_port and remote_port.
+  description: remote port of the network connection. Maintained for backward compatibility for earlier versions of the event forwarder. See local_port and remote_port.
   sample_value: '80'
 - standard_name: process_guid
   standard_type: TBD

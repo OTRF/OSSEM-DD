@@ -1,9 +1,8 @@
-title: 'Event ID 4930: An Active Directory replica source naming context was modified.'
-description: This event generates every time Active Directory replica source naming
-  context was modified.
+name: 'Event ID 4930: An Active Directory replica source naming context was modified.'
+description: This event generates every time Active Directory replica source naming context was modified.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4930'
+event_id: '4930'
 event_version: '0'
 event_fields:
 - standard_name: destination_dra
@@ -16,8 +15,7 @@ event_fields:
   standard_type: TBD
   name: SourceDRA
   type: UnicodeString
-  description: source directory replication agent distinguished name. Typically equals
-    "-" for this event.
+  description: source directory replication agent distinguished name. Typically equals "-" for this event.
   sample_value: '-'
 - standard_name: source_addr
   standard_type: TBD

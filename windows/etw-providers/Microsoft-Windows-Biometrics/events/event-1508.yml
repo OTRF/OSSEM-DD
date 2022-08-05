@@ -1,23 +1,23 @@
-title: Event 1508 - BioCredProv
-description: null
+name: Event 1508 - BioCredProv
+description:
 platform: windows
 log_source: Microsoft-Windows-Biometrics
-event_code: '1508'
+event_id: '1508'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SID
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Username
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_BioCredProv

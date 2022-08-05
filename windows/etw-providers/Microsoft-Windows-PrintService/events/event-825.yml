@@ -1,35 +1,35 @@
-title: Event 825 - ClientSideRenderingrevertingtoServerSideRendering
-description: null
+name: Event 825 - ClientSideRenderingrevertingtoServerSideRendering
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintService
-event_code: '825'
+event_id: '825'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PrintProcessor
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Connection
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsXpsPrinter
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_SPOOLER_KEYWORD_CSR

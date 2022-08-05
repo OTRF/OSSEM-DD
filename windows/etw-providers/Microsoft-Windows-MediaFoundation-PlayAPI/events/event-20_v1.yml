@@ -1,29 +1,29 @@
-title: Event 20 - MFPlay
-description: null
+name: Event 20 - MFPlay
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-PlayAPI
-event_code: '20'
+event_id: '20'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Rate
   type: Float
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Thin
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Start

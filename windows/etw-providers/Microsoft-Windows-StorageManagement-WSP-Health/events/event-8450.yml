@@ -1,17 +1,17 @@
-title: Event 8450 - Health
-description: null
+name: Event 8450 - Health
+description:
 platform: windows
 log_source: Microsoft-Windows-StorageManagement-WSP-Health
-event_code: '8450'
+event_id: '8450'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Parameter1
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_Health

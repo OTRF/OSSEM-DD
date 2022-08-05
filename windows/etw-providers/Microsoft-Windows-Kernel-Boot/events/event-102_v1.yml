@@ -1,17 +1,17 @@
-title: Event 102 - PrepareTarget
-description: null
+name: Event 102 - PrepareTarget
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '102'
+event_id: '102'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SoftRestartCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_SoftRestart

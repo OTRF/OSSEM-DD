@@ -1,35 +1,35 @@
-title: Event 92 - Jscript_Profile_Persistence
-description: null
+name: Event 92 - Jscript_Profile_Persistence
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '92'
+event_id: '92'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SourceID
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScriptContextID
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Size
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsSaveOnClose
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_JScriptProfile

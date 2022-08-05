@@ -1,23 +1,23 @@
-title: Event 61364 - FileAccessAPI_Enumeration_GetView
-description: null
+name: Event 61364 - FileAccessAPI_Enumeration_GetView
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '61364'
+event_id: '61364'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: StartIndex
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Count
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

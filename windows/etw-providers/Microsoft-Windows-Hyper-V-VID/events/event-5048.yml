@@ -1,23 +1,23 @@
-title: Event 5048 - VMT_VID_MEMORY_BLOCK_PERSIST
-description: null
+name: Event 5048 - VMT_VID_MEMORY_BLOCK_PERSIST
+description:
 platform: windows
 log_source: Microsoft-Windows-Hyper-V-VID
-event_code: '5048'
+event_id: '5048'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: MbpArraySize
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PartitionGuid
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_VMK_MEMORY_BLOCK

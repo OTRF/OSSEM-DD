@@ -1,17 +1,17 @@
-title: Event 693 - AgentService
-description: null
+name: Event 693 - AgentService
+description:
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
-event_code: '693'
+event_id: '693'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: stringValue1
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_opcode_AgentService

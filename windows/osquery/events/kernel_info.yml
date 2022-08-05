@@ -1,8 +1,8 @@
-title: Kernel_info Table
+name: Kernel_info Table
 description: Basic active kernel information.
 platform: windows
 log_source: osquery
-event_code: kernel_info
+event_id: kernel_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

@@ -1,29 +1,29 @@
-title: Event 105 - AcDcStateChange
-description: null
+name: Event 105 - AcDcStateChange
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '105'
+event_id: '105'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AcOnline
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RemainingCapacity
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FullChargeCapacity
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic po:DiagnosticLight

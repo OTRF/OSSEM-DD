@@ -1,41 +1,41 @@
-title: Event 126 - ESE_TimerQueueSchedule_Trace
-description: null
+name: Event 126 - ESE_TimerQueueSchedule_Trace
+description:
 platform: windows
 log_source: Microsoft-Windows-ESE
-event_code: '126'
+event_id: '126'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pfnTask
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pvTaskContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dwContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dtickDelay
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: dtickPeriod
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Task

@@ -1,9 +1,8 @@
-title: 'Event ID 4734: A security-enabled local group was deleted'
-description: This event generates every time security-enabled (security) local group
-  is deleted. This event generates on domain controllers, member servers, and workstations.
+name: 'Event ID 4734: A security-enabled local group was deleted'
+description: This event generates every time security-enabled (security) local group is deleted. This event generates on domain controllers, member servers, and workstations.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4734'
+event_id: '4734'
 event_version: '0'
 event_fields:
 - standard_name: group_name
@@ -22,17 +21,13 @@ event_fields:
   standard_type: TBD
   name: TargetSid
   type: SID
-  description: SID of deleted group. Event Viewer automatically tries to resolve SIDs
-    and show the group name. If the SID cannot be resolved, you will see the source
-    data in the event.
+  description: SID of deleted group. Event Viewer automatically tries to resolve SIDs and show the group name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-6605
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that requested the "delete group" operation. Event Viewer
-    automatically tries to resolve SIDs and show the account name. If the SID cannot
-    be resolved, you will see the source data in the event.
+  description: SID of account that requested the "delete group" operation. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
 - standard_name: user_name
   standard_type: TBD
@@ -50,18 +45,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x35e38'
 - standard_name: user_privilege_list
   standard_type: TBD
   name: PrivilegeList
   type: UnicodeString
-  description: the list of user privileges which were used during the operation, for
-    example, SeBackupPrivilege. This parameter might not be captured in the event,
-    and in that case appears as "-". See full list of user privileges in "Table 8.
-    User Privileges.".
+  description: the list of user privileges which were used during the operation, for example, SeBackupPrivilege. This parameter might not be captured in the event, and in that case appears as "-". See full list of user privileges in "Table 8. User Privileges.".
   sample_value: '-'
 references:
 - text: MS Source

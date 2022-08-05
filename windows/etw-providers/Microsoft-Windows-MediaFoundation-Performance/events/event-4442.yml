@@ -1,35 +1,35 @@
-title: Event 4442 - 2D:Create
-description: null
+name: Event 4442 - 2D:Create
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
-event_code: '4442'
+event_id: '4442'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Pointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Length
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Type
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Max
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

@@ -1,17 +1,17 @@
-title: Event 24002 - Enable/DisableAppv
-description: null
+name: Event 24002 - Enable/DisableAppv
+description:
 platform: windows
 log_source: Microsoft-AppV-Client
-event_code: '24002'
+event_id: '24002'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Error
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_AppManagementConfiguration

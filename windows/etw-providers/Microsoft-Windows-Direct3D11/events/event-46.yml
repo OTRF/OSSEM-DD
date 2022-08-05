@@ -1,29 +1,29 @@
-title: Event 46 - CustomDriverMarker
-description: null
+name: Event 46 - CustomDriverMarker
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '46'
+event_id: '46'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pID3D11Device
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StringIndex
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Description
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_DriverCustomMarkers

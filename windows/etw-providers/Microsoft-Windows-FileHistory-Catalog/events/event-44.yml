@@ -1,17 +1,17 @@
-title: Event 44 - FindNsRecordsByTVisible
-description: null
+name: Event 44 - FindNsRecordsByTVisible
+description:
 platform: windows
 log_source: Microsoft-Windows-FileHistory-Catalog
-event_code: '44'
+event_id: '44'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: BackupSetId
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_opcode_Stop

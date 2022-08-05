@@ -1,8 +1,8 @@
-title: 'Event ID 5168: SPN check for SMB/SMB2 failed'
+name: 'Event ID 5168: SPN check for SMB/SMB2 failed'
 description: This event generates when SMB SPN check fails.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5168'
+event_id: '5168'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0xd0cd4'
 - standard_name: spn_name
   standard_type: TBD
@@ -46,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: ServerNames
   type: UnicodeString
-  description: information about possible server names to use to access the target
-    server (NETBIOS, DNS, localhost, etc.).
+  description: information about possible server names to use to access the target server (NETBIOS, DNS, localhost, etc.).
   sample_value: CONTOSO;contoso.local;DC01.contoso.local;DC01;LocalHost;
 - standard_name: configured_names
   standard_type: TBD
@@ -59,8 +57,7 @@ event_fields:
   standard_type: TBD
   name: IpAddresses
   type: UnicodeString
-  description: information about possible IP addresses to use to access the target
-    server (IPv4, IPv6).
+  description: information about possible IP addresses to use to access the target server (IPv4, IPv6).
   sample_value: 127.0.0.1;::1;10.0.0.10;;fe80::31ea:6c3c:f40d:1973;;fe80::5efe:10.0.0.10;
 references:
 - text: MS Source

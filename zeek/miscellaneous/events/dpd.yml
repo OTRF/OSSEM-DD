@@ -1,8 +1,8 @@
-title: DPD Log
+name: DPD Log
 description: Protocol/application detection failures
 platform: zeek
 log_source: miscellaneous
-event_code: dpd
+event_id: dpd
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -63,8 +63,7 @@ event_fields:
   standard_type: TBD
   name: packet_segment
   type: string
-  description: present if policy/frameworks/dpd/packet-segment-logging.bro is loaded
-    A chunk of the payload that most likely resulted in the protocol violation.
+  description: present if policy/frameworks/dpd/packet-segment-logging.bro is loaded A chunk of the payload that most likely resulted in the protocol violation.
   sample_value: '``'
 references: []
 tags: []

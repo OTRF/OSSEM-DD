@@ -1,11 +1,8 @@
-title: 'Event ID 1: Process creation'
-description: The **process creation** event provides extended information about a newly
-  created process. The full command line provides context on the process execution.
-  The ProcessGUID field is a unique value for this process across a domain to make
-  event correlation easier.
+name: 'Event ID 1: Process creation'
+description: The **process creation** event provides extended information about a newly created process. The full command line provides context on the process execution. The ProcessGUID field is a unique value for this process across a domain to make event correlation easier.
 platform: linux
 log_source: sysmon
-event_code: '1'
+event_id: '1'
 event_version: '4.81'
 event_fields:
 - standard_name: tag
@@ -78,7 +75,7 @@ event_fields:
   standard_type: TBD
   name: CurrentDirectory
   type: string
-  description: Current working directory from which the main process executed. 
+  description: Current working directory from which the main process executed.
   sample_value: ''
 - standard_name: target_process_integrity_level
   standard_type: TBD

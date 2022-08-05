@@ -1,23 +1,23 @@
-title: Event 1136 - MediaFoundationAsyncWrapper
-description: null
+name: Event 1136 - MediaFoundationAsyncWrapper
+description:
 platform: windows
 log_source: Microsoft-Windows-MF
-event_code: '1136'
+event_id: '1136'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ObjectPtr
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MFTPtr
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

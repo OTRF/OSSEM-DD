@@ -1,8 +1,8 @@
-title: Syslog Log
-description: null
+name: Syslog Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: syslog
+event_id: syslog
 event_version: '0'
 event_fields:
 - standard_name: TBD
@@ -27,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: proto
   type: string
-  description: Protocol over which the message was seen. Typically UDP but can definitely
-    (and should) be TCP in some scenarios
+  description: Protocol over which the message was seen. Typically UDP but can definitely (and should) be TCP in some scenarios
   sample_value: udp
 - standard_name: TBD
   standard_type: TBD

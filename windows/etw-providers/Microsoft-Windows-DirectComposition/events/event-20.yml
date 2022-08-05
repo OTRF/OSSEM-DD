@@ -1,41 +1,41 @@
-title: Event 20 - ATLAS_UTILIZATION
-description: null
+name: Event 20 - ATLAS_UTILIZATION
+description:
 platform: windows
 log_source: Microsoft-Windows-DirectComposition
-event_code: '20'
+event_id: '20'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Id
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Width
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Height
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BitDepth
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PercentUsed
   type: Float
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_DCompDiagnostic DCompMemory

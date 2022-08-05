@@ -1,8 +1,8 @@
-title: Package_install_history Table
+name: Package_install_history Table
 description: OS X package install history.
 platform: macos
 log_source: osquery
-event_code: package_install_history
+event_id: package_install_history
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

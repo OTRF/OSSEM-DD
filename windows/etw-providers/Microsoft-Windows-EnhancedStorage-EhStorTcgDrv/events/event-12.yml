@@ -1,35 +1,35 @@
-title: Event 12 - Driver
-description: null
+name: Event 12 - Driver
+description:
 platform: windows
 log_source: Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
-event_code: '12'
+event_id: '12'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Capabilities
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: KeyProtectionMechanism
   type: HexInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MaxBandCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BandMetadataSize
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_General

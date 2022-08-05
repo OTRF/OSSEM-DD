@@ -1,29 +1,29 @@
-title: Event 1074 - RemovePackage
-description: null
+name: Event 1074 - RemovePackage
+description:
 platform: windows
 log_source: Microsoft-AppV-Client
-event_code: '1074'
+event_id: '1074'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Package
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Version
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ActivityID
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_Publishing

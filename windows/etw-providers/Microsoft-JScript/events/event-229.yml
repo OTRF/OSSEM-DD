@@ -1,23 +1,23 @@
-title: Event 229 - Memprotect_GC_FinishConcurrentWait
-description: null
+name: Event 229 - Memprotect_GC_FinishConcurrentWait
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '229'
+event_id: '229'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: RecyclerID
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HasTimedout
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_MemProtectGarbageCollection

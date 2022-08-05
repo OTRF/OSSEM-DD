@@ -1,23 +1,23 @@
-title: Event 239 - Mshtml_CImgInfo_ForcedDecoding
-description: null
+name: Event 239 - Mshtml_CImgInfo_ForcedDecoding
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '239'
+event_id: '239'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DwnInfo
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DecodeFlags
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_subsystem

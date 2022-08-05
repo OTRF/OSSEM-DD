@@ -1,41 +1,41 @@
-title: Event 203 - GC
-description: null
+name: Event 203 - GC
+description:
 platform: windows
 log_source: Microsoft-Windows-DotNETRuntime
-event_code: '203'
+event_id: '203'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Heap
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: JoinTime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: JoinType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClrInstanceID
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: JoinID
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_GCKeyword

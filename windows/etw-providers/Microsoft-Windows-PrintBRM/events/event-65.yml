@@ -1,29 +1,29 @@
-title: Event 65 - Restore
-description: null
+name: Event 65 - Restore
+description:
 platform: windows
 log_source: Microsoft-Windows-PrintBRM
-event_code: '65'
+event_id: '65'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: KeyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ValueName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_PRINT_QUEUE_KEYWORD

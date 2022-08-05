@@ -1,8 +1,8 @@
-title: prefetch
+name: prefetch
 description: Prefetch files show metadata related to file execution.
 platform: windows
 log_source: osquery
-event_code: prefetch
+event_id: prefetch
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

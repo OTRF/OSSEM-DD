@@ -1,8 +1,8 @@
-title: 'Event ID 23: FileDelete (A file delete was detected)'
+name: 'Event ID 23: FileDelete (A file delete was detected)'
 description: This event logs when a **file is deleted** by a process.
 platform: windows
 log_source: sysmon
-event_code: '23'
+event_id: '23'
 event_version: '4.32'
 event_fields:
 - standard_name: tag
@@ -71,3 +71,18 @@ references:
 - text: Sysmon 11 - FileDelete events
   link: https://medium.com/falconforce/sysmon-11-dns-improvements-and-filedelete-events-7a74f17ca842
 tags: []
+event_sample:
+  - format: xml
+    sample: |-
+      <EventData>
+      <Data Name="RuleName">-</Data>
+      <Data Name="UtcTime">2022-06-29 19:25:26.450</Data>
+      <Data Name="ProcessGuid">{01e2a015-02ee-62bc-0e01-000000000500}</Data>
+      <Data Name="ProcessId">1368</Data>
+      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      <Data Name="Image">C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2205.7-0\MsMpEng.exe</Data>
+      <Data Name="TargetFilename">C:\ProgramData\Microsoft\Windows Defender\Scans\Scans\History\CacheManager\7A012CB2-69ED-4AFD-BEF6-F12032FAA46E</Data>
+      <Data Name="Hashes">SHA1=A35327FFEBFF1BBA6499C087CD8E1A73C12586E9,MD5=3CEB4359DFE139A2AFF614B7C7AE7DC7,SHA256=895578306B9F70AE5F670564BB039A66B0D77775D98994EE19D2ABEA0876B2D5,IMPHASH=00000000000000000000000000000000</Data>
+      <Data Name="IsExecutable">false</Data>
+      <Data Name="Archived">true</Data>
+      </EventData>

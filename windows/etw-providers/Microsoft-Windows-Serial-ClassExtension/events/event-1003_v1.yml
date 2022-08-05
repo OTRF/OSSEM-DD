@@ -1,23 +1,23 @@
-title: Event 1003 - IOControlreceivedbytheserialclassextension
-description: null
+name: Event 1003 - IOControlreceivedbytheserialclassextension
+description:
 platform: windows
 log_source: Microsoft-Windows-Serial-ClassExtension
-event_code: '1003'
+event_id: '1003'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Request
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IoControlCodeString
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

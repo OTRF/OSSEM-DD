@@ -1,41 +1,41 @@
-title: Event 546 - AudCaptureStream_Info_Task
-description: null
+name: Event 546 - AudCaptureStream_Info_Task
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance-Core
-event_code: '546'
+event_id: '546'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: guidService
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: riid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pvObject
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hResult
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_AudCaptureStream_GetService

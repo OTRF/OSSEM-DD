@@ -1,17 +1,17 @@
-title: Event 2018 - Svc_Register_Device_Start_Detection
-description: null
+name: Event 2018 - Svc_Register_Device_Start_Detection
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '2018'
+event_id: '2018'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

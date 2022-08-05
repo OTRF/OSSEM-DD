@@ -1,17 +1,17 @@
-title: Event 1 - CrashDumpPolicyPolicyOperationFailed
-description: null
+name: Event 1 - CrashDumpPolicyPolicyOperationFailed
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Dump
-event_code: '1'
+event_id: '1'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: OperationType
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_CrashDumpPolicy

@@ -1,31 +1,27 @@
-title: ingress.event.regmod (Registry Modification)
-description: A registry key has been created, deleted, or modified on an endpoint
-  monitored by Carbon Black.
+name: ingress.event.regmod (Registry Modification)
+description: A registry key has been created, deleted, or modified on an endpoint monitored by Carbon Black.
 platform: windows
 log_source: carbonblack
-event_code: regmod
+event_id: regmod
 event_version: '0'
 event_fields:
 - standard_name: action
   standard_type: TBD
   name: action
   type: TEXT
-  description: 'Type of registry modification. This can be one of: createkey, writeval,
-    delkey, or delval'
+  description: 'Type of registry modification. This can be one of: createkey, writeval, delkey, or delval'
   sample_value: writeval
 - standard_name: actiontype
   standard_type: TBD
   name: actiontype
   type: INTEGER
-  description: 'Enum value of the registry modification: 1=createkey, 2=writeval,
-    4=delkey, 8=delval'
+  description: 'Enum value of the registry modification: 1=createkey, 2=writeval, 4=delkey, 8=delval'
   sample_value: '2'
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple Cb Response servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple Cb Response servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
   standard_type: TBD

@@ -1,8 +1,8 @@
-title: Known Services Log
-description: null
+name: Known Services Log
+description:
 platform: zeek
 log_source: network-observations
-event_code: known_services
+event_id: known_services
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

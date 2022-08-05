@@ -1,8 +1,8 @@
-title: Scheduled_tasks Table
+name: Scheduled_tasks Table
 description: Lists all of the tasks in the Windows task scheduler.
 platform: windows
 log_source: osquery
-event_code: scheduled_tasks
+event_id: scheduled_tasks
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

@@ -1,23 +1,23 @@
-title: Event 126 - Mshtml_FormatCalculation_ComputeFormats
-description: null
+name: Event 126 - Mshtml_FormatCalculation_ComputeFormats
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '126'
+event_id: '126'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TreeNode
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NodeType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_verbose

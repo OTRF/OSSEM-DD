@@ -1,8 +1,8 @@
-title: Asl Table
+name: Asl Table
 description: Queries the Apple System Log data structure for system events.
 platform: macos
 log_source: osquery
-event_code: asl
+event_id: asl
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -81,8 +81,7 @@ event_fields:
   standard_type: TBD
   name: extra
   type: TEXT
-  description: Extra columns, in JSON format. Queries against this column are performed
-    entirely in SQLite, so do not benefit from efficient querying via asl.h.
+  description: Extra columns, in JSON format. Queries against this column are performed entirely in SQLite, so do not benefit from efficient querying via asl.h.
   sample_value: TBD
 references:
 - text: OSQuery table documentation

@@ -1,8 +1,8 @@
-title: Socket_events Table
+name: Socket_events Table
 description: Track network socket opens and closes.
 platform: linux
 log_source: osquery
-event_code: socket_events
+event_id: socket_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

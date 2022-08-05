@@ -1,35 +1,35 @@
-title: Event 742 - Mshtml_MemoryProtector_SyncMark
-description: null
+name: Event 742 - Mshtml_MemoryProtector_SyncMark
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '742'
+event_id: '742'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CMemoryProtector
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StackSize
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Blocks
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Bytes
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

@@ -1,29 +1,29 @@
-title: Event 821 - WebPlatStorageServer_RPC_Method
-description: null
+name: Event 821 - WebPlatStorageServer_RPC_Method
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '821'
+event_id: '821'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: StorageCategory
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Method
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HR
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

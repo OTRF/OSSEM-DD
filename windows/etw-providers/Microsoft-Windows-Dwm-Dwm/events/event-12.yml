@@ -1,17 +1,17 @@
-title: Event 12 - DuplicateGhost
-description: null
+name: Event 12 - DuplicateGhost
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Dwm
-event_code: '12'
+event_id: '12'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: CGhostOrHwndToGhost
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmExeGhosting

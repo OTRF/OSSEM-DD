@@ -1,17 +1,17 @@
-title: Event 67 - APPLY_SKIN
-description: null
+name: Event 67 - APPLY_SKIN
+description:
 platform: windows
 log_source: Microsoft-Windows-WMP
-event_code: '67'
+event_id: '67'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SkinPath
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_mediaplayer

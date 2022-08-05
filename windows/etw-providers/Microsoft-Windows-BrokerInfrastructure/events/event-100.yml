@@ -1,41 +1,41 @@
-title: Event 100 - BackgroundTaskPerfTrack
-description: null
+name: Event 100 - BackgroundTaskPerfTrack
+description:
 platform: windows
 log_source: Microsoft-Windows-BrokerInfrastructure
-event_code: '100'
+event_id: '100'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ElapsedTime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TaskThrottleCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EntryPoint
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

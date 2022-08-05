@@ -1,8 +1,8 @@
-title: Package_bom Table
+name: Package_bom Table
 description: OS X package bill of materials (BOM) file list.
 platform: macos
 log_source: osquery
-event_code: package_bom
+event_id: package_bom
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,29 +1,29 @@
-title: Event 1019 - LogRedo
-description: null
+name: Event 1019 - LogRedo
+description:
 platform: windows
 log_source: Microsoft-Windows-Minstore
-event_code: '1019'
+event_id: '1019'
 event_version: '2'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: StartLsn
   type: HexInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EndLsn
   type: HexInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TransactionsRemaining
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_LogRedo

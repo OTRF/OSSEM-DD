@@ -1,29 +1,29 @@
-title: Event 1055 - FunDisc_PropertiesSetValue
-description: null
+name: Event 1055 - FunDisc_PropertiesSetValue
+description:
 platform: windows
 log_source: Microsoft-Windows-FunctionDiscovery
-event_code: '1055'
+event_id: '1055'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionInstanceID
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fmtid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pid
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

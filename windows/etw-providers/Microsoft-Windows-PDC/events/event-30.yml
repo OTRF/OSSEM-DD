@@ -1,53 +1,53 @@
-title: Event 30 - CsMonitorContext
-description: null
+name: Event 30 - CsMonitorContext
+description:
 platform: windows
 log_source: Microsoft-Windows-PDC
-event_code: '30'
+event_id: '30'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ConnectedSessionCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ConsoleSessionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OnRequestCurrent
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OnRequestProcessed
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OffRequestCurrent
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OffRequestProcessed
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Cs

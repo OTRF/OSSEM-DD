@@ -1,17 +1,17 @@
-title: Event 1804 - IDXGIDevice3_Trim
-description: null
+name: Event 1804 - IDXGIDevice3_Trim
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D11
-event_code: '1804'
+event_id: '1804'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pDXGIDevice
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Devices

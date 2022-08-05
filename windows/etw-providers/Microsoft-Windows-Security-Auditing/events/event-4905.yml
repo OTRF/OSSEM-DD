@@ -1,23 +1,21 @@
-title: 'Event ID 4905: An attempt was made to unregister a security event source.'
+name: 'Event ID 4905: An attempt was made to unregister a security event source.'
 description: This event generates every time a security event source.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4905'
+event_id: '4905'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
-  description: SID of account that made an attempt to unregister a security event
-    source.
+  description: SID of account that made an attempt to unregister a security event source.
   sample_value: S-1-5-18
 - standard_name: user_name
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
-  description: the name of the account that made an attempt to unregister a security
-    event source.
+  description: the name of the account that made an attempt to unregister a security event source.
   sample_value: DC01$
 - standard_name: user_domain
   standard_type: TBD
@@ -29,16 +27,13 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
 - standard_name: event_source_name
   standard_type: TBD
   name: AuditSourceName
   type: UnicodeString
-  description: 'the name of unregistered security event source. You can see all registered
-    security event source names in this registry path: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security".'
+  description: 'the name of unregistered security event source. You can see all registered security event source names in this registry path: "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\EventLog\Security".'
   sample_value: IIS-METABASE
 - standard_name: event_source_id
   standard_type: TBD
@@ -50,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that attempted to unregister
-    the security event source.
+  description: hexadecimal Process ID of the process that attempted to unregister the security event source.
   sample_value: '0xd90'
 - standard_name: process_path
   standard_type: TBD

@@ -1,35 +1,35 @@
-title: Event 11 - PackageStateChange
-description: null
+name: Event 11 - PackageStateChange
+description:
 platform: windows
 log_source: Microsoft-Windows-BrokerInfrastructure
-event_code: '11'
+event_id: '11'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserAccountName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: UserContextId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageState
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_BackgroundTask

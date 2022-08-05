@@ -1,23 +1,23 @@
-title: Event 4606 - MFContentDecryptorContextCreatetask
-description: null
+name: Event 4606 - MFContentDecryptorContextCreatetask
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaFoundation-Performance
-event_code: '4606'
+event_id: '4606'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: system
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: manager
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

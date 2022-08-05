@@ -1,77 +1,77 @@
-title: Event 56 - ThreadPoolWorkerThreadAdjustment
-description: null
+name: Event 56 - ThreadPoolWorkerThreadAdjustment
+description:
 platform: windows
 log_source: Microsoft-Windows-DotNETRuntime
-event_code: '56'
+event_id: '56'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Duration
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Throughput
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadWave
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThroughputWave
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThroughputErrorEstimate
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AverageThroughputErrorEstimate
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ThroughputRatio
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Confidence
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewControlSetting
   type: Double
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewThreadWaveMagnitude
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClrInstanceID
   type: UInt16
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_ThreadingKeyword

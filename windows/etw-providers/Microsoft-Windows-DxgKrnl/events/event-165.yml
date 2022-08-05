@@ -1,35 +1,35 @@
-title: Event 165 - ExternalEvent
-description: null
+name: Event 165 - ExternalEvent
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '165'
+event_id: '165'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: EventGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EventType
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BufferSize
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Buffer
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

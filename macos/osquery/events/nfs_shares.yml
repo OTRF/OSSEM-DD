@@ -1,8 +1,8 @@
-title: Nfs_shares Table
+name: Nfs_shares Table
 description: NFS shares exported by the host.
 platform: macos
 log_source: osquery
-event_code: nfs_shares
+event_id: nfs_shares
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

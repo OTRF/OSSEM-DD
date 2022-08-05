@@ -1,6 +1,5 @@
-title: Zeek Files Event Logs
-description: Metadata about files, certificates, and executables that is in 
-  addition to the network data.
+name: Zeek Files Event Logs
+description: Metadata about files, certificates, and executables that is in addition to the network data.
 images: []
 references:
 - text: File Logs

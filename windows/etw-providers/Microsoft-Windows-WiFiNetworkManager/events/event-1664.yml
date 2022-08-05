@@ -1,17 +1,17 @@
-title: Event 1664 - task_0
-description: null
+name: Event 1664 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-WiFiNetworkManager
-event_code: '1664'
+event_id: '1664'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: dwValue
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -1,23 +1,23 @@
-title: Event 12 - FreeFoundValue
-description: null
+name: Event 12 - FreeFoundValue
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3DShaderCache
-event_code: '12'
+event_id: '12'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Value
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ValueSize
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_APIs Profiling

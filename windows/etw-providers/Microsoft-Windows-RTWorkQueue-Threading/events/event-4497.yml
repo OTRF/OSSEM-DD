@@ -1,41 +1,41 @@
-title: Event 4497 - CpuGroupMaskChangeWnfCallback
-description: null
+name: Event 4497 - CpuGroupMaskChangeWnfCallback
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Threading
-event_code: '4497'
+event_id: '4497'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ChangeStamp
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CurChangeStamp
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessorGroup
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessorMask
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Length
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_CpuGroupMaskChangeWnfCallback

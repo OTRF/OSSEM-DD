@@ -1,29 +1,29 @@
-title: Event 1015 - I/OoperationflowthroughSPBCx
-description: null
+name: Event 1015 - I/OoperationflowthroughSPBCx
+description:
 platform: windows
 log_source: Microsoft-Windows-SPB-ClassExtension
-event_code: '1015'
+event_id: '1015'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Request
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CompletionStatus
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Information
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_IoComplete

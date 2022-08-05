@@ -1,35 +1,35 @@
-title: Event 3021 - Callback_Begin_Select_Profile
-description: null
+name: Event 3021 - Callback_Begin_Select_Profile
+description:
 platform: windows
 log_source: Microsoft-Windows-WMPNSS-Service
-event_code: '3021'
+event_id: '3021'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: NetEvent
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Callback
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: State
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

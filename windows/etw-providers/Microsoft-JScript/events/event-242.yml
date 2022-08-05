@@ -1,17 +1,17 @@
-title: Event 242 - Jscript_Internal_Generic_Event
-description: null
+name: Event 242 - Jscript_Internal_Generic_Event
+description:
 platform: windows
 log_source: Microsoft-JScript
-event_code: '242'
+event_id: '242'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: eventData
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Internal

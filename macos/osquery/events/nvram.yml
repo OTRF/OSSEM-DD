@@ -1,8 +1,8 @@
-title: Nvram Table
+name: Nvram Table
 description: Apple NVRAM variable listing.
 platform: macos
 log_source: osquery
-event_code: nvram
+event_id: nvram
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

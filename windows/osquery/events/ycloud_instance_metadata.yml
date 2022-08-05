@@ -1,8 +1,8 @@
-title: Ycloud_instance_metadata Table
+name: Ycloud_instance_metadata Table
 description: Yandex.Cloud instance metadata.
 platform: windows
 log_source: osquery
-event_code: ycloud_instance_metadata
+event_id: ycloud_instance_metadata
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

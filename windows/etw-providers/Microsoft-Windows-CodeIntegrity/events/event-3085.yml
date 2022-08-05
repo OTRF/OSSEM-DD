@@ -1,23 +1,23 @@
-title: Event 3085 - WhqlEnforcement
-description: null
+name: Event 3085 - WhqlEnforcement
+description:
 platform: windows
 log_source: Microsoft-Windows-CodeIntegrity
-event_code: '3085'
+event_id: '3085'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Settings
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Exemption
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_WhqlSettings

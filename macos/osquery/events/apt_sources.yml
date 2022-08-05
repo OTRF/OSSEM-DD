@@ -1,8 +1,8 @@
-title: Apt_sources Table
+name: Apt_sources Table
 description: Current list of APT repositories or software channels.
 platform: macos
 log_source: osquery
-event_code: apt_sources
+event_id: apt_sources
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,35 +1,35 @@
-title: Event 8 - ReuseExistingThemeData
-description: null
+name: Event 8 - ReuseExistingThemeData
+description:
 platform: windows
 log_source: Microsoft-Windows-UxInit
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: monitorConfig
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: systemDpi
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsHighContrastMode
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hr
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_ReuseExistingThemeData

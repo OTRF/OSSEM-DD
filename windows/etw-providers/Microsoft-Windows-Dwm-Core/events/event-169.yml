@@ -1,35 +1,35 @@
-title: Event 169 - SCHEDULE_RENDERTIME
-description: null
+name: Event 169 - SCHEDULE_RENDERTIME
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Core
-event_code: '169'
+event_id: '169'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pFrame
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: fRenderTime
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: cFramesOutstanding
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: cMaxFramesOutstanding
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_FrameDrawInconsistencyInformation

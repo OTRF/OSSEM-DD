@@ -1,17 +1,17 @@
-title: Event 30003 - WaitForAssignedAccessApplicationToDie
-description: null
+name: Event 30003 - WaitForAssignedAccessApplicationToDie
+description:
 platform: windows
 log_source: Microsoft-Windows-AssignedAccessBroker
-event_code: '30003'
+event_id: '30003'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: Boolean
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_WaitForAssignedAccessApplicationToDie

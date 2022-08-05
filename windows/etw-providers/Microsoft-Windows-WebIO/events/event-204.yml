@@ -1,35 +1,35 @@
-title: Event 204 - ConnectionSocketClose
-description: null
+name: Event 204 - ConnectionSocketClose
+description:
 platform: windows
 log_source: Microsoft-Windows-WebIO
-event_code: '204'
+event_id: '204'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Endpoint
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Socket
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Reason
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_ConnectionSocketClose

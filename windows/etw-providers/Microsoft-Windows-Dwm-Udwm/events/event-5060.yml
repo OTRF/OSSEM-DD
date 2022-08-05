@@ -1,29 +1,29 @@
-title: Event 5060 - UdwmAnimationEngine
-description: null
+name: Event 5060 - UdwmAnimationEngine
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Udwm
-event_code: '5060'
+event_id: '5060'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AnimationID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StoryboardID
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TickCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Udwm

@@ -1,0 +1,358 @@
+name: DeviceProcessEvents
+description: Process creation and related events
+platform: windows
+log_source: Microsoft Defender for Endpoint
+event_id: DeviceProcessEvents
+event_version: '1'
+event_fields:
+- standard_name: event_date_creation
+  standard_type: TBD
+  name: Timestamp
+  type: date
+  description: Date and time when the record was generated
+  sample_value: ''
+- standard_name: device_id
+  standard_type: TBD
+  name: DeviceId
+  type: string
+  description: Unique identifier for the device in the service
+  sample_value: ''
+- standard_name: computer_name
+  standard_type: TBD
+  name: DeviceName
+  type: string
+  description: Fully qualified domain name (FQDN) of the device
+  sample_value: ''
+- standard_name: action_type
+  standard_type: TBD
+  name: ActionType
+  type: string
+  description: Type of activity that triggered the event
+  sample_value: ''
+- standard_name: process_name
+  standard_type: TBD
+  name: FileName
+  type: string
+  description: Name of the file that the recorded action was applied to
+  sample_value: ''
+- standard_name: process_path
+  standard_type: TBD
+  name: FolderPath
+  type: string
+  description: Folder containing the file that the recorded action was applied to
+  sample_value: ''
+- standard_name: hash_sha1
+  standard_type: TBD
+  name: SHA1
+  type: string
+  description: SHA-1 hash of the file that the recorded action was applied to
+  sample_value: ''
+- standard_name: hash_sha256
+  standard_type: TBD
+  name: SHA256
+  type: string
+  description: SHA-256 of the file that the recorded action was applied to
+  sample_value: ''
+- standard_name: hash_md5
+  standard_type: TBD
+  name: MD5
+  type: string
+  description: MD5 hash of the file that the recorded action was applied to
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: FileSize
+  type: long
+  description: Size of the file in bytes
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessVersionInfoCompanyName
+  type: string
+  description: Company name from the version information of the newly created process
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessVersionInfoProductName
+  type: string
+  description: Product name from the version information of the newly created process
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessVersionInfoProductVersion
+  type: string
+  description: Product version from the version information of the newly created process
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessVersionInfoInternalFileName
+  type: string
+  description: Internal file name from the version information of the newly created process
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessVersionInfoOriginalFileName
+  type: string
+  description: Original file name from the version information of the newly created process
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ProcessVersionInfoFileDescription
+  type: string
+  description: Description from the version information of the newly created process
+  sample_value: ''
+- standard_name: process_id
+  standard_type: TBD
+  name: ProcessId
+  type: int
+  description: Process ID (PID) of the newly created process
+  sample_value: ''
+- standard_name: process_command_line
+  standard_type: TBD
+  name: ProcessCommandLine
+  type: string
+  description: Command line used to create the new process
+  sample_value: ''
+- standard_name: process_integrity_level
+  standard_type: TBD
+  name: ProcessIntegrityLevel
+  type: string
+  description: Integrity level of the newly created process. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet downloaded. These integrity levels influence permissions to resources
+  sample_value: ''
+- standard_name: process_token_elevation
+  standard_type: TBD
+  name: ProcessTokenElevation
+  type: string
+  description: Indicates the type of token elevation applied to the newly created process. Possible values are TokenElevationTypeLimited (restricted), TokenElevationTypeDefault (standard), and TokenElevationTypeFull (elevated)
+  sample_value: ''
+- standard_name: process_creation_time
+  standard_type: TBD
+  name: ProcessCreationTime
+  type: date
+  description: Date and time the process was created
+  sample_value: ''
+- standard_name: user_domain
+  standard_type: TBD
+  name: AccountDomain
+  type: string
+  description: Domain of the account
+  sample_value: ''
+- standard_name: user_name
+  standard_type: TBD
+  name: AccountName
+  type: string
+  description: User name of the account
+  sample_value: ''
+- standard_name: user_sid
+  standard_type: TBD
+  name: AccountSid
+  type: string
+  description: Security Identifier (SID) of the account
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: AccountUpn
+  type: string
+  description: User principal name (UPN) of the account
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: AccountObjectId
+  type: string
+  description: Unique identifier for the account in Azure AD
+  sample_value: ''
+- standard_name: user_logon_id
+  standard_type: TBD
+  name: LogonId
+  type: string
+  description: Identifier for a logon session. This identifier is unique on the same machine only between restarts
+  sample_value: ''
+- standard_name: process_parent_user_domain
+  standard_type: TBD
+  name: InitiatingProcessAccountDomain
+  type: string
+  description: Domain of the account that ran the process responsible for the event
+  sample_value: ''
+- standard_name: process_parent_user_name
+  standard_type: TBD
+  name: InitiatingProcessAccountName
+  type: string
+  description: User name of the account that ran the process responsible for the event
+  sample_value: ''
+- standard_name: process_parent_user_sid
+  standard_type: TBD
+  name: InitiatingProcessAccountSid
+  type: string
+  description: Security Identifier (SID) of the account that ran the process responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessAccountUpn
+  type: string
+  description: User principal name (UPN) of the account that ran the process responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessAccountObjectId
+  type: string
+  description: Azure AD object ID of the user account that ran the process responsible for the event
+  sample_value: ''
+- standard_name: process_parent_user_logon_id
+  standard_type: TBD
+  name: InitiatingProcessLogonId
+  type: string
+  description: Identifier for a logon session of the process that initiated the event. This identifier is unique on the same machine only between restarts
+  sample_value: ''
+- standard_name: process_parent_integrity_level
+  standard_type: TBD
+  name: InitiatingProcessIntegrityLevel
+  type: string
+  description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources
+  sample_value: ''
+- standard_name: process_parent_token_elevation
+  standard_type: TBD
+  name: InitiatingProcessTokenElevation
+  type: string
+  description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
+  sample_value: ''
+- standard_name: process_parent_sha1_hash
+  standard_type: TBD
+  name: InitiatingProcessSHA1
+  type: string
+  description: SHA-1 hash of the process (image file) that initiated the event
+  sample_value: ''
+- standard_name: process_parent_sha256_hash
+  standard_type: TBD
+  name: InitiatingProcessSHA256
+  type: string
+  description: SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated - use the SHA1 column when available
+  sample_value: ''
+- standard_name: process_parent_md5_hash
+  standard_type: TBD
+  name: InitiatingProcessMD5
+  type: string
+  description: MD5 hash of the process (image file) that initiated the event
+  sample_value: ''
+- standard_name: process_parent_file_name
+  standard_type: TBD
+  name: InitiatingProcessFileName
+  type: string
+  description: Name of the process that initiated the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessFileSize
+  type: long
+  description: Size of the process (image file) that initiated the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessVersionInfoCompanyName
+  type: string
+  description: Company name from the version information of the process (image file) responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessVersionInfoProductName
+  type: string
+  description: Product name from the version information of the process (image file) responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessVersionInfoProductVersion
+  type: string
+  description: Product version from the version information of the process (image file) responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessVersionInfoInternalFileName
+  type: string
+  description: Internal file name from the version information of the process (image file) responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessVersionInfoOriginalFileName
+  type: string
+  description: Original file name from the version information of the process (image file) responsible for the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessVersionInfoFileDescription
+  type: string
+  description: Description from the version information of the process (image file) responsible for the event
+  sample_value: ''
+- standard_name: process_parent_id
+  standard_type: TBD
+  name: InitiatingProcessId
+  type: int
+  description: Process ID (PID) of the process that initiated the event
+  sample_value: ''
+- standard_name: process_parent_command_line
+  standard_type: TBD
+  name: InitiatingProcessCommandLine
+  type: string
+  description: Command line used to run the process that initiated the event
+  sample_value: ''
+- standard_name: process_parent_creation_time
+  standard_type: TBD
+  name: InitiatingProcessCreationTime
+  type: date
+  description: Date and time when the process that initiated the event was started
+  sample_value: ''
+- standard_name: process_parent_path
+  standard_type: TBD
+  name: InitiatingProcessFolderPath
+  type: string
+  description: Folder containing the process (image file) that initiated the event
+  sample_value: ''
+- standard_name: initiating_process_parent_id
+  standard_type: TBD
+  name: InitiatingProcessParentId
+  type: int
+  description: Process ID (PID) of the parent process that spawned the process responsible for the event
+  sample_value: ''
+- standard_name: initiating_process_parent_file_name
+  standard_type: TBD
+  name: InitiatingProcessParentFileName
+  type: string
+  description: Name of the parent process that spawned the process responsible for the event
+  sample_value: ''
+- standard_name: initiating_process_parent_creation_time
+  standard_type: TBD
+  name: InitiatingProcessParentCreationTime
+  type: date
+  description: Date and time when the parent of the process responsible for the event was started
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessSignerType
+  type: string
+  description: Type of file signer of the process (image file) that initiated the event
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: InitiatingProcessSignatureStatus
+  type: string
+  description: Information about the signature status of the process (image file) that initiated the event
+  sample_value: ''
+- standard_name: report_id
+  standard_type: TBD
+  name: ReportId
+  type: long
+  description: Event identifier based on a repeating counter.To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  sample_value: ''
+- standard_name: app_guard_container_id
+  standard_type: TBD
+  name: AppGuardContainerId
+  type: string
+  description: Identifier for the virtualized container used by Application Guard to isolate browser activity
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: AdditionalFields
+  type: string
+  description: Additional information about the entity or event
+  sample_value: ''
+references:
+- https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-deviceprocessevents-table?view=o365-worldwide
+tags: []

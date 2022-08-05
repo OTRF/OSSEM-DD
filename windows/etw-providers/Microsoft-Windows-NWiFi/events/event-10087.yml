@@ -1,17 +1,17 @@
-title: Event 10087 - task_0
-description: null
+name: Event 10087 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-NWiFi
-event_code: '10087'
+event_id: '10087'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: LogLine
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_keywords_AssocMgr ut:L2ConnectPath

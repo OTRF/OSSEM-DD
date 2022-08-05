@@ -1,8 +1,8 @@
-title: Etc_services Table
+name: Etc_services Table
 description: Line-parsed /etc/services.
 platform: macos
 log_source: osquery
-event_code: etc_services
+event_id: etc_services
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

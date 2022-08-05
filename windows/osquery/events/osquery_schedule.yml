@@ -1,8 +1,8 @@
-title: Osquery_schedule Table
+name: Osquery_schedule Table
 description: Information about the current queries that are scheduled in osquery.
 platform: windows
 log_source: osquery
-event_code: osquery_schedule
+event_id: osquery_schedule
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

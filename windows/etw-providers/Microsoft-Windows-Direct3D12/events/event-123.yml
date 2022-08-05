@@ -1,23 +1,23 @@
-title: Event 123 - SchedulingGroup
-description: null
+name: Event 123 - SchedulingGroup
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3D12
-event_code: '123'
+event_id: '123'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pID3D12Device
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pID3D12SchedulingGroup
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Resources ObjectLifetime

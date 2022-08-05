@@ -1,35 +1,35 @@
-title: Event 212 - Mshtml_MsPerformance_Measure
-description: null
+name: Event 212 - Mshtml_MsPerformance_Measure
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '212'
+event_id: '212'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Name
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StartMark
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EndMark
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Duration
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_primarynav

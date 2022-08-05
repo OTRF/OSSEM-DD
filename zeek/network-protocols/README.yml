@@ -1,7 +1,5 @@
-title: Zeek Network Protocol Event Logs
-description: Network protocol/application logs containing all the metadata it 
-  collects and records for that specific protocol. These are the most commonly 
-  used Zeek logs
+name: Zeek Network Protocol Event Logs
+description: Network protocol/application logs containing all the metadata it collects and records for that specific protocol. These are the most commonly used Zeek logs
 images: []
 references:
 - text: Network Protocol Logs

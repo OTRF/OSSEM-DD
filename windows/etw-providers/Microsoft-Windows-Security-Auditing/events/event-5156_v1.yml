@@ -1,8 +1,8 @@
-title: 'Event ID 5156: The Windows Filtering Platform has permitted a connection'
+name: 'Event ID 5156: The Windows Filtering Platform has permitted a connection'
 description: This event generates when Windows Filtering Platform has allowed a connection.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5156'
+event_id: '5156'
 event_version: '1'
 event_fields:
 - standard_name: process_id
@@ -95,3 +95,21 @@ tags:
 - etw_task_task_0
 - Object Access
 - Audit Filtering Platform Connection
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="ProcessID">4444</Data>
+    <Data Name="Application">\device\harddiskvolume2\program files (x86)\microsoft\edge\application\msedge.exe</Data>
+    <Data Name="Direction">%%14592</Data>
+    <Data Name="SourceAddress">fe80::4d2:570a:681b:5d24</Data>
+    <Data Name="SourcePort">5353</Data>
+    <Data Name="DestAddress">ff02::fb</Data>
+    <Data Name="DestPort">5353</Data>
+    <Data Name="Protocol">17</Data>
+    <Data Name="FilterRTID">67262</Data>
+    <Data Name="LayerName">%%14610</Data>
+    <Data Name="LayerRTID">46</Data>
+    <Data Name="RemoteUserID">S-1-0-0</Data>
+    <Data Name="RemoteMachineID">S-1-0-0</Data>
+    </EventData>

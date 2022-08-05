@@ -1,17 +1,17 @@
-title: Event 33 - PUSH_DOWN
-description: null
+name: Event 33 - PUSH_DOWN
+description:
 platform: windows
 log_source: Microsoft-Windows-DirectComposition
-event_code: '33'
+event_id: '33'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: surfacePointer
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_DCompDiagnostic DCompMemory

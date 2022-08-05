@@ -1,23 +1,23 @@
-title: Event 217 - PresentTimer
-description: null
+name: Event 217 - PresentTimer
+description:
 platform: windows
 log_source: Microsoft-Windows-MediaEngine
-event_code: '217'
+event_id: '217'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Period
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Stop

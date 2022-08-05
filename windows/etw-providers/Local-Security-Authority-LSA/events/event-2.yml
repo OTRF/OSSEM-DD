@@ -1,21 +1,21 @@
-title: Event 2
-description: null
+name: Event 2
+description:
 platform: windows
 log_source: Local Security Authority (LSA)
-event_code: '2'
+event_id: '2'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: IsolatedName
   type: String
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ClientNetworkAddress
   type: String
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags: []

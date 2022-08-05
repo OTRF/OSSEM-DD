@@ -1,35 +1,35 @@
-title: Event 50060 - AddressConfigurationStateEvent
-description: null
+name: Event 50060 - AddressConfigurationStateEvent
+description:
 platform: windows
 log_source: Microsoft-Windows-Dhcp-Client
-event_code: '50060'
+event_id: '50060'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Str1
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Str2
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Str3
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Str4
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_RouteDeleted

@@ -1,35 +1,35 @@
-title: Event 3048 - Common
-description: null
+name: Event 3048 - Common
+description:
 platform: windows
 log_source: Microsoft-Windows-EapHost
-event_code: '3048'
+event_id: '3048'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TypeId
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AuthorId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VendorId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VendorType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Common

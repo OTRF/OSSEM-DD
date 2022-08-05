@@ -1,41 +1,41 @@
-title: Event 22 - task_0
-description: null
+name: Event 22 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Diagnosis-PCW
-event_code: '22'
+event_id: '22'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CounterSetNameLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CounterSetName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InstanceNameLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InstanceName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_errors

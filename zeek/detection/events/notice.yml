@@ -1,16 +1,15 @@
-title: Notice Log
-description: null
+name: Notice Log
+description:
 platform: zeek
 log_source: detection
-event_code: notice
+event_id: notice
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
   standard_type: TBD
   name: ts
   type: date_time
-  description: An absolute time indicating when the notice occurred, defaults to the
-    current network time in epoch
+  description: An absolute time indicating when the notice occurred, defaults to the current network time in epoch
   sample_value: '1300475167.096535'
 - standard_name: event_uid
   standard_type: TBD
@@ -22,23 +21,19 @@ event_fields:
   standard_type: TBD
   name: fuid
   type: string
-  description: A file unique ID if this notice is related to a file. If the f field
-    is provided, this will be automatically filled out
+  description: A file unique ID if this notice is related to a file. If the f field is provided, this will be automatically filled out
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: file_desc
   type: string
-  description: Frequently files can be "described" to give a bit more context. This
-    field will typically be automatically filled out from an fa_file record. For example,
-    if a notice was related to a file over HTTP, the URL of the request would be shown
+  description: Frequently files can be "described" to give a bit more context. This field will typically be automatically filled out from an fa_file record. For example, if a notice was related to a file over HTTP, the URL of the request would be shown
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: file_mime_type
   type: string
-  description: A mime type if the notice is related to a file. If the f field is provided,
-    this will be automatically filled out
+  description: A mime type if the notice is related to a file. If the f field is provided, this will be automatically filled out
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -50,8 +45,7 @@ event_fields:
   standard_type: TBD
   name: proto
   type: string
-  description: The transport protocol. Filled automatically when either conn, iconn
-    or p is specified
+  description: The transport protocol. Filled automatically when either conn, iconn or p is specified
   sample_value: tcp
 - standard_name: TBD
   standard_type: TBD
@@ -63,16 +57,13 @@ event_fields:
   standard_type: TBD
   name: dropped
   type: boolean
-  description: present if base/frameworks/notice/actions/drop.bro is loaded Indicate
-    if the $src IP address was dropped and denied network access.
+  description: present if base/frameworks/notice/actions/drop.bro is loaded Indicate if the $src IP address was dropped and denied network access.
   sample_value: 'false'
 - standard_name: TBD
   standard_type: TBD
   name: email_body_sections
   type: array_string
-  description: By adding chunks of text into this element, other scripts can expand
-    on notices that are being emailed. The normal way to add text is to extend the
-    vector by handling the Notice::notice event and modifying the notice in place
+  description: By adding chunks of text into this element, other scripts can expand on notices that are being emailed. The normal way to add text is to extend the vector by handling the Notice::notice event and modifying the notice in place
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
@@ -96,22 +87,19 @@ event_fields:
   standard_type: TBD
   name: peer_descr
   type: string
-  description: Textual description for the peer that raised this notice, including
-    name, host address and port.
+  description: Textual description for the peer that raised this notice, including name, host address and port.
   sample_value: ens192-7
 - standard_name: TBD
   standard_type: TBD
   name: sub
   type: string
   description: The human readable sub-message.
-  sample_value: 'Sampled servers: 1.213.145.151, 1.213.145.151, 1.213.145.151, 1.213.145.151,
-    1.213.145.151'
+  sample_value: 'Sampled servers: 1.213.145.151, 1.213.145.151, 1.213.145.151, 1.213.145.151, 1.213.145.151'
 - standard_name: TBD
   standard_type: TBD
   name: subpress_for
   type: integer
-  description: This field indicates the length of time that this unique notice should
-    be suppressed.
+  description: This field indicates the length of time that this unique notice should be suppressed.
   sample_value: '3600'
 - standard_name: TBD
   standard_type: TBD

@@ -1,53 +1,53 @@
-title: Event 1 - PrefetchSections
-description: null
+name: Event 1 - PrefetchSections
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Prefetch
-event_code: '1'
+event_id: '1'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioNameLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioHashId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ScenarioType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrefetchPhaseMask
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrefetchType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IsTricklePhase
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_BasicInformation

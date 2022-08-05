@@ -1,8 +1,8 @@
-title: 'Event ID 1: RPC Firewall protection added'
+name: 'Event ID 1: RPC Firewall protection added'
 description: Event monitoring the protection of a specific processes.
 platform: windows
 log_source: RPCFWP
-event_code: '1'
+event_id: '1'
 event_version:
 event_fields:
 - standard_name: process_id
@@ -19,7 +19,7 @@ event_fields:
   sample_value: C:\Windows\system32\lsass.exe
 references: []
 tags: []
-example: |
+example: |-
   <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
     <System>
       <Provider Name="RPCFWP" /> 

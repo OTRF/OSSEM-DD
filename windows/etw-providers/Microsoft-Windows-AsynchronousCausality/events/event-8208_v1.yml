@@ -1,29 +1,29 @@
-title: Event 8208 - task_0
-description: null
+name: Event 8208 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-AsynchronousCausality
-event_code: '8208'
+event_id: '8208'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PlatformId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OperationId
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CompletionStatus
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Critical
 - etw_keywords_AsynchronousOperation SystemOperation

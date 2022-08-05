@@ -1,23 +1,23 @@
-title: Event 261 - DpiFdoThermalPassiveCooling
-description: null
+name: Event 261 - DpiFdoThermalPassiveCooling
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '261'
+event_id: '261'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionalDeviceObject
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Percentage
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_DxgKrnl_Power

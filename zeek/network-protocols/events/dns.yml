@@ -1,8 +1,8 @@
-title: DNS Log
-description: null
+name: DNS Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: dns
+event_id: dns
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -51,54 +51,43 @@ event_fields:
   standard_type: TBD
   name: AA
   type: boolean
-  description: The Authoritative Answer bit for response messages specifies that the
-    responding name server is an authority for the domain name in the question section.
+  description: The Authoritative Answer bit for response messages specifies that the responding name server is an authority for the domain name in the question section.
   sample_value: 'false'
 - standard_name: dns_additional_name
   standard_type: TBD
   name: addl
   type: array_string
-  description: present if policy/protocols/dns/auth-addl.bro is loaded Additional
-    responses for the query.
+  description: present if policy/protocols/dns/auth-addl.bro is loaded Additional responses for the query.
   sample_value: '[ "69.1.200.68", "202.49.59.6" ]'
 - standard_name: dns_additional_authoritative_name
   standard_type: TBD
   name: auth
   type: array_string
-  description: present if policy/protocols/dns/auth-addl.bro is loaded Authoritative
-    responses for the query.
-  sample_value: '[ "a.ns.madduck.net", "aventura.bhms-groep.nl", "ns1.mailworx.net",
-    "slartibartfast.bhms-groep.nl", "zbasel.fortytwo.ch", "usenet.net.nz" ]'
+  description: present if policy/protocols/dns/auth-addl.bro is loaded Authoritative responses for the query.
+  sample_value: '[ "a.ns.madduck.net", "aventura.bhms-groep.nl", "ns1.mailworx.net", "slartibartfast.bhms-groep.nl", "zbasel.fortytwo.ch", "usenet.net.nz" ]'
 - standard_name: dns_response_name
   standard_type: TBD
   name: answers
   type: array_string
   description: The set of resource descriptions in the query answer. Can be any string.
-  sample_value: '"67.129.68.9", "69.44.57.60", "207.234.209.181", "209.132.176.4",
-    "216.27.185.42", "24.34.79.42", "24.123.202.230", "63.164.62.249", "64.112.189.11",
-    "65.125.233.206", "66.33.206.5", "66.33.216.11", "66.92.68.246", "66.111.46.200",
-    "66.115.136.4"'
+  sample_value: '"67.129.68.9", "69.44.57.60", "207.234.209.181", "209.132.176.4", "216.27.185.42", "24.34.79.42", "24.123.202.230", "63.164.62.249", "64.112.189.11", "65.125.233.206", "66.33.206.5", "66.33.216.11", "66.92.68.246", "66.111.46.200", "66.115.136.4"'
 - standard_name: dns_response_ttl
   standard_type: TBD
   name: TTLs
   type: array_float
-  description: The caching intervals of the associated RRs described by the answers
-    field.
-  sample_value: '[ 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463,
-    3463, 3463, 3463, 3463 ]'
+  description: The caching intervals of the associated RRs described by the answers field.
+  sample_value: '[ 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463, 3463 ]'
 - standard_name: dns_flags_recursion_available
   standard_type: TBD
   name: RA
   type: boolean
-  description: The Recursion Available bit in a response message indicates that the
-    name server supports recursive queries.
+  description: The Recursion Available bit in a response message indicates that the name server supports recursive queries.
   sample_value: 'true'
 - standard_name: dns_flags_recursion_desired
   standard_type: TBD
   name: RD
   type: boolean
-  description: The Recursion Desired bit in a request message indicates that the client
-    wants recursive service for this query.
+  description: The Recursion Desired bit in a request message indicates that the client wants recursive service for this query.
   sample_value: 'true'
 - standard_name: dns_rejected
   standard_type: TBD
@@ -158,8 +147,7 @@ event_fields:
   standard_type: TBD
   name: rtt
   type: float
-  description: Round trip time for the query and response. This indicates the delay
-    between when the request was seen until the answer started.
+  description: Round trip time for the query and response. This indicates the delay between when the request was seen until the answer started.
   sample_value: '0.006946'
 - standard_name: dns_response_code
   standard_type: TBD
@@ -171,8 +159,7 @@ event_fields:
   standard_type: TBD
   name: trans_id
   type: string
-  description: 16-bit identifier assigned by the program that generated the DNS query.
-    Also used in responses to match up replies to outstanding queries.
+  description: 16-bit identifier assigned by the program that generated the DNS query. Also used in responses to match up replies to outstanding queries.
   sample_value: '43'
 references: []
 tags: []

@@ -1,8 +1,8 @@
-title: Wmi_bios_info Table
+name: Wmi_bios_info Table
 description: Lists important information from the system bios.
 platform: windows
 log_source: osquery
-event_code: wmi_bios_info
+event_id: wmi_bios_info
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

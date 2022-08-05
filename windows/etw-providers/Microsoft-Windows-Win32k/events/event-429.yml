@@ -1,23 +1,23 @@
-title: Event 429 - PowerWatchdog
-description: null
+name: Event 429 - PowerWatchdog
+description:
 platform: windows
 log_source: Microsoft-Windows-Win32k
-event_code: '429'
+event_id: '429'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Instance
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WatchdogType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_win32Power

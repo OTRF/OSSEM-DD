@@ -1,8 +1,8 @@
-title: Docker_image_labels Table
+name: Docker_image_labels Table
 description: Docker image labels.
 platform: freebsd
 log_source: osquery
-event_code: docker_image_labels
+event_id: docker_image_labels
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

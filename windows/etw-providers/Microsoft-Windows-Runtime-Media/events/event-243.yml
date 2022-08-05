@@ -1,23 +1,23 @@
-title: Event 243 - MediaCaptureLifetime
-description: null
+name: Event 243 - MediaCaptureLifetime
+description:
 platform: windows
 log_source: Microsoft-Windows-Runtime-Media
-event_code: '243'
+event_id: '243'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WinRTCaptureEngine
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ExecutablePath
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_keyword_800000000000

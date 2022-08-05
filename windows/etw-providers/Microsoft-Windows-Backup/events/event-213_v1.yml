@@ -1,41 +1,41 @@
-title: Event 213 - task_0
-description: null
+name: Event 213 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Backup
-event_code: '213'
+event_id: '213'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: BackupSetId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeToMount
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NeedNetworkShare
   type: Boolean
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeTakenToMount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

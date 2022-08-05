@@ -1,29 +1,29 @@
-title: Event 512 - SpmPolicyAliasRundown
-description: null
+name: Event 512 - SpmPolicyAliasRundown
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '512'
+event_id: '512'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PolicyGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PolicyAliasLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PolicyAlias
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic po:DiagnosticLight

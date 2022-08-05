@@ -1,21 +1,21 @@
-title: Event 17
-description: null
+name: Event 17
+description:
 platform: windows
 log_source: MSADCE.1
-event_code: '17'
+event_id: '17'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ModID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: msgStr
   type: Object
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags: []

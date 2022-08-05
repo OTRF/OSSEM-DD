@@ -1,17 +1,17 @@
-title: Event 17008 - Scope_Load_From_XML
-description: null
+name: Event 17008 - Scope_Load_From_XML
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '17008'
+event_id: '17008'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: LoopCount
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

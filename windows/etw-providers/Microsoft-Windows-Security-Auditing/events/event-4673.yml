@@ -1,10 +1,8 @@
-title: 'Event ID 4673: A privileged service was called'
-description: This event generates when an attempt was made to perform privileged system
-  service operations. This event generates, for example, when SeSystemtimePrivilege,
-  SeCreateGlobalPrivilege, or SeTcbPrivilege privilege was used.
+name: 'Event ID 4673: A privileged service was called'
+description: This event generates when an attempt was made to perform privileged system service operations. This event generates, for example, when SeSystemtimePrivilege, SeCreateGlobalPrivilege, or SeTcbPrivilege privilege was used.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4673'
+event_id: '4673'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -29,8 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID
+  description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x432344'
 - standard_name: object_server
   standard_type: TBD
@@ -54,8 +51,7 @@ event_fields:
   standard_type: TBD
   name: ProcessId
   type: Pointer
-  description: hexadecimal Process ID of the process that attempted to call the privileged
-    service.
+  description: hexadecimal Process ID of the process that attempted to call the privileged service.
   sample_value: '0x1f0'
 - standard_name: process_path
   standard_type: TBD
@@ -78,3 +74,17 @@ tags:
 - Privilege Use
 - Audit Sensitive Privilege Use
 - Audit Non Sensitive Privilege Use
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
+    <Data Name="SubjectUserName">pedro</Data>
+    <Data Name="SubjectDomainName">DESKTOP-CQF82L6</Data>
+    <Data Name="SubjectLogonId">0xb1198</Data>
+    <Data Name="ObjectServer">Security</Data>
+    <Data Name="Service">-</Data>
+    <Data Name="PrivilegeList">SeProfileSingleProcessPrivilege</Data>
+    <Data Name="ProcessId">0x113c</Data>
+    <Data Name="ProcessName">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    </EventData>

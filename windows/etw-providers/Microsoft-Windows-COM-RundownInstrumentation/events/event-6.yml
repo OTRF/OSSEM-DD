@@ -1,17 +1,17 @@
-title: Event 6 - RundownInstrumentation
-description: null
+name: Event 6 - RundownInstrumentation
+description:
 platform: windows
 log_source: Microsoft-Windows-COM-RundownInstrumentation
-event_code: '6'
+event_id: '6'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: OID
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_RundownInstrumentation

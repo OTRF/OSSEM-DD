@@ -1,17 +1,17 @@
-title: Event 912 - UnifiedListView_Query_DomainSuggestion_Perftrack
-description: null
+name: Event 912 - UnifiedListView_Query_DomainSuggestion_Perftrack
+description:
 platform: windows
 log_source: Microsoft-PerfTrack-IEFRAME
-event_code: '912'
+event_id: '912'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Object
   type: UInt64
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_nonPerfTrack

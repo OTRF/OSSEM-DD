@@ -1,8 +1,8 @@
-title: Lldp_neighbors Table
+name: Lldp_neighbors Table
 description: LLDP neighbors of interfaces.
 platform: macos
 log_source: osquery
-event_code: lldp_neighbors
+event_id: lldp_neighbors
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

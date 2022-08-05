@@ -1,23 +1,23 @@
-title: Event 9003 - task_0
-description: null
+name: Event 9003 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Udwm
-event_code: '9003'
+event_id: '9003'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: secondarywindowpointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: hwnd
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Udwm

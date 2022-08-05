@@ -1,17 +1,17 @@
-title: Event 360 - Debugger_Persistence_AddWatches
-description: null
+name: Event 360 - Debugger_Persistence_AddWatches
+description:
 platform: windows
 log_source: Microsoft-Windows-IE-F12-Provider
-event_code: '360'
+event_id: '360'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TraceDescription
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

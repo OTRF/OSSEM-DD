@@ -1,8 +1,8 @@
-title: IRC Log
-description: null
+name: IRC Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: irc
+event_id: irc
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'
@@ -63,15 +63,13 @@ event_fields:
   standard_type: TBD
   name: dcc_file_size
   type: integer
-  description: present if base/protocols/irc/dcc-send.bro is loaded Size of the DCC
-    transfer as indicated by the sender.
+  description: present if base/protocols/irc/dcc-send.bro is loaded Size of the DCC transfer as indicated by the sender.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD
   name: dcc_mime_type
   type: string
-  description: present if base/protocols/irc/dcc-send.bro is loaded Sniffed mime type
-    of the file.
+  description: present if base/protocols/irc/dcc-send.bro is loaded Sniffed mime type of the file.
   sample_value: '``'
 - standard_name: TBD
   standard_type: TBD

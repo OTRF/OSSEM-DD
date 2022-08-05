@@ -1,17 +1,17 @@
-title: Event 4 - task_0
-description: null
+name: Event 4 - task_0
+description:
 platform: windows
 log_source: Microsoft-User Experience Virtualization-Agent Driver
-event_code: '4'
+event_id: '4'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: P1AnsiString
   type: AnsiString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

@@ -1,17 +1,17 @@
-title: Event 7022 - AppXDeployment.Task.Server.Deployment.Runtime
-description: null
+name: Event 7022 - AppXDeployment.Task.Server.Deployment.Runtime
+description:
 platform: windows
 log_source: Microsoft-Windows-AppXDeployment-Server
-event_code: '7022'
+event_id: '7022'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_RUNTIME_DEH_KEYWORD

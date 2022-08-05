@@ -1,23 +1,23 @@
-title: Event 313 - Debugger_SwitchDocument
-description: null
+name: Event 313 - Debugger_SwitchDocument
+description:
 platform: windows
 log_source: Microsoft-Windows-IE-F12-Provider
-event_code: '313'
+event_id: '313'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Key
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TraceDescription
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

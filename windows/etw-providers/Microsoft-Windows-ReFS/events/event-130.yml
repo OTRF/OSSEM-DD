@@ -1,41 +1,41 @@
-title: Event 130 - task_0
-description: null
+name: Event 130 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-ReFS
-event_code: '130'
+event_id: '130'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeIdLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VolumeId
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RepairDetail
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RepairDataLength
   type: UInt16
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RepairData
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_task_0

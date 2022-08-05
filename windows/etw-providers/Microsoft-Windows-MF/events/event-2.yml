@@ -1,41 +1,41 @@
-title: Event 2 - MediaFoundationDevproxySendBuffersToDevice
-description: null
+name: Event 2 - MediaFoundationDevproxySendBuffersToDevice
+description:
 platform: windows
 log_source: Microsoft-Windows-MF
-event_code: '2'
+event_id: '2'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AsyncTaskPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StreamID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: BufferPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PinPointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ParentPointer
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

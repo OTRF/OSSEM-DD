@@ -1,41 +1,41 @@
-title: Event 7274 - ConnectedSearch_LogSuggestion
-description: null
+name: Event 7274 - ConnectedSearch_LogSuggestion
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '7274'
+event_id: '7274'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Result
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PartialQuery
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SelectedPosition
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MaxQueryLengthWithSuggestion
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Payload
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_ConnectedSearch_LogSuggestion

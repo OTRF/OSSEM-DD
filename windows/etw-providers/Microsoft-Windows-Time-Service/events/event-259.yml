@@ -1,35 +1,35 @@
-title: Event 259 - task_0
-description: null
+name: Event 259 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Time-Service
-event_code: '259'
+event_id: '259'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AllNtpServers
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ChosenReferenceNtpServer
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TickCount
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IFTSTMP
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

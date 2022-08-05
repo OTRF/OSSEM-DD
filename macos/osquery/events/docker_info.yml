@@ -1,8 +1,8 @@
-title: Docker_info Table
+name: Docker_info Table
 description: Docker system information.
 platform: macos
 log_source: osquery
-event_code: docker_info
+event_id: docker_info
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD
@@ -69,15 +69,13 @@ event_fields:
   standard_type: TBD
   name: cpu_cfs_period
   type: INTEGER
-  description: 1 if CPU Completely Fair Scheduler (CFS) period support is enabled.
-    0 otherwise
+  description: 1 if CPU Completely Fair Scheduler (CFS) period support is enabled. 0 otherwise
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
   name: cpu_cfs_quota
   type: INTEGER
-  description: 1 if CPU Completely Fair Scheduler (CFS) quota support is enabled.
-    0 otherwise
+  description: 1 if CPU Completely Fair Scheduler (CFS) quota support is enabled. 0 otherwise
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD
@@ -179,8 +177,7 @@ event_fields:
   standard_type: TBD
   name: no_proxy
   type: TEXT
-  description: Comma-separated list of domain extensions proxy should not be used
-    for
+  description: Comma-separated list of domain extensions proxy should not be used for
   sample_value: TBD
 - standard_name: TBD
   standard_type: TBD

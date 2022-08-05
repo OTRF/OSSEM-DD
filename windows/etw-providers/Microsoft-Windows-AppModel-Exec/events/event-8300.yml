@@ -1,47 +1,47 @@
-title: Event 8300 - ODB_LaunchTask
-description: null
+name: Event 8300 - ODB_LaunchTask
+description:
 platform: windows
 log_source: Microsoft-Windows-AppModel-Exec
-event_code: '8300'
+event_id: '8300'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: UserSid
   type: SID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: EntryPoint
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WorkItemId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ExecProductionCircular ExecDevPlatCircular ODB

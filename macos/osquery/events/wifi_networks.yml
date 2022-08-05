@@ -1,8 +1,8 @@
-title: Wifi_networks Table
+name: Wifi_networks Table
 description: OS X known/remembered Wi-Fi networks list.
 platform: macos
 log_source: osquery
-event_code: wifi_networks
+event_id: wifi_networks
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

@@ -1,35 +1,35 @@
-title: Event 221 - CacheSession
-description: null
+name: Event 221 - CacheSession
+description:
 platform: windows
 log_source: Microsoft-Windows-Narrator
-event_code: '221'
+event_id: '221'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HitCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MissCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IgnoreCount
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: RemoveCount
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_PerfInstrumentation

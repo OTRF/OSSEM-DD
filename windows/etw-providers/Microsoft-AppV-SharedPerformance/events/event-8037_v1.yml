@@ -1,23 +1,23 @@
-title: Event 8037 - HandleActivity
-description: null
+name: Event 8037 - HandleActivity
+description:
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
-event_code: '8037'
+event_id: '8037'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: uint64
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: uint32
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_opcode_Stop
 - etw_task_HandleActivity

@@ -1,23 +1,23 @@
-title: Event 51 - ClientQuery
-description: null
+name: Event 51 - ClientQuery
+description:
 platform: windows
 log_source: Microsoft-Windows-Search-Core
-event_code: '51'
+event_id: '51'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: QueryText
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Performance Querying

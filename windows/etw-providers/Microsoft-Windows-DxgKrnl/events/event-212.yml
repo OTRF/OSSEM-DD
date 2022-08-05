@@ -1,35 +1,35 @@
-title: Event 212 - Dxgk_Diag_OutputDupl_Release_Frame
-description: null
+name: Event 212 - Dxgk_Diag_OutputDupl_Release_Frame
+description:
 platform: windows
 log_source: Microsoft-Windows-DxgKrnl
-event_code: '212'
+event_id: '212'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PacketIndex
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WdLogIndex
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VidPnSourceId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StatusBits
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_Base

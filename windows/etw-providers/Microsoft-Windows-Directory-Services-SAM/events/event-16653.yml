@@ -1,17 +1,17 @@
-title: Event 16653 - task_0
-description: null
+name: Event 16653 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-Directory-Services-SAM
-event_code: '16653'
+event_id: '16653'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Maximum
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Warning
 - etw_task_task_0

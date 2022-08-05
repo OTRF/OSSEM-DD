@@ -1,29 +1,29 @@
-title: Event 581 - Tab_Terminate_Process
-description: null
+name: Event 581 - Tab_Terminate_Process
+description:
 platform: windows
 log_source: Microsoft-IEFRAME
-event_code: '581'
+event_id: '581'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TabID
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessID
   type: Int32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: HWND
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_hang

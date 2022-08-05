@@ -1,17 +1,17 @@
-title: Event 9005 - LocalStore_140
-description: null
+name: Event 9005 - LocalStore_140
+description:
 platform: windows
 log_source: Microsoft-User Experience Virtualization-App Agent
-event_code: '9005'
+event_id: '9005'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: stringValue1
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_AppAgent

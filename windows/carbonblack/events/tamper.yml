@@ -1,17 +1,15 @@
-title: ingress.event.tamper (EDR Tamper)
-description: A process tampered with a critical Carbon Black userspace process or
-  kernel driver.
+name: ingress.event.tamper (EDR Tamper)
+description: A process tampered with a critical Carbon Black userspace process or kernel driver.
 platform: windows
 log_source: carbonblack
-event_code: tamper
+event_id: tamper
 event_version: '0'
 event_fields:
 - standard_name: cb_server
   standard_type: TBD
   name: cb_server
   type: TEXT
-  description: Used to distinguish between multiple EDR servers. Set this
-    in the "server_name" option of cb-event-forwarder.ini.
+  description: Used to distinguish between multiple EDR servers. Set this in the "server_name" option of cb-event-forwarder.ini.
   sample_value: cbserver
 - standard_name: host_name
   standard_type: TBD
@@ -35,8 +33,7 @@ event_fields:
   standard_type: TBD
   name: tamper_type
   type: TEXT
-  description: 'The activity which triggered this tamper event: CoreDriverUnloaded,
-    NetworkDriverUnloaded, CbServiceStopped, CbProcessTerminated, or CbCodeInjection'
+  description: 'The activity which triggered this tamper event: CoreDriverUnloaded, NetworkDriverUnloaded, CbServiceStopped, CbProcessTerminated, or CbCodeInjection'
   sample_value: CbProcessTerminated
 - standard_name: event_date_creation
   standard_type: TBD

@@ -1,17 +1,17 @@
-title: Event 5703 - das_Association
-description: null
+name: Event 5703 - das_Association
+description:
 platform: windows
 log_source: Microsoft-Windows-DeviceAssociationService
-event_code: '5703'
+event_id: '5703'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DasContext
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DeviceAssociationService association

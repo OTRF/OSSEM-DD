@@ -1,8 +1,8 @@
-title: Selinux_events Table
+name: Selinux_events Table
 description: Track SELinux events.
 platform: linux
 log_source: osquery
-event_code: selinux_events
+event_id: selinux_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

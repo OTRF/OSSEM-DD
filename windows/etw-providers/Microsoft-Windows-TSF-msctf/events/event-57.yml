@@ -1,23 +1,23 @@
-title: Event 57 - ITfThreadMgrEventSink_OnSetFocus
-description: null
+name: Event 57 - ITfThreadMgrEventSink_OnSetFocus
+description:
 platform: windows
 log_source: Microsoft-Windows-TSF-msctf
-event_code: '57'
+event_id: '57'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: pdimNewFocus
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: pdimPrevFocus
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_TSFEvent

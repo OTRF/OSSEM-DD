@@ -1,35 +1,35 @@
-title: Event 177 - EfiVariableAccess
-description: null
+name: Event 177 - EfiVariableAccess
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '177'
+event_id: '177'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: VendorGuid
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: VariableName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Attributes
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_EfiVariables

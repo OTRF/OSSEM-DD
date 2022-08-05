@@ -1,29 +1,29 @@
-title: Event 1506 - IpReassembly
-description: null
+name: Event 1506 - IpReassembly
+description:
 platform: windows
 log_source: Microsoft-Windows-TCPIP
-event_code: '1506'
+event_id: '1506'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Release
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddressFamily
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: IfIndex
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_keywords_ut:TcpipDiagnosis ut:ReceivePath keyword_10000000000

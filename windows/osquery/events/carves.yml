@@ -1,8 +1,8 @@
-title: Carves Table
+name: Carves Table
 description: List the set of completed and in-progress carves. If carve=1 then the query is treated as a new carve request.
 platform: windows
 log_source: osquery
-event_code: carves
+event_id: carves
 event_version: 5.0.1
 event_fields:
 - standard_name: TBD

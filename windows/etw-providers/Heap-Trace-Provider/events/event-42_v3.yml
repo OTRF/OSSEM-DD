@@ -1,57 +1,57 @@
-title: Event 42
-description: null
+name: Event 42
+description:
 platform: windows
 log_source: Heap Trace Provider
-event_code: '42'
+event_id: '42'
 event_version: '3'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HeapHandle
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeCommittedSize
   type: Object
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: DeCommitAddress
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FreeSpace
   type: Object
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CommittedSpace
   type: Object
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ReservedSpace
   type: Object
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NoOfUCRs
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AllocatedSpace
   type: Object
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags: []

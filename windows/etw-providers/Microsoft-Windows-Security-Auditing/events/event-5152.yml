@@ -1,16 +1,15 @@
-title: 'Event ID 5152: The Windows Filtering Platform blocked a packet.'
+name: 'Event ID 5152: The Windows Filtering Platform blocked a packet.'
 description: This event generates when Windows Filtering Platform.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5152'
+event_id: '5152'
 event_version: '0'
 event_fields:
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: UInt64
-  description: hexadecimal Process ID of the process to which blocked network packet
-    was sent.
+  description: hexadecimal Process ID of the process to which blocked network packet was sent.
   sample_value: '4556'
 - standard_name: process_path
   standard_type: TBD
@@ -84,3 +83,19 @@ tags:
 - etw_task_task_0
 - Object Access
 - Audit Filtering Platform Packet Drop
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="ProcessId">0</Data>
+    <Data Name="Application">-</Data>
+    <Data Name="Direction">%%14593</Data>
+    <Data Name="SourceAddress">10.0.10.102</Data>
+    <Data Name="SourcePort">0</Data>
+    <Data Name="DestAddress">10.0.10.10</Data>
+    <Data Name="DestPort">0</Data>
+    <Data Name="Protocol">1</Data>
+    <Data Name="FilterRTID">67867</Data>
+    <Data Name="LayerName">%%14601</Data>
+    <Data Name="LayerRTID">32</Data>
+    </EventData>

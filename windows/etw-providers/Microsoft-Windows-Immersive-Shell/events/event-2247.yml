@@ -1,17 +1,17 @@
-title: Event 2247 - PerfTrack_Share_ShowFlow
-description: null
+name: Event 2247 - PerfTrack_Share_ShowFlow
+description:
 platform: windows
 log_source: Microsoft-Windows-Immersive-Shell
-event_code: '2247'
+event_id: '2247'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: HRESULT
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Stop

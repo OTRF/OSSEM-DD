@@ -1,53 +1,53 @@
-title: Event 4 - RedirDxResize
-description: null
+name: Event 4 - RedirDxResize
+description:
 platform: windows
 log_source: Microsoft-Windows-Dwm-Redir
-event_code: '4'
+event_id: '4'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Hwnd
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: xSizeOld
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ySizeOld
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: formatOld
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: xSizeNew
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ySizeNew
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: formatNew
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_DwmRedir

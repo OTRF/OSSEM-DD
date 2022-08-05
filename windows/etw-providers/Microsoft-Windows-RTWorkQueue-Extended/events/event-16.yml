@@ -1,35 +1,35 @@
-title: Event 16 - WorkQueue:TimerMode
-description: null
+name: Event 16 - WorkQueue:TimerMode
+description:
 platform: windows
 log_source: Microsoft-Windows-RTWorkQueue-Extended
-event_code: '16'
+event_id: '16'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueuePointer
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: WorkQueueID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OldMode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewMode
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_task_WorkQueue:TimerMode

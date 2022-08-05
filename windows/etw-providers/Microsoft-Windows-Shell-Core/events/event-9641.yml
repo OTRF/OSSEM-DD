@@ -1,17 +1,17 @@
-title: Event 9641 - Explorer_IconCache_TableSize
-description: null
+name: Event 9641 - Explorer_IconCache_TableSize
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '9641'
+event_id: '9641'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: psz
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

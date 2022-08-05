@@ -1,17 +1,17 @@
-title: Event 1038 - FunDisc_ProviderInstanceQueryService
-description: null
+name: Event 1038 - FunDisc_ProviderInstanceQueryService
+description:
 platform: windows
 log_source: Microsoft-Windows-FunctionDiscovery
-event_code: '1038'
+event_id: '1038'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FunctionInstanceID
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,35 +1,35 @@
-title: Event 30 - I/Orequest.
-description: null
+name: Event 30 - I/Orequest.
+description:
 platform: windows
 log_source: Microsoft-Windows-Serial-ClassExtension-V2
-event_code: '30'
+event_id: '30'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: TransferSmContext
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FromState
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Event
   type: HexInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ToState
   type: HexInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_TransferStateMachine TransmitTransferStateMachine

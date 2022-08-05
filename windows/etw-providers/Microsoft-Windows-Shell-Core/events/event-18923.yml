@@ -1,17 +1,17 @@
-title: Event 18923 - Shell32_AutoPlay_DXP
-description: null
+name: Event 18923 - Shell32_AutoPlay_DXP
+description:
 platform: windows
 log_source: Microsoft-Windows-Shell-Core
-event_code: '18923'
+event_id: '18923'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DeviceID
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Shell

@@ -1,23 +1,23 @@
-title: Event 8 - Thread_Leave
-description: null
+name: Event 8 - Thread_Leave
+description:
 platform: windows
 log_source: Microsoft-Windows-MMCSS
-event_code: '8'
+event_id: '8'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ThreadID
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: OriginalBasePriority
   type: UInt8
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_Thread_Leave

@@ -1,17 +1,17 @@
-title: Event 1282 - Ndkpi_Disconnect_Event_Callback
-description: null
+name: Event 1282 - Ndkpi_Disconnect_Event_Callback
+description:
 platform: windows
 log_source: Microsoft-Windows-TCPIP
-event_code: '1282'
+event_id: '1282'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: DisconnectEventContext
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ut:TcpipNdkpi

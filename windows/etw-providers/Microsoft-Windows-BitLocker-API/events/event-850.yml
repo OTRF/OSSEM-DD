@@ -1,17 +1,17 @@
-title: Event 850 - task_0
-description: null
+name: Event 850 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-BitLocker-API
-event_code: '850'
+event_id: '850'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ErrorCode
   type: Int32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_task_0

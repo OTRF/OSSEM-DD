@@ -1,23 +1,23 @@
-title: Event 2152 - PlaceholderTileOnAppInstall
-description: null
+name: Event 2152 - PlaceholderTileOnAppInstall
+description:
 platform: windows
 log_source: Microsoft-Windows-ShellCommon-StartLayoutPopulation
-event_code: '2152'
+event_id: '2152'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: packageFamilyName
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: InstallState
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_task_PlaceholderTileOnAppInstall

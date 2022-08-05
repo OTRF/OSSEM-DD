@@ -1,8 +1,8 @@
-title: User_events Table
+name: User_events Table
 description: Track user events from the audit framework.
 platform: linux
 log_source: osquery
-event_code: user_events
+event_id: user_events
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

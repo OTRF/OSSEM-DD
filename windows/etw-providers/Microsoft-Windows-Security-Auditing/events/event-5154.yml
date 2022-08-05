@@ -1,18 +1,15 @@
-title: 'Event ID 5154: The Windows Filtering Platform has permitted an application
-  or service to listen on a port for incoming connections'
-description: This event generates every time Windows Filtering Platform permits an
-  application or service to listen on a port.
+name: 'Event ID 5154: The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections'
+description: This event generates every time Windows Filtering Platform permits an application or service to listen on a port.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '5154'
+event_id: '5154'
 event_version: '0'
 event_fields:
 - standard_name: process_id
   standard_type: TBD
   name: ProcessId
   type: UInt64
-  description: hexadecimal Process ID of the process which was permitted to listen
-    on the port.
+  description: hexadecimal Process ID of the process which was permitted to listen on the port.
   sample_value: '4152'
 - standard_name: process_path
   standard_type: TBD
@@ -42,8 +39,7 @@ event_fields:
   standard_type: TBD
   name: FilterRTID
   type: UInt64
-  description: Unique filter ID which allows application to listen on the specific
-    port.
+  description: Unique filter ID which allows application to listen on the specific port.
   sample_value: '0'
 - standard_name: TBD
   standard_type: TBD

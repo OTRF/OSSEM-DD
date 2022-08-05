@@ -1,35 +1,35 @@
-title: Event 8 - FindValue
-description: null
+name: Event 8 - FindValue
+description:
 platform: windows
 log_source: Microsoft-Windows-Direct3DShaderCache
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Cache
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NumKeyParts
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: KeyParts
   type: UInt8
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrecomputedHash
   type: Binary
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_APIs Profiling

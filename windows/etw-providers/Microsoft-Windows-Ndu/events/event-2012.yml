@@ -1,17 +1,17 @@
-title: Event 2012 - NduDebugTrace
-description: null
+name: Event 2012 - NduDebugTrace
+description:
 platform: windows
 log_source: Microsoft-Windows-Ndu
-event_code: '2012'
+event_id: '2012'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: _DebugString
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_keywords_KeywordNduDebugTrace

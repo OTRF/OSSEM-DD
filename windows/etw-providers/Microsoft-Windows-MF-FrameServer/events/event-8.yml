@@ -1,35 +1,35 @@
-title: Event 8 - string.FrameServerFsClientCreateSample
-description: null
+name: Event 8 - string.FrameServerFsClientCreateSample
+description:
 platform: windows
 log_source: Microsoft-Windows-MF-FrameServer
-event_code: '8'
+event_id: '8'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: StreamId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: TimeStamp
   type: UInt64
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Duration
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: MemoryType
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_opcode_Start

@@ -1,23 +1,23 @@
-title: Event 7941 - task_0
-description: null
+name: Event 7941 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-PowerShell
-event_code: '7941'
+event_id: '7941'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: currentActivityId
   type: GUID
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: parentActivityId
   type: GUID
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Verbose
 - etw_opcode_Tobeusedwhenoperationisjustexecutingamethod

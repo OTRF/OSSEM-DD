@@ -1,8 +1,8 @@
-title: Portage_use Table
+name: Portage_use Table
 description: List of enabled portage USE values for specific package.
 platform: linux
 log_source: osquery
-event_code: portage_use
+event_id: portage_use
 event_version: 4.4.2
 event_fields:
 - standard_name: TBD

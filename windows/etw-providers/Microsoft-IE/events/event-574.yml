@@ -1,23 +1,23 @@
-title: Event 574 - Mshtml_BFCache
-description: null
+name: Event 574 - Mshtml_BFCache
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '574'
+event_id: '574'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: FailureFlags
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: URL
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_mshtml

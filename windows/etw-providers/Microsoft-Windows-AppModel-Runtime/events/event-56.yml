@@ -1,17 +1,17 @@
-title: Event 56 - task_0
-description: null
+name: Event 56 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-AppModel-Runtime
-event_code: '56'
+event_id: '56'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: PackageFullName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Process

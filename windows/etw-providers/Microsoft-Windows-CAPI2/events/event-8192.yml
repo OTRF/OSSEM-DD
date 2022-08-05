@@ -1,23 +1,23 @@
-title: Event 8192 - AddaSecurityCatalogtotheCatalogDatabase
-description: null
+name: Event 8192 - AddaSecurityCatalogtotheCatalogDatabase
+description:
 platform: windows
 log_source: Microsoft-Windows-CAPI2
-event_code: '8192'
+event_id: '8192'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Subsystem
   type: UnicodeString
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FileName
   type: UnicodeString
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_Catalog

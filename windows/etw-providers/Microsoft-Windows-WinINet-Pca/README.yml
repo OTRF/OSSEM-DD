@@ -1,5 +1,4 @@
-title: Microsoft-Windows-WinINet-Pca ETW events
-description: This page contains the list of events for Microsoft-Windows-WinINet-Pca,
-  as collected by the Event Tracing for Windows.
+name: Microsoft-Windows-WinINet-Pca ETW events
+description: This page contains the list of events for Microsoft-Windows-WinINet-Pca, as collected by the Event Tracing for Windows.
 images: []
 references: []

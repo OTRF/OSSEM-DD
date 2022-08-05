@@ -1,8 +1,8 @@
-title: 'Event ID 4689: A process has exited'
+name: 'Event ID 4689: A process has exited'
 description: This event generates every time a process has exited.
 platform: windows
 log_source: Microsoft-Windows-Security-Auditing
-event_code: '4689'
+event_id: '4689'
 event_version: '0'
 event_fields:
 - standard_name: user_sid
@@ -27,9 +27,7 @@ event_fields:
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
-  description: 'hexadecimal value that can help you correlate this event with recent
-    events that might contain the same Logon ID, for example, "4624: An account was
-    successfully logged on."'
+  description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x31365'
 - standard_name: event_status
   standard_type: TBD
@@ -61,3 +59,15 @@ tags:
 - etw_task_task_0
 - Detailed Tracking
 - Audit Process Termination
+event_sample:
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="SubjectUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
+    <Data Name="SubjectUserName">pedro</Data>
+    <Data Name="SubjectDomainName">DESKTOP-CQF82L6</Data>
+    <Data Name="SubjectLogonId">0xb1169</Data>
+    <Data Name="Status">0x42b</Data>
+    <Data Name="ProcessId">0x1670</Data>
+    <Data Name="ProcessName">C:\Windows\System32\cleanmgr.exe</Data>
+    </EventData>

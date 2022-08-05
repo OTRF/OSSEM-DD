@@ -1,29 +1,29 @@
-title: Event 131 - PowerTransition
-description: null
+name: Event 131 - PowerTransition
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Power
-event_code: '131'
+event_id: '131'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: ResumeCount
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: FullResume
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AverageResume
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_po:Diagnostic po:DiagnosticLight

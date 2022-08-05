@@ -1,35 +1,35 @@
-title: Event 209 - BootSI
-description: null
+name: Event 209 - BootSI
+description:
 platform: windows
 log_source: Microsoft-Windows-Kernel-Boot
-event_code: '209'
+event_id: '209'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SvnCounterId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: StatusCode
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: SvnValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: PrevSvnValue
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Error
 - etw_opcode_DrtmSvnCheck

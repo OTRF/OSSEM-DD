@@ -1,0 +1,118 @@
+name: DeviceFileCertificateInfo
+description: Certificate information of signed files obtained from certificate verification events on endpoints
+platform: windows
+log_source: Microsoft Defender for Endpoint
+event_id: DeviceFileCertificateInfo
+event_version: '1'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: Timestamp
+  type: date
+  description: Date and time when the record was generated
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: DeviceId
+  type: string
+  description: Unique identifier for the device in the service
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: DeviceName
+  type: string
+  description: Fully qualified domain name (FQDN) of the device
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: SHA1
+  type: string
+  description: SHA-1 hash of the file that the recorded action was applied to
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: IsSigned
+  type: boolean
+  description: Indicates whether the file is signed
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: SignatureType
+  type: string
+  description: Indicates whether signature information was read as embedded content in the file itself or read from an external catalog file
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: Signer
+  type: string
+  description: Information about the signer of the file
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: SignerHash
+  type: string
+  description: Unique hash value identifying the signer
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: Issuer
+  type: string
+  description: Information about the issuing certificate authority (CA)
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: IssuerHash
+  type: string
+  description: Unique hash value identifying issuing certificate authority (CA)
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: CertificateSerialNumber
+  type: string
+  description: Identifier for the certificate that is unique to the issuing certificate authority (CA)
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: CrlDistributionPointUrls
+  type: string
+  description: JSON array listing the URLs of network shares that contain certificates and certificate revocation lists (CRLs)
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: CertificateCreationTime
+  type: datetime
+  description: Date and time the certificate was created
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: CertificateExpirationTime
+  type: datetime
+  description: Date and time the certificate is set to expire
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: CertificateCountersignatureTime
+  type: datetime
+  description: Date and time the certificate was countersigned
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: IsTrusted
+  type: boolean
+  description: Indicates whether the file is trusted based on the results of the WinVerifyTrust function, which checks for unknown root certificate information, invalid signatures, revoked certificates, and other questionable attributes
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: IsRootSignerMicrosoft
+  type: boolean
+  description: Indicates whether the signer of the root certificate is Microsoft
+  sample_value: ''
+- standard_name: TBD
+  standard_type: TBD
+  name: ReportId
+  type: long
+  description: Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
+  sample_value: ''
+references:
+- https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicefilecertificateinfo-table?view=o365-worldwide
+tags: []

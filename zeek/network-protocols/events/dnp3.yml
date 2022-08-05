@@ -1,8 +1,8 @@
-title: DNP3 Log
-description: null
+name: DNP3 Log
+description:
 platform: zeek
 log_source: network-protocols
-event_code: dnp3
+event_id: dnp3
 event_version: '0'
 event_fields:
 - standard_name: '@timestamp'

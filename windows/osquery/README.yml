@@ -1,4 +1,4 @@
-title: Windows Osquery Event Logs
+name: Windows Osquery Event Logs
 description: Osquery schema is defined in tables by osquery engineers.
 images: []
 references:

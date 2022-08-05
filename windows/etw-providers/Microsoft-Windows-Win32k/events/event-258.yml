@@ -1,29 +1,29 @@
-title: Event 258 - FocusedProcessChangeGained
-description: null
+name: Event 258 - FocusedProcessChangeGained
+description:
 platform: windows
 log_source: Microsoft-Windows-Win32k
-event_code: '258'
+event_id: '258'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: SessionId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: NewProcessCreateTime
   type: FILETIME
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_UserActivity

@@ -1,17 +1,17 @@
-title: Event 5027 - GlobalMaintenanceComponent
-description: null
+name: Event 5027 - GlobalMaintenanceComponent
+description:
 platform: windows
 log_source: Microsoft-AppV-SharedPerformance
-event_code: '5027'
+event_id: '5027'
 event_version: '1'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Component
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_opcode_Start
 - etw_task_GlobalMaintenanceComponent

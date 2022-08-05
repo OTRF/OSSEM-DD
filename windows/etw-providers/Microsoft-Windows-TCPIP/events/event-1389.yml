@@ -1,41 +1,41 @@
-title: Event 1389 - UdpCreateEndpointAfFailure
-description: null
+name: Event 1389 - UdpCreateEndpointAfFailure
+description:
 platform: windows
 log_source: Microsoft-Windows-TCPIP
-event_code: '1389'
+event_id: '1389'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: Endpoint
   type: Pointer
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: Status
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: ProcessId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: CompartmentId
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: AddressFamily
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_ut:TcpipEndpoint ut:Endpoint

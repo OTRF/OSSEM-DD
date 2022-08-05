@@ -1,17 +1,17 @@
-title: Event 464 - Mshtml_IndependentAnimation_Candidacy_Failure
-description: null
+name: Event 464 - Mshtml_IndependentAnimation_Candidacy_Failure
+description:
 platform: windows
 log_source: Microsoft-IE
-event_code: '464'
+event_id: '464'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: AnimationID
   type: Pointer
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Always
 - etw_keywords_animation

@@ -1,29 +1,29 @@
-title: Event 1239 - task_0
-description: null
+name: Event 1239 - task_0
+description:
 platform: windows
 log_source: Microsoft-Windows-PushNotifications-Platform
-event_code: '1239'
+event_id: '1239'
 event_version: '0'
 event_fields:
 - standard_name: TBD
   standard_type: TBD
   name: KaValueType
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: KaValue
   type: UInt32
-  description: null
-  sample_value: null
+  description:
+  sample_value:
 - standard_name: TBD
   standard_type: TBD
   name: KaMinLimit
   type: UInt32
-  description: null
-  sample_value: null
-references: null
+  description:
+  sample_value:
+references:
 tags:
 - etw_level_Informational
 - etw_keywords_wnptrans
