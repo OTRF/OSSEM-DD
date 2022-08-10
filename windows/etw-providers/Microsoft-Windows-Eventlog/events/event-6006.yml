@@ -1,0 +1,37 @@
+name: Event 6006 - The Event Log service was stopped
+description: The Event Log service was stopped. Indicates the proper system shutdown.
+platform: windows
+log_source: Microsoft-Windows-Eventlog
+event_id: '6006'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: Binary
+  type: TBD
+  description: TBD
+  sample_value: 0100000031F40800
+references:
+- https://www.shellhacks.com/windows-shutdown-reboot-event-ids-get-logs/
+tags:
+- etw_level_Informational
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="EventLog" /> 
+        <EventID Qualifiers="32768">6006</EventID> 
+        <Level>4</Level> 
+        <Task>0</Task> 
+        <Keywords>0x80000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-09T16:08:38.915070600Z" /> 
+        <EventRecordID>678</EventRecordID> 
+        <Channel>System</Channel> 
+        <Computer>Pedro01</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Binary>0100000031F40800</Binary> 
+      </EventData> 
+    </Event> 

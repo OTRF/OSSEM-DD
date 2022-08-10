@@ -1,0 +1,37 @@
+name: Event 6005 - The Event Log service was started
+description: The Event Log service was started. Indicates the system startup.
+platform: windows
+log_source: Microsoft-Windows-Eventlog
+event_id: '6005'
+event_version: '0'
+event_fields:
+- standard_name: TBD
+  standard_type: TBD
+  name: Binary
+  type: TBD
+  description: TBD
+  sample_value: E607080002000900100009001B0038000000000000000000
+references:
+- https://www.shellhacks.com/windows-shutdown-reboot-event-ids-get-logs/
+tags:
+- etw_level_Informational
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="EventLog" /> 
+        <EventID Qualifiers="32768">6005</EventID> 
+        <Level>4</Level> 
+        <Task>0</Task> 
+        <Keywords>0x80000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-09T16:09:27.056581000Z" /> 
+        <EventRecordID>686</EventRecordID> 
+        <Channel>System</Channel> 
+        <Computer>Pedro01</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Binary>E607080002000900100009001B0038000000000000000000</Binary> 
+      </EventData> 
+    </Event> 

@@ -45,13 +45,13 @@ event_fields:
   standard_type: TBD
   name: ServiceType
   type: HexInt32
-  description: "Indicates the type of service that was registered with the Service Control Manager."
+  description: Indicates the type of service that was registered with the Service Control Manager.
   sample_value: '0x20'
 - standard_name: service_start_type
   standard_type: TBD
   name: ServiceStartType
   type: UInt32
-  description: "The service start type can have one of the following values (see: https://msdn.microsoft.com/library/windows/desktop/ms682450(v=vs.85).aspx)"
+  description: The service start type can have one of the following values (see:https://msdn.microsoft.com/library/windows/desktop/ms682450(v=vs.85).aspx)
   sample_value: '2'
 - standard_name: service_account_name
   standard_type: TBD
@@ -71,3 +71,35 @@ tags:
 - etw_task_task_0
 - System
 - Audit Security System Extension
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
+        <EventID>4697</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>12289</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-09T02:08:30.109718300Z" /> 
+        <EventRecordID>251716</EventRecordID> 
+        <Correlation ActivityID="{c2f198f9-abad-0000-039a-f1c2adabd801}" /> 
+        <Execution ProcessID="584" ThreadID="640" /> 
+        <Channel>Security</Channel> 
+        <Computer>Pedro01</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-18</Data> 
+        <Data Name="SubjectUserName">PEDRO01$</Data> 
+        <Data Name="SubjectDomainName">WORKGROUP</Data> 
+        <Data Name="SubjectLogonId">0x3e7</Data> 
+        <Data Name="ServiceName">WpnUserService_abae2</Data> 
+        <Data Name="ServiceFileName">C:\Windows\system32\svchost.exe -k UnistackSvcGroup</Data> 
+        <Data Name="ServiceType">0xe0</Data> 
+        <Data Name="ServiceStartType">2</Data> 
+        <Data Name="ServiceAccount">LocalSystem</Data> 
+      </EventData> 
+    </Event>
