@@ -35,25 +35,25 @@ event_fields:
   type: SID
   description: SID of account for which the Per User Audit Policy was changed.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-2104
-- standard_name: policy_category_id
+- standard_name: audit_policy_category_id
   standard_type: TBD
   name: CategoryId
   type: UnicodeString
   description: the name of auditing category which subcategory state was changed.
   sample_value: '%%8276'
-- standard_name: policy_subcategory_id
+- standard_name: audit_policy_subcategory_id
   standard_type: TBD
   name: SubcategoryId
   type: UnicodeString
   description: the name of auditing subcategory which state was changed.
   sample_value: '%%13312'
-- standard_name: policy_subcategory_guid
+- standard_name: audit_policy_subcategory_guid
   standard_type: TBD
   name: SubcategoryGuid
   type: GUID
   description: the unique GUID of changed subcategory.
   sample_value: '{0CCE922B-69AE-11D9-BED3-505054503030}'
-- standard_name: policy_changes
+- standard_name: audit_policy_changes
   standard_type: TBD
   name: AuditPolicyChanges
   type: UnicodeString
@@ -71,3 +71,35 @@ tags:
 - etw_task_task_0
 - Policy Change
 - Audit Policy Change
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" /> 
+        <EventID>4912</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>13568</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2015-09-30T23:43:07.363195100Z" /> 
+        <EventRecordID>1049452</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="516" ThreadID="1660" /> 
+        <Channel>Security</Channel> 
+        <Computer>DC01.contoso.local</Computer> 
+        <Security /> 
+        </System>
+      <EventData>
+        <Data Name="SubjectUserSid">S-1-5-21-3457937927-2839227994-823803824-1104</Data> 
+        <Data Name="SubjectUserName">dadmin</Data> 
+        <Data Name="SubjectDomainName">CONTOSO</Data> 
+        <Data Name="SubjectLogonId">0x11ae30</Data> 
+        <Data Name="TargetUserSid">S-1-5-21-3457937927-2839227994-823803824-2104</Data> 
+        <Data Name="CategoryId">%%8276</Data> 
+        <Data Name="SubcategoryId">%%13312</Data> 
+        <Data Name="SubcategoryGuid">{0CCE922B-69AE-11D9-BED3-505054503030}</Data> 
+        <Data Name="AuditPolicyChanges">%%8452</Data> 
+      </EventData>
+    </Event>

@@ -29,13 +29,13 @@ event_fields:
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x11ae30'
-- standard_name: object_old_sd
+- standard_name: audit_policy_previous_sd
   standard_type: TBD
   name: OldSd
   type: UnicodeString
   description: the old Security Descriptor Definition Language (SDDL) value for the audit policy.
   sample_value: D:(A;;DCSWRPDTRC;;;BA)(D;;DCSWRPDTRC;;;SY)S:NO_ACCESS_CONTROL
-- standard_name: object_new_sd
+- standard_name: audit_policy_sd
   standard_type: TBD
   name: NewSd
   type: UnicodeString
@@ -53,3 +53,32 @@ tags:
 - etw_task_task_0
 - Policy Change
 - Audit Policy Change
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" /> 
+        <EventID>4715</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>13568</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2015-09-30T19:59:39.964601800Z" /> 
+        <EventRecordID>1049425</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="516" ThreadID="4668" /> 
+        <Channel>Security</Channel> 
+        <Computer>DC01.contoso.local</Computer> 
+        <Security /> 
+      </System>
+      <EventData>
+        <Data Name="SubjectUserSid">S-1-5-21-3457937927-2839227994-823803824-1104</Data> 
+        <Data Name="SubjectUserName">dadmin</Data> 
+        <Data Name="SubjectDomainName">CONTOSO</Data> 
+        <Data Name="SubjectLogonId">0x11ae30</Data> 
+        <Data Name="OldSd">D:(A;;DCSWRPDTRC;;;BA)(D;;DCSWRPDTRC;;;SY)S:NO\_ACCESS\_CONTROL</Data> 
+        <Data Name="NewSd">D:(A;;DCSWRPDTRC;;;BA)(A;;DCSWRPDTRC;;;SY)S:NO\_ACCESS\_CONTROL</Data> 
+      </EventData>
+    </Event>

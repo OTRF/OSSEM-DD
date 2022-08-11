@@ -108,22 +108,70 @@ tags:
 - Detailed Tracking
 - Audit Process Creation
 event_sample:
+- format: friedly view
+  sample: |-
+    Log Name:      Security 
+    Source:        Microsoft-Windows-Security-Auditing 
+    Date:          8/10/2022 5:27:14 AM 
+    Event ID:      4688 
+    Task Category: Process Creation 
+    Level:         Information 
+    Keywords:      Audit Success 
+    User:          N/A 
+    Computer:      Pedro01 
+    Description:   A new process has been created. 
+    Creator Subject: 
+      Security ID:		PEDRO01\pedro 
+      Account Name:		pedro 
+      Account Domain:		PEDRO01 
+      Logon ID:		0x1D875C8 
+    Target Subject: 
+      Security ID:		NULL SID 
+      Account Name:		- 
+      Account Domain:		- 
+      Logon ID:		0x0 
+    Process Information: 
+      New Process ID:		0x25a4 
+      New Process Name:	C:\Windows\System32\auditpol.exe 
+      Token Elevation Type:	%%1937 
+      Mandatory Label:		Mandatory Label\High Mandatory Level 
+      Creator Process ID:	0x1544 
+      Creator Process Name:	C:\Users\IT01-Pedro\Downloads\payload.exe 
+      Process Command Line:	auditpol.exe /set /category:"Account Logon" /success:disable /failure:disable 
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="SubjectUserSid">S-1-5-18</Data>
-    <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
-    <Data Name="SubjectDomainName">WORKGROUP</Data>
-    <Data Name="SubjectLogonId">0x3e7</Data>
-    <Data Name="NewProcessId">0xc9c</Data>
-    <Data Name="NewProcessName">C:\Windows\System32\backgroundTaskHost.exe</Data>
-    <Data Name="TokenElevationType">%%1938</Data>
-    <Data Name="ProcessId">0x2c4</Data>
-    <Data Name="CommandLine"></Data>
-    <Data Name="TargetUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
-    <Data Name="TargetUserName">pedro</Data>
-    <Data Name="TargetDomainName">DESKTOP-CQF82L6</Data>
-    <Data Name="TargetLogonId">0xb1198</Data>
-    <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
-    <Data Name="MandatoryLabel">S-1-16-4096</Data>
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
+        <EventID>4688</EventID> 
+        <Version>2</Version> 
+        <Level>0</Level> 
+        <Task>13312</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-10T12:27:14.872672600Z" /> 
+        <EventRecordID>237286</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="4" ThreadID="7048" /> 
+        <Channel>Security</Channel> 
+        <Computer>Pedro01</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-21-968647429-258479840-2507984072-1001</Data> 
+        <Data Name="SubjectUserName">pedro</Data> 
+        <Data Name="SubjectDomainName">PEDRO01</Data> 
+        <Data Name="SubjectLogonId">0x1d875c8</Data> 
+        <Data Name="NewProcessId">0x25a4</Data> 
+        <Data Name="NewProcessName">C:\Windows\System32\auditpol.exe</Data> 
+        <Data Name="TokenElevationType">%%1937</Data> 
+        <Data Name="ProcessId">0x1544</Data> 
+        <Data Name="CommandLine">auditpol.exe /set /category:"Account Logon" /success:disable /failure:disable</Data> 
+        <Data Name="TargetUserSid">S-1-0-0</Data> 
+        <Data Name="TargetUserName">-</Data> 
+        <Data Name="TargetDomainName">-</Data> 
+        <Data Name="TargetLogonId">0x0</Data> 
+        <Data Name="ParentProcessName">C:\Users\IT01-Pedro\Downloads\payload.exe</Data> 
+        <Data Name="MandatoryLabel">S-1-16-12288</Data> 
+      </EventData> 
+    </Event> 

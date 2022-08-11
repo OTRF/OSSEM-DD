@@ -29,25 +29,25 @@ event_fields:
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
-- standard_name: policy_category_id
+- standard_name: audit_policy_category_id
   standard_type: TBD
   name: CategoryId
   type: UnicodeString
   description: the name of auditing Category which subcategory was changed.
   sample_value: '%%8274'
-- standard_name: policy_subcategory_id
+- standard_name: audit_policy_sub_category_id
   standard_type: TBD
   name: SubcategoryId
   type: UnicodeString
   description: the name of auditing Subcategory which was changed
   sample_value: '%%12807'
-- standard_name: policy_subcategory_guid
+- standard_name: audit_policy_sub_category_guid
   standard_type: TBD
   name: SubcategoryGuid
   type: GUID
   description: the unique subcategory GUID
   sample_value: '{0CCE9223-69AE-11D9-BED3-505054503030}'
-- standard_name: policy_changes
+- standard_name: audit_policy_changes
   standard_type: TBD
   name: AuditPolicyChanges
   type: UnicodeString
@@ -65,3 +65,57 @@ tags:
 - etw_task_task_0
 - Policy Change
 - Audit Policy Change
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Security 
+    Source:        Microsoft-Windows-Security-Auditing 
+    Date:          8/10/2022 5:27:15 AM 
+    Event ID:      4719 
+    Task Category: Audit Policy Change 
+    Level:         Information 
+    Keywords:      Audit Success 
+    User:          N/A 
+    Computer:      Pedro01 
+    Description:   System audit policy was changed. 
+    Subject: 
+      Security ID:		PEDRO01\pedro 
+      Account Name:		pedro 
+      Account Domain:		PEDRO01 
+      Logon ID:		0x1D875C8 
+    Audit Policy Change: 
+      Category:		Account Logon 
+      Subcategory:		Credential Validation 
+      Subcategory GUID:	{0cce923f-69ae-11d9-bed3-505054503030} 
+      Changes:		Success removed, Failure removed 
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
+        <EventID>4719</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>13568</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-10T12:27:15.145079200Z" /> 
+        <EventRecordID>237291</EventRecordID> 
+        <Correlation ActivityID="{a54d7c97-a69c-0000-a27d-4da59ca6d801}" /> 
+        <Execution ProcessID="604" ThreadID="3392" /> 
+        <Channel>Security</Channel> 
+        <Computer>Pedro01</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-21-968647429-258479840-2507984072-1001</Data> 
+        <Data Name="SubjectUserName">pedro</Data> 
+        <Data Name="SubjectDomainName">PEDRO01</Data> 
+        <Data Name="SubjectLogonId">0x1d875c8</Data> 
+        <Data Name="CategoryId">%%8280</Data> 
+        <Data Name="SubcategoryId">%%14336</Data> 
+        <Data Name="SubcategoryGuid">{0cce923f-69ae-11d9-bed3-505054503030}</Data> 
+        <Data Name="AuditPolicyChanges">%%8448, %%8450</Data> 
+      </EventData> 
+    </Event> 
