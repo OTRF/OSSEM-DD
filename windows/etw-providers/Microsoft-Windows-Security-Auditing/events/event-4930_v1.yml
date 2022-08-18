@@ -5,37 +5,37 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4930'
 event_version: '1'
 event_fields:
-- standard_name: destination_dra
+- standard_name: DestinationDra
   standard_type: TBD
   name: DestinationDRA
   type: UnicodeString
   description: destination directory replication agent distinguished name.
   sample_value: CN=NTDS Settings,CN=WIN2012R2,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
-- standard_name: source_dra
+- standard_name: SourceDra
   standard_type: TBD
   name: SourceDRA
   type: UnicodeString
   description: source directory replication agent distinguished name. Typically equals "-" for this event.
   sample_value: '-'
-- standard_name: source_addr
+- standard_name: SourceAddr
   standard_type: TBD
   name: SourceAddr
   type: UnicodeString
   description: DNS record of computer from which the modification request was received.
   sample_value: edf0bef9-1f73-4df3-8991-f6ec2d4ef3ae
-- standard_name: naming_context
+- standard_name: NamingContext
   standard_type: TBD
   name: NamingContext
   type: UnicodeString
   description: naming context which was modified.
   sample_value: CN=Schema,CN=Configuration,DC=contoso,DC=local
-- standard_name: options
+- standard_name: Options
   standard_type: TBD
   name: Options
   type: UInt64
   description: decimal value of DRS Options.
   sample_value: '0'
-- standard_name: status_code
+- standard_name: StatusCode
   standard_type: TBD
   name: StatusCode
   type: UInt32

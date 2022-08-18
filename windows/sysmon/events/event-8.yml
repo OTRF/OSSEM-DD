@@ -5,73 +5,73 @@ log_source: sysmon
 event_id: '8'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:25
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: SourceProcessGuid
   type: string
   description: Process Guid of the source process that created a thread in another process
   sample_value: '{A98268C1-9586-5ACD-0000-001070A20000}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: SourceProcessId
   type: integer
   description: Process ID used by the os to identify the source process that created a thread in another process
   sample_value: '684'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: SourceImage
   type: string
   description: File path of the source process that created a thread in another process
   sample_value: C:\Windows\System32\csrss.exe
-- standard_name: target_process_guid
+- standard_name: TargetProcessGuid
   standard_type: TBD
   name: TargetProcessGuid
   type: string
   description: Process Guid of the target process
   sample_value: '{A98268C1-9C2E-5ACD-0000-00100266AB00}'
-- standard_name: target_process_id
+- standard_name: TargetProcessId
   standard_type: TBD
   name: TargetProcessId
   type: integer
   description: Process ID used by the os to identify the target process
   sample_value: '240'
-- standard_name: target_process_file_path
+- standard_name: TargetProcessFilePath
   standard_type: TBD
   name: TargetImage
   type: string
   description: File path of the target process
   sample_value: C:\Windows\System32\cmd.exe
-- standard_name: thread_new_id
+- standard_name: ThreadNewId
   standard_type: TBD
   name: NewThreadId
   type: integer
   description: Id of the new thread created in the target process
   sample_value: '2336'
-- standard_name: thread_start_address
+- standard_name: ThreadStartAddress
   standard_type: TBD
   name: StartAddress
   type: string
   description: New thread start address
   sample_value: '0x00007FFA356A7E40'
-- standard_name: thread_start_module
+- standard_name: ThreadStartModule
   standard_type: TBD
   name: StartModule
   type: string
   description: Start module determined from thread start address mapping to PEB loaded module list
   sample_value: C:\WINDOWS\System32\KERNELBASE.dll
-- standard_name: thread_start_function
+- standard_name: ThreadStartFunction
   standard_type: TBD
   name: StartFunction
   type: string
@@ -96,21 +96,21 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-        <EventData>
-        <Data Name="RuleName">-</Data> 
-        <Data Name="UtcTime">2021-11-03 05:37:19.746</Data> 
-        <Data Name="SourceProcessGuid">{3710b5c6-1e40-6182-9000-000000000b00}</Data> 
-        <Data Name="SourceProcessId">5504</Data> 
-        <Data Name="SourceImage">C:\Windows\System32\VBoxTray.exe</Data> 
-        <Data Name="TargetProcessGuid">{3710b5c6-1d95-6182-0800-000000000b00}</Data> 
-        <Data Name="TargetProcessId">548</Data> 
-        <Data Name="TargetImage">C:\Windows\System32\csrss.exe</Data> 
-        <Data Name="NewThreadId">3920</Data> 
-        <Data Name="StartAddress">0xFFFFFD58E52520D0</Data> 
-        <Data Name="StartModule">-</Data> 
-        <Data Name="StartFunction">-</Data> 
-        <Data Name="SourceUser">DESKTOP-4FPBTEN\pedro</Data> 
-        <Data Name="TargetUser">NT AUTHORITY\SYSTEM</Data> 
-        </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data> 
+    <Data Name="UtcTime">2021-11-03 05:37:19.746</Data> 
+    <Data Name="SourceProcessGuid">{3710b5c6-1e40-6182-9000-000000000b00}</Data> 
+    <Data Name="SourceProcessId">5504</Data> 
+    <Data Name="SourceImage">C:\Windows\System32\VBoxTray.exe</Data> 
+    <Data Name="TargetProcessGuid">{3710b5c6-1d95-6182-0800-000000000b00}</Data> 
+    <Data Name="TargetProcessId">548</Data> 
+    <Data Name="TargetImage">C:\Windows\System32\csrss.exe</Data> 
+    <Data Name="NewThreadId">3920</Data> 
+    <Data Name="StartAddress">0xFFFFFD58E52520D0</Data> 
+    <Data Name="StartModule">-</Data> 
+    <Data Name="StartFunction">-</Data> 
+    <Data Name="SourceUser">DESKTOP-4FPBTEN\pedro</Data> 
+    <Data Name="TargetUser">NT AUTHORITY\SYSTEM</Data> 
+    </EventData>

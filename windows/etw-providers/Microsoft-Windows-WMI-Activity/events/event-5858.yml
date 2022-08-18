@@ -35,7 +35,7 @@ event_fields:
   type: UnicodeString
   description:
   sample_value:
-- standard_name: wmi_query
+- standard_name: WmiQuery
   standard_type: TBD
   name: Operation
   type: UnicodeString

@@ -5,13 +5,13 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4902'
 event_version: '0'
 event_fields:
-- standard_name: audit_policy_users_count
+- standard_name: AuditPolicyUsersCount
   standard_type: TBD
   name: PuaCount
   type: UInt32
   description: number of users for which Per-user policies were defined (number of unique users).
   sample_value: '1'
-- standard_name: audit_policy_id
+- standard_name: AuditPolicyId
   standard_type: TBD
   name: PuaPolicyId
   type: HexInt64

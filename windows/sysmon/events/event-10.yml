@@ -5,67 +5,67 @@ log_source: sysmon
 event_id: '10'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:18
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: SourceProcessGuid
   type: string
   description: Process Guid of the source process that opened another process. It is derived from a truncated part of the machine GUID, the process start-time and the process token ID.
   sample_value: '{A98268C1-9587-5ACD-0000-001004C40000}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: SourceProcessId
   type: integer
   description: Process ID used by the os to identify the source process that opened another process. Derived partially from the EPROCESS kernel structure
   sample_value: '916'
-- standard_name: thread_id
+- standard_name: ThreadId
   standard_type: TBD
   name: SourceThreadId
   type: integer
   description: ID of the specific thread inside of the source process that opened another process
   sample_value: '2804'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: SourceImage
   type: string
   description: File path of the source process that created a thread in another process
   sample_value: C:\WINDOWS\system32\svchost.exe
-- standard_name: target_process_guid
+- standard_name: TargetProcessGuid
   standard_type: TBD
   name: TargetProcessGuid
   type: string
   description: Process Guid of the target process
   sample_value: '{A98268C1-9597-5ACD-0000-00101D690200}'
-- standard_name: target_process_id
+- standard_name: TargetProcessId
   standard_type: TBD
   name: TargetProcessId
   type: integer
   description: Process ID used by the os to identify the target process
   sample_value: '2288'
-- standard_name: target_process_file_path
+- standard_name: TargetProcessFilePath
   standard_type: TBD
   name: TargetImage
   type: string
   description: File path of the target process
   sample_value: C:\ProgramData\Microsoft\Windows Defender\platform\4.12.17007.18022-0\MsMpEng.exe
-- standard_name: process_granted_access
+- standard_name: ProcessGrantedAccess
   standard_type: TBD
   name: GrantedAccess
   type: string
   description: The access flags (bitmask) associated with the process rights requested for the target process
   sample_value: '0x1000'
-- standard_name: process_call_trace
+- standard_name: ProcessCallTrace
   standard_type: TBD
   name: CallTrace
   type: string
@@ -90,20 +90,20 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-access.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-        <EventData>
-        <Data Name="RuleName">-</Data> 
-        <Data Name="UtcTime">2021-11-04 23:31:51.894</Data> 
-        <Data Name="SourceProcessGUID">{3710b5c6-95f1-6184-1c00-000000000d00}</Data> 
-        <Data Name="SourceProcessId">1136</Data> 
-        <Data Name="SourceThreadId">1160</Data> 
-        <Data Name="SourceImage">C:\Windows\System32\VBoxService.exe</Data> 
-        <Data Name="TargetProcessGUID">{3710b5c6-6c6b-6184-9500-000000000d00}</Data> 
-        <Data Name="TargetProcessId">1880</Data> 
-        <Data Name="TargetImage">C:\Windows\System32\smartscreen.exe</Data> 
-        <Data Name="GrantedAccess">0x1400</Data> 
-        <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9d234|C:\Windows\System32\KERNELBASE.dll+2c0fe|C:\Windows\System32\VBoxService.exe+13357|C:\Windows\System32\VBoxService.exe+145d4|C:\Windows\System32\VBoxService.exe+1487e|C:\Windows\System32\VBoxService.exe+102bb|C:\Windows\System32\VBoxService.exe+10dc0|C:\Windows\System32\VBoxService.exe+17ee|C:\Windows\System32\VBoxService.exe+3248f|C:\Windows\System32\VBoxService.exe+3604c|C:\Windows\System32\VBoxService.exe+103653|C:\Windows\System32\VBoxService.exe+1036e7|C:\Windows\System32\KERNEL32.DLL+17034|C:\Windows\SYSTEM32\ntdll.dll+52651</Data> 
-        <Data Name="SourceUser">NT AUTHORITY\SYSTEM</Data> 
-        <Data Name="TargetUser">DESKTOP-4FPBTEN\pedro</Data> 
-        </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data> 
+    <Data Name="UtcTime">2021-11-04 23:31:51.894</Data> 
+    <Data Name="SourceProcessGUID">{3710b5c6-95f1-6184-1c00-000000000d00}</Data> 
+    <Data Name="SourceProcessId">1136</Data> 
+    <Data Name="SourceThreadId">1160</Data> 
+    <Data Name="SourceImage">C:\Windows\System32\VBoxService.exe</Data> 
+    <Data Name="TargetProcessGUID">{3710b5c6-6c6b-6184-9500-000000000d00}</Data> 
+    <Data Name="TargetProcessId">1880</Data> 
+    <Data Name="TargetImage">C:\Windows\System32\smartscreen.exe</Data> 
+    <Data Name="GrantedAccess">0x1400</Data> 
+    <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9d234|C:\Windows\System32\KERNELBASE.dll+2c0fe|C:\Windows\System32\VBoxService.exe+13357|C:\Windows\System32\VBoxService.exe+145d4|C:\Windows\System32\VBoxService.exe+1487e|C:\Windows\System32\VBoxService.exe+102bb|C:\Windows\System32\VBoxService.exe+10dc0|C:\Windows\System32\VBoxService.exe+17ee|C:\Windows\System32\VBoxService.exe+3248f|C:\Windows\System32\VBoxService.exe+3604c|C:\Windows\System32\VBoxService.exe+103653|C:\Windows\System32\VBoxService.exe+1036e7|C:\Windows\System32\KERNEL32.DLL+17034|C:\Windows\SYSTEM32\ntdll.dll+52651</Data> 
+    <Data Name="SourceUser">NT AUTHORITY\SYSTEM</Data> 
+    <Data Name="TargetUser">DESKTOP-4FPBTEN\pedro</Data> 
+    </EventData>

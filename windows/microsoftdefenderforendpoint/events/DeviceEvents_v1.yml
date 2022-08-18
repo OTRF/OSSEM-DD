@@ -5,232 +5,232 @@ log_source: Microsoft Defender for Endpoint
 event_id: DeviceEvents
 event_version: '1'
 event_fields:
-- standard_name: event_date_creation
+- standard_name: EventDateCreation
   name: Timestamp
   type: date
   description: Date and time when the event was generated
   sample_value: ''
-- standard_name: device_id
+- standard_name: DeviceId
   name: DeviceId
   type: string
   description: Unique identifier for the device in the service
   sample_value: ''
-- standard_name: computer_name
+- standard_name: ComputerName
   name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the device
   sample_value: ''
-- standard_name: action_type
+- standard_name: ActionType
   name: ActionType
   type: string
   description: Type of activity that triggered the event
   sample_value: ''
-- standard_name: file_name
+- standard_name: FileName
   name: FileName
   type: string
   description: Name of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: folder_path
+- standard_name: FolderPath
   name: FolderPath
   type: string
   description: Folder containing the file that the recorded action was applied to
   sample_value: ''
-- standard_name: hash_sha1
+- standard_name: HashSha1
   name: SHA1
   type: string
   description: SHA-1 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: hash_sha256
+- standard_name: HashSha256
   name: SHA256
   type: string
   description: SHA-256 of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: hash_md5
+- standard_name: HashMd5
   name: MD5
   type: string
   description: MD5 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: file_size
+- standard_name: FileSize
   name: FileSize
   type: long
   description: Size of the file in bytes
   sample_value: ''
-- standard_name: user_domain
+- standard_name: UserDomain
   name: AccountDomain
   type: string
   description: Domain of the account
   sample_value: ''
-- standard_name: user_name
+- standard_name: UserName
   name: AccountName
   type: string
   description: User name of the account
   sample_value: ''
-- standard_name: user_sid
+- standard_name: UserSid
   name: AccountSid
   type: string
   description: Security Identifier (SID) of the account
   sample_value: ''
-- standard_name: remote_url
+- standard_name: RemoteUrl
   name: RemoteUrl
   type: string
   description: URL or fully qualified domain name (FQDN) that was being connected to
   sample_value: ''
-- standard_name: remote_computer_name
+- standard_name: RemoteComputerName
   name: RemoteDeviceName
   type: string
   description: Name of the device that performed a remote operation on the affected machine. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name, or a host name without domain information.
   sample_value: ''
-- standard_name: process_id
+- standard_name: ProcessId
   name: ProcessId
   type: int
   description: Process ID (PID) of the newly created process
   sample_value: ''
-- standard_name: process_command_line
+- standard_name: ProcessCommandLine
   name: ProcessCommandLine
   type: string
   description: Command line used to create the new process
   sample_value: ''
-- standard_name: process_creation_time
+- standard_name: ProcessCreationTime
   name: ProcessCreationTime
   type: date
   description: Date and time the process was created
   sample_value: ''
-- standard_name: process_token_elevation
+- standard_name: ProcessTokenElevation
   name: ProcessTokenElevation
   type: string
   description: Indicates the type of token elevation applied to the newly created process. Possible values are TokenElevationTypeLimited (restricted), TokenElevationTypeDefault (standard), and TokenElevationTypeFull (elevated)
   sample_value: ''
-- standard_name: logon_id
+- standard_name: LogonId
   name: LogonId
   type: string
   description: Identifier for a logon session. This identifier is unique on the same machine only between restarts
   sample_value: ''
-- standard_name: registry_key
+- standard_name: RegistryKey
   name: RegistryKey
   type: string
   description: Registry key that the recorded action was applied to
   sample_value: ''
-- standard_name: registry_value_name
+- standard_name: RegistryValueName
   name: RegistryValueName
   type: string
   description: Name of the registry value that the recorded action was applied to
   sample_value: ''
-- standard_name: registry_value_data
+- standard_name: RegistryValueData
   name: RegistryValueData
   type: string
   description: Data of the registry value that the recorded action was applied to
   sample_value: ''
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   name: RemoteIP
   type: string
   description: IP address that was being connected to
   sample_value: ''
-- standard_name: dst_port
+- standard_name: DstPort
   name: RemotePort
   type: int
   description: TCP port on the remote device that was being connected to
   sample_value: ''
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   name: LocalIP
   type: string
   description: IP address assigned to the local machine used during communication
   sample_value: ''
-- standard_name: src_port
+- standard_name: SrcPort
   name: LocalPort
   type: int
   description: TCP port on the local machine used during communication
   sample_value: ''
-- standard_name: file_origin_url
+- standard_name: FileOriginUrl
   name: FileOriginUrl
   type: string
   description: URL where the file was downloaded from
   sample_value: ''
-- standard_name: file_origin_ip
+- standard_name: FileOriginIp
   name: FileOriginIP
   type: string
   description: IP address where the file was downloaded from
   sample_value: ''
-- standard_name: process_hash_sha1
+- standard_name: ProcessHashSha1
   name: InitiatingProcessSHA1
   type: string
   description: SHA-1 hash of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_hash_sha256
+- standard_name: ProcessHashSha256
   name: InitiatingProcessSHA256
   type: string
   description: SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated - use the SHA1 column when available.
   sample_value: ''
-- standard_name: process_hash__md5
+- standard_name: ProcessHashMd5
   name: InitiatingProcessMD5
   type: string
   description: MD5 hash of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_file_name
+- standard_name: ProcessFileName
   name: InitiatingProcessFileName
   type: string
   description: Name of the process that initiated the event
   sample_value: ''
-- standard_name: process_file_size
+- standard_name: ProcessFileSize
   name: InitiatingProcessFileSize
   type: string
   description: Size of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_file_directory
+- standard_name: ProcessFileDirectory
   name: InitiatingProcessFolderPath
   type: string
   description: Folder containing the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_id
+- standard_name: ProcessId
   name: InitiatingProcessId
   type: int
   description: Process ID (PID) of the process that initiated the event
   sample_value: ''
-- standard_name: process_command_line
+- standard_name: ProcessCommandLine
   name: InitiatingProcessCommandLine
   type: string
   description: Command line used to run the process that initiated the event
   sample_value: ''
-- standard_name: process_creation_time
+- standard_name: ProcessCreationTime
   name: InitiatingProcessCreationTime
   type: date
   description: Date and time when the process that initiated the event was started
   sample_value: ''
-- standard_name: initiating_process_user_domain
+- standard_name: InitiatingProcessUserDomain
   name: InitiatingProcessAccountDomain
   type: string
   description: Domain of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: initiating_process_user_name
+- standard_name: InitiatingProcessUserName
   name: InitiatingProcessAccountName
   type: string
   description: User name of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: initiating_process_user_sid
+- standard_name: InitiatingProcessUserSid
   name: InitiatingProcessAccountSid
   type: string
   description: Security Identifier (SID) of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: initiating_process_user_upn
+- standard_name: InitiatingProcessUserUpn
   name: InitiatingProcessAccountUpn
   type: string
   description: User principal name (UPN) of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: initiating_process_user_object_id
+- standard_name: InitiatingProcessUserObjectId
   name: InitiatingProcessAccountObjectId
   type: string
   description: Azure AD object ID of the user account that ran the process responsible for the event
   sample_value: ''
-- standard_name: process_file_company
+- standard_name: ProcessFileCompany
   name: InitiatingProcessVersionInfoCompanyName
   type: string
   description: Company name from the version information of the process (image file) responsible for the event
   sample_value: ''
-- standard_name: process_file_product
+- standard_name: ProcessFileProduct
   name: InitiatingProcessVersionInfoProductName
   type: string
   description: Product name from the version information of the process (image file) responsible for the event
   sample_value: ''
-- standard_name: process_file_version
+- standard_name: ProcessFileVersion
   name: InitiatingProcessVersionInfoProductVersion
   type: string
   description: Product version from the version information of the process (image file) responsible for the event
@@ -250,41 +250,41 @@ event_fields:
   type: string
   description: Description from the version information of the process (image file) responsible for the event
   sample_value: ''
-- standard_name: initiating_process_parent_id
+- standard_name: InitiatingProcessParentId
   name: InitiatingProcessParentId
   type: int
   description: Process ID (PID) of the parent process that spawned the process responsible for the event
   sample_value: ''
-- standard_name: initiating_process_parent_file_name
+- standard_name: InitiatingProcessParentFileName
   name: InitiatingProcessParentFileName
   type: string
   description: Name of the parent process that spawned the process responsible for the event
   sample_value: ''
-- standard_name: initiating_process_parent_creation_time
+- standard_name: InitiatingProcessParentCreationTime
   name: InitiatingProcessParentCreationTime
   type: date
   description: Date and time when the parent of the process responsible for the event was started
   sample_value: ''
-- standard_name: initiating_process_logon_id
+- standard_name: InitiatingProcessLogonId
   name: InitiatingProcessLogonId
   type: string
   description: Identifier for a logon session of the process that initiated the event. This identifier is unique on the same machine only between restarts
   sample_value: ''
-- standard_name: report_id
+- standard_name: ReportId
   name: ReportId
   type: long
   description: Event identifier based on a repeating counter.To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
-- standard_name: app_guard_container_id
+- standard_name: AppGuardContainerId
   name: AppGuardContainerId
   type: string
   description: Identifier for the virtualized container used by Application Guard to isolate browser activity
   sample_value: ''
-- standard_name: additional_fields
+- standard_name: AdditionalFields
   name: AdditionalFields
   type: string
   description: Additional information about the entity or event
   sample_value: ''
 references:
-  - https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-deviceevents-table?view=o365-worldwide
+- https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-deviceevents-table?view=o365-worldwide
 tags: []

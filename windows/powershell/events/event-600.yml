@@ -5,91 +5,91 @@ log_source: powershell
 event_id: '600'
 event_version: '0'
 event_fields:
-- standard_name: event_provider_name
+- standard_name: EventProviderName
   standard_type: TBD
   name: ProviderName
   type: string
   description: ''
   sample_value: Variable
-- standard_name: powershell_new_provider_state
+- standard_name: PowershellNewProviderState
   standard_type: TBD
   name: NewProviderState
   type: string
   description: ''
   sample_value: Started
-- standard_name: powershell_sequence_number
+- standard_name: PowershellSequenceNumber
   standard_type: TBD
   name: SequenceNumber
   type: integer
   description: ''
   sample_value: '11'
-- standard_name: powershell_host_name
+- standard_name: PowershellHostName
   standard_type: TBD
   name: HostName
   type: string
   description: ''
   sample_value: ConsoleHost
-- standard_name: powershell_host_version
+- standard_name: PowershellHostVersion
   standard_type: TBD
   name: HostVersion
   type: string
   description: ''
   sample_value: 5.1.16299.251
-- standard_name: powershell_host_id
+- standard_name: PowershellHostId
   standard_type: TBD
   name: HostId
   type: string
   description: ''
   sample_value: 7839f0de-2e81-4a34-beb3-526dc9f11385
-- standard_name: powershell_host_application
+- standard_name: PowershellHostApplication
   standard_type: TBD
   name: HostApplication
   type: string
   description: ''
   sample_value: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
-- standard_name: powershell_engine_version
+- standard_name: PowershellEngineVersion
   standard_type: TBD
   name: EngineVersion
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_runspace_id
+- standard_name: PowershellRunspaceId
   standard_type: TBD
   name: RunspaceId
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_pipeline_id
+- standard_name: PowershellPipelineId
   standard_type: TBD
   name: PipelineId
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_name
+- standard_name: PowershellCommandName
   standard_type: TBD
   name: CommandName
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_type
+- standard_name: PowershellCommandType
   standard_type: TBD
   name: CommandType
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_script_name
+- standard_name: PowershellScriptName
   standard_type: TBD
   name: ScriptName
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_path
+- standard_name: PowershellCommandPath
   standard_type: TBD
   name: CommandPath
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_line
+- standard_name: PowershellCommandLine
   standard_type: TBD
   name: CommandLine
   type: string

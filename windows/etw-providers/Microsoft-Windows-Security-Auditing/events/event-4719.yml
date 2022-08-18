@@ -5,49 +5,49 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4719'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that made a change to local audit policy.
   sample_value: S-1-5-18
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: he name of the account that made a change to local audit policy.
   sample_value: DC01$
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
-- standard_name: audit_policy_category_id
+- standard_name: AuditPolicyCategoryId
   standard_type: TBD
   name: CategoryId
   type: UnicodeString
   description: the name of auditing Category which subcategory was changed.
   sample_value: '%%8274'
-- standard_name: audit_policy_sub_category_id
+- standard_name: AuditPolicySubCategoryId
   standard_type: TBD
   name: SubcategoryId
   type: UnicodeString
   description: the name of auditing Subcategory which was changed
   sample_value: '%%12807'
-- standard_name: audit_policy_sub_category_guid
+- standard_name: AuditPolicySubCategoryGuid
   standard_type: TBD
   name: SubcategoryGuid
   type: GUID
   description: the unique subcategory GUID
   sample_value: '{0CCE9223-69AE-11D9-BED3-505054503030}'
-- standard_name: audit_policy_changes
+- standard_name: AuditPolicyChanges
   standard_type: TBD
   name: AuditPolicyChanges
   type: UnicodeString
@@ -88,7 +88,6 @@ event_sample:
       Subcategory:		Credential Validation 
       Subcategory GUID:	{0cce923f-69ae-11d9-bed3-505054503030} 
       Changes:		Success removed, Failure removed 
-event_sample:
 - format: xml
   sample: |-
     <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 

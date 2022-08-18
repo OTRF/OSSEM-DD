@@ -5,31 +5,31 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5155'
 event_version: '0'
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt64
   description: Hexadecimal Process ID (PID) of the process which was permitted to bind to the local port.
   sample_value: '2628'
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: Application
   type: UnicodeString
   description: Full path and the name of the executable for the process.
   sample_value: \device\harddiskvolume2\users\test\desktop\netcat\nc.exe
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceAddress
   type: UnicodeString
   description: The local IP address of the computer running the application.
   sample_value: 0.0.0.0
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: SourcePort
   type: UnicodeString
   description: The port number used by the application.
   sample_value: '5555'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: Protocol
   type: UInt32

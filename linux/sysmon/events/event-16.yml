@@ -5,19 +5,19 @@ log_source: sysmon
 event_id: '16'
 event_version: '4.81'
 event_fields:
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T21:04:30.3520000Z'
-- standard_name: sysmon_configuration
+- standard_name: SysmonConfiguration
   standard_type: TBD
   name: Configuration
   type: string
   description: name of the sysmon config file being updated
   sample_value: config2.xml
-- standard_name: sysmon_configuration_hash
+- standard_name: SysmonConfigurationHash
   standard_type: TBD
   name: ConfigurationFileHash
   type: string

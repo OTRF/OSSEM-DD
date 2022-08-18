@@ -5,49 +5,49 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4770'
 event_version: '0'
 event_fields:
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: 'the User Principal Name (UPN) of the account that requested ticket renewal. Computer account name ends with $ character in UPN. This field typically has the following value format: user_account_name@FULL_DOMAIN_NAME.'
   sample_value: WIN2008R2$@CONTOSO.LOCAL
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
   description: the name of the Kerberos Realm that Account Name belongs to.
   sample_value: CONTOSO.LOCAL
-- standard_name: service_name
+- standard_name: ServiceName
   standard_type: TBD
   name: ServiceName
   type: UnicodeString
   description: the name of the account or computer for which the TGS ticket was renewed.
   sample_value: krbtgt
-- standard_name: service_id
+- standard_name: ServiceId
   standard_type: TBD
   name: ServiceSid
   type: SID
   description: SID of the account or computer object for which the TGS ticket was renewed. Event Viewer automatically tries to resolve SIDs and show the account name. If the SID cannot be resolved, you will see the source data in the event.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-502
-- standard_name: ticket_options
+- standard_name: TicketOptions
   standard_type: TBD
   name: TicketOptions
   type: HexInt32
   description: this is a set of different Ticket Flags in hexadecimal format.
   sample_value: '0x2'
-- standard_name: ticket_encryption_type
+- standard_name: TicketEncryptionType
   standard_type: TBD
   name: TicketEncryptionType
   type: HexInt32
   description: the cryptographic suite that was used in renewed TGS.
   sample_value: '0x12'
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: IpAddress
   type: UnicodeString
   description: IP address of the computer from which the TGS renewal request was received.
   sample_value: ::ffff:10.0.0.12
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: IpPort
   type: UnicodeString

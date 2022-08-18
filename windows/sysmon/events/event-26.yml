@@ -5,43 +5,43 @@ log_source: sysmon
 event_id: '26'
 event_version: '5'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 6:28
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that deleted the file
   sample_value: '{A98268C1-959E-5ACD-0000-0010236E0300}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that deleted the file
   sample_value: '1896'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that deleted the file
   sample_value: C:\WINDOWS\system32\explorer.exe
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: User
   type: string
   description: Name of the account who deleted the file.
   sample_value: DESKTOP-WARDOG\wardog
-- standard_name: file_name
+- standard_name: FileName
   standard_type: TBD
   name: TargetFilename
   type: string
@@ -66,16 +66,16 @@ references:
   link: https://medium.com/falconforce/sysmon-11-dns-improvements-and-filedelete-events-7a74f17ca842
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-      <EventData>
-      <Data Name="RuleName">-</Data>
-      <Data Name="UtcTime">2022-06-29 19:34:33.740</Data>
-      <Data Name="ProcessGuid">{01e2a015-0004-62bc-2200-000000000500}</Data>
-      <Data Name="ProcessId">1192</Data>
-      <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-      <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
-      <Data Name="TargetFilename">C:\Windows\Prefetch\SPPSVC.EXE-B0F8131B.pf</Data>
-      <Data Name="Hashes">SHA1=7501B6DCEBA3379749BEA17751AF10F41D2A55D1,MD5=6E44A50630221D4F99C0941EC808DC90,SHA256=93B0AD70DA6A6429C78DDED50DEE477A2299EC8D74E76E8E71CE11C5F85F1322,IMPHASH=00000000000000000000000000000000</Data>
-      <Data Name="IsExecutable">false</Data>
-      </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2022-06-29 19:34:33.740</Data>
+    <Data Name="ProcessGuid">{01e2a015-0004-62bc-2200-000000000500}</Data>
+    <Data Name="ProcessId">1192</Data>
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+    <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
+    <Data Name="TargetFilename">C:\Windows\Prefetch\SPPSVC.EXE-B0F8131B.pf</Data>
+    <Data Name="Hashes">SHA1=7501B6DCEBA3379749BEA17751AF10F41D2A55D1,MD5=6E44A50630221D4F99C0941EC808DC90,SHA256=93B0AD70DA6A6429C78DDED50DEE477A2299EC8D74E76E8E71CE11C5F85F1322,IMPHASH=00000000000000000000000000000000</Data>
+    <Data Name="IsExecutable">false</Data>
+    </EventData>

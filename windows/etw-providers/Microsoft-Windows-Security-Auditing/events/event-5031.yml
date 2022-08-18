@@ -11,7 +11,7 @@ event_fields:
   type: UnicodeString
   description: Network profile using which application was blocked.
   sample_value: Domain
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: Application
   type: UnicodeString

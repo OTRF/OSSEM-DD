@@ -11,7 +11,7 @@ event_fields:
   type: date_time
   description: An absolute time indicating when the notice occurred, defaults to the current network time in epoch
   sample_value: '1300475167.096535'
-- standard_name: event_uid
+- standard_name: EventUid
   standard_type: TBD
   name: uid
   type: string
@@ -41,7 +41,7 @@ event_fields:
   type: ip
   description: Source IP address
   sample_value: 10.1.1.1
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: proto
   type: string

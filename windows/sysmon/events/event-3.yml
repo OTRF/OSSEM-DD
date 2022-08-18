@@ -5,109 +5,109 @@ log_source: sysmon
 event_id: '3'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:29
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that made the network connection
   sample_value: '{A98268C1-957F-5ACD-0000-0010EB030000}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that made the network connection
   sample_value: '4'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that made the network connection
   sample_value: System
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: User
   type: string
   description: Name of the account who made the network connection. It usually containes domain name and user name
   sample_value: NT AUTHORITY\SYSTEM
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: Protocol
   type: string
   description: Protocol being used for the network connection
   sample_value: udp
-- standard_name: network_initiated
+- standard_name: NetworkInitiated
   standard_type: TBD
   name: Initiated
   type: boolean
   description: Indicated process initiated tcp connection
   sample_value: 'FALSE'
-- standard_name: src_ip_is_ipv6
+- standard_name: SrcIpIsIpv6
   standard_type: TBD
   name: SourceIsIpv6
   type: boolean
   description: is the source ip an Ipv6
   sample_value: 'FALSE'
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceIp
   type: ip
   description: source ip address that made the network connection
   sample_value: 192.168.64.255
-- standard_name: src_dvc_hostname
+- standard_name: SrcDvcHostname
   standard_type: TBD
   name: SourceHostname
   type: string
   description: name of the host that made the network connection
   sample_value: computer_name or none for broadcast
-- standard_name: src_port_number
+- standard_name: SrcPortNumber
   standard_type: TBD
   name: SourcePort
   type: integer
   description: source port number
   sample_value: '138'
-- standard_name: src_port_name
+- standard_name: SrcPortName
   standard_type: TBD
   name: SourcePortName
   type: string
   description: name of the source port being used (i.e. netbios-dgm)
   sample_value: netbios-dgm
-- standard_name: dst_ip_is_ipv6
+- standard_name: DstIpIsIpv6
   standard_type: TBD
   name: DestinationIsIpv6
   type: boolean
   description: is the destination ip an Ipv6
   sample_value: C:\Windows\System32\cmd.exe
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   standard_type: TBD
   name: DestinationIp
   type: ip
   description: ip address destination
   sample_value: 192.168.64.135
-- standard_name: dst_dvc_hostname
+- standard_name: DstDvcHostname
   standard_type: TBD
   name: DestinationHostname
   type: string
   description: name of the host that received the network connection
   sample_value: DC-WD-001
-- standard_name: dst_port_number
+- standard_name: DstPortNumber
   standard_type: TBD
   name: DestinationPort
   type: integer
   description: destination port number
   sample_value: '138'
-- standard_name: dst_port_name
+- standard_name: DstPortName
   standard_type: TBD
   name: DestinationPortName
   type: string
@@ -120,25 +120,25 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/network-connections.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-        <EventData>
-        <Data Name="RuleName">-</Data> 
-        <Data Name="UtcTime">2021-11-03 05:01:26.226</Data> 
-        <Data Name="ProcessGuid">{3710b5c6-f3dd-6181-4000-000000000a00}</Data> 
-        <Data Name="ProcessId">2484</Data> 
-        <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-        <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-        <Data Name="Protocol">tcp</Data> 
-        <Data Name="Initiated">true</Data> 
-        <Data Name="SourceIsIpv6">false</Data> 
-        <Data Name="SourceIp">192.168.10.8</Data> 
-        <Data Name="SourceHostname">-</Data> 
-        <Data Name="SourcePort">50026</Data> 
-        <Data Name="SourcePortName">-</Data> 
-        <Data Name="DestinationIsIpv6">false</Data> 
-        <Data Name="DestinationIp">52.167.249.196</Data> 
-        <Data Name="DestinationHostname">-</Data> 
-        <Data Name="DestinationPort">443</Data> 
-        <Data Name="DestinationPortName">-</Data> 
-        </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data> 
+    <Data Name="UtcTime">2021-11-03 05:01:26.226</Data> 
+    <Data Name="ProcessGuid">{3710b5c6-f3dd-6181-4000-000000000a00}</Data> 
+    <Data Name="ProcessId">2484</Data> 
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
+    <Data Name="Protocol">tcp</Data> 
+    <Data Name="Initiated">true</Data> 
+    <Data Name="SourceIsIpv6">false</Data> 
+    <Data Name="SourceIp">192.168.10.8</Data> 
+    <Data Name="SourceHostname">-</Data> 
+    <Data Name="SourcePort">50026</Data> 
+    <Data Name="SourcePortName">-</Data> 
+    <Data Name="DestinationIsIpv6">false</Data> 
+    <Data Name="DestinationIp">52.167.249.196</Data> 
+    <Data Name="DestinationHostname">-</Data> 
+    <Data Name="DestinationPort">443</Data> 
+    <Data Name="DestinationPortName">-</Data> 
+    </EventData>
