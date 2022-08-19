@@ -5,91 +5,91 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4688'
 event_version: '2'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that requested the "create process" operation.
   sample_value: S-1-5-18
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that requested the "create process" operation.
   sample_value: WIN-GG82ULGC9GO$
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: 'contains error code for Failure events. For Success events this parameter has "0x0" value. hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x3e7'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: NewProcessId
   type: Pointer
   description: hexadecimal Process ID of the new process.
   sample_value: '0x2bc'
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: NewProcessName
   type: UnicodeString
   description: full path and the name of the executable for the new process.
   sample_value: C:\Windows\System32\rundll32.exe
-- standard_name: process_token_elevation_type
+- standard_name: ProcessTokenElevationType
   standard_type: TBD
   name: TokenElevationType
   type: UnicodeString
   description: Token elevation type. It can be Default(1), Full(2) or Limited(3)
   sample_value: '%%1938'
-- standard_name: process_parent_id
+- standard_name: ProcessParentId
   standard_type: TBD
   name: ProcessId
   type: Pointer
   description: hexadecimal Process ID of the process which ran the new process.
   sample_value: '0xe74'
-- standard_name: process_command_line
+- standard_name: ProcessCommandLine
   standard_type: TBD
   name: CommandLine
   type: UnicodeString
   description: contains the name of executable and arguments which were passed to it. You must enable "Administrative Templates\System\Audit Process Creation\Include command line in process creation events" group policy to include command line in process creation events
   sample_value: ''
-- standard_name: target_user_sid
+- standard_name: TargetUserSid
   standard_type: TBD
   name: TargetUserSid
   type: SID
   description: SID of target account.
   sample_value: S-1-5-21-1377283216-344919071-3415362939-1104
-- standard_name: target_user_name
+- standard_name: TargetUserName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: the name of the target account
   sample_value: dadmin
-- standard_name: target_user_domain
+- standard_name: TargetUserDomain
   standard_type: TBD
   name: TargetDomainName
   type: UnicodeString
   description: target account's domain or computer name.
   sample_value: CONTOSO
-- standard_name: target_user_logon_id
+- standard_name: TargetUserLogonId
   standard_type: TBD
   name: TargetLogonId
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x4a5af0'
-- standard_name: process_parent_path
+- standard_name: ProcessParentPath
   standard_type: TBD
   name: ParentProcessName
   type: UnicodeString
   description: full path and the name of the executable for the process.
   sample_value: C:\Windows\explorer.exe
-- standard_name: process_mandatory_sid
+- standard_name: ProcessMandatorySid
   standard_type: TBD
   name: MandatoryLabel
   type: SID
@@ -108,22 +108,70 @@ tags:
 - Detailed Tracking
 - Audit Process Creation
 event_sample:
+- format: friedly view
+  sample: |-
+    Log Name:      Security 
+    Source:        Microsoft-Windows-Security-Auditing 
+    Date:          8/10/2022 5:27:14 AM 
+    Event ID:      4688 
+    Task Category: Process Creation 
+    Level:         Information 
+    Keywords:      Audit Success 
+    User:          N/A 
+    Computer:      Pedro01 
+    Description:   A new process has been created. 
+    Creator Subject: 
+      Security ID:		PEDRO01\pedro 
+      Account Name:		pedro 
+      Account Domain:		PEDRO01 
+      Logon ID:		0x1D875C8 
+    Target Subject: 
+      Security ID:		NULL SID 
+      Account Name:		- 
+      Account Domain:		- 
+      Logon ID:		0x0 
+    Process Information: 
+      New Process ID:		0x25a4 
+      New Process Name:	C:\Windows\System32\auditpol.exe 
+      Token Elevation Type:	%%1937 
+      Mandatory Label:		Mandatory Label\High Mandatory Level 
+      Creator Process ID:	0x1544 
+      Creator Process Name:	C:\Users\IT01-Pedro\Downloads\payload.exe 
+      Process Command Line:	auditpol.exe /set /category:"Account Logon" /success:disable /failure:disable 
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="SubjectUserSid">S-1-5-18</Data>
-    <Data Name="SubjectUserName">DESKTOP-CQF82L6$</Data>
-    <Data Name="SubjectDomainName">WORKGROUP</Data>
-    <Data Name="SubjectLogonId">0x3e7</Data>
-    <Data Name="NewProcessId">0xc9c</Data>
-    <Data Name="NewProcessName">C:\Windows\System32\backgroundTaskHost.exe</Data>
-    <Data Name="TokenElevationType">%%1938</Data>
-    <Data Name="ProcessId">0x2c4</Data>
-    <Data Name="CommandLine"></Data>
-    <Data Name="TargetUserSid">S-1-5-21-2073674718-3587034731-622476709-1001</Data>
-    <Data Name="TargetUserName">pedro</Data>
-    <Data Name="TargetDomainName">DESKTOP-CQF82L6</Data>
-    <Data Name="TargetLogonId">0xb1198</Data>
-    <Data Name="ParentProcessName">C:\Windows\System32\svchost.exe</Data>
-    <Data Name="MandatoryLabel">S-1-16-4096</Data>
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
+        <EventID>4688</EventID> 
+        <Version>2</Version> 
+        <Level>0</Level> 
+        <Task>13312</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-10T12:27:14.872672600Z" /> 
+        <EventRecordID>237286</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="4" ThreadID="7048" /> 
+        <Channel>Security</Channel> 
+        <Computer>Pedro01</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-21-968647429-258479840-2507984072-1001</Data> 
+        <Data Name="SubjectUserName">pedro</Data> 
+        <Data Name="SubjectDomainName">PEDRO01</Data> 
+        <Data Name="SubjectLogonId">0x1d875c8</Data> 
+        <Data Name="NewProcessId">0x25a4</Data> 
+        <Data Name="NewProcessName">C:\Windows\System32\auditpol.exe</Data> 
+        <Data Name="TokenElevationType">%%1937</Data> 
+        <Data Name="ProcessId">0x1544</Data> 
+        <Data Name="CommandLine">auditpol.exe /set /category:"Account Logon" /success:disable /failure:disable</Data> 
+        <Data Name="TargetUserSid">S-1-0-0</Data> 
+        <Data Name="TargetUserName">-</Data> 
+        <Data Name="TargetDomainName">-</Data> 
+        <Data Name="TargetLogonId">0x0</Data> 
+        <Data Name="ParentProcessName">C:\Users\IT01-Pedro\Downloads\payload.exe</Data> 
+        <Data Name="MandatoryLabel">S-1-16-12288</Data> 
+      </EventData> 
+    </Event> 

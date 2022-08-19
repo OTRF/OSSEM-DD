@@ -11,31 +11,31 @@ event_fields:
   type: date_time
   description: Timestamp of the beginning of the event in epoch format
   sample_value: '1542736745.532282'
-- standard_name: event_uid
+- standard_name: EventUid
   standard_type: TBD
   name: uid
   type: string
   description: Unique ID for the connection.
   sample_value: Cobih134JLXWQxsiva
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: id.orig_h
   type: ip
   description: The originating/source IP address. The host that will be initiating the data connection
   sample_value: 10.11.20.102
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: id.orig_p
   type: integer
   description: The originating/source port
   sample_value: '49158'
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   standard_type: TBD
   name: id.resp_h
   type: ip
   description: The responding/destination IP address. The host that will be accepting the data connection
   sample_value: 192.185.230.61
-- standard_name: dst_port
+- standard_name: DstPort
   standard_type: TBD
   name: id.resp_p
   type: integer
@@ -47,25 +47,25 @@ event_fields:
   type: string
   description: present if base/protocols/ftp/files.bro is loaded File unique ID.
   sample_value: FrCFjGogeaS6ZrZT7
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: user
   type: string
   description: User name for the current FTP session.
   sample_value: schw@totallyanonymous.com
-- standard_name: user_password
+- standard_name: UserPassword
   standard_type: TBD
   name: password
   type: string
   description: Password for the current FTP session if captured.
   sample_value: 520s984W
-- standard_name: ftp_process_name
+- standard_name: FtpProcessName
   standard_type: TBD
   name: command
   type: string
   description: Command given by the client.
   sample_value: RETR
-- standard_name: ftp_command_line
+- standard_name: FtpCommandLine
   standard_type: TBD
   name: arg
   type: string
@@ -77,7 +77,7 @@ event_fields:
   type: string
   description: Sniffed mime type of file
   sample_value: application/x-dosexec
-- standard_name: file_size
+- standard_name: FileSize
   standard_type: TBD
   name: file_size
   type: integer
@@ -95,7 +95,7 @@ event_fields:
   type: string
   description: Reply message from the server in response to the command
   sample_value: 0.184 seconds (measured here), 0.66 Mbytes per second
-- standard_name: file_directory
+- standard_name: FileDirectory
   standard_type: TBD
   name: cwd
   type: string

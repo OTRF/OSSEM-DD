@@ -5,13 +5,13 @@ log_source: RPCFWP
 event_id: '1'
 event_version:
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: Process ID
   type: string
   description: Id of the process being protected.
   sample_value: 732
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image Path
   type: string

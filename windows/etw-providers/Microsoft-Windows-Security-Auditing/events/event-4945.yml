@@ -5,19 +5,19 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4945'
 event_version: '0'
 event_fields:
-- standard_name: profile_used
+- standard_name: ProfileUsed
   standard_type: TBD
   name: ProfileUsed
   type: UnicodeString
   description: the name of the profile that the rule belongs to. It always has value "Public", because this event shows rules only for "Public" profile.
   sample_value: Public
-- standard_name: rule_id
+- standard_name: RuleId
   standard_type: TBD
   name: RuleId
   type: UnicodeString
   description: the unique firewall rule identifier.
   sample_value: NPS-NPSSvc-In-RPC
-- standard_name: rule_name
+- standard_name: RuleName
   standard_type: TBD
   name: RuleName
   type: UnicodeString

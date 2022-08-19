@@ -5,37 +5,37 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4715'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that requested the "change local audit policy security descriptor (SACL)" operation.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that requested the "change local audit policy security descriptor (SACL)" operation.
   sample_value: dadmin
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x11ae30'
-- standard_name: object_old_sd
+- standard_name: AuditPolicyPreviousSd
   standard_type: TBD
   name: OldSd
   type: UnicodeString
   description: the old Security Descriptor Definition Language (SDDL) value for the audit policy.
   sample_value: D:(A;;DCSWRPDTRC;;;BA)(D;;DCSWRPDTRC;;;SY)S:NO_ACCESS_CONTROL
-- standard_name: object_new_sd
+- standard_name: AuditPolicySd
   standard_type: TBD
   name: NewSd
   type: UnicodeString
@@ -53,3 +53,32 @@ tags:
 - etw_task_task_0
 - Policy Change
 - Audit Policy Change
+event_sample:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" /> 
+        <EventID>4715</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>13568</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2015-09-30T19:59:39.964601800Z" /> 
+        <EventRecordID>1049425</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="516" ThreadID="4668" /> 
+        <Channel>Security</Channel> 
+        <Computer>DC01.contoso.local</Computer> 
+        <Security /> 
+      </System>
+      <EventData>
+        <Data Name="SubjectUserSid">S-1-5-21-3457937927-2839227994-823803824-1104</Data> 
+        <Data Name="SubjectUserName">dadmin</Data> 
+        <Data Name="SubjectDomainName">CONTOSO</Data> 
+        <Data Name="SubjectLogonId">0x11ae30</Data> 
+        <Data Name="OldSd">D:(A;;DCSWRPDTRC;;;BA)(D;;DCSWRPDTRC;;;SY)S:NO\_ACCESS\_CONTROL</Data> 
+        <Data Name="NewSd">D:(A;;DCSWRPDTRC;;;BA)(A;;DCSWRPDTRC;;;SY)S:NO\_ACCESS\_CONTROL</Data> 
+      </EventData>
+    </Event>

@@ -5,109 +5,109 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5447'
 event_version: '0'
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt32
   description: ''
   sample_value: '284'
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: UserSid
   type: SID
   description: ''
   sample_value: S-1-5-19
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: UserName
   type: UnicodeString
   description: ''
   sample_value: NT AUTHORITY\LOCAL SERVICE
-- standard_name: provider_key
+- standard_name: ProviderKey
   standard_type: TBD
   name: ProviderKey
   type: GUID
   description: ''
   sample_value: '{DECC16CA-3F33-4346-BE1E-8FB4AE0F3D62}'
-- standard_name: provider_name
+- standard_name: ProviderName
   standard_type: TBD
   name: ProviderName
   type: UnicodeString
   description: ''
   sample_value: Microsoft Corporation
-- standard_name: change_type
+- standard_name: ChangeType
   standard_type: TBD
   name: ChangeType
   type: UnicodeString
   description: ''
   sample_value: '%%16385'
-- standard_name: filter_key
+- standard_name: FilterKey
   standard_type: TBD
   name: FilterKey
   type: GUID
   description: ''
   sample_value: '{91334E6D-FFAB-40F1-8C43-5554965C228D}'
-- standard_name: filter_name
+- standard_name: FilterName
   standard_type: TBD
   name: FilterName
   type: UnicodeString
   description: ''
   sample_value: Port Scanning Prevention Filter
-- standard_name: filter_type
+- standard_name: FilterType
   standard_type: TBD
   name: FilterType
   type: UnicodeString
   description: ''
   sample_value: '%%16388'
-- standard_name: filter_id
+- standard_name: FilterId
   standard_type: TBD
   name: FilterId
   type: UInt64
   description: ''
   sample_value: '100100'
-- standard_name: layer_key
+- standard_name: LayerKey
   standard_type: TBD
   name: LayerKey
   type: GUID
   description: ''
   sample_value: '{AC4A9833-F69D-4648-B261-6DC84835EF39}'
-- standard_name: layer_name
+- standard_name: LayerName
   standard_type: TBD
   name: LayerName
   type: UnicodeString
   description: ''
   sample_value: Inbound Transport v4 Discard Layer
-- standard_name: layer_id
+- standard_name: LayerId
   standard_type: TBD
   name: LayerId
   type: UInt32
   description: ''
   sample_value: '13'
-- standard_name: weight
+- standard_name: Weight
   standard_type: TBD
   name: Weight
   type: UInt64
   description: ''
   sample_value: '13835058055315718144'
-- standard_name: conditions
+- standard_name: Conditions
   standard_type: TBD
   name: Conditions
   type: UnicodeString
   description: ''
   sample_value: 'Condition ID: {632ce23b-5167-435c-86d7-e903684aa80c} Match value: No flags set Condition value: 0x00000003'
-- standard_name: action
+- standard_name: Action
   standard_type: TBD
   name: Action
   type: UnicodeString
   description: ''
   sample_value: '%%16391'
-- standard_name: callout_key
+- standard_name: CalloutKey
   standard_type: TBD
   name: CalloutKey
   type: GUID
   description: ''
   sample_value: '{EDA08606-2494-4D78-89BC-67837C03B969}'
-- standard_name: callout_name
+- standard_name: CalloutName
   standard_type: TBD
   name: CalloutName
   type: UnicodeString

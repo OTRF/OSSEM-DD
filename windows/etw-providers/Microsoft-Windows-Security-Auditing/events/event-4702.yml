@@ -5,37 +5,37 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4702'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that requested the "change/update scheduled task" operation.
   sample_value: THEDOMAIN\UserB
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that requested the "change/update scheduled task" operation.
   sample_value: UserB
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: THEDOMAIN
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: hexadecimal value that can help you correlate this event with recent events that might
   sample_value: contain
-- standard_name: scheduled_task_name
+- standard_name: ScheduledTaskName
   standard_type: TBD
   name: TaskName
   type: UnicodeString
   description: updated/changed scheduled task name.
   sample_value: \VeryImportantTask
-- standard_name: scheduled_task_content
+- standard_name: ScheduledTaskContent
   standard_type: TBD
   name: TaskContentNew
   type: UnicodeString

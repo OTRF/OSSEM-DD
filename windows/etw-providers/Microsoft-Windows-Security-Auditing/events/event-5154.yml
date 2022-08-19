@@ -5,31 +5,31 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5154'
 event_version: '0'
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt64
   description: hexadecimal Process ID of the process which was permitted to listen on the port.
   sample_value: '4152'
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: Application
   type: UnicodeString
   description: Full path and the name of the executable for the process.
   sample_value: \device\harddiskvolume2\documents\listener.exe
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceAddress
   type: UnicodeString
   description: Local IP address on which application requested to listen on the port.
   sample_value: 0.0.0.0
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: SourcePort
   type: UnicodeString
   description: Source TCP\UDP port number which was requested for listening by application.
   sample_value: '44'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: Protocol
   type: UInt32

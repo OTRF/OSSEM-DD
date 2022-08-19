@@ -5,25 +5,25 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4776'
 event_version: '0'
 event_fields:
-- standard_name: logon_authentication_package_name
+- standard_name: LogonAuthenticationPackageName
   standard_type: TBD
   name: PackageName
   type: UnicodeString
   description: The name of Authentication Package which was used for credential validation. It is always "MICROSOFT_AUTHENTICATION_PACKAGE_V1_0" for 4776 event.
   sample_value: MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: TargetUserName
   type: UnicodeString
   description: the name of the account that had its credentials validated by the Authentication Package. Can be user name, computer account name or well-known security principal account name.
   sample_value: dadmin
-- standard_name: src_host_name
+- standard_name: SrcHostName
   standard_type: TBD
   name: Workstation
   type: UnicodeString
   description: The name of the computer from which the logon attempt originated.
   sample_value: WIN81
-- standard_name: event_status
+- standard_name: EventStatus
   standard_type: TBD
   name: Status
   type: HexInt32

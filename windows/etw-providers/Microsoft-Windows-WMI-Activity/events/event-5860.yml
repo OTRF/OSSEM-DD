@@ -11,7 +11,7 @@ event_fields:
   type: UnicodeString
   description:
   sample_value:
-- standard_name: wmi_query
+- standard_name: WmiQuery
   standard_type: TBD
   name: Query
   type: UnicodeString
@@ -23,7 +23,7 @@ event_fields:
   type: UnicodeString
   description:
   sample_value:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: processid
   type: UInt32

@@ -5,13 +5,13 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '6144'
 event_version: '0'
 event_fields:
-- standard_name: error_code
+- standard_name: ErrorCode
   standard_type: TBD
   name: ErrorCode
   type: UInt32
   description: always has "0" value for this event.
   sample_value: '0'
-- standard_name: gpo_list
+- standard_name: GpoList
   standard_type: TBD
   name: GPOList
   type: UnicodeString

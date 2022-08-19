@@ -7,91 +7,91 @@ log_source: powershell
 event_id: '403'
 event_version: '0'
 event_fields:
-- standard_name: powershell_new_engine_state
+- standard_name: PowershellNewEngineState
   standard_type: TBD
   name: NewEngineState
   type: string
   description: ''
   sample_value: Stopped
-- standard_name: powershell_previous_engine_state
+- standard_name: PowershellPreviousEngineState
   standard_type: TBD
   name: PreviousEngineState
   type: string
   description: ''
   sample_value: Available
-- standard_name: powershell_sequence_number
+- standard_name: PowershellSequenceNumber
   standard_type: TBD
   name: SequenceNumber
   type: integer
   description: ''
   sample_value: '13'
-- standard_name: powershell_host_name
+- standard_name: PowershellHostName
   standard_type: TBD
   name: HostName
   type: string
   description: ''
   sample_value: Windows PowerShell ISE
-- standard_name: powershell_host_version
+- standard_name: PowershellHostVersion
   standard_type: TBD
   name: HostVersion
   type: string
   description: ''
   sample_value: 5.1.16299.64
-- standard_name: powershell_host_id
+- standard_name: PowershellHostId
   standard_type: TBD
   name: HostId
   type: string
   description: ''
   sample_value: 26572281-9dcd-4297-ae4b-d6bb52bdaff6
-- standard_name: powershell_host_application
+- standard_name: PowershellHostApplication
   standard_type: TBD
   name: HostApplication
   type: string
   description: ''
   sample_value: C:\WINDOWS\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
-- standard_name: powershell_engine_version
+- standard_name: PowershellEngineVersion
   standard_type: TBD
   name: EngineVersion
   type: string
   description: ''
   sample_value: 5.1.16299.64
-- standard_name: powershell_runspace_id
+- standard_name: PowershellRunspaceId
   standard_type: TBD
   name: RunspaceId
   type: string
   description: ''
   sample_value: aba09534-39f7-4ec3-aa46-8c709c39cf5a
-- standard_name: powershell_pipeline_id
+- standard_name: PowershellPipelineId
   standard_type: TBD
   name: PipelineId
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_name
+- standard_name: PowershellCommandName
   standard_type: TBD
   name: CommandName
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_type
+- standard_name: PowershellCommandType
   standard_type: TBD
   name: CommandType
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_script_name
+- standard_name: PowershellScriptName
   standard_type: TBD
   name: ScriptName
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_path
+- standard_name: PowershellCommandPath
   standard_type: TBD
   name: CommandPath
   type: string
   description: ''
   sample_value: ''
-- standard_name: powershell_command_line
+- standard_name: PowershellCommandLine
   standard_type: TBD
   name: CommandLine
   type: string

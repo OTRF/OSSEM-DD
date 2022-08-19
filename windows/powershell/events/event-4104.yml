@@ -5,31 +5,31 @@ log_source: powershell
 event_id: '4104'
 event_version: '0'
 event_fields:
-- standard_name: powershell_message_number
+- standard_name: PowershellMessageNumber
   standard_type: TBD
   name: MessageNumber
   type: integer
   description: ''
   sample_value: '1'
-- standard_name: powershell_parameter_binding
+- standard_name: PowershellParameterBinding
   standard_type: TBD
   name: MessageTotal
   type: integer
   description: ''
   sample_value: '1'
-- standard_name: powershell_scriptblock_text
+- standard_name: PowershellScriptblockText
   standard_type: TBD
   name: ScriptBlockText
   type: string
   description: function Invoke-ATTACKAPI..
   sample_value: ''
-- standard_name: powershell_scriptblock_id
+- standard_name: PowershellScriptblockId
   standard_type: TBD
   name: ScriptBlockId
   type: string
   description: ''
   sample_value: 1c97482f-51a2-4cf9-8abd-df9769b6e373
-- standard_name: powershell_Path
+- standard_name: PowershellPath
   standard_type: TBD
   name: Path
   type: string

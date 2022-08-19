@@ -5,43 +5,43 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4933'
 event_version: '1'
 event_fields:
-- standard_name: destination_dra
+- standard_name: DestinationDra
   standard_type: TBD
   name: DestinationDRA
   type: UnicodeString
   description: destination directory replication agent distinguished name.
   sample_value: CN=NTDS Settings,CN=DC01,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
-- standard_name: source_dra
+- standard_name: SourceDra
   standard_type: TBD
   name: SourceDRA
   type: UnicodeString
   description: source directory replication agent distinguished name.
   sample_value: CN=NTDS Settings,CN=WIN2012R2,CN=Servers,CN=Default-First-Site-Name,CN=Sites,CN=Configuration,DC=contoso,DC=local
-- standard_name: naming_context
+- standard_name: NamingContext
   standard_type: TBD
   name: NamingContext
   type: UnicodeString
   description: naming context to replicate.
   sample_value: CN=Schema,CN=Configuration,DC=contoso,DC=local
-- standard_name: options
+- standard_name: Options
   standard_type: TBD
   name: Options
   type: UInt64
   description: decimal value of DRS Options.
   sample_value: '2147483733'
-- standard_name: session_id
+- standard_name: SessionId
   standard_type: TBD
   name: SessionID
   type: UInt32
   description: 'unique identifier of replication session. Using this field you can find "4932: Synchronization of a replica of an Active Directory naming context has begun." and "4933: Synchronization of a replica of an Active Directory naming context has ended." events for the same session.'
   sample_value: '40'
-- standard_name: end_usn
+- standard_name: EndUsn
   standard_type: TBD
   name: EndUSN
   type: UnicodeString
   description: Naming Context's USN number after replication ends.
   sample_value: '20869'
-- standard_name: status_code
+- standard_name: StatusCode
   standard_type: TBD
   name: StatusCode
   type: UInt32

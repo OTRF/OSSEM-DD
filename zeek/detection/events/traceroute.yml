@@ -11,7 +11,7 @@ event_fields:
   type: date_time
   description: Timestamp of the beginning of the event in epoch format
   sample_value: '1300475167.096535'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: proto
   type: string

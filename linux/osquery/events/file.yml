@@ -5,103 +5,103 @@ log_source: osquery
 event_id: file
 event_version: 4.4.2
 event_fields:
-- standard_name: file_path
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Absolute file path
   sample_value: TBD
-- standard_name: file_directory
+- standard_name: FileDirectory
   standard_type: TBD
   name: directory
   type: TEXT
   description: Directory of file(s)
   sample_value: TBD
-- standard_name: file_name
+- standard_name: FileName
   standard_type: TBD
   name: filename
   type: TEXT
   description: Name portion of file path
   sample_value: TBD
-- standard_name: file_inode
+- standard_name: FileInode
   standard_type: TBD
   name: inode
   type: BIGINT
   description: Filesystem inode number
   sample_value: TBD
-- standard_name: user_uid
+- standard_name: UserUid
   standard_type: TBD
   name: uid
   type: BIGINT
   description: Owning user ID
   sample_value: TBD
-- standard_name: user_gid
+- standard_name: UserGid
   standard_type: TBD
   name: gid
   type: BIGINT
   description: Owning group ID
   sample_value: TBD
-- standard_name: user_permissions
+- standard_name: UserPermissions
   standard_type: TBD
   name: mode
   type: TEXT
   description: Permission bits
   sample_value: TBD
-- standard_name: device_id
+- standard_name: DeviceId
   standard_type: TBD
   name: device
   type: BIGINT
   description: Device ID (optional)
   sample_value: TBD
-- standard_name: file_size
+- standard_name: FileSize
   standard_type: TBD
   name: size
   type: BIGINT
   description: Size of file in bytes
   sample_value: TBD
-- standard_name: file_system_block_size
+- standard_name: FileSystemBlockSize
   standard_type: TBD
   name: block_size
   type: INTEGER
   description: Block size of filesystem
   sample_value: TBD
-- standard_name: date_last_access
+- standard_name: DateLastAccess
   standard_type: TBD
   name: atime
   type: BIGINT
   description: Last access time
   sample_value: TBD
-- standard_name: date_last_modification
+- standard_name: DateLastModification
   standard_type: TBD
   name: mtime
   type: BIGINT
   description: Last modification time
   sample_value: TBD
-- standard_name: date_last_status_change
+- standard_name: DateLastStatusChange
   standard_type: TBD
   name: ctime
   type: BIGINT
   description: Last status change time
   sample_value: TBD
-- standard_name: date_creation_time
+- standard_name: DateCreationTime
   standard_type: TBD
   name: btime
   type: BIGINT
   description: (B)irth or (cr)eate time
   sample_value: TBD
-- standard_name: file_hard_links
+- standard_name: FileHardLinks
   standard_type: TBD
   name: hard_links
   type: INTEGER
   description: Number of hard links
   sample_value: TBD
-- standard_name: file_symlink
+- standard_name: FileSymlink
   standard_type: TBD
   name: symlink
   type: INTEGER
   description: 1 if the path is a symlink, otherwise 0
   sample_value: TBD
-- standard_name: file_type
+- standard_name: FileType
   standard_type: TBD
   name: type
   type: TEXT

@@ -5,13 +5,13 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4935'
 event_version: '0'
 event_fields:
-- standard_name: replication_event
+- standard_name: ReplicationEvent
   standard_type: TBD
   name: ReplicationEvent
   type: UInt32
   description: there is no detailed information about this field in this document.
   sample_value: '1'
-- standard_name: audit_status_code
+- standard_name: AuditStatusCode
   standard_type: TBD
   name: AuditStatusCode
   type: UInt32

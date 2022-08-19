@@ -23,7 +23,7 @@ event_fields:
   type: integer
   description: The originating/source port
   sample_value: '37682'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: proto
   type: string
@@ -41,7 +41,7 @@ event_fields:
   type: integer
   description: The responding/destination port
   sample_value: '514'
-- standard_name: event_uid
+- standard_name: EventUid
   standard_type: TBD
   name: uid
   type: string

@@ -5,103 +5,103 @@ log_source: sysmon
 event_id: '1'
 event_version: '4.81'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-13T20:06:22.6500000Z'
-- standard_name: target_process_guid
+- standard_name: TargetProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that got spawned/created (child)
   sample_value: '{844e14fa-3c3e-6167-98ab-cd236b550000}'
-- standard_name: target_process_id
+- standard_name: TargetProcessId
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the created process (child)
   sample_value: '5079'
-- standard_name: target_process_file_path
+- standard_name: TargetProcessFilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process being spawned/created. Considered also the child or source process
   sample_value: /usr/sbin/rsyslogd
-- standard_name: target_process_file_version
+- standard_name: TargetProcessFileVersion
   standard_type: TBD
   name: FileVersion
   type: string
   description: Version of the image associated with the main process (child)
   sample_value: ''
-- standard_name: target_process_file_description
+- standard_name: TargetProcessFileDescription
   standard_type: TBD
   name: Description
   type: string
   description: Description of the image associated with the main process (child)
   sample_value: ''
-- standard_name: target_process_file_product
+- standard_name: TargetProcessFileProduct
   standard_type: TBD
   name: Product
   type: string
   description: Product name the image associated with the main process (child) belongs to
   sample_value: ''
-- standard_name: target_process_file_company
+- standard_name: TargetProcessFileCompany
   standard_type: TBD
   name: Company
   type: string
   description: Company name the image associated with the main process (child) belongs to
   sample_value: ''
-- standard_name: file_name_original
+- standard_name: FileNameOriginal
   standard_type: TBD
   name: OriginalFileName
   type: string
   description: original file name
   sample_value: ''
-- standard_name: target_process_command_line
+- standard_name: TargetProcessCommandLine
   standard_type: TBD
   name: CommandLine
   type: string
   description: Arguments which were passed to the executable associated with the main process
   sample_value: /usr/sbin/rsyslogd -n
-- standard_name: target_process_file_directory
+- standard_name: TargetProcessFileDirectory
   standard_type: TBD
   name: CurrentDirectory
   type: string
   description: Current working directory from which the main process executed.
   sample_value: ''
-- standard_name: target_process_integrity_level
+- standard_name: TargetProcessIntegrityLevel
   standard_type: TBD
   name: IntegrityLevel
   type: string
   description: Integrity label assigned to a process
   sample_value: no level
-- standard_name: target_user_name
+- standard_name: TargetUserName
   standard_type: TBD
   name: User
   type: string
   description: Name of the account who created the process (child) .
   sample_value: root
-- standard_name: target_user_logon_guid
+- standard_name: TargetUserLogonGuid
   standard_type: TBD
   name: LogonGuid
   type: string
   description: Logon GUID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon GUID (Sysmon Events)
   sample_value: '{844e14fa-0000-0000-0000-000000000000}'
-- standard_name: target_user_logon_id
+- standard_name: TargetUserLogonId
   standard_type: TBD
   name: LogonId
   type: integer
   description: Login ID of the user who created the new process. Value that can help you correlate this event with others that contain the same Logon ID
   sample_value: '0xf6219'
-- standard_name: target_user_session_id
+- standard_name: TargetUserSessionId
   standard_type: TBD
   name: TerminalSessionId
   type: integer
@@ -113,31 +113,31 @@ event_fields:
   type: string
   description: Hashes captured by sysmon driver
   sample_value: ''
-- standard_name: acting_user_name
+- standard_name: ActingUserName
   standard_type: TBD
   name: ParentUser
   type: string
   description: Name of the account who created the process that spawned/created the main process (child)
   sample_value: root
-- standard_name: acting_process_guid
+- standard_name: ActingProcessGuid
   standard_type: TBD
   name: ParentProcessGuid
   type: string
   description: ProcessGUID of the process that spawned/created the main process (child)
   sample_value: '{A98268C1-9C2E-5ACD-0000-00100266AB00}'
-- standard_name: acting_process_id
+- standard_name: ActingProcessId
   standard_type: TBD
   name: ParentProcessId
   type: integer
   description: Process ID of the process that spawned/created the main process (child)
   sample_value: '240'
-- standard_name: acting_process_file_path
+- standard_name: ActingProcessFilePath
   standard_type: TBD
   name: ParentImage
   type: string
   description: File path that spawned/created the main process
   sample_value: /lib/systemd/systemd
-- standard_name: acting_process_command_line
+- standard_name: ActingProcessCommandLine
   standard_type: TBD
   name: ParentCommandLine
   type: string

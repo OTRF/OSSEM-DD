@@ -5,55 +5,55 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5168'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account for which SPN check operation was failed.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account for which SPN check operation was failed.
   sample_value: dadmin
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0xd0cd4'
-- standard_name: spn_name
+- standard_name: SpnName
   standard_type: TBD
   name: SpnName
   type: UnicodeString
   description: SPN which was used to access the server.
   sample_value: N/A
-- standard_name: error_code
+- standard_name: ErrorCode
   standard_type: TBD
   name: ErrorCode
   type: HexInt32
   description: hexadecimal error code, for example "0xC0000022" = STATUS_ACCESS_DENIED.
   sample_value: '0xc0000022'
-- standard_name: server_names
+- standard_name: ServerNames
   standard_type: TBD
   name: ServerNames
   type: UnicodeString
   description: information about possible server names to use to access the target server (NETBIOS, DNS, localhost, etc.).
   sample_value: CONTOSO;contoso.local;DC01.contoso.local;DC01;LocalHost;
-- standard_name: configured_names
+- standard_name: ConfiguredNames
   standard_type: TBD
   name: ConfiguredNames
   type: UnicodeString
   description: information about the names which were provided for validation.
   sample_value: N/A
-- standard_name: ip_addresses
+- standard_name: IpAddresses
   standard_type: TBD
   name: IpAddresses
   type: UnicodeString

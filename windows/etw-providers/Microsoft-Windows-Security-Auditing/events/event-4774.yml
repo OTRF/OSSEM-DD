@@ -5,19 +5,19 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4774'
 event_version: '0'
 event_fields:
-- standard_name: logon_authentication_package_name
+- standard_name: LogonAuthenticationPackageName
   standard_type: TBD
   name: MappingBy
   type: UnicodeString
   description: The name of Authentication Package which was used for credential validation.
   sample_value: Schannel
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: ClientUserName
   type: UnicodeString
   description: the name of the account that had its credentials validated by the Authentication Package. Can be user name, computer account name or well-known security principal account name.
   sample_value: host/WIN81.contoso.local
-- standard_name: target_user_name
+- standard_name: TargetUserName
   standard_type: TBD
   name: MappedName
   type: UnicodeString

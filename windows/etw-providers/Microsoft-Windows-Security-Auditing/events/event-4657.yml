@@ -5,85 +5,85 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4657'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that requested the "modify registry value" operation.
   sample_value: THEDOMAIN\TheUser
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that requested the "modify registry value" operation.
   sample_value: TheUser
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: THEDOMAIN
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x364ef'
-- standard_name: registry_key_path
+- standard_name: RegistryKeyPath
   standard_type: TBD
   name: ObjectName
   type: UnicodeString
   description: full path and name of the registry key which value was modified.
   sample_value: \REGISTRY\MACHINE
-- standard_name: registry_value_name
+- standard_name: RegistryValueName
   standard_type: TBD
   name: ObjectValueName
   type: UnicodeString
   description: the name of modified registry key value.
   sample_value: New_Name
-- standard_name: registry_key_handle_id
+- standard_name: RegistryKeyHandleId
   standard_type: TBD
   name: HandleId
   type: Pointer
   description: hexadecimal value of a handle to Object Name.
   sample_value: '0x54'
-- standard_name: registry_event_type
+- standard_name: RegistryEventType
   standard_type: TBD
   name: OperationType
   type: UnicodeString
   description: the type of performed operation with registry key value.
   sample_value: Existing registry value modified
-- standard_name: registry_previous_value_type
+- standard_name: RegistryPreviousValueType
   standard_type: TBD
   name: OldValueType
   type: UnicodeString
   description: old type of changed registry key value.
   sample_value: REG_SZ
-- standard_name: registry_previous_value_data
+- standard_name: RegistryPreviousValueData
   standard_type: TBD
   name: OldValue
   type: UnicodeString
   description: old value for changed registry key value.
   sample_value: ''
-- standard_name: registry_value_type
+- standard_name: RegistryValueType
   standard_type: TBD
   name: NewValueType
   type: UnicodeString
   description: new type of changed registry key value.
   sample_value: REG_SZ
-- standard_name: registry_value_data
+- standard_name: RegistryValueData
   standard_type: TBD
   name: NewValue
   type: UnicodeString
   description: new value for changed registry key value.
   sample_value: Andreas
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: Pointer
   description: hexadecimal Process ID of the process through which the registry key value was modified.
   sample_value: '0xec43'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: ProcessName
   type: UnicodeString
@@ -101,3 +101,70 @@ tags:
 - etw_task_task_0
 - Object Access
 - Audit Registry
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Security 
+    Source:        Microsoft-Windows-Security-Auditing 
+    Date:          8/18/2022 5:35:58 PM 
+    Event ID:      4657 
+    Task Category: Registry 
+    Level:         Information 
+    Keywords:      Audit Success 
+    User:          N/A 
+    Computer:      pedro-computer 
+    Description:   A registry value was modified. 
+    Subject: 
+      Security ID:		PEDRO-COMPUTER\pedro-admin 
+      Account Name:		pedro-admin 
+      Account Domain:		PEDRO-COMPUTER 
+      Logon ID:		0xFEFF35 
+    Object: 
+      Object Name:		\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit 
+      Object Value Name:	ProcessCreationIncludeCmdLine_Enabled 
+      Handle ID:		0xa8 
+      Operation Type:		Existing registry value modified 
+    Process Information: 
+      Process ID:		0x1364 
+      Process Name:		C:\Windows\System32\reg.exe 
+    Change Information: 
+      Old Value Type:		REG_DWORD 
+      Old Value:		1 
+      New Value Type:		REG_DWORD 
+      New Value:		0 
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
+        <EventID>4657</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>12801</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-19T00:35:58.816842000Z" /> 
+        <EventRecordID>179548</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="4" ThreadID="4560" /> 
+        <Channel>Security</Channel> 
+        <Computer>pedro-computer</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-21-3768430097-3400800235-1714852860-1001</Data> 
+        <Data Name="SubjectUserName">pedro-admin</Data> 
+        <Data Name="SubjectDomainName">PEDRO-COMPUTER</Data> 
+        <Data Name="SubjectLogonId">0xfeff35</Data> 
+        <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit</Data> 
+        <Data Name="ObjectValueName">ProcessCreationIncludeCmdLine_Enabled</Data> 
+        <Data Name="HandleId">0xa8</Data> 
+        <Data Name="OperationType">%%1905</Data> 
+        <Data Name="OldValueType">%%1876</Data> 
+        <Data Name="OldValue">1</Data> 
+        <Data Name="NewValueType">%%1876</Data> 
+        <Data Name="NewValue">0</Data> 
+        <Data Name="ProcessId">0x1364</Data> 
+        <Data Name="ProcessName">C:\Windows\System32\reg.exe</Data> 
+      </EventData> 
+    </Event> 

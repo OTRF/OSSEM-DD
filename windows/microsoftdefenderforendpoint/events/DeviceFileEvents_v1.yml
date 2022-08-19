@@ -5,147 +5,147 @@ log_source: Microsoft Defender for Endpoint
 event_id: DeviceFileEvents
 event_version: '1'
 event_fields:
-- standard_name: event_date_creation
+- standard_name: EventDateCreation
   name: Timestamp
   type: date
   description: Date and time when the record was generated
   sample_value: ''
-- standard_name: device_id
+- standard_name: DeviceId
   name: DeviceId
   type: string
   description: Unique identifier for the device in the service
   sample_value: ''
-- standard_name: device_name
+- standard_name: DeviceName
   name: DeviceName
   type: string
   description: Fully qualified domain name (FQDN) of the device
   sample_value: ''
-- standard_name: action_type
+- standard_name: ActionType
   name: ActionType
   type: string
   description: Type of activity that triggered the event
   sample_value: ''
-- standard_name: file_name
+- standard_name: FileName
   name: FileName
   type: string
   description: Name of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: file_path
+- standard_name: FilePath
   name: FolderPath
   type: string
   description: Folder containing the file that the recorded action was applied to
   sample_value: ''
-- standard_name: file_hash_sha1
+- standard_name: FileHashSha1
   name: SHA1
   type: string
   description: SHA-1 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: file_hash_sha256
+- standard_name: FileHashSha256
   name: SHA256
   type: string
   description: SHA-256 of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: file_hash_md5
+- standard_name: FileHashMd5
   name: MD5
   type: string
   description: MD5 hash of the file that the recorded action was applied to
   sample_value: ''
-- standard_name: file_origin_url
+- standard_name: FileOriginUrl
   name: FileOriginUrl
   type: string
   description: URL where the file was downloaded from
   sample_value: ''
-- standard_name: file_origin_reference_url
+- standard_name: FileOriginReferenceUrl
   name: FileOriginReferenceUrl
   type: string
   description: URL of the web page that links to the downloaded file
   sample_value: ''
-- standard_name: file_origin_ip
+- standard_name: FileOriginIp
   name: FileOriginIP
   type: string
   description: IP address where the file was downloaded from
   sample_value: ''
-- standard_name: file_previous_directory
+- standard_name: FilePreviousDirectory
   name: PreviousFolderPath
   type: string
   description: Original folder containing the file before the recorded action was applied
   sample_value: ''
-- standard_name: file_previous_name
+- standard_name: FilePreviousName
   name: PreviousFileName
   type: string
   description: Original name of the file that was renamed as a result of the action
   sample_value: ''
-- standard_name: file_size
+- standard_name: FileSize
   name: FileSize
   type: string
   description: Size of the file in bytes
   sample_value: ''
-- standard_name: user_domain
+- standard_name: UserDomain
   name: InitiatingProcessAccountDomain
   type: string
   description: Domain of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: user_name
+- standard_name: UserName
   name: InitiatingProcessAccountName
   type: string
   description: User name of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: user_sid
+- standard_name: UserSid
   name: InitiatingProcessAccountSid
   type: string
   description: Security Identifier (SID) of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: user_upn
+- standard_name: UserUpn
   name: InitiatingProcessAccountUpn
   type: string
   description: User principal name (UPN) of the account that ran the process responsible for the event
   sample_value: ''
-- standard_name: process_user_object_id
+- standard_name: ProcessUserObjectId
   name: InitiatingProcessAccountObjectId
   type: string
   description: Azure AD object ID of the user account that ran the process responsible for the event
   sample_value: ''
-- standard_name: process_hash_md5
+- standard_name: ProcessHashMd5
   name: InitiatingProcessMD5
   type: string
   description: MD5 hash of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_hash_sha1
+- standard_name: ProcessHashSha1
   name: InitiatingProcessSHA1
   type: string
   description: SHA-1 hash of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_hash_sha256
+- standard_name: ProcessHashSha256
   name: InitiatingProcessSHA256
   type: string
   description: SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated - use the SHA1 column when available
   sample_value: ''
-- standard_name: process_file_directory
+- standard_name: ProcessFileDirectory
   name: InitiatingProcessFolderPath
   type: string
   description: Folder containing the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_file_name
+- standard_name: ProcessFileName
   name: InitiatingProcessFileName
   type: string
   description: Name of the process that initiated the event
   sample_value: ''
-- standard_name: process_file_size
+- standard_name: ProcessFileSize
   name: InitiatingProcessFileSize
   type: string
   description: Size of the process (image file) that initiated the event
   sample_value: ''
-- standard_name: process_file_company
+- standard_name: ProcessFileCompany
   name: InitiatingProcessVersionInfoCompanyName
   type: string
   description: Company name from the version information of the process (image file) responsible for the event
   sample_value: ''
-- standard_name: process_file_product
+- standard_name: ProcessFileProduct
   name: InitiatingProcessVersionInfoProductName
   type: string
   description: Product name from the version information of the process (image file) responsible for the event
   sample_value: ''
-- standard_name: process_file_version
+- standard_name: ProcessFileVersion
   name: InitiatingProcessVersionInfoProductVersion
   type: string
   description: Product version from the version information of the process (image file) responsible for the event
@@ -165,111 +165,111 @@ event_fields:
   type: string
   description: Description from the version information of the process (image file) responsible for the event
   sample_value: ''
-- standard_name: process_id
+- standard_name: ProcessId
   name: InitiatingProcessId
   type: int
   description: Process ID (PID) of the process that initiated the event
   sample_value: ''
-- standard_name: process_command_line
+- standard_name: ProcessCommandLine
   name: InitiatingProcessCommandLine
   type: string
   description: Command line used to run the process that initiated the event
   sample_value: ''
-- standard_name: process_creation_time
+- standard_name: ProcessCreationTime
   name: InitiatingProcessCreationTime
   type: date
   description: Date and time when the process that initiated the event was started
   sample_value: ''
-- standard_name: process_integrity_level
+- standard_name: ProcessIntegrityLevel
   name: InitiatingProcessIntegrityLevel
   type: string
   description: Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.
   sample_value: ''
-- standard_name: process_token_elevation
+- standard_name: ProcessTokenElevation
   name: InitiatingProcessTokenElevation
   type: string
   description: Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event
   sample_value: ''
-- standard_name: process_parent_id
+- standard_name: ProcessParentId
   name: InitiatingProcessParentId
   type: int
   description: Process ID (PID) of the parent process that spawned the process responsible for the event
   sample_value: ''
-- standard_name: process_parent_name
+- standard_name: ProcessParentName
   name: InitiatingProcessParentFileName
   type: string
   description: Name of the parent process that spawned the process responsible for the event
   sample_value: ''
-- standard_name: process_parent_creation_time
+- standard_name: ProcessParentCreationTime
   name: InitiatingProcessParentCreationTime
   type: date
   description: Date and time when the parent of the process responsible for the event was started
   sample_value: ''
-- standard_name: application_protocol
+- standard_name: ApplicationProtocol
   name: RequestProtocol
   type: string
   description: Network protocol, if applicable, used to initiate the activity - Unknown, Local, SMB, or NFS
   sample_value: SMB
-- standard_name: process_parent_creation_time
+- standard_name: ProcessParentCreationTime
   name: RequestSourceIP
   type: date
   description: IPv4 or IPv6 address of the remote device that initiated the activity
   sample_value: ''
-- standard_name: src_port
+- standard_name: SrcPort
   name: RequestSourcePort
   type: integer
   description: Source port on the remote device that initiated the activity
   sample_value: '1234'
-- standard_name: user_name
+- standard_name: UserName
   name: RequestAccountName
   type: string
   description: User name of account used to remotely initiate the activity
   sample_value: ''
-- standard_name: user_domain
+- standard_name: UserDomain
   name: RequestAccountDomain
   type: string
   description: Domain of the account used to remotely initiate the activity
   sample_value: ''
-- standard_name: user_sid
+- standard_name: UserSid
   name: RequestAccountSid
   type: string
   description: Security Identifier (SID) of the account used to remotely initiate the activity
   sample_value: ''
-- standard_name: share_name
+- standard_name: ShareName
   name: ShareName
   type: string
   description: Name of shared folder containing the file
   sample_value: ''
-- standard_name: sensitivity_label
+- standard_name: SensitivityLabel
   name: SensitivityLabel
   type: string
   description: Label applied to an email, file, or other content to classify it for information protection
   sample_value: ''
-- standard_name: sensitivity_sublabel
+- standard_name: SensitivitySublabel
   name: SensitivitySubLabel
   type: string
   description: Sublabel applied to an email, file, or other content to classify it for information protection; sensitivity sublabels are grouped under sensitivity labels but are treated independently
   sample_value: ''
-- standard_name: is_azure_info_protection_applied
+- standard_name: IsAzureInfoProtectionApplied
   name: IsAzureInfoProtectionApplied
   type: boolean
   description: Indicates whether the file is encrypted by Azure Information Protection
   sample_value: ''
-- standard_name: report_id
+- standard_name: ReportId
   name: ReportId
   type: long
   description: Event identifier based on a repeating counter.To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns
   sample_value: ''
-- standard_name: app_guard_container_id
+- standard_name: AppGuardContainerId
   name: AppGuardContainerId
   type: string
   description: Identifier for the virtualized container used by Application Guard to isolate browser activity
   sample_value: ''
-- standard_name: additional_fields
+- standard_name: AdditionalFields
   name: AdditionalFields
   type: string
   description: Additional information about the entity or event
   sample_value: ''
 references:
-  - https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicefileevents-table?view=o365-worldwide
+- https://docs.microsoft.com/en-us/microsoft-365/security/defender/advanced-hunting-devicefileevents-table?view=o365-worldwide
 tags: []
