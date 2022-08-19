@@ -101,3 +101,70 @@ tags:
 - etw_task_task_0
 - Object Access
 - Audit Registry
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Security 
+    Source:        Microsoft-Windows-Security-Auditing 
+    Date:          8/18/2022 5:35:58 PM 
+    Event ID:      4657 
+    Task Category: Registry 
+    Level:         Information 
+    Keywords:      Audit Success 
+    User:          N/A 
+    Computer:      pedro-computer 
+    Description:   A registry value was modified. 
+    Subject: 
+      Security ID:		PEDRO-COMPUTER\pedro-admin 
+      Account Name:		pedro-admin 
+      Account Domain:		PEDRO-COMPUTER 
+      Logon ID:		0xFEFF35 
+    Object: 
+      Object Name:		\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit 
+      Object Value Name:	ProcessCreationIncludeCmdLine_Enabled 
+      Handle ID:		0xa8 
+      Operation Type:		Existing registry value modified 
+    Process Information: 
+      Process ID:		0x1364 
+      Process Name:		C:\Windows\System32\reg.exe 
+    Change Information: 
+      Old Value Type:		REG_DWORD 
+      Old Value:		1 
+      New Value Type:		REG_DWORD 
+      New Value:		0 
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
+        <EventID>4657</EventID> 
+        <Version>0</Version> 
+        <Level>0</Level> 
+        <Task>12801</Task> 
+        <Opcode>0</Opcode> 
+        <Keywords>0x8020000000000000</Keywords> 
+        <TimeCreated SystemTime="2022-08-19T00:35:58.816842000Z" /> 
+        <EventRecordID>179548</EventRecordID> 
+        <Correlation /> 
+        <Execution ProcessID="4" ThreadID="4560" /> 
+        <Channel>Security</Channel> 
+        <Computer>pedro-computer</Computer> 
+        <Security /> 
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-21-3768430097-3400800235-1714852860-1001</Data> 
+        <Data Name="SubjectUserName">pedro-admin</Data> 
+        <Data Name="SubjectDomainName">PEDRO-COMPUTER</Data> 
+        <Data Name="SubjectLogonId">0xfeff35</Data> 
+        <Data Name="ObjectName">\REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit</Data> 
+        <Data Name="ObjectValueName">ProcessCreationIncludeCmdLine_Enabled</Data> 
+        <Data Name="HandleId">0xa8</Data> 
+        <Data Name="OperationType">%%1905</Data> 
+        <Data Name="OldValueType">%%1876</Data> 
+        <Data Name="OldValue">1</Data> 
+        <Data Name="NewValueType">%%1876</Data> 
+        <Data Name="NewValue">0</Data> 
+        <Data Name="ProcessId">0x1364</Data> 
+        <Data Name="ProcessName">C:\Windows\System32\reg.exe</Data> 
+      </EventData> 
+    </Event> 

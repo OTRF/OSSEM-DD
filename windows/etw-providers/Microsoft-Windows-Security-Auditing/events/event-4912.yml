@@ -72,34 +72,58 @@ tags:
 - Policy Change
 - Audit Policy Change
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Security 
+    Source:        Microsoft-Windows-Security-Auditing 
+    Date:          8/18/2022 5:30:22 AM 
+    Event ID:      4912 
+    Task Category: Audit Policy Change 
+    Level:         Information 
+    Keywords:      Audit Success 
+    User:          N/A 
+    Computer:      pedro-computer 
+    Description:   Per User Audit Policy was changed. 
+    Subject: 
+      Security ID:		PEDRO-COMPUTER\pedro-admin 
+      Account Name:		pedro-admin 
+      Account Domain:		PEDRO-COMPUTER 
+      Logon ID:		0x85E7CD 
+    Policy For Account: 
+      Security ID:		PEDRO-COMPUTER\pedro 
+    Policy Change Details: 
+      Category:	Account Logon 
+      Subcategory:	Kerberos Authentication Service 
+      Subcategory GUID:	{0cce9242-69ae-11d9-bed3-505054503030} 
+      Changes:	Success include removed, Failure include removed 
 - format: xml
   sample: |-
-    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-      <System>
-        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" /> 
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
+      <System> 
+        <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" /> 
         <EventID>4912</EventID> 
         <Version>0</Version> 
         <Level>0</Level> 
         <Task>13568</Task> 
         <Opcode>0</Opcode> 
         <Keywords>0x8020000000000000</Keywords> 
-        <TimeCreated SystemTime="2015-09-30T23:43:07.363195100Z" /> 
-        <EventRecordID>1049452</EventRecordID> 
-        <Correlation /> 
-        <Execution ProcessID="516" ThreadID="1660" /> 
+        <TimeCreated SystemTime="2022-08-18T12:30:22.435727300Z" /> 
+        <EventRecordID>158745</EventRecordID> 
+        <Correlation ActivityID="{277c33d3-b30f-0000-e934-7c270fb3d801}" /> 
+        <Execution ProcessID="608" ThreadID="1320" /> 
         <Channel>Security</Channel> 
-        <Computer>DC01.contoso.local</Computer> 
+        <Computer>pedro-computer</Computer> 
         <Security /> 
-        </System>
-      <EventData>
-        <Data Name="SubjectUserSid">S-1-5-21-3457937927-2839227994-823803824-1104</Data> 
-        <Data Name="SubjectUserName">dadmin</Data> 
-        <Data Name="SubjectDomainName">CONTOSO</Data> 
-        <Data Name="SubjectLogonId">0x11ae30</Data> 
-        <Data Name="TargetUserSid">S-1-5-21-3457937927-2839227994-823803824-2104</Data> 
-        <Data Name="CategoryId">%%8276</Data> 
-        <Data Name="SubcategoryId">%%13312</Data> 
-        <Data Name="SubcategoryGuid">{0CCE922B-69AE-11D9-BED3-505054503030}</Data> 
-        <Data Name="AuditPolicyChanges">%%8452</Data> 
-      </EventData>
-    </Event>
+      </System> 
+      <EventData> 
+        <Data Name="SubjectUserSid">S-1-5-21-3768430097-3400800235-1714852860-1001</Data> 
+        <Data Name="SubjectUserName">pedro-admin</Data> 
+        <Data Name="SubjectDomainName">PEDRO-COMPUTER</Data> 
+        <Data Name="SubjectLogonId">0x85e7cd</Data> 
+        <Data Name="TargetUserSid">S-1-5-21-3768430097-3400800235-1714852860-1002</Data> 
+        <Data Name="CategoryId">%%8280</Data> 
+        <Data Name="SubcategoryId">%%14339</Data> 
+        <Data Name="SubcategoryGuid">{0cce9242-69ae-11d9-bed3-505054503030}</Data> 
+        <Data Name="AuditPolicyChanges">%%8452, %%8456</Data> 
+      </EventData> 
+    </Event> 

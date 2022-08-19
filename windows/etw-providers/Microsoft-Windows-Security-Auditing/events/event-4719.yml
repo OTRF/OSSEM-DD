@@ -87,7 +87,7 @@ event_sample:
       Category:		Account Logon 
       Subcategory:		Credential Validation 
       Subcategory GUID:	{0cce923f-69ae-11d9-bed3-505054503030} 
-      Changes:		Success removed, Failure removed 
+      Changes:		Success removed, Failure removed
 - format: xml
   sample: |-
     <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
