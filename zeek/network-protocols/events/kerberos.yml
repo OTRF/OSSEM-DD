@@ -11,31 +11,31 @@ event_fields:
   type: date_time
   description: Timestamp of the beginning of the event in epoch format
   sample_value: '1138098996.611848'
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: id.orig_h
   type: ip
   description: The originating/source IP address
   sample_value: 10.5.12.5
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: id.orig_p
   type: integer
   description: The originating/source port
   sample_value: '2565'
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   standard_type: TBD
   name: id.resp_h
   type: ip
   description: The responding/destination IP address
   sample_value: 10.5.3.1
-- standard_name: dst_port
+- standard_name: DstPort
   standard_type: TBD
   name: id.resp_p
   type: integer
   description: The responding/destination port
   sample_value: '88'
-- standard_name: event_uid
+- standard_name: EventUid
   standard_type: TBD
   name: uid
   type: string
@@ -107,7 +107,7 @@ event_fields:
   type: boolean
   description: Renewable ticket requested
   sample_value: 'true'
-- standard_name: ticket_request_type
+- standard_name: TicketRequestType
   standard_type: TBD
   name: request_type
   type: string

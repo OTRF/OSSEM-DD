@@ -5,31 +5,31 @@ log_source: osquery
 event_id: hash
 event_version: 5.0.1
 event_fields:
-- standard_name: file_path
+- standard_name: FilePath
   standard_type: TBD
   name: path
   type: TEXT
   description: Must provide a path or directory
   sample_value: TBD
-- standard_name: file_directory
+- standard_name: FileDirectory
   standard_type: TBD
   name: directory
   type: TEXT
   description: Must provide a path or directory
   sample_value: TBD
-- standard_name: hash_md5
+- standard_name: HashMd5
   standard_type: TBD
   name: md5
   type: TEXT
   description: MD5 hash of provided filesystem data
   sample_value: TBD
-- standard_name: hash_sha1
+- standard_name: HashSha1
   standard_type: TBD
   name: sha1
   type: TEXT
   description: SHA1 hash of provided filesystem data
   sample_value: TBD
-- standard_name: hadh_sha256
+- standard_name: HadhSha256
   standard_type: TBD
   name: sha256
   type: TEXT

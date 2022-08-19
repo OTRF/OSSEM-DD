@@ -5,19 +5,19 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4950'
 event_version: '0'
 event_fields:
-- standard_name: profile_changed
+- standard_name: ProfileChanged
   standard_type: TBD
   name: ProfileChanged
   type: UnicodeString
   description: the name of profile in which setting was changed.
   sample_value: Domain
-- standard_name: setting_type
+- standard_name: SettingType
   standard_type: TBD
   name: SettingType
   type: UnicodeString
   description: the name of the setting which was modified.
   sample_value: Default Outbound Action
-- standard_name: setting_value
+- standard_name: SettingValue
   standard_type: TBD
   name: SettingValue
   type: UnicodeString

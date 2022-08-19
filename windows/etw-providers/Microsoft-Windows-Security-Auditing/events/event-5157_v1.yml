@@ -5,13 +5,13 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5157'
 event_version: '1'
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessID
   type: UInt64
   description: Hexadecimal Process ID of the process that attempted to create the connection.
   sample_value: '4556'
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: Application
   type: UnicodeString
@@ -23,31 +23,31 @@ event_fields:
   type: UnicodeString
   description: Direction of blocked connection.
   sample_value: Inbound
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceAddress
   type: UnicodeString
   description: Local IP address on which application received the connection.
   sample_value: 10.0.0.10
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: SourcePort
   type: UnicodeString
   description: Port number on which application received the connection.
   sample_value: '3333'
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   standard_type: TBD
   name: DestAddress
   type: UnicodeString
   description: IP address from which connection was received or initiated.
   sample_value: 10.0.0.100
-- standard_name: dst_port
+- standard_name: DstPort
   standard_type: TBD
   name: DestPort
   type: UnicodeString
   description: Port number which was used from remote machine to initiate connection.
   sample_value: '49218'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: Protocol
   type: UInt32

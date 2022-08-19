@@ -5,49 +5,49 @@ log_source: sysmon
 event_id: '14'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_type
+- standard_name: EventType
   standard_type: TBD
   name: EventType
   type: string
   description: registry event. Registry key and value renamed
   sample_value: RenameKey
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 6:04
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that renamed a registry value and key
   sample_value: '{A98268C1-95F9-5ACD-0000-001025861000}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that renamed a registry value and key
   sample_value: '4624'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that renamed a registry value and key
   sample_value: C:\WINDOWS\Explorer.EXE
-- standard_name: registry_path
+- standard_name: RegistryPath
   standard_type: TBD
   name: TargetObject
   type: string
   description: complete path of the registry key
   sample_value: 'HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\New Key #1'
-- standard_name: registry_key_new_name
+- standard_name: RegistryKeyNewName
   standard_type: TBD
   name: NewName
   type: string

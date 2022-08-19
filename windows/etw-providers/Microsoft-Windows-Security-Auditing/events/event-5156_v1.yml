@@ -5,13 +5,13 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5156'
 event_version: '1'
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessID
   type: UInt64
   description: Hexadecimal Process ID of the process which received the connection.
   sample_value: '4156'
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: Application
   type: UnicodeString
@@ -23,31 +23,31 @@ event_fields:
   type: UnicodeString
   description: Direction of allowed connection.
   sample_value: Inbound
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceAddress
   type: UnicodeString
   description: IP address from which the connection was initiated.
   sample_value: 10.0.0.10
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: SourcePort
   type: UnicodeString
   description: Port number from which the connection was initiated.
   sample_value: '3333'
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   standard_type: TBD
   name: DestAddress
   type: UnicodeString
   description: IP address where the connection was received.
   sample_value: 10.0.0.100
-- standard_name: dst_port
+- standard_name: DstPort
   standard_type: TBD
   name: DestPort
   type: UnicodeString
   description: Port number where the connection was received.
   sample_value: '49278'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: Protocol
   type: UInt32

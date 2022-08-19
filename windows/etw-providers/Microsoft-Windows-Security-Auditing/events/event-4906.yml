@@ -5,7 +5,7 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4906'
 event_version: '0'
 event_fields:
-- standard_name: audit_policy_crash_on_audit_fail_value
+- standard_name: AuditPolicyCrashOnAuditFailValue
   standard_type: TBD
   name: CrashOnAuditFailValue
   type: UInt32

@@ -5,25 +5,25 @@ log_source: sysmon
 event_id: '4'
 event_version: '4.81'
 event_fields:
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: '2021-10-15T00:26:12.0920000Z'
-- standard_name: service_state
+- standard_name: ServiceState
   standard_type: TBD
   name: State
   type: string
   description: sysmon service state (i.e. stopped)
   sample_value: Started
-- standard_name: file_version
+- standard_name: FileVersion
   standard_type: TBD
   name: Version
   type: string
   description: sysmon version
   sample_value: '1.0.0'
-- standard_name: sysmon_schema_version
+- standard_name: SysmonSchemaVersion
   standard_type: TBD
   name: SchemaVersion
   type: string

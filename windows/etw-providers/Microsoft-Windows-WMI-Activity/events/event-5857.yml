@@ -17,19 +17,19 @@ event_fields:
   type: HexInt32
   description:
   sample_value:
-- standard_name: process_name
+- standard_name: ProcessName
   standard_type: TBD
   name: HostProcess
   type: UnicodeString
   description: WMI provider process name
   sample_value:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessID
   type: UInt32
   description: WMI provider process id
   sample_value:
-- standard_name: module_loaded
+- standard_name: ModuleLoaded
   standard_type: TBD
   name: ProviderPath
   type: UnicodeString

@@ -29,13 +29,13 @@ event_fields:
   type: UnicodeString
   description:
   sample_value:
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: ClientName
   type: UnicodeString
   description: the name of the account that requested the "assign token to process" operation.
   sample_value: WIN2008$
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: ClientDomain
   type: UnicodeString

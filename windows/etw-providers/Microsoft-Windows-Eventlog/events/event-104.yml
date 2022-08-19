@@ -5,13 +5,13 @@ log_source: Microsoft-Windows-Eventlog
 event_id: '104'
 event_version: '0'
 event_fields:
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: The name of the account that cleared the log file
   sample_value: pedro
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString

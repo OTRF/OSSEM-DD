@@ -5,67 +5,67 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5058'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that requested key file operation.
   sample_value: S-1-5-21-3457937927-2839227994-823803824-1104
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that requested key file operation.
   sample_value: dadmin
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name.
   sample_value: CONTOSO
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: 'hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID, for example, "4624: An account was successfully logged on."'
   sample_value: '0x38e2d'
-- standard_name: key_provider_name
+- standard_name: KeyProviderName
   standard_type: TBD
   name: ProviderName
   type: UnicodeString
   description: the name of KSP through which the operation was performed.
   sample_value: Microsoft Software Key Storage Provider
-- standard_name: key_algorithm_name
+- standard_name: KeyAlgorithmName
   standard_type: TBD
   name: AlgorithmName
   type: UnicodeString
   description: the name of cryptographic algorithm through which the key was used or accessed.
   sample_value: ECDH_P521
-- standard_name: key_name
+- standard_name: KeyName
   standard_type: TBD
   name: KeyName
   type: UnicodeString
   description: the name of the key (key container) with which operation was performed.
   sample_value: le-SuperAdmin-5e350d8e-ae46-458c-bac0-d8f3279c944e
-- standard_name: key_type
+- standard_name: KeyType
   standard_type: TBD
   name: KeyType
   type: UnicodeString
   description: 'can have one of the following values: "User key." - user''s cryptographic key. "Machine key." - machine''s cryptographic key.'
   sample_value: '%%2500'
-- standard_name: key_path
+- standard_name: KeyPath
   standard_type: TBD
   name: KeyFilePath
   type: UnicodeString
   description: full path and filename of the key file on which the operation was performed.
   sample_value: C:\Users\dadmin\AppData\Roaming\Microsoft\Crypto\Keys\c0a496c6786f0d25e8624fee96e4e580_7a1bf91d-ebdd-449c-825d-c97f2f47cd01
-- standard_name: key_operation
+- standard_name: KeyOperation
   standard_type: TBD
   name: Operation
   type: UnicodeString
   description: performed operation.
   sample_value: '%%2459'
-- standard_name: key_return_code
+- standard_name: KeyReturnCode
   standard_type: TBD
   name: ReturnCode
   type: HexInt32

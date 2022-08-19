@@ -5,43 +5,43 @@ log_source: sysmon
 event_id: '15'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:25
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that created the named file stream
   sample_value: '{A98268C1-A8A0-5ACD-0000-001087DEBF00}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that created the named file stream
   sample_value: '6972'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that created the named file stream
   sample_value: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-- standard_name: file_name
+- standard_name: FileName
   standard_type: TBD
   name: TargetFilename
   type: string
   description: Name of the file
   sample_value: C:\Users\wardog\Downloads\a0fa35bc5badf505f803921f0fe40971-4cf6bad280c7b66e21bb8e96ffe2f968ca460e0d.zip:Zone.Identifier
-- standard_name: file_creation_time
+- standard_name: FileCreationTime
   standard_type: TBD
   name: CreationUtcTime
   type: date

@@ -5,67 +5,67 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5379'
 event_version: '0'
 event_fields:
-- standard_name: user_sid
+- standard_name: UserSid
   standard_type: TBD
   name: SubjectUserSid
   type: SID
   description: SID of account that performed a read operation on stored credentials in CM
   sample_value: S-1-5-18
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: SubjectUserName
   type: UnicodeString
   description: the name of the account that performed a read operation on stored credentials in CM
   sample_value: ACCT001$
-- standard_name: user_domain
+- standard_name: UserDomain
   standard_type: TBD
   name: SubjectDomainName
   type: UnicodeString
   description: subject's domain or computer name
   sample_value: SHIRE
-- standard_name: user_logon_id
+- standard_name: UserLogonId
   standard_type: TBD
   name: SubjectLogonId
   type: HexInt64
   description: hexadecimal value that can help you correlate this event with recent events that might contain the same Logon ID
   sample_value: '0x3e7'
-- standard_name: credentials_read
+- standard_name: CredentialsRead
   standard_type: TBD
   name: TargetName
   type: UnicodeString
   description: stored credentials that were read
   sample_value: WindowsLive:(token):name=xxxxxasas;serviceuri=*
-- standard_name: credentials_read_type
+- standard_name: CredentialsReadType
   standard_type: TBD
   name: Type
   type: UInt32
   description: ''
   sample_value: '0'
-- standard_name: credential_read_returned_count
+- standard_name: CredentialReadReturnedCount
   standard_type: TBD
   name: CountOfCredentialsReturned
   type: UInt32
   description: ''
   sample_value: '0'
-- standard_name: object_operation_type
+- standard_name: ObjectOperationType
   standard_type: TBD
   name: ReadOperation
   type: UnicodeString
   description: ''
   sample_value: '%%8100'
-- standard_name: credentials_read_returned_code
+- standard_name: CredentialsReadReturnedCode
   standard_type: TBD
   name: ReturnCode
   type: UInt32
   description: ''
   sample_value: '0'
-- standard_name: process_creation_time
+- standard_name: ProcessCreationTime
   standard_type: TBD
   name: ProcessCreationTime
   type: FILETIME
   description: ''
   sample_value: '2019-02-25T22:33:21.621488200Z'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ClientProcessId
   type: UInt32

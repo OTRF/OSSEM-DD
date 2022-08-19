@@ -5,49 +5,49 @@ log_source: sysmon
 event_id: '22'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: '2019-06-12 00:57:55.254'
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that executed the DNS query
   sample_value: '{A98268C1-4DDF-5D00-0000-00102D794100}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: string
   description: Process id of the process that executed the DNS query
   sample_value: '416'
-- standard_name: dst_host_name
+- standard_name: DstHostName
   standard_type: TBD
   name: QueryName
   type: string
   description: DNS query name
   sample_value: chrome.google.com
-- standard_name: dns_response_code
+- standard_name: DnsResponseCode
   standard_type: TBD
   name: QueryStatus
   type: string
   description: DNS query status
   sample_value: '0'
-- standard_name: dns_response_name
+- standard_name: DnsResponseName
   standard_type: TBD
   name: QueryResults
   type: string
   description: DNS query results
   sample_value: 'type: 5 www3.l.google.com;172.217.7.206;'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image
   type: string
@@ -60,16 +60,16 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/dns-query.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-      <EventData>
-      <Data Name="RuleName">-</Data>
-      <Data Name="UtcTime">2022-06-29 19:06:02.389</Data>
-      <Data Name="ProcessGuid">{01e2a015-a2b2-62bc-ab05-000000000500}</Data>
-      <Data Name="ProcessId">3704</Data>
-      <Data Name="QueryName">checkappexec.microsoft.com</Data>
-      <Data Name="QueryStatus">0</Data>
-      <Data Name="QueryResults">type:  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>
-      <Data Name="Image">C:\Windows\System32\smartscreen.exe</Data>
-      <Data Name="User">DESKTOP-CQF82L6\pedro</Data> 
-      </EventData> 
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data>
+    <Data Name="UtcTime">2022-06-29 19:06:02.389</Data>
+    <Data Name="ProcessGuid">{01e2a015-a2b2-62bc-ab05-000000000500}</Data>
+    <Data Name="ProcessId">3704</Data>
+    <Data Name="QueryName">checkappexec.microsoft.com</Data>
+    <Data Name="QueryStatus">0</Data>
+    <Data Name="QueryResults">type:  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>
+    <Data Name="Image">C:\Windows\System32\smartscreen.exe</Data>
+    <Data Name="User">DESKTOP-CQF82L6\pedro</Data> 
+    </EventData> 

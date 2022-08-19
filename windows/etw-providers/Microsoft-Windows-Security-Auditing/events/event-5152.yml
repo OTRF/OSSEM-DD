@@ -5,49 +5,49 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '5152'
 event_version: '0'
 event_fields:
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: UInt64
   description: hexadecimal Process ID of the process to which blocked network packet was sent.
   sample_value: '4556'
-- standard_name: process_path
+- standard_name: ProcessPath
   standard_type: TBD
   name: Application
   type: UnicodeString
   description: full path and the name of the executable for the process.
   sample_value: \device\harddiskvolume2\documents\listener.exe
-- standard_name: network_direction
+- standard_name: NetworkDirection
   standard_type: TBD
   name: Direction
   type: UnicodeString
   description: full path and the name of the executable for the process.
   sample_value: '%%14592'
-- standard_name: src_ip_addr
+- standard_name: SrcIpAddr
   standard_type: TBD
   name: SourceAddress
   type: UnicodeString
   description: local IP address on which application received the packet.
   sample_value: 10.0.0.100
-- standard_name: src_port
+- standard_name: SrcPort
   standard_type: TBD
   name: SourcePort
   type: UnicodeString
   description: port number on which application received the packet.
   sample_value: '49278'
-- standard_name: dst_ip_addr
+- standard_name: DstIpAddr
   standard_type: TBD
   name: DestAddress
   type: UnicodeString
   description: IP address from which packet was received or initiated.
   sample_value: 10.0.0.10
-- standard_name: dst_port
+- standard_name: DstPort
   standard_type: TBD
   name: DestPort
   type: UnicodeString
   description: port number which was used from remote machine to send the packet.
   sample_value: '3333'
-- standard_name: network_protocol
+- standard_name: NetworkProtocol
   standard_type: TBD
   name: Protocol
   type: UInt32

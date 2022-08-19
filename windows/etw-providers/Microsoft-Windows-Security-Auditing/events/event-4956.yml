@@ -5,7 +5,7 @@ log_source: Microsoft-Windows-Security-Auditing
 event_id: '4956'
 event_version: '0'
 event_fields:
-- standard_name: active_profile
+- standard_name: ActiveProfile
   standard_type: TBD
   name: ActiveProfile
   type: UnicodeString

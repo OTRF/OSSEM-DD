@@ -5,43 +5,43 @@ log_source: sysmon
 event_id: '9'
 event_version: '4.32'
 event_fields:
-- standard_name: tag
+- standard_name: Tag
   standard_type: TBD
   name: RuleName
   type: string
   description: custom tag mapped to event. i.e ATT&CK technique ID
   sample_value: T1114
-- standard_name: event_creation_time
+- standard_name: EventCreationTime
   standard_type: TBD
   name: UtcTime
   type: date
   description: Time in UTC when event was created
   sample_value: 4/11/18 5:51
-- standard_name: process_guid
+- standard_name: ProcessGuid
   standard_type: TBD
   name: ProcessGuid
   type: string
   description: Process Guid of the process that conducted reading operations from the drive
   sample_value: '{A98268C1-959B-5ACD-0000-0010EFD50200}'
-- standard_name: process_id
+- standard_name: ProcessId
   standard_type: TBD
   name: ProcessId
   type: integer
   description: Process ID used by the os to identify the process that conducted reading operations from the drive
   sample_value: '2708'
-- standard_name: process_file_path
+- standard_name: ProcessFilePath
   standard_type: TBD
   name: Image
   type: string
   description: File path of the process that conducted reading operations from the drive
   sample_value: C:\Windows\System32\svchost.exe
-- standard_name: target_device
+- standard_name: TargetDevice
   standard_type: TBD
   name: Device
   type: string
   description: Target device
   sample_value: \Device\HarddiskVolume2
-- standard_name: user_name
+- standard_name: UserName
   standard_type: TBD
   name: User
   type: string
@@ -54,14 +54,14 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/raw-access-read.md
 tags: []
 event_sample:
-  - format: xml
-    sample: |-
-        <EventData>
-        <Data Name="RuleName">-</Data> 
-        <Data Name="UtcTime">2021-11-04 23:30:24.705</Data> 
-        <Data Name="ProcessGuid">{3710b5c6-6bc3-6184-1f00-000000000d00}</Data> 
-        <Data Name="ProcessId">1200</Data> 
-        <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-        <Data Name="Device">\Device\HarddiskVolume2</Data> 
-        <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-        </EventData>
+- format: xml
+  sample: |-
+    <EventData>
+    <Data Name="RuleName">-</Data> 
+    <Data Name="UtcTime">2021-11-04 23:30:24.705</Data> 
+    <Data Name="ProcessGuid">{3710b5c6-6bc3-6184-1f00-000000000d00}</Data> 
+    <Data Name="ProcessId">1200</Data> 
+    <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
+    <Data Name="Device">\Device\HarddiskVolume2</Data> 
+    <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
+    </EventData>
