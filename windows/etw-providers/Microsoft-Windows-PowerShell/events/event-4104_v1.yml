@@ -10,25 +10,25 @@ event_fields:
   name: MessageNumber
   type: Int32
   description:
-  sample_value:
+  sample_value: 1
 - standard_name: TBD
   standard_type: TBD
   name: MessageTotal
   type: Int32
   description:
-  sample_value:
+  sample_value: 1
 - standard_name: TBD
   standard_type: TBD
   name: ScriptBlockText
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: prompt
 - standard_name: TBD
   standard_type: TBD
   name: ScriptBlockId
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: 85e92f7c-9ed0-423d-9ce0-51c6ca23406d
 - standard_name: TBD
   standard_type: TBD
   name: Path
@@ -41,3 +41,46 @@ tags:
 - etw_keywords_Runspace
 - etw_opcode_Oncreatecalls
 - etw_task_StartingCommand
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-PowerShell/Operational
+    Source:        Microsoft-Windows-PowerShell
+    Date:          9/7/2022 6:39:29 AM
+    Event ID:      4104
+    Task Category: Execute a Remote Command
+    Level:         Verbose
+    Keywords:      None
+    User:          PEDRO-COMPUTER\pedro-admin
+    Computer:      pedro-computer
+    Description:   Creating Scriptblock text (1 of 1): prompt
+    ScriptBlock ID: 85e92f7c-9ed0-423d-9ce0-51c6ca23406d
+    Path: 
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+        <EventID>4104</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>2</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime="2022-09-07T13:39:29.274184500Z" />
+        <EventRecordID>398</EventRecordID>
+        <Correlation ActivityID="{cf6cb87c-ae9a-0000-344c-6ecf9aaed801}" />
+        <Execution ProcessID="6112" ThreadID="532" />
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-21-3768430097-3400800235-1714852860-1001" />
+      </System>
+      <EventData>
+        <Data Name="MessageNumber">1</Data>
+        <Data Name="MessageTotal">1</Data>
+        <Data Name="ScriptBlockText">prompt</Data>
+        <Data Name="ScriptBlockId">85e92f7c-9ed0-423d-9ce0-51c6ca23406d</Data>
+        <Data Name="Path">
+        </Data>
+      </EventData>
+    </Event>

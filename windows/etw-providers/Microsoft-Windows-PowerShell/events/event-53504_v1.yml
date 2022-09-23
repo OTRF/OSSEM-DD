@@ -10,16 +10,53 @@ event_fields:
   name: param1
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: 1364
 - standard_name: TBD
   standard_type: TBD
   name: param2
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: DefaultAppDomain
 references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Transport
 - etw_opcode_Open(async)
 - etw_task_PowerShellNamedPipeIPC
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-PowerShell/Operational
+    Source:        Microsoft-Windows-PowerShell
+    Date:          9/14/2022 11:30:59 PM
+    Event ID:      53504
+    Task Category: PowerShell Named Pipe IPC
+    Level:         Information
+    Keywords:      None
+    User:          PEDRO-COMPUTER\pedro
+    Computer:      pedro-computer
+    Description:   Windows PowerShell has started an IPC listening thread on process: 1364 in AppDomain: DefaultAppDomain.
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+        <EventID>53504</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>111</Task>
+        <Opcode>10</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime="2022-09-15T06:30:59.570275800Z" />
+        <EventRecordID>403</EventRecordID>
+        <Correlation ActivityID="{cf6cb87c-ae9a-0000-0667-6ecf9aaed801}" />
+        <Execution ProcessID="1364" ThreadID="4916" />
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-21-3768430097-3400800235-1714852860-1002" />
+      </System>
+      <EventData>
+        <Data Name="param1">1364</Data>
+        <Data Name="param2">DefaultAppDomain</Data>
+      </EventData>
+    </Event>
