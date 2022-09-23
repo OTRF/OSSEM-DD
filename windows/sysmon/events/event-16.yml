@@ -1,9 +1,9 @@
 name: Event ID 16 - Sysmon Config State Changed
 description: This event logs when the local **sysmon configuration is updated**.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '16'
-event_version: '4.32'
+event_version: '3'
 event_fields:
 - standard_name: EventCreationTime
   standard_type: TBD
@@ -27,3 +27,52 @@ references:
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/sysmon-events.md#service-state-change
 tags: []
+event_sample:
+  - format: friendly view
+    sample: |-
+      Log Name:      Microsoft-Windows-Sysmon/Operational
+      Source:        Microsoft-Windows-Sysmon
+      Date:          9/22/2022 4:50:18 PM
+      Event ID:      16
+      Task Category: Sysmon config state changed
+      Level:         Information
+      Keywords:      
+      User:          PEDRO-COMPUTER\pedro-admin
+      Computer:      pedro-computer
+      Description:
+      The description for Event ID 16 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+      If the event originated on another computer, the display information had to be saved with the event.
+
+      The following information was included with the event: 
+
+      2022-09-22 23:50:18.947
+      C:\Users\pedro\Desktop\Sysmon\sysmon.xml
+      SHA256=66DA17149BB0423F7E8B3769F5C7A0F10E0C55A87F2A937B195CB2E3E1683C8E
+
+      The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  - format: xml
+    sample: |-
+      <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+        <System>
+          <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+          <EventID>16</EventID>
+          <Version>3</Version>
+          <Level>4</Level>
+          <Task>16</Task>
+          <Opcode>0</Opcode>
+          <Keywords>0x8000000000000000</Keywords>
+          <TimeCreated SystemTime="2022-09-22T23:50:18.958066200Z" />
+          <EventRecordID>2422177</EventRecordID>
+          <Correlation />
+          <Execution ProcessID="3356" ThreadID="1344" />
+          <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+          <Computer>pedro-computer</Computer>
+          <Security UserID="S-1-5-21-3768430097-3400800235-1714852860-1001" />
+        </System>
+        <EventData>
+          <Data Name="UtcTime">2022-09-22 23:50:18.947</Data>
+          <Data Name="Configuration">C:\Users\pedro\Desktop\Sysmon\sysmon.xml</Data>
+          <Data Name="ConfigurationFileHash">SHA256=66DA17149BB0423F7E8B3769F5C7A0F10E0C55A87F2A937B195CB2E3E1683C8E</Data>
+        </EventData>
+      </Event>

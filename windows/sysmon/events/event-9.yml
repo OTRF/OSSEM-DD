@@ -1,9 +1,9 @@
 name: 'Event ID 9: RawAccessRead'
 description: The **RawAccessRead** event detects when a process conducts reading operations from the drive using the .\ denotation. This technique is often used by malware for data exfiltration of files that are locked for reading, as well as to avoid file access auditing tools. The event indicates the source process and target device.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '9'
-event_version: '4.32'
+event_version: '2'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -54,14 +54,58 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/raw-access-read.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 5:20:34 PM
+    Event ID:      9
+    Task Category: RawAccessRead detected (rule: RawAccessRead)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 9 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+
+    -
+    2022-09-23 00:20:34.554
+    EV_RenderedValue_2.00
+    4
+    System
+    \Device\HarddiskVolume1
+    NT AUTHORITY\SYSTEM
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data> 
-    <Data Name="UtcTime">2021-11-04 23:30:24.705</Data> 
-    <Data Name="ProcessGuid">{3710b5c6-6bc3-6184-1f00-000000000d00}</Data> 
-    <Data Name="ProcessId">1200</Data> 
-    <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-    <Data Name="Device">\Device\HarddiskVolume2</Data> 
-    <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>9</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>9</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-23T00:20:34.558142300Z" />
+        <EventRecordID>2478645</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="7900" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-23 00:20:34.554</Data>
+        <Data Name="ProcessGuid">{564ff025-d405-62f6-eb03-000000000000}</Data>
+        <Data Name="ProcessId">4</Data>
+        <Data Name="Image">System</Data>
+        <Data Name="Device">\Device\HarddiskVolume1</Data>
+        <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      </EventData>
+    </Event>

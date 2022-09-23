@@ -10,16 +10,55 @@ event_fields:
   name: ScriptBlockId
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: c89a14bd-fafc-4207-9a74-454cd6b72e04
 - standard_name: TBD
   standard_type: TBD
   name: RunspaceId
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: 0822f95a-e8ca-4ed0-8c24-0403d65fde7b
 references:
 tags:
 - etw_level_Verbose
 - etw_keywords_Runspace
 - etw_opcode_Open(async)
 - etw_task_StartingCommand
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-PowerShell/Operational
+    Source:        Microsoft-Windows-PowerShell
+    Date:          9/7/2022 6:39:29 AM
+    Event ID:      4105
+    Task Category: Starting Command
+    Level:         Verbose
+    Keywords:      None
+    User:          PEDRO-COMPUTER\pedro-admin
+    Computer:      pedro-computer
+    Description:
+    Started invocation of ScriptBlock ID: c89a14bd-fafc-4207-9a74-454cd6b72e04
+    Runspace ID: 0822f95a-e8ca-4ed0-8c24-0403d65fde7b
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+        <EventID>4105</EventID>
+        <Version>1</Version>
+        <Level>5</Level>
+        <Task>102</Task>
+        <Opcode>15</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime="2022-09-07T13:39:29.275029400Z" />
+        <EventRecordID>400</EventRecordID>
+        <Correlation ActivityID="{cf6cb87c-ae9a-0000-354c-6ecf9aaed801}" />
+        <Execution ProcessID="6112" ThreadID="532" />
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-21-3768430097-3400800235-1714852860-1001" />
+      </System>
+      <EventData>
+        <Data Name="ScriptBlockId">c89a14bd-fafc-4207-9a74-454cd6b72e04</Data>
+        <Data Name="RunspaceId">0822f95a-e8ca-4ed0-8c24-0403d65fde7b</Data>
+      </EventData>
+    </Event>

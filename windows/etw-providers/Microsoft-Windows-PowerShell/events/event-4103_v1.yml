@@ -10,7 +10,23 @@ event_fields:
   name: ContextInfo
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: |-
+    Severity = Informational
+    Host Name = Windows PowerShell ISE Host
+    Host Version = 5.1.18362.1
+    Host ID = f6e14e18-f1af-4346-a127-6096c5333435
+    Host Application = C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+    Engine Version = 5.1.18362.1
+    Runspace ID = 0822f95a-e8ca-4ed0-8c24-0403d65fde7b
+    Pipeline ID = 60
+    Command Name = Collection-Preparation.ps1
+    Command Type = ExternalScript
+    Script Name = 
+    Command Path = C:\Users\pedro-admin\Desktop\PS_Collection\Collection-Preparation.ps1
+    Sequence Number = 65
+    User = PEDRO-COMPUTER\pedro-admin
+    Connected User = 
+    Shell ID = Microsoft.PowerShell
 - standard_name: TBD
   standard_type: TBD
   name: UserData
@@ -22,10 +38,88 @@ event_fields:
   name: Payload
   type: UnicodeString
   description:
-  sample_value:
+  sample_value: |-
+    CommandInvocation(Collection-Preparation.ps1): "Collection-Preparation.ps1" 
+    CommandInvocation(Out-Default): "Out-Default"
 references:
 tags:
 - etw_level_Informational
 - etw_keywords_Cmdlets
 - etw_opcode_Tobeusedwhenanexceptionisraised
 - etw_task_None
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-PowerShell/Operational
+    Source:        Microsoft-Windows-PowerShell
+    Date:          9/7/2022 6:39:29 AM
+    Event ID:      4103
+    Task Category: Executing Pipeline
+    Level:         Information
+    Keywords:      None
+    User:          PEDRO-COMPUTER\pedro-admin
+    Computer:      pedro-computer
+    Description:
+    CommandInvocation(Collection-Preparation.ps1): "Collection-Preparation.ps1"
+    CommandInvocation(Out-Default): "Out-Default"
+    Context:
+            Severity = Informational
+            Host Name = Windows PowerShell ISE Host
+            Host Version = 5.1.18362.1
+            Host ID = f6e14e18-f1af-4346-a127-6096c5333435
+            Host Application = C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+            Engine Version = 5.1.18362.1
+            Runspace ID = 0822f95a-e8ca-4ed0-8c24-0403d65fde7b
+            Pipeline ID = 60
+            Command Name = Collection-Preparation.ps1
+            Command Type = ExternalScript
+            Script Name = 
+            Command Path = C:\Users\pedro-admin\Desktop\PS_Collection\Collection-Preparation.ps1
+            Sequence Number = 65
+            User = PEDRO-COMPUTER\pedro-admin
+            Connected User = 
+            Shell ID = Microsoft.PowerShell
+    User Data:
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-PowerShell" Guid="{a0c1853b-5c40-4b15-8766-3cf1c58f985a}" />
+        <EventID>4103</EventID>
+        <Version>1</Version>
+        <Level>4</Level>
+        <Task>106</Task>
+        <Opcode>20</Opcode>
+        <Keywords>0x0</Keywords>
+        <TimeCreated SystemTime="2022-09-07T13:39:29.251629900Z" />
+        <EventRecordID>397</EventRecordID>
+        <Correlation ActivityID="{cf6cb87c-ae9a-0000-c548-6ecf9aaed801}" />
+        <Execution ProcessID="6112" ThreadID="532" />
+        <Channel>Microsoft-Windows-PowerShell/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-21-3768430097-3400800235-1714852860-1001" />
+      </System>
+      <EventData>
+        <Data Name="ContextInfo">        Severity = Informational
+            Host Name = Windows PowerShell ISE Host
+            Host Version = 5.1.18362.1
+            Host ID = f6e14e18-f1af-4346-a127-6096c5333435
+            Host Application = C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+            Engine Version = 5.1.18362.1
+            Runspace ID = 0822f95a-e8ca-4ed0-8c24-0403d65fde7b
+            Pipeline ID = 60
+            Command Name = Collection-Preparation.ps1
+            Command Type = ExternalScript
+            Script Name = 
+            Command Path = C:\Users\pedro-admin\Desktop\PS_Collection\Collection-Preparation.ps1
+            Sequence Number = 65
+            User = PEDRO-COMPUTER\pedro-admin
+            Connected User = 
+            Shell ID = Microsoft.PowerShell
+        </Data>
+        <Data Name="UserData">
+        </Data>
+          <Data Name="Payload">CommandInvocation(Collection-Preparation.ps1): "Collection-Preparation.ps1" CommandInvocation(Out-Default): "Out-Default"
+        </Data>
+      </EventData>
+    </Event>

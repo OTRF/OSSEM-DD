@@ -1,9 +1,9 @@
 name: 'Event ID 23: FileDelete (A file delete was detected)'
 description: This event logs when a **file is deleted** by a process.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '23'
-event_version: '4.32'
+event_version: '5'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -72,17 +72,58 @@ references:
   link: https://medium.com/falconforce/sysmon-11-dns-improvements-and-filedelete-events-7a74f17ca842
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 4:25:53 PM
+    Event ID:      23
+    Task Category: File Delete archived (rule: FileDelete)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    File Delete archived:
+    RuleName: -
+    UtcTime: 2022-09-22 23:25:53.199
+    ProcessGuid: {564ff025-9ddc-6318-4605-000000000500}
+    ProcessId: 6112
+    User: PEDRO-COMPUTER\pedro-admin
+    Image: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+    TargetFilename: C:\Users\pedro-admin\AppData\Local\Microsoft_Corporation\PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\6112.xml~RF6a1c00.TMP
+    Hashes: SHA1=9EC92FF7E7A70A07FBF934F251A1C0459D5D2C05,MD5=18BB3C0F702423348111209342F18BB4,SHA256=BAD37C706C06ABE2E7466BA1EB2631CC3DA68B21857CB9208E09033A907EAECE,IMPHASH=00000000000000000000000000000000
+    IsExecutable: false
+    Archived: true
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data>
-    <Data Name="UtcTime">2022-06-29 19:25:26.450</Data>
-    <Data Name="ProcessGuid">{01e2a015-02ee-62bc-0e01-000000000500}</Data>
-    <Data Name="ProcessId">1368</Data>
-    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-    <Data Name="Image">C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2205.7-0\MsMpEng.exe</Data>
-    <Data Name="TargetFilename">C:\ProgramData\Microsoft\Windows Defender\Scans\Scans\History\CacheManager\7A012CB2-69ED-4AFD-BEF6-F12032FAA46E</Data>
-    <Data Name="Hashes">SHA1=A35327FFEBFF1BBA6499C087CD8E1A73C12586E9,MD5=3CEB4359DFE139A2AFF614B7C7AE7DC7,SHA256=895578306B9F70AE5F670564BB039A66B0D77775D98994EE19D2ABEA0876B2D5,IMPHASH=00000000000000000000000000000000</Data>
-    <Data Name="IsExecutable">false</Data>
-    <Data Name="Archived">true</Data>
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>23</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>23</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-22T23:25:53.211823800Z" />
+        <EventRecordID>2311578</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="2948" ThreadID="3724" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-22 23:25:53.199</Data>
+        <Data Name="ProcessGuid">{564ff025-9ddc-6318-4605-000000000500}</Data>
+        <Data Name="ProcessId">6112</Data>
+        <Data Name="User">PEDRO-COMPUTER\pedro-admin</Data>
+        <Data Name="Image">C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe</Data>
+        <Data Name="TargetFilename">C:\Users\pedro-admin\AppData\Local\Microsoft_Corporation\PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w\3.0.0.0\AutoSaveInformation\6112.xml~RF6a1c00.TMP</Data>
+        <Data Name="Hashes">SHA1=9EC92FF7E7A70A07FBF934F251A1C0459D5D2C05,MD5=18BB3C0F702423348111209342F18BB4,SHA256=BAD37C706C06ABE2E7466BA1EB2631CC3DA68B21857CB9208E09033A907EAECE,IMPHASH=00000000000000000000000000000000</Data>
+        <Data Name="IsExecutable">false</Data>
+        <Data Name="Archived">true</Data>
+      </EventData>
+    </Event>

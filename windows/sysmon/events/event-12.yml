@@ -1,9 +1,9 @@
 name: 'Event ID 12: RegistryEvent (Object create and delete)'
 description: '**Registry key and value create and delete** operations map to this event type, which can be useful for monitoring for changes to Registry autostart locations, or specific malware registry modifications.'
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '12'
-event_version: '4.32'
+event_version: '2'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -60,15 +60,59 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/registry-actions.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 5:31:03 PM
+    Event ID:      12
+    Task Category: Registry object added or deleted (rule: RegistryEvent)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 12 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+
+    -
+    CreateKey
+    2022-09-23 00:31:03.595
+    EV_RenderedValue_3.00
+    2604
+    C:\Windows\Explorer.EXE
+    HKLM\System\CurrentControlSet\Control\Hvsi
+    PEDRO-COMPUTER\pedro
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data>
-    <Data Name="EventType">CreateKey</Data>
-    <Data Name="UtcTime">2022-06-29 18:53:12.949</Data>
-    <Data Name="ProcessGuid">{01e2a015-00dd-62bc-7800-000000000500}</Data>
-    <Data Name="ProcessId">2632</Data>
-    <Data Name="Image">C:\Windows\system32\ctfmon.exe</Data>
-    <Data Name="TargetObject">HKU\S-1-5-21-2073674718-3587034731-622476709-1001\SOFTWARE\Microsoft\Input\TypingInsights</Data>
-    <Data Name="User">DESKTOP-CQF82L6\pedro</Data>
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>12</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>12</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-23T00:31:03.608246900Z" />
+        <EventRecordID>2523096</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="7900" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="EventType">CreateKey</Data>
+        <Data Name="UtcTime">2022-09-23 00:31:03.595</Data>
+        <Data Name="ProcessGuid">{564ff025-e161-62f6-ad03-000000000500}</Data>
+        <Data Name="ProcessId">2604</Data>
+        <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+        <Data Name="TargetObject">HKLM\System\CurrentControlSet\Control\Hvsi</Data>
+        <Data Name="User">PEDRO-COMPUTER\pedro</Data>
+      </EventData>
+    </Event>

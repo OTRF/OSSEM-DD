@@ -1,7 +1,7 @@
 name: 'Event ID 600: Provider Lifecycle'
 description: Logs the start and stop of PowerShell providers. If the provider started is equal to <strong>WSMan</strong>, then it indicates the use rof PowerShell remoting
 platform: windows
-log_source: powershell
+log_source: PowerShell
 event_id: '600'
 event_version: '0'
 event_fields:
@@ -99,3 +99,73 @@ references:
 - text: Investigating PowerShell Attacks - Mandiant
   link: https://www.defcon.org/images/defcon-22/dc-22-presentations/Kazanciyan-Hastings/DEFCON-22-Ryan-Kazanciyan-Matt-Hastings-Investigating-Powershell-Attacks.pdf
 tags: []
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Windows PowerShell
+    Source:        PowerShell
+    Date:          9/22/2022 6:55:17 AM
+    Event ID:      600
+    Task Category: Provider Lifecycle
+    Level:         Information
+    Keywords:      Classic
+    User:          N/A
+    Computer:      pedro-computer
+    Description:
+    Provider "Registry" is Started. 
+
+    Details: 
+      ProviderName=Registry
+      NewProviderState=Started
+
+      SequenceNumber=1
+
+      HostName=Windows PowerShell ISE Host
+      HostVersion=5.1.18362.1
+      HostId=d996dfd5-2169-4004-9778-05d3e65cf75c
+      HostApplication=C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+      EngineVersion=
+      RunspaceId=
+      PipelineId=
+      CommandName=
+      CommandType=
+      ScriptName=
+      CommandPath=
+      CommandLine=
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="PowerShell" />
+        <EventID Qualifiers="0">600</EventID>
+        <Level>4</Level>
+        <Task>6</Task>
+        <Keywords>0x80000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-22T13:55:17.139711400Z" />
+        <EventRecordID>135</EventRecordID>
+        <Channel>Windows PowerShell</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security />
+      </System>
+      <EventData>
+        <Data>Registry</Data>
+        <Data>Started</Data>
+        <Data>	ProviderName=Registry
+      NewProviderState=Started
+
+      SequenceNumber=1
+
+      HostName=Windows PowerShell ISE Host
+      HostVersion=5.1.18362.1
+      HostId=d996dfd5-2169-4004-9778-05d3e65cf75c
+      HostApplication=C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+      EngineVersion=
+      RunspaceId=
+      PipelineId=
+      CommandName=
+      CommandType=
+      ScriptName=
+      CommandPath=
+      CommandLine=</Data>
+      </EventData>
+    </Event>
