@@ -58,7 +58,7 @@ event_fields:
   name: Contents
   type: string
   description: Content of the file
-  sample_value: [ZoneTransfer]  ZoneId=3  ReferrerUrl=Z:\files\last_sysmon\Sysmon.zip
+  sample_value: '[ZoneTransfer]  ZoneId=3  ReferrerUrl=Z:\files\last_sysmon\Sysmon.zip'
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-15-filecreatestreamhash
