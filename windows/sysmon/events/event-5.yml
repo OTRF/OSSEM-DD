@@ -1,9 +1,9 @@
 name: 'Event ID 5: Process terminated'
 description: The **process terminate** event reports when a process terminates. It provides the UtcTime, ProcessGuid and ProcessId of the process.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '5'
-event_version: '4.32'
+event_version: '3'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -48,13 +48,55 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-termination.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 5:17:31 PM
+    Event ID:      5
+    Task Category: Process terminated (rule: ProcessTerminate)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 5 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+
+    -
+    2022-09-23 00:17:31.782
+    EV_RenderedValue_2.00
+    1544
+    C:\Windows\System32\SearchFilterHost.exe
+    NT AUTHORITY\SYSTEM
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data> 
-    <Data Name="UtcTime">2021-11-03 05:11:50.226</Data> 
-    <Data Name="ProcessGuid">{3710b5c6-19ed-6182-b803-000000000a00}</Data> 
-    <Data Name="ProcessId">2208</Data> 
-    <Data Name="Image">C:\Windows\System32\RuntimeBroker.exe</Data> 
-    <Data Name="User">DESKTOP-4FPBTEN\pedro</Data> 
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>5</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>5</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-23T00:17:31.793620700Z" />
+        <EventRecordID>2464834</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="7900" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-23 00:17:31.782</Data>
+        <Data Name="ProcessGuid">{564ff025-fa8a-632c-d407-000000000500}</Data>
+        <Data Name="ProcessId">1544</Data>
+        <Data Name="Image">C:\Windows\System32\SearchFilterHost.exe</Data>
+        <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+      </EventData>
+    </Event>

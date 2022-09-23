@@ -1,9 +1,9 @@
 name: 'Event ID 10: ProcessAccess'
 description: The **process accessed** event reports when a process opens another process, an operation that's often followed by information queries or reading and writing the address space of the target process. This enables detection of hacking tools that read the memory contents of processes like Local Security Authority (Lsass.exe) in order to steal credentials for use in Pass-the-Hash attacks. Enabling it can generate significant amounts of logging if there are diagnostic utilities active that repeatedly open processes to query their state, so it generally should only be done so with filters that remove expected accesses.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '10'
-event_version: '4.32'
+event_version: '3'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -90,20 +90,69 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/process-access.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 5:28:45 PM
+    Event ID:      10
+    Task Category: Process accessed (rule: ProcessAccess)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 10 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+
+    -
+    2022-09-23 00:28:45.094
+    EV_RenderedValue_2.00
+    884
+    1132
+    C:\Windows\system32\svchost.exe
+    EV_RenderedValue_6.00
+    1680
+    C:\Windows\System32\VBoxService.exe
+    4096
+    C:\Windows\SYSTEM32\ntdll.dll+9c524|C:\Windows\System32\KERNELBASE.dll+6a685|c:\windows\system32\lsm.dll+ef13|C:\Windows\System32\RPCRT4.dll+76963|C:\Windows\System32\RPCRT4.dll+da036|C:\Windows\System32\RPCRT4.dll+37a5c|C:\Windows\System32\RPCRT4.dll+548d8|C:\Windows\System32\RPCRT4.dll+2c931|C:\Windows\System32\RPCRT4.dll+2c1eb|C:\Windows\System32\RPCRT4.dll+1a86f|C:\Windows\System32\RPCRT4.dll+19d1a|C:\Windows\System32\RPCRT4.dll+19301|C:\Windows\System32\RPCRT4.dll+18d6e|C:\Windows\System32\RPCRT4.dll+169a5|C:\Windows\SYSTEM32\ntdll.dll+333fd|C:\Windows\SYSTEM32\ntdll.dll+34152|C:\Windows\System32\KERNEL32.DLL+17944|C:\Windows\SYSTEM32\ntdll.dll+6ce71
+    NT AUTHORITY\SYSTEM
+    NT AUTHORITY\SYSTEM
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data> 
-    <Data Name="UtcTime">2021-11-04 23:31:51.894</Data> 
-    <Data Name="SourceProcessGUID">{3710b5c6-95f1-6184-1c00-000000000d00}</Data> 
-    <Data Name="SourceProcessId">1136</Data> 
-    <Data Name="SourceThreadId">1160</Data> 
-    <Data Name="SourceImage">C:\Windows\System32\VBoxService.exe</Data> 
-    <Data Name="TargetProcessGUID">{3710b5c6-6c6b-6184-9500-000000000d00}</Data> 
-    <Data Name="TargetProcessId">1880</Data> 
-    <Data Name="TargetImage">C:\Windows\System32\smartscreen.exe</Data> 
-    <Data Name="GrantedAccess">0x1400</Data> 
-    <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9d234|C:\Windows\System32\KERNELBASE.dll+2c0fe|C:\Windows\System32\VBoxService.exe+13357|C:\Windows\System32\VBoxService.exe+145d4|C:\Windows\System32\VBoxService.exe+1487e|C:\Windows\System32\VBoxService.exe+102bb|C:\Windows\System32\VBoxService.exe+10dc0|C:\Windows\System32\VBoxService.exe+17ee|C:\Windows\System32\VBoxService.exe+3248f|C:\Windows\System32\VBoxService.exe+3604c|C:\Windows\System32\VBoxService.exe+103653|C:\Windows\System32\VBoxService.exe+1036e7|C:\Windows\System32\KERNEL32.DLL+17034|C:\Windows\SYSTEM32\ntdll.dll+52651</Data> 
-    <Data Name="SourceUser">NT AUTHORITY\SYSTEM</Data> 
-    <Data Name="TargetUser">DESKTOP-4FPBTEN\pedro</Data> 
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>10</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>10</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-23T00:28:45.111072500Z" />
+        <EventRecordID>2511752</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="7900" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-23 00:28:45.094</Data>
+        <Data Name="SourceProcessGUID">{564ff025-d426-62f6-1200-000000000500}</Data>
+        <Data Name="SourceProcessId">884</Data>
+        <Data Name="SourceThreadId">1132</Data>
+        <Data Name="SourceImage">C:\Windows\system32\svchost.exe</Data>
+        <Data Name="TargetProcessGUID">{564ff025-d42c-62f6-2a00-000000000500}</Data>
+        <Data Name="TargetProcessId">1680</Data>
+        <Data Name="TargetImage">C:\Windows\System32\VBoxService.exe</Data>
+        <Data Name="GrantedAccess">0x1000</Data>
+        <Data Name="CallTrace">C:\Windows\SYSTEM32\ntdll.dll+9c524|C:\Windows\System32\KERNELBASE.dll+6a685|c:\windows\system32\lsm.dll+ef13|C:\Windows\System32\RPCRT4.dll+76963|C:\Windows\System32\RPCRT4.dll+da036|C:\Windows\System32\RPCRT4.dll+37a5c|C:\Windows\System32\RPCRT4.dll+548d8|C:\Windows\System32\RPCRT4.dll+2c931|C:\Windows\System32\RPCRT4.dll+2c1eb|C:\Windows\System32\RPCRT4.dll+1a86f|C:\Windows\System32\RPCRT4.dll+19d1a|C:\Windows\System32\RPCRT4.dll+19301|C:\Windows\System32\RPCRT4.dll+18d6e|C:\Windows\System32\RPCRT4.dll+169a5|C:\Windows\SYSTEM32\ntdll.dll+333fd|C:\Windows\SYSTEM32\ntdll.dll+34152|C:\Windows\System32\KERNEL32.DLL+17944|C:\Windows\SYSTEM32\ntdll.dll+6ce71</Data>
+        <Data Name="SourceUser">NT AUTHORITY\SYSTEM</Data>
+        <Data Name="TargetUser">NT AUTHORITY\SYSTEM</Data>
+      </EventData>
+    </Event>

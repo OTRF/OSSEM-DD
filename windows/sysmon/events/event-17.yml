@@ -1,9 +1,9 @@
 name: 'Event ID 17: PipeEvent (Pipe Created)'
 description: This event generates when a **named pipe is created**. Malware often uses named pipes for interprocess communication.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '17'
-event_version: '4.32'
+event_version: '1'
 event_fields:
 - standard_name: EventType
   standard_type: TBD
@@ -47,9 +47,74 @@ event_fields:
   type: string
   description: File path of the process that created the pipe
   sample_value: C:\WINDOWS\system32\cmd.exe
+- standard_name: UserName
+  standard_type: TBD
+  name: User
+  type: string
+  description: The name of the account that created the named pipe.
+  sample_value: NT AUTHORITY\SYSTEM
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-17-pipeevent-pipe-created
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/named-pipes.md
 tags: []
+event_sample:
+  - format: friendly view
+    sample: |-
+      Log Name:      Microsoft-Windows-Sysmon/Operational
+      Source:        Microsoft-Windows-Sysmon
+      Date:          9/22/2022 5:51:18 PM
+      Event ID:      17
+      Task Category: Pipe Created (rule: PipeEvent)
+      Level:         Information
+      Keywords:      
+      User:          SYSTEM
+      Computer:      pedro-computer
+      Description:
+      The description for Event ID 17 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+      If the event originated on another computer, the display information had to be saved with the event.
+
+      The following information was included with the event: 
+
+      -
+      CreatePipe
+      2022-09-23 00:51:18.752
+      EV_RenderedValue_3.00
+      3140
+      \MsFteWds
+      C:\Windows\system32\SearchIndexer.exe
+      NT AUTHORITY\SYSTEM
+
+      The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+  - format: xml
+    sample: |-
+      <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+        <System>
+          <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+          <EventID>17</EventID>
+          <Version>1</Version>
+          <Level>4</Level>
+          <Task>17</Task>
+          <Opcode>0</Opcode>
+          <Keywords>0x8000000000000000</Keywords>
+          <TimeCreated SystemTime="2022-09-23T00:51:18.762309900Z" />
+          <EventRecordID>2494645</EventRecordID>
+          <Correlation />
+          <Execution ProcessID="6152" ThreadID="7900" />
+          <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+          <Computer>pedro-computer</Computer>
+          <Security UserID="S-1-5-18" />
+        </System>
+        <EventData>
+          <Data Name="RuleName">-</Data>
+          <Data Name="EventType">CreatePipe</Data>
+          <Data Name="UtcTime">2022-09-23 00:51:18.752</Data>
+          <Data Name="ProcessGuid">{564ff025-d479-62f6-7d00-000000000500}</Data>
+          <Data Name="ProcessId">3140</Data>
+          <Data Name="PipeName">\MsFteWds</Data>
+          <Data Name="Image">C:\Windows\system32\SearchIndexer.exe</Data>
+          <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+        </EventData>
+      </Event>

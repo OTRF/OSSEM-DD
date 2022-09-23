@@ -1,9 +1,9 @@
 name: 'Event ID 22: DNSEvent (DNS query)'
 description: This event generates when a process executes a **DNS query**, whether the result is successful or fails, cached or not.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '22'
-event_version: '4.32'
+event_version: '5'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -53,6 +53,12 @@ event_fields:
   type: string
   description: The full path related to the process that executed the DNS query
   sample_value: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+- standard_name: UserName
+  standard_type: TBD
+  name: User
+  type: string
+  description: The name of the account that executes a DNS Query.
+  sample_value: PEDRO-COMPUTER\pedro
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-22-dnsevent-dns-query
@@ -60,16 +66,66 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/dns-query.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 5:42:33 PM
+    Event ID:      22
+    Task Category: Dns query (rule: DnsQuery)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 22 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+    If the event originated on another computer, the display information had to be saved with the event.
+
+    The following information was included with the event: 
+
+    -
+    2022-09-22 23:54:47.958
+    EV_RenderedValue_2.00
+    1956
+    checkappexec.microsoft.com
+    1460
+    -
+    C:\Windows\System32\smartscreen.exe
+    PEDRO-COMPUTER\pedro
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data>
-    <Data Name="UtcTime">2022-06-29 19:06:02.389</Data>
-    <Data Name="ProcessGuid">{01e2a015-a2b2-62bc-ab05-000000000500}</Data>
-    <Data Name="ProcessId">3704</Data>
-    <Data Name="QueryName">checkappexec.microsoft.com</Data>
-    <Data Name="QueryStatus">0</Data>
-    <Data Name="QueryResults">type:  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>
-    <Data Name="Image">C:\Windows\System32\smartscreen.exe</Data>
-    <Data Name="User">DESKTOP-CQF82L6\pedro</Data> 
-    </EventData> 
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>22</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>22</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-23T00:42:33.463092000Z" />
+        <EventRecordID>2451179</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="6468" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-22 23:54:47.958</Data>
+        <Data Name="ProcessGuid">{564ff025-f55b-632c-ab07-000000000500}</Data>
+        <Data Name="ProcessId">1956</Data>
+        <Data Name="QueryName">checkappexec.microsoft.com</Data>
+        <Data Name="QueryStatus">1460</Data>
+        <Data Name="QueryResults">type:  5 wd-prod-ss.trafficmanager.net;type:  5 wd-prod-ss-us-west-1-fe.westus.cloudapp.azure.com;::ffff:40.78.63.86;</Data>
+        <Data Name="Image">C:\Windows\System32\smartscreen.exe</Data>
+        <Data Name="User">PEDRO-COMPUTER\pedro</Data>
+      </EventData>
+    </Event>
+
+    
+

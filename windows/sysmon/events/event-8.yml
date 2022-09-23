@@ -1,9 +1,9 @@
 name: 'Event ID 8: CreateRemoteThread'
 description: 'The **CreateRemoteThread** event detects when a process creates a thread in another process. This technique is used by malware to inject code and hide in other processes. The event indicates the source and target process. It gives information on the code that will be run in the new thread: StartAddress, StartModule and StartFunction. Note that StartModule and StartFunction fields are inferred, they might be empty if the starting address is outside loaded modules or known exported functions.'
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '8'
-event_version: '4.32'
+event_version: '2'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -96,21 +96,71 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/create-remote-thread.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 4:54:16 PM
+    Event ID:      8
+    Task Category: CreateRemoteThread detected (rule: CreateRemoteThread)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 8 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+
+    -
+    2022-09-22 23:54:16.705
+    EV_RenderedValue_2.00
+    6168
+    C:\Windows\System32\VBoxTray.exe
+    EV_RenderedValue_5.00
+    4776
+    C:\Windows\System32\csrss.exe
+    2400
+    0xFFFFE05E664A2460
+    -
+    -
+    PEDRO-COMPUTER\pedro
+    NT AUTHORITY\SYSTEM
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data> 
-    <Data Name="UtcTime">2021-11-03 05:37:19.746</Data> 
-    <Data Name="SourceProcessGuid">{3710b5c6-1e40-6182-9000-000000000b00}</Data> 
-    <Data Name="SourceProcessId">5504</Data> 
-    <Data Name="SourceImage">C:\Windows\System32\VBoxTray.exe</Data> 
-    <Data Name="TargetProcessGuid">{3710b5c6-1d95-6182-0800-000000000b00}</Data> 
-    <Data Name="TargetProcessId">548</Data> 
-    <Data Name="TargetImage">C:\Windows\System32\csrss.exe</Data> 
-    <Data Name="NewThreadId">3920</Data> 
-    <Data Name="StartAddress">0xFFFFFD58E52520D0</Data> 
-    <Data Name="StartModule">-</Data> 
-    <Data Name="StartFunction">-</Data> 
-    <Data Name="SourceUser">DESKTOP-4FPBTEN\pedro</Data> 
-    <Data Name="TargetUser">NT AUTHORITY\SYSTEM</Data> 
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>8</EventID>
+        <Version>2</Version>
+        <Level>4</Level>
+        <Task>8</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-22T23:54:16.974465900Z" />
+        <EventRecordID>2445062</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="7900" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-22 23:54:16.705</Data>
+        <Data Name="SourceProcessGuid">{564ff025-e18a-62f6-cc03-000000000500}</Data>
+        <Data Name="SourceProcessId">6168</Data>
+        <Data Name="SourceImage">C:\Windows\System32\VBoxTray.exe</Data>
+        <Data Name="TargetProcessGuid">{564ff025-e14b-62f6-9a03-000000000500}</Data>
+        <Data Name="TargetProcessId">4776</Data>
+        <Data Name="TargetImage">C:\Windows\System32\csrss.exe</Data>
+        <Data Name="NewThreadId">2400</Data>
+        <Data Name="StartAddress">0xFFFFE05E664A2460</Data>
+        <Data Name="StartModule">-</Data>
+        <Data Name="StartFunction">-</Data>
+        <Data Name="SourceUser">PEDRO-COMPUTER\pedro</Data>
+        <Data Name="TargetUser">NT AUTHORITY\SYSTEM</Data>
+      </EventData>
+    </Event>

@@ -1,9 +1,9 @@
 name: 'Event ID 4: Sysmon service state changed'
 description: The **service state change** event reports the state of the Sysmon service (started or stopped).
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '4'
-event_version: '4.32'
+event_version: '3'
 event_fields:
 - standard_name: EventCreationTime
   standard_type: TBD
@@ -28,10 +28,58 @@ event_fields:
   name: SchemaVersion
   type: string
   description: sysmon config schema version
-  sample_value: '4'
+  sample_value: '4.70'
 references:
 - text: Sysmon Source
   link: https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-4-sysmon-service-state-changed
 - text: TrustedSec Sysmon Community Guide
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/sysmon-events.md#service-state-change
 tags: []
+event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 4:49:22 PM
+    Event ID:      4
+    Task Category: Sysmon service state changed
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 4 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+    2022-09-22 23:49:22.493
+    Stopped
+    13.24
+    4.70
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
+- format: xml
+  sample: |-
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>4</EventID>
+        <Version>3</Version>
+        <Level>4</Level>
+        <Task>4</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-22T23:49:22.499007500Z" />
+        <EventRecordID>2422174</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="2948" ThreadID="2952" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="UtcTime">2022-09-22 23:49:22.493</Data>
+        <Data Name="State">Stopped</Data>
+        <Data Name="Version">13.24</Data>
+        <Data Name="SchemaVersion">4.70</Data>
+      </EventData>
+    </Event>

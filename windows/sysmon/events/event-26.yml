@@ -1,7 +1,7 @@
 name: 'Event ID 26: FileDeleteDetected (File Delete logged)'
 description: A file was deleted.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '26'
 event_version: '5'
 event_fields:
@@ -66,16 +66,63 @@ references:
   link: https://medium.com/falconforce/sysmon-11-dns-improvements-and-filedelete-events-7a74f17ca842
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 4:48:38 PM
+    Event ID:      26
+    Task Category: File Delete logged (rule: FileDeleteDetected)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 26 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+    If the event originated on another computer, the display information had to be saved with the event.
+
+    The following information was included with the event: 
+
+    -
+    2022-09-22 23:48:38.962
+    EV_RenderedValue_2.00
+    1764
+    NT AUTHORITY\SYSTEM
+    C:\Windows\system32\svchost.exe
+    C:\Windows\Prefetch\SEARCHFILTERHOST.EXE-77482212.pf
+    SHA1=28F357CBA285619E5D4B6BAC3E4C981B4B3DEC28,MD5=EA4FDF01C3764323FFBC22FB10AB06CB,SHA256=E6221E29D59DDA4D1C6C7A0E25E8EA8DBD30B0854BFC3869D7909D9F07E1FF8E,IMPHASH=00000000000000000000000000000000
+    False
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data>
-    <Data Name="UtcTime">2022-06-29 19:34:33.740</Data>
-    <Data Name="ProcessGuid">{01e2a015-0004-62bc-2200-000000000500}</Data>
-    <Data Name="ProcessId">1192</Data>
-    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-    <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
-    <Data Name="TargetFilename">C:\Windows\Prefetch\SPPSVC.EXE-B0F8131B.pf</Data>
-    <Data Name="Hashes">SHA1=7501B6DCEBA3379749BEA17751AF10F41D2A55D1,MD5=6E44A50630221D4F99C0941EC808DC90,SHA256=93B0AD70DA6A6429C78DDED50DEE477A2299EC8D74E76E8E71CE11C5F85F1322,IMPHASH=00000000000000000000000000000000</Data>
-    <Data Name="IsExecutable">false</Data>
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>26</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>26</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-22T23:48:38.972881200Z" />
+        <EventRecordID>2418697</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="2948" ThreadID="3724" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-22 23:48:38.962</Data>
+        <Data Name="ProcessGuid">{564ff025-d42e-62f6-2d00-000000000500}</Data>
+        <Data Name="ProcessId">1764</Data>
+        <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+        <Data Name="Image">C:\Windows\system32\svchost.exe</Data>
+        <Data Name="TargetFilename">C:\Windows\Prefetch\SEARCHFILTERHOST.EXE-77482212.pf</Data>
+        <Data Name="Hashes">SHA1=28F357CBA285619E5D4B6BAC3E4C981B4B3DEC28,MD5=EA4FDF01C3764323FFBC22FB10AB06CB,SHA256=E6221E29D59DDA4D1C6C7A0E25E8EA8DBD30B0854BFC3869D7909D9F07E1FF8E,IMPHASH=00000000000000000000000000000000</Data>
+        <Data Name="IsExecutable">false</Data>
+      </EventData>
+    </Event>

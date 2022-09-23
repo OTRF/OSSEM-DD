@@ -1,9 +1,9 @@
 name: 'Event ID 3: Network connection'
 description: The **network connection** event logs TCP/UDP connections on the machine. It is disabled by default. Each connection is linked to a process through the ProcessId and ProcessGUID fields. The event also contains the source and destination host names IP addresses, port numbers and IPv6 status.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '3'
-event_version: '4.32'
+event_version: '5'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -120,25 +120,78 @@ references:
   link: https://github.com/trustedsec/SysmonCommunityGuide/blob/master/network-connections.md
 tags: []
 event_sample:
+- format: friendly view
+  sample: |-
+    Log Name:      Microsoft-Windows-Sysmon/Operational
+    Source:        Microsoft-Windows-Sysmon
+    Date:          9/22/2022 4:51:54 PM
+    Event ID:      3
+    Task Category: Network connection detected (rule: NetworkConnect)
+    Level:         Information
+    Keywords:      
+    User:          SYSTEM
+    Computer:      pedro-computer
+    Description:
+    The description for Event ID 3 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+    If the event originated on another computer, the display information had to be saved with the event.
+    The following information was included with the event: 
+    -
+    2022-09-22 23:51:53.538
+    EV_RenderedValue_2.00
+    4248
+    C:\Windows\System32\svchost.exe
+    NT AUTHORITY\LOCAL SERVICE
+    udp
+    True
+    False
+    127.0.0.1
+    -
+    58662
+    -
+    False
+    239.255.255.250
+    -
+    1900
+    -
+
+    The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-    <EventData>
-    <Data Name="RuleName">-</Data> 
-    <Data Name="UtcTime">2021-11-03 05:01:26.226</Data> 
-    <Data Name="ProcessGuid">{3710b5c6-f3dd-6181-4000-000000000a00}</Data> 
-    <Data Name="ProcessId">2484</Data> 
-    <Data Name="Image">C:\Windows\System32\svchost.exe</Data> 
-    <Data Name="User">NT AUTHORITY\SYSTEM</Data> 
-    <Data Name="Protocol">tcp</Data> 
-    <Data Name="Initiated">true</Data> 
-    <Data Name="SourceIsIpv6">false</Data> 
-    <Data Name="SourceIp">192.168.10.8</Data> 
-    <Data Name="SourceHostname">-</Data> 
-    <Data Name="SourcePort">50026</Data> 
-    <Data Name="SourcePortName">-</Data> 
-    <Data Name="DestinationIsIpv6">false</Data> 
-    <Data Name="DestinationIp">52.167.249.196</Data> 
-    <Data Name="DestinationHostname">-</Data> 
-    <Data Name="DestinationPort">443</Data> 
-    <Data Name="DestinationPortName">-</Data> 
-    </EventData>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>3</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>3</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-22T23:51:54.853592100Z" />
+        <EventRecordID>2429140</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="4984" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-22 23:51:53.538</Data>
+        <Data Name="ProcessGuid">{564ff025-d475-62f6-7b00-000000000500}</Data>
+        <Data Name="ProcessId">4248</Data>
+        <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+        <Data Name="User">NT AUTHORITY\LOCAL SERVICE</Data>
+        <Data Name="Protocol">udp</Data>
+        <Data Name="Initiated">true</Data>
+        <Data Name="SourceIsIpv6">false</Data>
+        <Data Name="SourceIp">127.0.0.1</Data>
+        <Data Name="SourceHostname">-</Data>
+        <Data Name="SourcePort">58662</Data>
+        <Data Name="SourcePortName">-</Data>
+        <Data Name="DestinationIsIpv6">false</Data>
+        <Data Name="DestinationIp">239.255.255.250</Data>
+        <Data Name="DestinationHostname">-</Data>
+        <Data Name="DestinationPort">1900</Data>
+        <Data Name="DestinationPortName">-</Data>
+      </EventData>
+    </Event>

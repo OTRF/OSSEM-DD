@@ -1,9 +1,9 @@
 name: 'Event ID 13: RegistryEvent (Value Set)'
 description: This Registry event type identifies **Registry value modifications**. The event records the value written for Registry values of type DWORD and QWORD.
 platform: windows
-log_source: sysmon
+log_source: Microsoft-Windows-Sysmon
 event_id: '13'
-event_version: '4.32'
+event_version: '2'
 event_fields:
 - standard_name: Tag
   standard_type: TBD
@@ -68,52 +68,59 @@ tags: []
 event_sample:
   - format: friendly view
     sample: |-
-      Log Name:      Microsoft-Windows-Sysmon/Operational 
-      Source:        Microsoft-Windows-Sysmon 
-      Date:          8/18/2022 5:35:58 PM 
-      Event ID:      13 
-      Task Category: Registry value set (rule: RegistryEvent) 
-      Level:         Information 
-      Keywords:       
-      User:          SYSTEM 
-      Computer:      pedro-computer 
-      Description: 
-      Registry value set: 
-      RuleName: - 
-      EventType: SetValue 
-      UtcTime: 2022-08-19 00:35:58.812 
-      ProcessGuid: {564ff025-daee-62fe-7b03-000000000700} 
-      ProcessId: 4964 
-      Image: C:\Windows\system32\reg.exe 
-      TargetObject: HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit\ProcessCreationIncludeCmdLine_Enabled 
-      Details: DWORD (0x00000000) 
+      Log Name:      Microsoft-Windows-Sysmon/Operational
+      Source:        Microsoft-Windows-Sysmon
+      Date:          9/22/2022 5:33:04 PM
+      Event ID:      13
+      Task Category: Registry value set (rule: RegistryEvent)
+      Level:         Information
+      Keywords:      
+      User:          SYSTEM
+      Computer:      pedro-computer
+      Description:
+      The description for Event ID 13 from source Microsoft-Windows-Sysmon cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+      If the event originated on another computer, the display information had to be saved with the event.
+      The following information was included with the event: 
+
+      -
+      SetValue
+      2022-09-23 00:33:04.402
+      EV_RenderedValue_3.00
+      2604
+      C:\Windows\Explorer.EXE
+      HKU\S-1-5-21-3768430097-3400800235-1714852860-1002\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA
+      Binary Data
+      PEDRO-COMPUTER\pedro
+
+      The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
   - format: xml
     sample: |-
-      <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event"> 
-        <System> 
-          <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" /> 
-          <EventID>13</EventID> 
-          <Version>2</Version> 
-          <Level>4</Level> 
-          <Task>13</Task> 
-          <Opcode>0</Opcode> 
-          <Keywords>0x8000000000000000</Keywords> 
-          <TimeCreated SystemTime="2022-08-19T00:35:58.817059900Z" /> 
-          <EventRecordID>5377549</EventRecordID> 
-          <Correlation /> 
-          <Execution ProcessID="2712" ThreadID="2140" /> 
-          <Channel>Microsoft-Windows-Sysmon/Operational</Channel> 
-          <Computer>pedro-computer</Computer> 
-          <Security UserID="S-1-5-18" /> 
-        </System> 
-        <EventData> 
-          <Data Name="RuleName">-</Data> 
-          <Data Name="EventType">SetValue</Data> 
-          <Data Name="UtcTime">2022-08-19 00:35:58.812</Data> 
-          <Data Name="ProcessGuid">{564ff025-daee-62fe-7b03-000000000700}</Data> 
-          <Data Name="ProcessId">4964</Data> 
-          <Data Name="Image">C:\Windows\system32\reg.exe</Data> 
-          <Data Name="TargetObject">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\Audit\ProcessCreationIncludeCmdLine_Enabled</Data> 
-          <Data Name="Details">DWORD (0x00000000)</Data> 
-        </EventData> 
+      <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+        <System>
+          <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+          <EventID>13</EventID>
+          <Version>2</Version>
+          <Level>4</Level>
+          <Task>13</Task>
+          <Opcode>0</Opcode>
+          <Keywords>0x8000000000000000</Keywords>
+          <TimeCreated SystemTime="2022-09-23T00:33:04.404278400Z" />
+          <EventRecordID>2531020</EventRecordID>
+          <Correlation />
+          <Execution ProcessID="6152" ThreadID="7900" />
+          <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+          <Computer>pedro-computer</Computer>
+          <Security UserID="S-1-5-18" />
+        </System>
+        <EventData>
+          <Data Name="RuleName">-</Data>
+          <Data Name="EventType">SetValue</Data>
+          <Data Name="UtcTime">2022-09-23 00:33:04.402</Data>
+          <Data Name="ProcessGuid">{564ff025-e161-62f6-ad03-000000000500}</Data>
+          <Data Name="ProcessId">2604</Data>
+          <Data Name="Image">C:\Windows\Explorer.EXE</Data>
+          <Data Name="TargetObject">HKU\S-1-5-21-3768430097-3400800235-1714852860-1002\Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD-ACE2-4F4F-9178-9926F41749EA}\Count\HRZR_PGYFRFFVBA</Data>
+          <Data Name="Details">Binary Data</Data>
+          <Data Name="User">PEDRO-COMPUTER\pedro</Data>
+        </EventData>
       </Event>
