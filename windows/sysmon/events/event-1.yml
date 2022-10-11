@@ -192,46 +192,46 @@ event_sample:
     The publisher has been disabled and its resource is not available. This usually occurs when the publisher is in the process of being uninstalled or upgraded
 - format: xml
   sample: |-
-<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
-  <System>
-    <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
-    <EventID>1</EventID>
-    <Version>5</Version>
-    <Level>4</Level>
-    <Task>1</Task>
-    <Opcode>0</Opcode>
-    <Keywords>0x8000000000000000</Keywords>
-    <TimeCreated SystemTime="2022-09-23T00:00:46.279844400Z" />
-    <EventRecordID>2472309</EventRecordID>
-    <Correlation />
-    <Execution ProcessID="6152" ThreadID="7900" />
-    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
-    <Computer>pedro-computer</Computer>
-    <Security UserID="S-1-5-18" />
-  </System>
-  <EventData>
-    <Data Name="RuleName">-</Data>
-    <Data Name="UtcTime">2022-09-23 00:00:46.275</Data>
-    <Data Name="ProcessGuid">{564ff025-f72e-632c-c407-000000000500}</Data>
-    <Data Name="ProcessId">7860</Data>
-    <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
-    <Data Name="FileVersion">10.0.18362.1 (WinBuild.160101.0800)</Data>
-    <Data Name="Description">Host Process for Windows Services</Data>
-    <Data Name="Product">Microsoft® Windows® Operating System</Data>
-    <Data Name="Company">Microsoft Corporation</Data>
-    <Data Name="OriginalFileName">svchost.exe</Data>
-    <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wlidsvc</Data>
-    <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
-    <Data Name="User">NT AUTHORITY\SYSTEM</Data>
-    <Data Name="LogonGuid">{564ff025-d424-62f6-e703-000000000000}</Data>
-    <Data Name="LogonId">0x3e7</Data>
-    <Data Name="TerminalSessionId">0</Data>
-    <Data Name="IntegrityLevel">System</Data>
-    <Data Name="Hashes">SHA1=75C5A97F521F760E32A4A9639A653EED862E9C61,MD5=9520A99E77D6196D0D09833146424113,SHA256=DD191A5B23DF92E12A8852291F9FB5ED594B76A28A5A464418442584AFD1E048,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
-    <Data Name="ParentProcessGuid">{564ff025-d424-62f6-0b00-000000000500}</Data>
-    <Data Name="ParentProcessId">584</Data>
-    <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
-    <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
-    <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
-  </EventData>
-</Event>
+    <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+      <System>
+        <Provider Name="Microsoft-Windows-Sysmon" Guid="{5770385f-c22a-43e0-bf4c-06f5698ffbd9}" />
+        <EventID>1</EventID>
+        <Version>5</Version>
+        <Level>4</Level>
+        <Task>1</Task>
+        <Opcode>0</Opcode>
+        <Keywords>0x8000000000000000</Keywords>
+        <TimeCreated SystemTime="2022-09-23T00:00:46.279844400Z" />
+        <EventRecordID>2472309</EventRecordID>
+        <Correlation />
+        <Execution ProcessID="6152" ThreadID="7900" />
+        <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+        <Computer>pedro-computer</Computer>
+        <Security UserID="S-1-5-18" />
+      </System>
+      <EventData>
+        <Data Name="RuleName">-</Data>
+        <Data Name="UtcTime">2022-09-23 00:00:46.275</Data>
+        <Data Name="ProcessGuid">{564ff025-f72e-632c-c407-000000000500}</Data>
+        <Data Name="ProcessId">7860</Data>
+        <Data Name="Image">C:\Windows\System32\svchost.exe</Data>
+        <Data Name="FileVersion">10.0.18362.1 (WinBuild.160101.0800)</Data>
+        <Data Name="Description">Host Process for Windows Services</Data>
+        <Data Name="Product">Microsoft® Windows® Operating System</Data>
+        <Data Name="Company">Microsoft Corporation</Data>
+        <Data Name="OriginalFileName">svchost.exe</Data>
+        <Data Name="CommandLine">C:\Windows\system32\svchost.exe -k netsvcs -p -s wlidsvc</Data>
+        <Data Name="CurrentDirectory">C:\Windows\system32\</Data>
+        <Data Name="User">NT AUTHORITY\SYSTEM</Data>
+        <Data Name="LogonGuid">{564ff025-d424-62f6-e703-000000000000}</Data>
+        <Data Name="LogonId">0x3e7</Data>
+        <Data Name="TerminalSessionId">0</Data>
+        <Data Name="IntegrityLevel">System</Data>
+        <Data Name="Hashes">SHA1=75C5A97F521F760E32A4A9639A653EED862E9C61,MD5=9520A99E77D6196D0D09833146424113,SHA256=DD191A5B23DF92E12A8852291F9FB5ED594B76A28A5A464418442584AFD1E048,IMPHASH=247B9220E5D9B720A82B2C8B5069AD69</Data>
+        <Data Name="ParentProcessGuid">{564ff025-d424-62f6-0b00-000000000500}</Data>
+        <Data Name="ParentProcessId">584</Data>
+        <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+        <Data Name="ParentCommandLine">C:\Windows\system32\services.exe</Data>
+        <Data Name="ParentUser">NT AUTHORITY\SYSTEM</Data>
+      </EventData>
+    </Event>
